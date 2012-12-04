@@ -1,0 +1,68 @@
+// !$*UTF8*$!
+{
+	508817C409F0C9740071BF1A /* Project object */ = {
+		activeArchitecture = i386;
+		activeBuildConfigurationName = Debug;
+		activeTarget = 508817D309F0C9AD0071BF1A /* Tutorial */;
+		codeSenseManager = DCE35C860F82945C00D8A977 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					243,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 292264276;
+			PBXWorkspaceStateSaveDate = 292264276;
+		};
+		sourceControlManager = DCE35C850F82945C00D8A977 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	508817D309F0C9AD0071BF1A /* Tutorial */ = {
+		activeExec = 0;
+	};
+	6E976F720A59C1A400BB07F9 /* Tutorial.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {960, 12684}}";
+			sepNavSelRange = "{8130, 158}";
+			sepNavVisRange = "{6621, 1892}";
+			sepNavWindowFrame = "{{331, 131}, {1019, 967}}";
+		};
+	};
+	DCE35C850F82945C00D8A977 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	DCE35C860F82945C00D8A977 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	F938CB920B8B9E6D0039754D /* Tutorial.r */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1168, 630}}";
+			sepNavSelRange = "{761, 0}";
+			sepNavVisRange = "{0, 761}";
+			sepNavWindowFrame = "{{923, 307}, {1227, 758}}";
+		};
+	};
+}

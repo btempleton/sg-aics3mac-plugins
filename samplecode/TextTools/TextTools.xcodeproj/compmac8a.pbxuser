@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	2A7772AD0BE6389300A9D493 /* IllustratorSDK.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {869, 893}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 736}";
+			sepNavWindowFrame = "{{15, 152}, {928, 1021}}";
+		};
+	};
+	2AE97DE00BBC21630041212F /* TextTools.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {985, 11060}}";
+			sepNavSelRange = "{2757, 0}";
+			sepNavVisRange = "{1027, 3428}";
+			sepNavWindowFrame = "{{632, 116}, {1044, 1062}}";
+		};
+	};
+	508817C409F0C9740071BF1A /* Project object */ = {
+		activeArchitecture = i386;
+		activeBuildConfigurationName = Debug;
+		activeExecutable = DC76871212AD73B000AEAF83 /* Illustrator */;
+		activeTarget = 508817D309F0C9AD0071BF1A /* TextTools */;
+		addToTargets = (
+			508817D309F0C9AD0071BF1A /* TextTools */,
+		);
+		breakpoints = (
+			DCD18E0412BA4FD90062C4C9 /* ATEFuncs.cpp:169 */,
+			DCD18E6C12BA71F30062C4C9 /* FixFreehandType.cpp:101 */,
+			DCF76B4D14C5DE3B00EF1634 /* ArtTree.cpp:320 */,
+			DCF76B4F14C5DE4000EF1634 /* ArtTree.cpp:318 */,
+			DCF76B5214C5DE4D00EF1634 /* ArtTree.cpp:318 */,
+			DCF76B5414C5DE5100EF1634 /* ArtTree.cpp:334 */,
+			DCF76B5614C5DE5300EF1634 /* ArtTree.cpp:373 */,
+			DCB0343714F55205001867E0 /* ArtTree.cpp:268 */,
+			DCB0343C14F55224001867E0 /* ArtTree.cpp:266 */,
+			DCB0344114F553B6001867E0 /* ArtTree.cpp:259 */,
+			DC6473C7153C98AD00DCD75F /* TextTools.cpp:767 */,
+			DC32CCE7153D8A530013EA62 /* TextTools.cpp:710 */,
+			DCE7A8CC1656CE5B00F31C30 /* TextTools.cpp:73 */,
+		);
+		codeSenseManager = DC1F8129108CED38001ADEB5 /* Code sense */;
+		executables = (
+			DC76871212AD73B000AEAF83 /* Illustrator */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					131,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					178,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 374787263;
+			PBXWorkspaceStateSaveDate = 374787263;
+		};
+		perUserProjectItems = {
+			DCE7A8E01656D1CF00F31C30 /* PBXTextBookmark */ = DCE7A8E01656D1CF00F31C30 /* PBXTextBookmark */;
+			DCE7A8E41656D1D100F31C30 /* PBXTextBookmark */ = DCE7A8E41656D1D100F31C30 /* PBXTextBookmark */;
+		};
+		sourceControlManager = DC1F8128108CED38001ADEB5 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	508817D309F0C9AD0071BF1A /* TextTools */ = {
+		activeExec = 0;
+	};
+	DC1F8128108CED38001ADEB5 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	DC1F8129108CED38001ADEB5 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	DC32CCE7153D8A530013EA62 /* TextTools.cpp:710 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* TextTools.cpp */;
+		functionName = "CreateMICRBarcode()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 710;
+		location = TextTools;
+		modificationTime = 374788318.408985;
+		state = 1;
+	};
+	DC6473C7153C98AD00DCD75F /* TextTools.cpp:767 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* TextTools.cpp */;
+		functionName = "CreateBarcodeStringFromMICRString(ai::UnicodeString micrString)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 767;
+		location = TextTools;
+		modificationTime = 374788318.38437;
+		state = 1;
+	};
+	DC76871212AD73B000AEAF83 /* Illustrator */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+			"PBXLSLaunchAction-0" = {
+				PBXLSLaunchAction = 0;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXLSRunLaunchConfig;
+				commandLineArgs = (
+				);
+				displayName = "Executable Runner";
+				environment = {
+				};
+				identifier = com.apple.Xcode.launch.runConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = DC76871312AD73B000AEAF83 /* Adobe Illustrator.app */;
+		libgmallocEnabled = 0;
+		name = Illustrator;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+			"bounds-struct _t_ASRealRect-GetBoundsOfSelectionFromRoot" = 1;
+		};
+	};
+	DC76871312AD73B000AEAF83 /* Adobe Illustrator.app */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = wrapper.application;
+		name = "Adobe Illustrator.app";
+		path = "/Applications/Adobe Illustrator CS3/Adobe Illustrator.app";
+		sourceTree = "<absolute>";
+	};
+	DC76872712AD73DA00AEAF83 /* ATEFuncs.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {980, 2870}}";
+			sepNavSelRange = "{1745, 0}";
+			sepNavVisRange = "{1247, 1849}";
+			sepNavWindowFrame = "{{171, 131}, {928, 1021}}";
+		};
+	};
+	DC76872812AD73DA00AEAF83 /* ATEFuncs.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {986, 870}}";
+			sepNavSelRange = "{1644, 92}";
+			sepNavVisRange = "{0, 1745}";
+			sepNavWindowFrame = "{{15, 152}, {928, 1021}}";
+		};
+	};
+	DC76872912AD73DA00AEAF83 /* CException.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1024, 2100}}";
+			sepNavSelRange = "{2390, 0}";
+			sepNavVisRange = "{1235, 2604}";
+			sepNavWindowFrame = "{{416, 86}, {1083, 1092}}";
+		};
+	};
+	DC76872A12AD73DA00AEAF83 /* CException.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1024, 1092}}";
+			sepNavSelRange = "{1334, 28}";
+			sepNavVisRange = "{144, 2835}";
+			sepNavWindowFrame = "{{15, 81}, {1083, 1092}}";
+		};
+	};
+	DC76872B12AD73DA00AEAF83 /* ColorFuncs.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {985, 5180}}";
+			sepNavSelRange = "{235, 67}";
+			sepNavVisRange = "{0, 2519}";
+			sepNavWindowFrame = "{{38, 90}, {1044, 1062}}";
+		};
+	};
+	DC76872C12AD73DA00AEAF83 /* ColorFuncs.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1034, 949}}";
+			sepNavSelRange = "{292, 66}";
+			sepNavVisRange = "{0, 1468}";
+			sepNavWindowFrame = "{{15, 73}, {1093, 1100}}";
+		};
+	};
+	DC76873112AD73DA00AEAF83 /* error.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1034, 885}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 181}";
+			sepNavWindowFrame = "{{61, 118}, {1093, 1013}}";
+		};
+	};
+	DC76873212AD73DA00AEAF83 /* error.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1034, 885}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 217}";
+			sepNavWindowFrame = "{{38, 139}, {1093, 1013}}";
+		};
+	};
+	DC76875412AD742700AEAF83 /* IAIUnicodeString.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1239, 6930}}";
+			sepNavSelRange = "{2764, 0}";
+			sepNavVisRange = "{2620, 449}";
+		};
+	};
+	DC76875612AD743300AEAF83 /* IText.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1239, 176022}}";
+			sepNavSelRange = "{2104, 27}";
+			sepNavVisRange = "{1819, 460}";
+		};
+	};
+	DC76875C12AD746D00AEAF83 /* reportError.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 3416}}";
+			sepNavSelRange = "{1977, 72}";
+			sepNavVisRange = "{0, 1730}";
+			sepNavWindowFrame = "{{15, 186}, {1230, 987}}";
+		};
+	};
+	DC76875F12AD74A000AEAF83 /* TextTools.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {869, 924}}";
+			sepNavSelRange = "{973, 15}";
+			sepNavVisRange = "{0, 2723}";
+			sepNavWindowFrame = "{{466, 130}, {928, 1021}}";
+		};
+	};
+	DC76876412AD74CF00AEAF83 /* FixFreehandType.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {869, 893}}";
+			sepNavSelRange = "{285, 0}";
+			sepNavVisRange = "{0, 287}";
+			sepNavWindowFrame = "{{607, 80}, {928, 1021}}";
+		};
+	};
+	DC76876512AD74CF00AEAF83 /* FixFreehandType.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {869, 3346}}";
+			sepNavSelRange = "{3467, 36}";
+			sepNavVisRange = "{3462, 2040}";
+			sepNavWindowFrame = "{{867, 125}, {928, 1021}}";
+		};
+	};
+	DC76877512AD754200AEAF83 /* Common.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {869, 4354}}";
+			sepNavSelRange = "{6320, 0}";
+			sepNavVisRange = "{4287, 1841}";
+			sepNavWindowFrame = "{{38, 131}, {928, 1021}}";
+		};
+	};
+	DC76877612AD754200AEAF83 /* shellMain.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1239, 3710}}";
+			sepNavSelRange = "{3633, 0}";
+			sepNavVisRange = "{3278, 569}";
+			sepNavWindowFrame = "{{276, 256}, {1330, 870}}";
+		};
+	};
+	DC76877D12AD757F00AEAF83 /* menuHandler.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {869, 893}}";
+			sepNavSelRange = "{876, 0}";
+			sepNavVisRange = "{0, 975}";
+			sepNavWindowFrame = "{{314, 157}, {928, 1021}}";
+		};
+	};
+	DC76877E12AD757F00AEAF83 /* menuHandler.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1239, 3920}}";
+			sepNavSelRange = "{1483, 0}";
+			sepNavVisRange = "{1711, 287}";
+			sepNavWindowFrame = "{{538, 85}, {1093, 1013}}";
+		};
+	};
+	DC76878112AD759400AEAF83 /* notifierHandler.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {869, 893}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 375}";
+			sepNavWindowFrame = "{{861, 101}, {928, 1021}}";
+		};
+	};
+	DC76878212AD759400AEAF83 /* notifierHandler.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {869, 893}}";
+			sepNavSelRange = "{684, 0}";
+			sepNavVisRange = "{0, 1143}";
+			sepNavWindowFrame = "{{812, 113}, {928, 1021}}";
+		};
+	};
+	DC76878512AD75A900AEAF83 /* pluginHandler.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {869, 893}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 471}";
+			sepNavWindowFrame = "{{860, 127}, {928, 1021}}";
+		};
+	};
+	DC76878612AD75A900AEAF83 /* pluginHandler.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1239, 2814}}";
+			sepNavSelRange = "{4302, 0}";
+			sepNavVisRange = "{4039, 552}";
+			sepNavWindowFrame = "{{280, 131}, {928, 1021}}";
+		};
+	};
+	DC76879512AD75F600AEAF83 /* Suites.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {869, 4130}}";
+			sepNavSelRange = "{13175, 0}";
+			sepNavVisRange = "{9384, 3798}";
+			sepNavWindowFrame = "{{357, 109}, {928, 1021}}";
+		};
+	};
+	DC7687A412AD764B00AEAF83 /* Plugin.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {869, 893}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 399}";
+			sepNavWindowFrame = "{{38, 131}, {928, 1021}}";
+		};
+	};
+	DCB0343714F55205001867E0 /* ArtTree.cpp:268 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DCD7EA0514B73FB20010458F /* ArtTree.cpp */;
+		functionName = "GetBoundsOfSelectionFromRoot(AIArtHandle root, AIArtHandle currArtHandle, AIRealRect* bounds, bool* boundsValid)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 268;
+		location = TextTools;
+		modificationTime = 374788311.756231;
+		state = 2;
+	};
+	DCB0343C14F55224001867E0 /* ArtTree.cpp:266 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DCD7EA0514B73FB20010458F /* ArtTree.cpp */;
+		functionName = "GetBoundsOfSelectionFromRoot(AIArtHandle root, AIArtHandle currArtHandle, AIRealRect* bounds, bool* boundsValid)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 266;
+		location = TextTools;
+		modificationTime = 374788311.756236;
+		state = 2;
+	};
+	DCB0344114F553B6001867E0 /* ArtTree.cpp:259 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DCD7EA0514B73FB20010458F /* ArtTree.cpp */;
+		functionName = "GetBoundsOfSelectionFromRoot(AIArtHandle root, AIArtHandle currArtHandle, AIRealRect* bounds, bool* boundsValid)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 259;
+		location = TextTools;
+		modificationTime = 374788311.756241;
+		state = 2;
+	};
+	DCC3B32C14F6C6D50016C96B /* Node.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1024, 2646}}";
+			sepNavSelRange = "{1167, 60}";
+			sepNavVisRange = "{2236, 2580}";
+			sepNavWindowFrame = "{{539, 52}, {1083, 1092}}";
+		};
+	};
+	DCC3B32E14F6C6DF0016C96B /* Node.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {872, 21532}}";
+			sepNavSelRange = "{49683, 0}";
+			sepNavVisRange = "{48670, 1473}";
+			sepNavWindowFrame = "{{61, 348}, {844, 783}}";
+		};
+	};
+	DCC3B33014F6C6E50016C96B /* Plate.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1024, 8344}}";
+			sepNavSelRange = "{12698, 0}";
+			sepNavVisRange = "{11952, 1878}";
+			sepNavWindowFrame = "{{79, 86}, {1083, 1092}}";
+		};
+	};
+	DCC3B33114F6C6E50016C96B /* Plate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {720, 3486}}";
+			sepNavSelRange = "{7149, 36}";
+			sepNavVisRange = "{6841, 719}";
+			sepNavWindowFrame = "{{15, 81}, {1083, 1092}}";
+		};
+	};
+	DCC3B35514F6C7290016C96B /* CropAreaFuncs.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1024, 964}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 722}";
+			sepNavWindowFrame = "{{15, 81}, {1083, 1092}}";
+		};
+	};
+	DCC3B35614F6C7290016C96B /* DictFuncs.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {785, 3234}}";
+			sepNavSelRange = "{5661, 0}";
+			sepNavVisRange = "{4463, 1236}";
+			sepNavWindowFrame = "{{696, 210}, {844, 783}}";
+		};
+	};
+	DCC3B35714F6C7290016C96B /* CropAreaFuncs.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1024, 1638}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1400, 2303}";
+			sepNavWindowFrame = "{{15, 81}, {1083, 1092}}";
+		};
+	};
+	DCC3B35814F6C7290016C96B /* DictFuncs.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {626, 728}}";
+			sepNavSelRange = "{1939, 30}";
+			sepNavVisRange = "{135, 2022}";
+			sepNavWindowFrame = "{{60, 178}, {680, 754}}";
+		};
+	};
+	DCD18E0412BA4FD90062C4C9 /* ATEFuncs.cpp:169 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC76872712AD73DA00AEAF83 /* ATEFuncs.cpp */;
+		functionName = "SetAIColorForATETextRange(ATE::ITextRange theRange, AIColor theColor, bool fillOrStroke /*DEFAULT 0*/)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 169;
+		location = TextTools;
+		modificationTime = 374788311.756193;
+		state = 2;
+	};
+	DCD18E6C12BA71F30062C4C9 /* FixFreehandType.cpp:101 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC76876512AD74CF00AEAF83 /* FixFreehandType.cpp */;
+		functionName = "FixTextAttributes(ATE::ITextRange theRange)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 101;
+		location = TextTools;
+		modificationTime = 374788311.756201;
+		state = 2;
+	};
+	DCD7EA0514B73FB20010458F /* ArtTree.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1024, 6622}}";
+			sepNavSelRange = "{12775, 0}";
+			sepNavVisRange = "{11369, 2097}";
+			sepNavWindowFrame = "{{450, 86}, {1083, 1092}}";
+		};
+	};
+	DCD7EA0614B73FB20010458F /* ArtTree.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1046, 885}}";
+			sepNavSelRange = "{1487, 0}";
+			sepNavVisRange = "{0, 1713}";
+			sepNavWindowFrame = "{{61, 118}, {1093, 1013}}";
+		};
+	};
+	DCE7A8CC1656CE5B00F31C30 /* TextTools.cpp:73 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* TextTools.cpp */;
+		functionName = "ConvertToPointType()";
+		hitCount = 2;
+		ignoreCount = 0;
+		lineNumber = 73;
+		location = TextTools;
+		modificationTime = 374788473.578356;
+		state = 1;
+	};
+	DCE7A8E01656D1CF00F31C30 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2AE97DE00BBC21630041212F /* TextTools.cpp */;
+		rLen = 0;
+		rLoc = 73;
+		rType = 1;
+	};
+	DCE7A8E41656D1D100F31C30 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2AE97DE00BBC21630041212F /* TextTools.cpp */;
+		name = "TextTools.cpp: 74";
+		rLen = 0;
+		rLoc = 2757;
+		rType = 0;
+		vrLen = 3428;
+		vrLoc = 1027;
+	};
+	DCF76B4D14C5DE3B00EF1634 /* ArtTree.cpp:320 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DCD7EA0514B73FB20010458F /* ArtTree.cpp */;
+		functionName = "GetBoundsOfSelectionFromRoot(AIArtHandle root, AIArtHandle currArtHandle, AIRealRect* bounds, bool* boundsValid)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 320;
+		location = TextTools;
+		modificationTime = 374788311.756206;
+		state = 2;
+	};
+	DCF76B4F14C5DE4000EF1634 /* ArtTree.cpp:318 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DCD7EA0514B73FB20010458F /* ArtTree.cpp */;
+		functionName = "GetBoundsOfSelectionFromRoot(AIArtHandle root, AIArtHandle currArtHandle, AIRealRect* bounds, bool* boundsValid)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 318;
+		location = TextTools;
+		modificationTime = 374788311.756211;
+		state = 2;
+	};
+	DCF76B5214C5DE4D00EF1634 /* ArtTree.cpp:318 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DCD7EA0514B73FB20010458F /* ArtTree.cpp */;
+		functionName = "GetBoundsOfSelectionFromRoot(AIArtHandle root, AIArtHandle currArtHandle, AIRealRect* bounds, bool* boundsValid)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 318;
+		location = TextTools;
+		modificationTime = 374788311.756216;
+		state = 2;
+	};
+	DCF76B5414C5DE5100EF1634 /* ArtTree.cpp:334 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DCD7EA0514B73FB20010458F /* ArtTree.cpp */;
+		functionName = "GetBoundsOfSelectionFromRoot(AIArtHandle root, AIArtHandle currArtHandle, AIRealRect* bounds, bool* boundsValid)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 334;
+		location = TextTools;
+		modificationTime = 374788311.756222;
+		state = 2;
+	};
+	DCF76B5614C5DE5300EF1634 /* ArtTree.cpp:373 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DCD7EA0514B73FB20010458F /* ArtTree.cpp */;
+		functionName = "GetBoundsOfSelectionFromRoot(AIArtHandle root, AIArtHandle currArtHandle, AIRealRect* bounds, bool* boundsValid)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 373;
+		location = TextTools;
+		modificationTime = 374788311.756226;
+		state = 2;
+	};
+}

@@ -1,0 +1,213 @@
+//========================================================================================
+//  
+//  $File: //ai/ai13/devtech/sdk/public/samplecode/Tutorial/Resources/Tutorial.rc $
+//
+//  $Revision: #9 $
+//
+//  Copyright 1987-2007 Adobe Systems Incorporated. All rights reserved.
+//  
+//  NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance 
+//  with the terms of the Adobe license agreement accompanying it.  If you have received
+//  this file from a source other than Adobe, then your use, modification, or 
+//  distribution of it requires the prior written permission of Adobe.
+//  
+//========================================================================================
+
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+#include "TutorialID.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winnt.h"
+#include "afxres.h"
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#define kMySDKPluginName "Tutorial"
+#define PIPL_PLUGIN_NAME kMySDKPluginName
+
+/////////////////////////////////////////////////////////////////////////////
+// VersionInfo
+//
+
+#include "VersionInfo.rc"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PIPL
+//
+
+#define LC(a,b,c,d)		#d, #c, #b, #a
+
+16000  PiPL  DISCARDABLE
+BEGIN							
+	0x0001, 					/* Reserved (for Photoshop) */
+	0L, 						/* kCurrentPiPLVersion */
+	4L, 						/* Property Count */
+								
+	LC(A,D,B,E),				/* vendorID */
+	LC(k,i,n,d),				/* propertyKey = PIKindProperty */
+	0L,							/* propertyID */
+	4L,							/* propertyLength */
+	LC(S,P,E,A),				/* propertyData  */
+								
+	LC(A,D,B,E),				/* vendorID */
+	LC(i,v,r,s),				/* propertyKey = PISPVersionProperty */
+	0L,							/* propertyID */
+	4L,							/* propertyLength */
+	2L, 						/* propertyData */
+
+	LC(A,D,B,E),				/* vendorID */
+	LC(w,x,8,6),				/* propertyKey = PIWin32X86CodeProperty */
+	0L,							/* propertyID */
+	12L,						/* propertyLength */
+	"PluginMain\0\0",			/* propertyData = Entry Point  */
+								/* (Long Word padded C String) */
+
+	LC(A,D,B,E),				/* Vendor Key */
+	LC(p,i,n,m),				/* propertyKey = PIPluginNameProperty  */
+	0L,							/* propertyID */
+	12L,						/* propertyLength */
+	PIPL_PLUGIN_NAME "\0\0\0\0"	/* propertyData = Plug-in name (padded to 4 bytes) */
+END
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icons
+//
+
+// Tutorial Line Tool
+16051	ICON	DISCARDABLE		"iconTutorial.ico"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""winuser.h""\r\n"
+    "#include ""winnt.h""\r\n"
+    "#include ""TutorialID.h""\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+kTutorialDLOG DIALOG DISCARDABLE  0, 0, 149, 77
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Tutorial Filter"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",kDlgOKButton,92,7,50,14
+    PUSHBUTTON      "Cancel",kDlgCancelButton,92,24,50,14
+    LTEXT           "Corners: ",kCornersTextItem,7,18,29,8
+    EDITTEXT        kCornersItem,41,15,40,14,ES_AUTOHSCROLL
+    LTEXT           "Size: ",kSizeTextItem,7,38,18,8
+    EDITTEXT        kSizeItem,41,35,40,14,ES_AUTOHSCROLL
+END
+
+kAboutDLOG DIALOG DISCARDABLE  0, 0, 159, 80
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "About This Plug-in"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",kDlgOKButton,109,12,40,14
+    LTEXT           kSDKDefAboutPluginString,
+                    -1,7,12,93,27
+    LTEXT           kSDKDefCopyrightString,
+                    -1,11,44,129,20
+END
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    kTutorialDLOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 142
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 70
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    16000                   "<First Mac index is 1>"
+    16001                   "SDK"
+    16002                   "Tutorial..."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    16100                   "<First Mac index is 1>"
+    16101                   "Dummy error alert string"
+    16102                   "This is the Tutorial Filter. It makes random shapes and adds a simple line tool. It is recordable via the Actions Palette."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    16200                   "<First Mac index is 1>"
+    16201                   "Number of Segments: "
+    16202                   "Size of Segments: "
+    16203                   "Tutorial Filter"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

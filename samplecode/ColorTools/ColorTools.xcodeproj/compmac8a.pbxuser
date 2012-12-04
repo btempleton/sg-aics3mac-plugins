@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	2A7772AD0BE6389300A9D493 /* IllustratorSDK.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {873, 324}}";
+			sepNavSelRange = "{709, 27}";
+			sepNavVisRange = "{0, 736}";
+			sepNavWindowFrame = "{{84, 195}, {1066, 915}}";
+		};
+	};
+	2AE97DE20BBC218A0041212F /* ColorTools.r */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {619, 796}}";
+			sepNavSelRange = "{1142, 0}";
+			sepNavVisRange = "{0, 1173}";
+			sepNavWindowFrame = "{{218, 150}, {678, 924}}";
+		};
+	};
+	508817C409F0C9740071BF1A /* Project object */ = {
+		activeArchitecture = i386;
+		activeBuildConfigurationName = Debug;
+		activeExecutable = DCE1C1BD138D5BA800939001 /* Illustrator */;
+		activeTarget = 508817D309F0C9AD0071BF1A /* ColorTools */;
+		addToTargets = (
+			508817D309F0C9AD0071BF1A /* ColorTools */,
+		);
+		breakpoints = (
+			DCF9959813A12E5300DAAC3F /* adjustColor.cpp:27 */,
+			DCF995B413A13D1E00DAAC3F /* adjustColor.cpp:61 */,
+			DCF995BC13A13D9D00DAAC3F /* adjustColor.cpp:71 */,
+			DCF995DB13A147D000DAAC3F /* adjustColor.cpp:67 */,
+			DC0B0142165C0E5D001211FC /* FixBlack.cpp:136 */,
+			DC0B014E165C132C001211FC /* ColorFuncs.cpp:375 */,
+			DC0B0155165C1490001211FC /* FixBlack.cpp:123 */,
+		);
+		codeSenseManager = DC1F8129108CED38001ADEB5 /* Code sense */;
+		executables = (
+			DCE1C1BD138D5BA800939001 /* Illustrator */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					202,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					269,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 375129206;
+			PBXWorkspaceStateSaveDate = 375129206;
+		};
+		perUserProjectItems = {
+			DC0B0163165C18AC001211FC /* PBXTextBookmark */ = DC0B0163165C18AC001211FC /* PBXTextBookmark */;
+			DC0B0165165C18AC001211FC /* PBXTextBookmark */ = DC0B0165165C18AC001211FC /* PBXTextBookmark */;
+			DC0B0167165C18AC001211FC /* PBXTextBookmark */ = DC0B0167165C18AC001211FC /* PBXTextBookmark */;
+			DC0B0168165C18AC001211FC /* PBXTextBookmark */ = DC0B0168165C18AC001211FC /* PBXTextBookmark */;
+		};
+		sourceControlManager = DC1F8128108CED38001ADEB5 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	508817D309F0C9AD0071BF1A /* ColorTools */ = {
+		activeExec = 0;
+	};
+	DC0B0142165C0E5D001211FC /* FixBlack.cpp:136 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DCE1C1C1138D5BF700939001 /* FixBlack.cpp */;
+		functionName = "convertObjectsToGlobalBlack(AIColor *color, void *userData, AIErr *result, AIBoolean *altered)";
+		hitCount = 2;
+		ignoreCount = 0;
+		lineNumber = 136;
+		location = ColorTools;
+		modificationTime = 375133338.840326;
+		state = 1;
+	};
+	DC0B014E165C132C001211FC /* ColorFuncs.cpp:375 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DCE1C1EC138D5C6700939001 /* ColorFuncs.cpp */;
+		functionName = "ChangeColor(AIColor *targetColor, AIColor colorToCopy)";
+		hitCount = 2;
+		ignoreCount = 0;
+		lineNumber = 375;
+		location = ColorTools;
+		modificationTime = 375133339.484387;
+		state = 1;
+	};
+	DC0B0155165C1490001211FC /* FixBlack.cpp:123 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DCE1C1C1138D5BF700939001 /* FixBlack.cpp */;
+		functionName = "convertObjectsToGlobalBlack(AIColor *color, void *userData, AIErr *result, AIBoolean *altered)";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 123;
+		location = ColorTools;
+		modificationTime = 375133331.779669;
+		state = 1;
+	};
+	DC0B0163165C18AC001211FC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DCE1C1C1138D5BF700939001 /* FixBlack.cpp */;
+		rLen = 0;
+		rLoc = 135;
+		rType = 1;
+	};
+	DC0B0165165C18AC001211FC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DCE1C1EC138D5C6700939001 /* ColorFuncs.cpp */;
+		rLen = 0;
+		rLoc = 374;
+		rType = 1;
+	};
+	DC0B0167165C18AC001211FC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DCE1C1C1138D5BF700939001 /* FixBlack.cpp */;
+		name = "FixBlack.cpp: 40";
+		rLen = 0;
+		rLoc = 1062;
+		rType = 0;
+		vrLen = 2061;
+		vrLoc = 158;
+	};
+	DC0B0168165C18AC001211FC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DCE1C1EC138D5C6700939001 /* ColorFuncs.cpp */;
+		name = "ColorFuncs.cpp: 375";
+		rLen = 0;
+		rLoc = 12502;
+		rType = 0;
+		vrLen = 1618;
+		vrLoc = 11020;
+	};
+	DC1F8128108CED38001ADEB5 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	DC1F8129108CED38001ADEB5 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	DCE1C1BD138D5BA800939001 /* Illustrator */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+			"PBXLSLaunchAction-0" = {
+				PBXLSLaunchAction = 0;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXLSRunLaunchConfig;
+				commandLineArgs = (
+				);
+				displayName = "Executable Runner";
+				environment = {
+				};
+				identifier = com.apple.Xcode.launch.runConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = DCE1C1BE138D5BA800939001 /* Adobe Illustrator.app */;
+		libgmallocEnabled = 0;
+		name = Illustrator;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	DCE1C1BE138D5BA800939001 /* Adobe Illustrator.app */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = wrapper.application;
+		name = "Adobe Illustrator.app";
+		path = "/Applications/Adobe Illustrator CS3/Adobe Illustrator.app";
+		sourceTree = "<absolute>";
+	};
+	DCE1C1C0138D5BF700939001 /* FixBlack.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {977, 698}}";
+			sepNavSelRange = "{713, 41}";
+			sepNavVisRange = "{0, 1427}";
+			sepNavWindowFrame = "{{61, 305}, {1036, 826}}";
+		};
+	};
+	DCE1C1C1138D5BF700939001 /* FixBlack.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1005, 5894}}";
+			sepNavSelRange = "{1062, 0}";
+			sepNavVisRange = "{158, 2061}";
+			sepNavWindowFrame = "{{409, 98}, {1064, 1000}}";
+		};
+	};
+	DCE1C1EC138D5C6700939001 /* ColorFuncs.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {893, 5348}}";
+			sepNavSelRange = "{12502, 0}";
+			sepNavVisRange = "{11020, 1618}";
+			sepNavWindowFrame = "{{876, 122}, {952, 921}}";
+		};
+	};
+	DCE1C1ED138D5C6700939001 /* ColorFuncs.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1005, 872}}";
+			sepNavSelRange = "{1462, 61}";
+			sepNavVisRange = "{0, 1531}";
+			sepNavWindowFrame = "{{92, 178}, {1064, 1000}}";
+		};
+	};
+	DCE1C1F2138D5D3F00939001 /* pluginHandler.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1007, 787}}";
+			sepNavSelRange = "{147, 0}";
+			sepNavVisRange = "{0, 472}";
+			sepNavWindowFrame = "{{176, 111}, {1066, 915}}";
+		};
+	};
+	DCE1C1F3138D5D3F00939001 /* pluginHandler.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1007, 2870}}";
+			sepNavSelRange = "{1458, 7}";
+			sepNavVisRange = "{502, 1869}";
+			sepNavWindowFrame = "{{468, 252}, {1066, 915}}";
+		};
+	};
+	DCE1C209138D69A900939001 /* menuHandler.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {720, 308}}";
+			sepNavSelRange = "{333, 14}";
+			sepNavVisRange = "{144, 240}";
+			sepNavWindowFrame = "{{15, 258}, {1066, 915}}";
+		};
+	};
+	DCE1C20A138D69A900939001 /* menuHandler.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1005, 3080}}";
+			sepNavSelRange = "{4650, 0}";
+			sepNavVisRange = "{3854, 2166}";
+			sepNavWindowFrame = "{{294, 123}, {1064, 1000}}";
+		};
+	};
+	DCE1C213138D6A2500939001 /* Common.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1007, 3934}}";
+			sepNavSelRange = "{2284, 0}";
+			sepNavVisRange = "{4614, 1406}";
+			sepNavWindowFrame = "{{153, 132}, {1066, 915}}";
+		};
+	};
+	DCE1C215138D6A4800939001 /* Suites.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {818, 3654}}";
+			sepNavSelRange = "{11676, 0}";
+			sepNavVisRange = "{8619, 3134}";
+			sepNavWindowFrame = "{{226, 105}, {608, 824}}";
+		};
+	};
+	DCE1C217138D6A8800939001 /* shellMain.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1007, 3486}}";
+			sepNavSelRange = "{1015, 0}";
+			sepNavVisRange = "{4373, 1220}";
+			sepNavWindowFrame = "{{61, 216}, {1066, 915}}";
+		};
+	};
+	DCE1C221138D6B6800939001 /* notifierHandler.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1007, 787}}";
+			sepNavSelRange = "{149, 0}";
+			sepNavVisRange = "{0, 376}";
+			sepNavWindowFrame = "{{130, 153}, {1066, 915}}";
+		};
+	};
+	DCE1C222138D6B6800939001 /* notifierHandler.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1007, 1008}}";
+			sepNavSelRange = "{1554, 0}";
+			sepNavVisRange = "{291, 1806}";
+			sepNavWindowFrame = "{{176, 111}, {1066, 915}}";
+		};
+	};
+	DCE1C252138D6E5500939001 /* ADMNonModalDialogID.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {614, 654}}";
+			sepNavSelRange = "{525, 0}";
+			sepNavVisRange = "{0, 954}";
+			sepNavWindowFrame = "{{216, 263}, {673, 782}}";
+		};
+	};
+	DCE1C254138D6F1700939001 /* AddColor.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {536, 588}}";
+			sepNavSelRange = "{142, 41}";
+			sepNavVisRange = "{18, 1046}";
+			sepNavWindowFrame = "{{123, 243}, {595, 680}}";
+		};
+	};
+	DCE1C255138D6F1700939001 /* AddColor.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1007, 7280}}";
+			sepNavSelRange = "{8731, 0}";
+			sepNavVisRange = "{8226, 1972}";
+			sepNavWindowFrame = "{{755, 109}, {1066, 915}}";
+		};
+	};
+	DCE1C391138D7FD900939001 /* adjustColor.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1473, 1050}}";
+			sepNavSelRange = "{1456, 0}";
+			sepNavVisRange = "{1066, 1168}";
+			sepNavWindowFrame = "{{552, 174}, {1330, 870}}";
+		};
+	};
+	DCE1C393138D7FF400939001 /* populateDialog.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {977, 698}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 561}";
+			sepNavWindowFrame = "{{222, 158}, {1036, 826}}";
+		};
+	};
+	DCE1C394138D7FF400939001 /* populateDialog.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {977, 3122}}";
+			sepNavSelRange = "{7965, 16}";
+			sepNavVisRange = "{6850, 2039}";
+			sepNavWindowFrame = "{{121, 162}, {1036, 826}}";
+		};
+	};
+	DCE1C3A2138D828100939001 /* FindReplaceGraphics.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {596, 826}}";
+			sepNavSelRange = "{521, 25}";
+			sepNavVisRange = "{145, 1531}";
+			sepNavWindowFrame = "{{94, 212}, {655, 869}}";
+		};
+	};
+	DCE1C3A3138D828100939001 /* FindReplaceGraphics.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {938, 8666}}";
+			sepNavSelRange = "{12623, 15}";
+			sepNavVisRange = "{11932, 853}";
+			sepNavWindowFrame = "{{28, 217}, {1261, 917}}";
+		};
+	};
+	DCF9959813A12E5300DAAC3F /* adjustColor.cpp:27 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DCE1C391138D7FD900939001 /* adjustColor.cpp */;
+		functionName = "adjustColor(AIColor *color, void* userData, AIErr *result, AIBoolean *altered)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 27;
+		location = ColorTools;
+		modificationTime = 375133098.342257;
+		state = 2;
+	};
+	DCF995B413A13D1E00DAAC3F /* adjustColor.cpp:61 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DCE1C391138D7FD900939001 /* adjustColor.cpp */;
+		functionName = "adjustColor(AIColor *color, void* userData, AIErr *result, AIBoolean *altered)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 61;
+		location = ColorTools;
+		modificationTime = 375133098.342271;
+		state = 2;
+	};
+	DCF995BC13A13D9D00DAAC3F /* adjustColor.cpp:71 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DCE1C391138D7FD900939001 /* adjustColor.cpp */;
+		functionName = "adjustColor(AIColor *color, void* userData, AIErr *result, AIBoolean *altered)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 71;
+		location = ColorTools;
+		modificationTime = 375133098.342281;
+		state = 2;
+	};
+	DCF995DB13A147D000DAAC3F /* adjustColor.cpp:67 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DCE1C391138D7FD900939001 /* adjustColor.cpp */;
+		functionName = "adjustColor(AIColor *color, void* userData, AIErr *result, AIBoolean *altered)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 67;
+		location = ColorTools;
+		modificationTime = 375133098.342287;
+		state = 2;
+	};
+}

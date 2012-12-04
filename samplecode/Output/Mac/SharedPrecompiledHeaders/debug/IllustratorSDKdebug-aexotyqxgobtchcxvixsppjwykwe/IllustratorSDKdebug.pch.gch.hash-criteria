@@ -1,0 +1,52 @@
+Contents of /Users/compmac8a/Desktop/Adobe Illustrator CS3 SDK/samplecode/PantoBorderTool/./../common/includes/IllustratorSDKdebug.pch
+4.0.1 (Apple Inc. build 5465)
+-x
+c++
+-arch
+ppc
+-pipe
+-fpascal-strings
+-fasm-blocks
+-O0
+-fmessage-length=0
+-mtune=G4
+-fvisibility=hidden
+-fvisibility-inlines-hidden
+-mmacosx-version-min=10.4
+-gdwarf-2
+-iquote
+-iquote
+-F../Output/Mac/debug
+-I../Output/Mac/debug/include
+-I../../illustratorapi
+-I../../illustratorapi/adm
+-I../../illustratorapi/ate
+-I../../illustratorapi/illustrator
+-I../../illustratorapi/pica_sp
+-I../../illustratorapi/adm/legacy
+-I../../illustratorapi/illustrator/actions
+-I../../illustratorapi/illustrator/legacy
+-I../../illustratorapi/illustrator/legacy/actions
+-I/Developer/Headers/FlatCarbon
+-I.
+-IPantoBorderTool.build
+-IResources
+-ISource
+-IPantoBorderTool.build/Default
+-IPantoBorderTool.build/PantoBorderTool.pbxindex
+-IPantoBorderTool.build/Default/PantoBorderTool.build
+-IPantoBorderTool.build/PantoBorderTool.pbxindex/strings.pbxstrings
+-IPantoBorderTool.build/Default/PantoBorderTool.build/Objects-normal
+-IPantoBorderTool.build/Default/PantoBorderTool.build/ResourceManagerResources
+-IPantoBorderTool.build/Default/PantoBorderTool.build/Objects-normal/i386
+-IPantoBorderTool.build/Default/PantoBorderTool.build/Objects-normal/ppc
+-IPantoBorderTool.build/Default/PantoBorderTool.build/ResourceManagerResources/Objects
+-I../common
+-I../common/includes
+-I../common/mac
+-I../common/My Custom Headers
+-I../common/Old Headers
+-I../common/source
+-I../common/win
+-isysroot
+/Developer/SDKs/MacOSX10.4u.sdk

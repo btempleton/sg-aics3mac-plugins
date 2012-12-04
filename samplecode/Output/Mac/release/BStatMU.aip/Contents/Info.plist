@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDisplayName</key>
+	<string>BStatMU</string>
+	<key>CFBundleExecutable</key>
+	<string>BStatMU</string>
+	<key>CFBundleGetInfoHTML</key>
+	<string>BStatMU version 13 . 0 . 0 . 0, "Copyright 1987-2007 Adobe Systems Incorporated. All rights reserved."</string>
+	<key>CFBundleGetInfoString</key>
+	<string>BStatMU version 13 . 0 . 0 . 0, "Copyright 1987-2007 Adobe Systems Incorporated. All rights reserved."</string>
+	<key>CFBundleIdentifier</key>
+	<string>bt.BStatMU</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>BStatMU</string>
+	<key>CFBundlePackageType</key>
+	<string>ARPI</string>
+	<key>CFBundleShortVersionString</key>
+	<string>BStatMU version 13 . 0 . 0 . 0</string>
+	<key>CFBundleSignature</key>
+	<string>ART5</string>
+	<key>CFBundleVersion</key>
+	<string>13 . 0 . 0 . 0</string>
+	<key>CSResourcesFileMapped</key>
+	<true/>
+	<key>LSRequiresCarbon</key>
+	<true/>
+</dict>
+</plist>

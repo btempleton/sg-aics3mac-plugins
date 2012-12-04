@@ -1,0 +1,85 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ADMNonModalDialog", "..\ADMNonModalDialog\ADMNonModalDialog.vcproj", "{D2A2F839-7236-43EC-B14C-4AE0F666ECFE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LiveDropShadow", "..\LiveDropShadow\LiveDropShadow.vcproj", "{1057B06F-ED3D-424A-84D7-6262214EE1F3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MarkedObjects", "..\MarkedObjects\MarkedObjects.vcproj", "{CB793071-F643-4C94-B8F0-57DE29D3C9B6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MenuPlay", "..\MenuPlay\MenuPlay.vcproj", "{7FC79ABF-6211-484E-96AE-70479ACC75F5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MultiArrowTool", "..\MultiArrowTool\MultiArrowTool.vcproj", "{43DFFFAC-95F5-4D21-BB85-EA1BA160E9C2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TextFileFormat", "..\TextFileFormat\TextFileFormat.vcproj", "{F8D82877-059A-4454-A511-18CDDB997316}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TransformButtons", "..\TransformButtons\TransformButtons.vcproj", "{8A8F2161-3405-4BA8-81D2-98E13EE34D0F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tutorial", "..\Tutorial\Tutorial.vcproj", "{C863B0AA-DA5B-444F-9360-4D023C062D31}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TwirlFilter", "..\TwirlFilter\TwirlFilter.vcproj", "{5E5F83C9-1582-4FFA-A999-3E159388F396}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Webter", "..\Webter\Webter.vcproj", "{29573EC4-92B1-42C4-8C50-E1DFCCB10751}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Shell", "..\Shell\Shell.vcproj", "{3083CC2A-44A7-4649-9FB8-C0712A9C84A9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SnippetRunner", "..\SnippetRunner\SnippetRunner.vcproj", "{C4DD8619-4A59-4F2A-B041-8F633F58C711}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2A2F839-7236-43EC-B14C-4AE0F666ECFE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D2A2F839-7236-43EC-B14C-4AE0F666ECFE}.Debug|Win32.Build.0 = Debug|Win32
+		{D2A2F839-7236-43EC-B14C-4AE0F666ECFE}.Release|Win32.ActiveCfg = Release|Win32
+		{D2A2F839-7236-43EC-B14C-4AE0F666ECFE}.Release|Win32.Build.0 = Release|Win32
+		{1057B06F-ED3D-424A-84D7-6262214EE1F3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1057B06F-ED3D-424A-84D7-6262214EE1F3}.Debug|Win32.Build.0 = Debug|Win32
+		{1057B06F-ED3D-424A-84D7-6262214EE1F3}.Release|Win32.ActiveCfg = Release|Win32
+		{1057B06F-ED3D-424A-84D7-6262214EE1F3}.Release|Win32.Build.0 = Release|Win32
+		{CB793071-F643-4C94-B8F0-57DE29D3C9B6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CB793071-F643-4C94-B8F0-57DE29D3C9B6}.Debug|Win32.Build.0 = Debug|Win32
+		{CB793071-F643-4C94-B8F0-57DE29D3C9B6}.Release|Win32.ActiveCfg = Release|Win32
+		{CB793071-F643-4C94-B8F0-57DE29D3C9B6}.Release|Win32.Build.0 = Release|Win32
+		{7FC79ABF-6211-484E-96AE-70479ACC75F5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7FC79ABF-6211-484E-96AE-70479ACC75F5}.Debug|Win32.Build.0 = Debug|Win32
+		{7FC79ABF-6211-484E-96AE-70479ACC75F5}.Release|Win32.ActiveCfg = Release|Win32
+		{7FC79ABF-6211-484E-96AE-70479ACC75F5}.Release|Win32.Build.0 = Release|Win32
+		{43DFFFAC-95F5-4D21-BB85-EA1BA160E9C2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{43DFFFAC-95F5-4D21-BB85-EA1BA160E9C2}.Debug|Win32.Build.0 = Debug|Win32
+		{43DFFFAC-95F5-4D21-BB85-EA1BA160E9C2}.Release|Win32.ActiveCfg = Release|Win32
+		{43DFFFAC-95F5-4D21-BB85-EA1BA160E9C2}.Release|Win32.Build.0 = Release|Win32
+		{F8D82877-059A-4454-A511-18CDDB997316}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F8D82877-059A-4454-A511-18CDDB997316}.Debug|Win32.Build.0 = Debug|Win32
+		{F8D82877-059A-4454-A511-18CDDB997316}.Release|Win32.ActiveCfg = Release|Win32
+		{F8D82877-059A-4454-A511-18CDDB997316}.Release|Win32.Build.0 = Release|Win32
+		{8A8F2161-3405-4BA8-81D2-98E13EE34D0F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8A8F2161-3405-4BA8-81D2-98E13EE34D0F}.Debug|Win32.Build.0 = Debug|Win32
+		{8A8F2161-3405-4BA8-81D2-98E13EE34D0F}.Release|Win32.ActiveCfg = Release|Win32
+		{8A8F2161-3405-4BA8-81D2-98E13EE34D0F}.Release|Win32.Build.0 = Release|Win32
+		{C863B0AA-DA5B-444F-9360-4D023C062D31}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C863B0AA-DA5B-444F-9360-4D023C062D31}.Debug|Win32.Build.0 = Debug|Win32
+		{C863B0AA-DA5B-444F-9360-4D023C062D31}.Release|Win32.ActiveCfg = Release|Win32
+		{C863B0AA-DA5B-444F-9360-4D023C062D31}.Release|Win32.Build.0 = Release|Win32
+		{5E5F83C9-1582-4FFA-A999-3E159388F396}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5E5F83C9-1582-4FFA-A999-3E159388F396}.Debug|Win32.Build.0 = Debug|Win32
+		{5E5F83C9-1582-4FFA-A999-3E159388F396}.Release|Win32.ActiveCfg = Release|Win32
+		{5E5F83C9-1582-4FFA-A999-3E159388F396}.Release|Win32.Build.0 = Release|Win32
+		{29573EC4-92B1-42C4-8C50-E1DFCCB10751}.Debug|Win32.ActiveCfg = Debug|Win32
+		{29573EC4-92B1-42C4-8C50-E1DFCCB10751}.Debug|Win32.Build.0 = Debug|Win32
+		{29573EC4-92B1-42C4-8C50-E1DFCCB10751}.Release|Win32.ActiveCfg = Release|Win32
+		{29573EC4-92B1-42C4-8C50-E1DFCCB10751}.Release|Win32.Build.0 = Release|Win32
+		{3083CC2A-44A7-4649-9FB8-C0712A9C84A9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3083CC2A-44A7-4649-9FB8-C0712A9C84A9}.Debug|Win32.Build.0 = Debug|Win32
+		{3083CC2A-44A7-4649-9FB8-C0712A9C84A9}.Release|Win32.ActiveCfg = Release|Win32
+		{3083CC2A-44A7-4649-9FB8-C0712A9C84A9}.Release|Win32.Build.0 = Release|Win32
+		{C4DD8619-4A59-4F2A-B041-8F633F58C711}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C4DD8619-4A59-4F2A-B041-8F633F58C711}.Debug|Win32.Build.0 = Debug|Win32
+		{C4DD8619-4A59-4F2A-B041-8F633F58C711}.Release|Win32.ActiveCfg = Release|Win32
+		{C4DD8619-4A59-4F2A-B041-8F633F58C711}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

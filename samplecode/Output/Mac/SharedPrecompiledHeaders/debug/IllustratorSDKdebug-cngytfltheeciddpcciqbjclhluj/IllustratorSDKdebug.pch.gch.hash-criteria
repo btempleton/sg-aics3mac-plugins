@@ -1,0 +1,18 @@
+Contents of /Users/compmac8a/Desktop/Adobe Illustrator CS3 SDK/samplecode/BStatMU/./../common/includes/IllustratorSDKdebug.pch
+4.0.1 (Apple Inc. build 5465)
+-x
+c++
+-arch
+i386
+-pipe
+-fpascal-strings
+-fasm-blocks
+-O0
+-fmessage-length=0
+-fvisibility=hidden
+-fvisibility-inlines-hidden
+-mmacosx-version-min=10.4
+-gdwarf-2
+-fstack-protector-all
+-isysroot
+/Developer/SDKs/MacOSX10.4u.sdk

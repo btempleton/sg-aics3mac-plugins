@@ -1,0 +1,246 @@
+//========================================================================================
+//  
+//  $File: //ai/ai13/devtech/sdk/public/samplecode/MenuPlay/Resources/MenuPlay.rc $
+//
+//  $Revision: #3 $
+//
+//  Copyright 1987-2007 Adobe Systems Incorporated. All rights reserved.
+//  
+//  NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance 
+//  with the terms of the Adobe license agreement accompanying it.  If you have received
+//  this file from a source other than Adobe, then your use, modification, or 
+//  distribution of it requires the prior written permission of Adobe.
+//  
+//========================================================================================
+
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "plugin.h"
+#include "afxres.h"
+#include "plugindlg.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#define kMySDKPluginName "MenuPlay"
+#define PIPL_PLUGIN_NAME kMySDKPluginName
+
+/////////////////////////////////////////////////////////////////////////////
+// VersionInfo
+//
+
+#include "VersionInfo.rc"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PIPL
+//
+
+#define LC(a,b,c,d)		#d, #c, #b, #a
+
+16000  PiPL  DISCARDABLE
+BEGIN							
+	0x0001, 					/* Reserved (for Photoshop) */
+	0L, 						/* kCurrentPiPLVersion */
+	4L, 						/* Property Count */
+								
+	LC(A,D,B,E),				/* Vendor Key */
+	LC(k,i,n,d),				/* PIKindProperty */
+	0L,							/* Property ID */
+	4L,							/* Property Length */
+	LC(S,P,E,A),				/* SweetPEA2 plug in */
+								
+	LC(A,D,B,E),				/* Vendor Key */
+	LC(i,v,r,s),				/* Interface Version */
+	0L,							/* Property ID */
+	4L,							/* Property Length */
+	2L, 						/* Version Number */
+
+	LC(A,D,B,E),				/* Vendor Key */
+	LC(w,x,8,6),				/* PIWin32X86CodeProperty */
+	0L,							/* Property ID */
+	12L,						/* Property Length */
+	"PluginMain\0\0",			/* Entrypoint Name */
+								/* (Long Word padded C String) */
+
+	LC(A,D,B,E),				/* Vendor Key */
+	LC(p,i,n,m),				/* Interface Version */
+	0L,							/* Property ID */
+	12L,						/* Property Length */
+	PIPL_PLUGIN_NAME "\0\0\0\0"	/* Plug-in name (padded to 4 bytes) */
+END
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+kFilterDLOG DIALOG DISCARDABLE  0, 0, 146, 73
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Filter"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",kDlgOKButton,90,10,50,14
+    PUSHBUTTON      "Cancel",kDlgCancelButton,90,28,50,14
+    EDITTEXT        kFilterAngleDItem,40,10,35,15,ES_AUTOHSCROLL
+    LTEXT           "Angle:",kFilterAngleDTextItem,11,13,23,10
+    LTEXT           "Note: Filter works best with lots of anchor points.",-1,
+                    11,41,79,26
+END
+
+kFilterFewDLOG DIALOG DISCARDABLE  0, 0, 146, 73
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Filter"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",kDlgOKButton,90,10,50,14
+    PUSHBUTTON      "Cancel",kDlgCancelButton,90,28,50,14
+    EDITTEXT        kFilterAngleDItem,40,10,35,15,ES_AUTOHSCROLL
+    LTEXT           "Angle:",kFilterAngleDTextItem,11,13,23,10
+    LTEXT           "Note: Filter works best with lots of anchor points.",-1,
+                    11,41,79,26
+END
+
+kAboutDLOG DIALOG DISCARDABLE  0, 0, 159, 80
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "About This Plug-in"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",kDlgOKButton,109,12,40,14
+    LTEXT           kSDKDefAboutPluginString,
+                    -1,7,12,93,27
+    LTEXT           kSDKDefCopyrightString,
+                    -1,11,44,129,20
+END
+
+kErrorDialogID DIALOG DISCARDABLE  0, 0, 185, 92
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Plug-in Error"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",kDlgOKButton,127,65,50,14
+    LTEXT           "Message",kErrorMessageText,43,12,126,28
+    LTEXT           "Code",kErrorCodeText,13,66,30,8
+    CONTROL         "",4,"Static",SS_BLACKFRAME,10,10,18,20
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""plugin.h""\r\n"
+    "#include ""afxres.h""\r\n"
+    "#include ""plugindlg.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+257                     ICON    DISCARDABLE     "icon1.ico"
+16051                   ICON    DISCARDABLE     "ToolIcon.ico"
+258                     ICON    DISCARDABLE     "ico00001.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+16000                   CURSOR  DISCARDABLE     "cursor1.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    kFilterStrings          "<First Mac index is 1>"
+    16001                   "FIlter Category goes here"
+    16002                   "Filter name... goes here"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    kErrorStrings           "<Mac strings begin at index 1>"
+    16051                   "-108"
+    16052                   "The filter cannot complete because there isn't enough memory (RAM) available."
+    16053                   "271"
+    16054                   "The filter cannot complete because there isn't enough memory (RAM) available."
+    16055                   "SEGM"
+    16056                   "The filter cannot complete because a layer is locked or invisible."
+    16057                   "NESS"
+    16058                   "The filter cannot complete because a path has too many anchor points."
+    16059                   "!sel"
+    16060                   "The selection is not valid for this filter."
+    16061                   "<Others>"
+    16062                   "The filter cannot complete because of an unknown error."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    kMenuStringResID        "<Mac strings begin at index 1>"
+    17001                   "SDK"
+    17002                   "If enabled, selection contains a group"
+    17003                   "If enabled, Art/Layer is unlocked"
+    17004                   "Manually updated for guides"
+    17005                   "-"
+    17006                   "Check me"
+    17007                   "Highlight the menu above"
+	17008					"Menu Play"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

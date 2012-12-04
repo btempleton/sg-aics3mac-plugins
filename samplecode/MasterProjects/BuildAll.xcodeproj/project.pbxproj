@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		6EBBCCD40A5D07BE0022CF73 /* BuildAll */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6EBBCCD80A5D07C10022CF73 /* Build configuration list for PBXAggregateTarget "BuildAll" */;
+			buildPhases = (
+			);
+			dependencies = (
+				6E8101240A908355002569B5 /* PBXTargetDependency */,
+				6E8101280A908355002569B5 /* PBXTargetDependency */,
+				6E81012A0A908355002569B5 /* PBXTargetDependency */,
+				6E81012C0A908355002569B5 /* PBXTargetDependency */,
+				6E81012E0A908355002569B5 /* PBXTargetDependency */,
+				6E8101340A908355002569B5 /* PBXTargetDependency */,
+				6E8101360A908355002569B5 /* PBXTargetDependency */,
+				6E8101380A908355002569B5 /* PBXTargetDependency */,
+				6E81013C0A908355002569B5 /* PBXTargetDependency */,
+				6E81013E0A908355002569B5 /* PBXTargetDependency */,
+				6E8101400A908355002569B5 /* PBXTargetDependency */,
+				2ACCF61E0C72236600F0DB7B /* PBXTargetDependency */,
+			);
+			name = BuildAll;
+			productName = "BuildAll debug";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXContainerItemProxy section */
+		2ACCF60F0C7221EC00F0DB7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2ACCF6080C7221EB00F0DB7B /* SnippetRunner.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6EE2BA530A40BB2600CC7CE2;
+			remoteInfo = SnippetRunner;
+		};
+		2ACCF61D0C72236600F0DB7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2ACCF6080C7221EB00F0DB7B /* SnippetRunner.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 508817D309F0C9AD0071BF1A;
+			remoteInfo = SnippetRunner;
+		};
+		6E4960CC0A70E23200923423 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E4960C40A70E23200923423 /* ADMNonModalDialog.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6EE2BA530A40BB2600CC7CE2;
+			remoteInfo = "ADMNonModalDialogProject debug";
+		};
+		6E8100B90A907D0E002569B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E4961150A70E2AE00923423 /* TextFileFormat.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6EE2BA530A40BB2600CC7CE2;
+			remoteInfo = "TextFileFormat debug";
+		};
+		6E8100CC0A907D33002569B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E4960D00A70E24500923423 /* LiveDropShadow.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6EE2BA530A40BB2600CC7CE2;
+			remoteInfo = "LiveDropShadow debug";
+		};
+		6E8100DA0A9082B2002569B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ED25FDF0A70E37600A6365D /* Webter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6EE2BA530A40BB2600CC7CE2;
+			remoteInfo = "Webter debug";
+		};
+		6E8100E50A9082C6002569B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ED25FD30A70E36C00A6365D /* TwirlFilter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6EE2BA530A40BB2600CC7CE2;
+			remoteInfo = "TwirlFilter debug";
+		};
+		6E8100F00A9082D9002569B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ED25FAF0A70E34900A6365D /* TransformButtons.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6EE2BA530A40BB2600CC7CE2;
+			remoteInfo = "TransformButtons debug";
+		};
+		6E8100FB0A9082EE002569B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E49610C0A70E29700923423 /* Shell.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6EE2BA530A40BB2600CC7CE2;
+			remoteInfo = "Shell debug";
+		};
+		6E8101060A908305002569B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E4960F40A70E27A00923423 /* MultiArrowTool.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6EE2BA530A40BB2600CC7CE2;
+			remoteInfo = "MultiArrowTool debug";
+		};
+		6E8101110A908312002569B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E4960E80A70E26600923423 /* MenuPlay.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6EE2BA530A40BB2600CC7CE2;
+			remoteInfo = "MenuPlay debug";
+		};
+		6E81011C0A908321002569B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E4960DC0A70E25100923423 /* MarkedObjects.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6EE2BA530A40BB2600CC7CE2;
+			remoteInfo = "MarkedObjects debug";
+		};
+		6E8101230A908355002569B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ED25FDF0A70E37600A6365D /* Webter.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 508817D309F0C9AD0071BF1A;
+			remoteInfo = "Webter debug";
+		};
+		6E8101270A908355002569B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E4960C40A70E23200923423 /* ADMNonModalDialog.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 508817D309F0C9AD0071BF1A;
+			remoteInfo = "ADMNonModalDialog debug";
+		};
+		6E8101290A908355002569B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E4960F40A70E27A00923423 /* MultiArrowTool.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 508817D309F0C9AD0071BF1A;
+			remoteInfo = "MultiArrowTool debug";
+		};
+		6E81012B0A908355002569B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ED25FAF0A70E34900A6365D /* TransformButtons.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 508817D309F0C9AD0071BF1A;
+			remoteInfo = "TransformButtons debug";
+		};
+		6E81012D0A908355002569B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E4960DC0A70E25100923423 /* MarkedObjects.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 508817D309F0C9AD0071BF1A;
+			remoteInfo = "MarkedObjects debug";
+		};
+		6E8101330A908355002569B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E4960E80A70E26600923423 /* MenuPlay.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 508817D309F0C9AD0071BF1A;
+			remoteInfo = "MenuPlay debug";
+		};
+		6E8101350A908355002569B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E49610C0A70E29700923423 /* Shell.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 508817D309F0C9AD0071BF1A;
+			remoteInfo = "Shell debug";
+		};
+		6E8101370A908355002569B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E4961150A70E2AE00923423 /* TextFileFormat.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 508817D309F0C9AD0071BF1A;
+			remoteInfo = "TextFileFormat debug";
+		};
+		6E81013B0A908355002569B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ED25FBB0A70E35600A6365D /* Tutorial.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 508817D309F0C9AD0071BF1A;
+			remoteInfo = "Tutorial debug";
+		};
+		6E81013D0A908355002569B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ED25FD30A70E36C00A6365D /* TwirlFilter.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 508817D309F0C9AD0071BF1A;
+			remoteInfo = "TwirlFilter debug";
+		};
+		6E81013F0A908355002569B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E4960D00A70E24500923423 /* LiveDropShadow.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 508817D309F0C9AD0071BF1A;
+			remoteInfo = "LiveDropShadow debug";
+		};
+		6ED25FC30A70E35600A6365D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ED25FBB0A70E35600A6365D /* Tutorial.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6EE2BA530A40BB2600CC7CE2;
+			remoteInfo = "Tutorial debug";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2ACCF6080C7221EB00F0DB7B /* SnippetRunner.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SnippetRunner.xcodeproj; path = ../SnippetRunner/SnippetRunner.xcodeproj; sourceTree = SOURCE_ROOT; };
+		6E4960C40A70E23200923423 /* ADMNonModalDialog.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ADMNonModalDialog.xcodeproj; path = ../ADMNonModalDialog/ADMNonModalDialog.xcodeproj; sourceTree = SOURCE_ROOT; };
+		6E4960D00A70E24500923423 /* LiveDropShadow.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LiveDropShadow.xcodeproj; path = ../LiveDropShadow/LiveDropShadow.xcodeproj; sourceTree = SOURCE_ROOT; };
+		6E4960DC0A70E25100923423 /* MarkedObjects.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MarkedObjects.xcodeproj; path = ../MarkedObjects/MarkedObjects.xcodeproj; sourceTree = SOURCE_ROOT; };
+		6E4960E80A70E26600923423 /* MenuPlay.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MenuPlay.xcodeproj; path = ../MenuPlay/MenuPlay.xcodeproj; sourceTree = SOURCE_ROOT; };
+		6E4960F40A70E27A00923423 /* MultiArrowTool.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MultiArrowTool.xcodeproj; path = ../MultiArrowTool/MultiArrowTool.xcodeproj; sourceTree = SOURCE_ROOT; };
+		6E49610C0A70E29700923423 /* Shell.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Shell.xcodeproj; path = ../Shell/Shell.xcodeproj; sourceTree = SOURCE_ROOT; };
+		6E4961150A70E2AE00923423 /* TextFileFormat.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TextFileFormat.xcodeproj; path = ../TextFileFormat/TextFileFormat.xcodeproj; sourceTree = SOURCE_ROOT; };
+		6ED25FAF0A70E34900A6365D /* TransformButtons.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TransformButtons.xcodeproj; path = ../TransformButtons/TransformButtons.xcodeproj; sourceTree = SOURCE_ROOT; };
+		6ED25FBB0A70E35600A6365D /* Tutorial.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Tutorial.xcodeproj; path = ../Tutorial/Tutorial.xcodeproj; sourceTree = SOURCE_ROOT; };
+		6ED25FD30A70E36C00A6365D /* TwirlFilter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TwirlFilter.xcodeproj; path = ../TwirlFilter/TwirlFilter.xcodeproj; sourceTree = SOURCE_ROOT; };
+		6ED25FDF0A70E37600A6365D /* Webter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Webter.xcodeproj; path = ../Webter/Webter.xcodeproj; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2ACCF6090C7221EB00F0DB7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2ACCF6100C7221EC00F0DB7B /* SnippetRunner.aip */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E4960C50A70E23200923423 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E4960CD0A70E23200923423 /* ADMNonModalDialog.aip */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E8100B50A907D0E002569B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E8100BA0A907D0E002569B5 /* TextFileFormat.aip */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E8100C80A907D33002569B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E8100CD0A907D33002569B5 /* LiveDropShadow.aip */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E8100D60A9082B2002569B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E8100DB0A9082B2002569B5 /* Webter.aip */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E8100E10A9082C6002569B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E8100E60A9082C6002569B5 /* TwirlFilter.aip */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E8100EC0A9082D9002569B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E8100F10A9082D9002569B5 /* TransformButtons.aip */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E8100F70A9082EE002569B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E8100FC0A9082EE002569B5 /* Shell.aip */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E8101020A908305002569B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E8101070A908305002569B5 /* MultiArrowTool.aip */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E81010D0A908312002569B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E8101120A908312002569B5 /* MenuPlay.aip */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E8101180A908321002569B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E81011D0A908321002569B5 /* MarkedObjects.aip */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EBBCC150A5D06B80022CF73 = {
+			isa = PBXGroup;
+			children = (
+				2ACCF6080C7221EB00F0DB7B /* SnippetRunner.xcodeproj */,
+				6ED25FDF0A70E37600A6365D /* Webter.xcodeproj */,
+				6ED25FD30A70E36C00A6365D /* TwirlFilter.xcodeproj */,
+				6ED25FBB0A70E35600A6365D /* Tutorial.xcodeproj */,
+				6ED25FAF0A70E34900A6365D /* TransformButtons.xcodeproj */,
+				6E4961150A70E2AE00923423 /* TextFileFormat.xcodeproj */,
+				6E49610C0A70E29700923423 /* Shell.xcodeproj */,
+				6E4960F40A70E27A00923423 /* MultiArrowTool.xcodeproj */,
+				6E4960E80A70E26600923423 /* MenuPlay.xcodeproj */,
+				6E4960DC0A70E25100923423 /* MarkedObjects.xcodeproj */,
+				6E4960D00A70E24500923423 /* LiveDropShadow.xcodeproj */,
+				6E4960C40A70E23200923423 /* ADMNonModalDialog.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		6ED25FBC0A70E35600A6365D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ED25FC40A70E35600A6365D /* Tutorial.aip */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		6EBBCC170A5D06B80022CF73 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 6EBBCC180A5D06B80022CF73 /* Build configuration list for PBXProject "BuildAll" */;
+			hasScannedForEncodings = 0;
+			mainGroup = 6EBBCC150A5D06B80022CF73;
+			productRefGroup = 6EBBCC150A5D06B80022CF73;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6E4960C50A70E23200923423 /* Products */;
+					ProjectRef = 6E4960C40A70E23200923423 /* ADMNonModalDialog.xcodeproj */;
+				},
+				{
+					ProductGroup = 6E8100C80A907D33002569B5 /* Products */;
+					ProjectRef = 6E4960D00A70E24500923423 /* LiveDropShadow.xcodeproj */;
+				},
+				{
+					ProductGroup = 6E8101180A908321002569B5 /* Products */;
+					ProjectRef = 6E4960DC0A70E25100923423 /* MarkedObjects.xcodeproj */;
+				},
+				{
+					ProductGroup = 6E81010D0A908312002569B5 /* Products */;
+					ProjectRef = 6E4960E80A70E26600923423 /* MenuPlay.xcodeproj */;
+				},
+				{
+					ProductGroup = 6E8101020A908305002569B5 /* Products */;
+					ProjectRef = 6E4960F40A70E27A00923423 /* MultiArrowTool.xcodeproj */;
+				},
+				{
+					ProductGroup = 6E8100F70A9082EE002569B5 /* Products */;
+					ProjectRef = 6E49610C0A70E29700923423 /* Shell.xcodeproj */;
+				},
+				{
+					ProductGroup = 2ACCF6090C7221EB00F0DB7B /* Products */;
+					ProjectRef = 2ACCF6080C7221EB00F0DB7B /* SnippetRunner.xcodeproj */;
+				},
+				{
+					ProductGroup = 6E8100B50A907D0E002569B5 /* Products */;
+					ProjectRef = 6E4961150A70E2AE00923423 /* TextFileFormat.xcodeproj */;
+				},
+				{
+					ProductGroup = 6E8100EC0A9082D9002569B5 /* Products */;
+					ProjectRef = 6ED25FAF0A70E34900A6365D /* TransformButtons.xcodeproj */;
+				},
+				{
+					ProductGroup = 6ED25FBC0A70E35600A6365D /* Products */;
+					ProjectRef = 6ED25FBB0A70E35600A6365D /* Tutorial.xcodeproj */;
+				},
+				{
+					ProductGroup = 6E8100E10A9082C6002569B5 /* Products */;
+					ProjectRef = 6ED25FD30A70E36C00A6365D /* TwirlFilter.xcodeproj */;
+				},
+				{
+					ProductGroup = 6E8100D60A9082B2002569B5 /* Products */;
+					ProjectRef = 6ED25FDF0A70E37600A6365D /* Webter.xcodeproj */;
+				},
+			);
+			targets = (
+				6EBBCCD40A5D07BE0022CF73 /* BuildAll */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2ACCF6100C7221EC00F0DB7B /* SnippetRunner.aip */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SnippetRunner.aip;
+			remoteRef = 2ACCF60F0C7221EC00F0DB7B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E4960CD0A70E23200923423 /* ADMNonModalDialog.aip */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ADMNonModalDialog.aip;
+			remoteRef = 6E4960CC0A70E23200923423 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E8100BA0A907D0E002569B5 /* TextFileFormat.aip */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TextFileFormat.aip;
+			remoteRef = 6E8100B90A907D0E002569B5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E8100CD0A907D33002569B5 /* LiveDropShadow.aip */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = LiveDropShadow.aip;
+			remoteRef = 6E8100CC0A907D33002569B5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E8100DB0A9082B2002569B5 /* Webter.aip */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Webter.aip;
+			remoteRef = 6E8100DA0A9082B2002569B5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E8100E60A9082C6002569B5 /* TwirlFilter.aip */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TwirlFilter.aip;
+			remoteRef = 6E8100E50A9082C6002569B5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E8100F10A9082D9002569B5 /* TransformButtons.aip */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TransformButtons.aip;
+			remoteRef = 6E8100F00A9082D9002569B5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E8100FC0A9082EE002569B5 /* Shell.aip */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Shell.aip;
+			remoteRef = 6E8100FB0A9082EE002569B5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E8101070A908305002569B5 /* MultiArrowTool.aip */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MultiArrowTool.aip;
+			remoteRef = 6E8101060A908305002569B5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E8101120A908312002569B5 /* MenuPlay.aip */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MenuPlay.aip;
+			remoteRef = 6E8101110A908312002569B5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6E81011D0A908321002569B5 /* MarkedObjects.aip */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MarkedObjects.aip;
+			remoteRef = 6E81011C0A908321002569B5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6ED25FC40A70E35600A6365D /* Tutorial.aip */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Tutorial.aip;
+			remoteRef = 6ED25FC30A70E35600A6365D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXTargetDependency section */
+		2ACCF61E0C72236600F0DB7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnippetRunner;
+			targetProxy = 2ACCF61D0C72236600F0DB7B /* PBXContainerItemProxy */;
+		};
+		6E8101240A908355002569B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Webter debug";
+			targetProxy = 6E8101230A908355002569B5 /* PBXContainerItemProxy */;
+		};
+		6E8101280A908355002569B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ADMNonModalDialog debug";
+			targetProxy = 6E8101270A908355002569B5 /* PBXContainerItemProxy */;
+		};
+		6E81012A0A908355002569B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MultiArrowTool debug";
+			targetProxy = 6E8101290A908355002569B5 /* PBXContainerItemProxy */;
+		};
+		6E81012C0A908355002569B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TransformButtons debug";
+			targetProxy = 6E81012B0A908355002569B5 /* PBXContainerItemProxy */;
+		};
+		6E81012E0A908355002569B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MarkedObjects debug";
+			targetProxy = 6E81012D0A908355002569B5 /* PBXContainerItemProxy */;
+		};
+		6E8101340A908355002569B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MenuPlay debug";
+			targetProxy = 6E8101330A908355002569B5 /* PBXContainerItemProxy */;
+		};
+		6E8101360A908355002569B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Shell debug";
+			targetProxy = 6E8101350A908355002569B5 /* PBXContainerItemProxy */;
+		};
+		6E8101380A908355002569B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TextFileFormat debug";
+			targetProxy = 6E8101370A908355002569B5 /* PBXContainerItemProxy */;
+		};
+		6E81013C0A908355002569B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Tutorial debug";
+			targetProxy = 6E81013B0A908355002569B5 /* PBXContainerItemProxy */;
+		};
+		6E81013E0A908355002569B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TwirlFilter debug";
+			targetProxy = 6E81013D0A908355002569B5 /* PBXContainerItemProxy */;
+		};
+		6E8101400A908355002569B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "LiveDropShadow debug";
+			targetProxy = 6E81013F0A908355002569B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6EBBCC190A5D06B80022CF73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		6EBBCC1A0A5D06B80022CF73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+		6EBBCCD90A5D07C10022CF73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "BuildAll debug";
+			};
+			name = Debug;
+		};
+		6EBBCCDA0A5D07C10022CF73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				PRODUCT_NAME = "BuildAll debug";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EBBCC180A5D06B80022CF73 /* Build configuration list for PBXProject "BuildAll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EBBCC190A5D06B80022CF73 /* Debug */,
+				6EBBCC1A0A5D06B80022CF73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EBBCCD80A5D07C10022CF73 /* Build configuration list for PBXAggregateTarget "BuildAll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EBBCCD90A5D07C10022CF73 /* Debug */,
+				6EBBCCDA0A5D07C10022CF73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EBBCC170A5D06B80022CF73 /* Project object */;
+}

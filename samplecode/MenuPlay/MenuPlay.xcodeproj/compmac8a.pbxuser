@@ -1,0 +1,68 @@
+// !$*UTF8*$!
+{
+	508817C409F0C9740071BF1A /* Project object */ = {
+		activeArchitecture = i386;
+		activeBuildConfigurationName = Debug;
+		activeTarget = 508817D309F0C9AD0071BF1A /* MenuPlay */;
+		codeSenseManager = DC6E91750F8A8A76002F3EC8 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					243,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 260737622;
+			PBXWorkspaceStateSaveDate = 260737622;
+		};
+		sourceControlManager = DC6E91740F8A8A76002F3EC8 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	508817D309F0C9AD0071BF1A /* MenuPlay */ = {
+		activeExec = 0;
+	};
+	6E976D440A559FF700BB07F9 /* menuHandler.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {789, 4074}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{6891, 1585}";
+			sepNavWindowFrame = "{{176, 292}, {848, 734}}";
+		};
+	};
+	DC6E91740F8A8A76002F3EC8 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	DC6E91750F8A8A76002F3EC8 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	F971058F0B9DB46B005AD480 /* shellMain.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {789, 3612}}";
+			sepNavSelRange = "{3147, 0}";
+			sepNavVisRange = "{2149, 1566}";
+			sepNavWindowFrame = "{{199, 272}, {848, 734}}";
+		};
+	};
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="3" name="allObjects">
+    <object class="IBCarbonWindow" id="166">
+      <boolean name="hasCloseBox">TRUE</boolean>
+      <boolean name="hasHorizontalZoom">TRUE</boolean>
+      <boolean name="hasVerticalZoom">TRUE</boolean>
+      <boolean name="autoDragTracking">TRUE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="scalingMode">2</int>
+      <string name="title">MakeWindow</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="167">
+        <array count="1" name="subviews">
+          <object class="IBCarbonButton" id="168">
+            <int name="controlID">5446</int>
+            <ostype name="command">ok  </ostype>
+            <int name="iconPosition">0</int>
+            <string name="title">OK</string>
+            <string name="bounds">135 198 155 268 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 360 480 </string>
+      </object>
+      <string name="windowRect">300 300 660 780 </string>
+      <string name="ScreenRectAtEncodeTime">48 0 1177 1920 </string>
+    </object>
+    <reference idRef="168"/>
+    <reference idRef="167"/>
+  </array>
+  <array count="3" name="allParents">
+    <reference idRef="1"/>
+    <reference idRef="167"/>
+    <reference idRef="166"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>Dialog</string>
+    <reference idRef="166"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">169</unsigned_int>
+</object>

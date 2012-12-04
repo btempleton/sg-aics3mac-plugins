@@ -1,0 +1,221 @@
+// !$*UTF8*$!
+{
+	2A7772AD0BE6389300A9D493 /* IllustratorSDK.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {985, 934}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 736}";
+			sepNavWindowFrame = "{{38, 90}, {1044, 1062}}";
+		};
+	};
+	508817C409F0C9740071BF1A /* Project object */ = {
+		activeArchitecture = i386;
+		activeBuildConfigurationName = Debug;
+		activeExecutable = DC86FE5F14F81962007429DA /* Illustrator */;
+		activeTarget = 508817D309F0C9AD0071BF1A /* AIPluginUpdater */;
+		addToTargets = (
+			508817D309F0C9AD0071BF1A /* AIPluginUpdater */,
+		);
+		codeSenseManager = DC94BA290F82AB1500694CE5 /* Code sense */;
+		executables = (
+			DC86FE5F14F81962007429DA /* Illustrator */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					131,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					243,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					203,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 351804546;
+			PBXWorkspaceStateSaveDate = 351804546;
+		};
+		sourceControlManager = DC94BA280F82AB1500694CE5 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	508817D309F0C9AD0071BF1A /* AIPluginUpdater */ = {
+		activeExec = 0;
+	};
+	6E0C51960A8B6CC600C9A14A /* Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {992, 934}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1469}";
+			sepNavWindowFrame = "{{38, 90}, {1044, 1062}}";
+		};
+	};
+	DC86FE5F14F81962007429DA /* Illustrator */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+			"PBXLSLaunchAction-0" = {
+				PBXLSLaunchAction = 0;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXLSRunLaunchConfig;
+				commandLineArgs = (
+				);
+				displayName = "Executable Runner";
+				environment = {
+				};
+				identifier = com.apple.Xcode.launch.runConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = DC86FE6014F81962007429DA /* Adobe Illustrator.app */;
+		libgmallocEnabled = 0;
+		name = Illustrator;
+		sourceDirectories = (
+		);
+	};
+	DC86FE6014F81962007429DA /* Adobe Illustrator.app */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = wrapper.application;
+		name = "Adobe Illustrator.app";
+		path = "/Applications/Adobe Illustrator CS3/Adobe Illustrator.app";
+		sourceTree = "<absolute>";
+	};
+	DC86FE7D14F81C97007429DA /* AIPluginUpdater.r */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {985, 934}}";
+			sepNavSelRange = "{41, 0}";
+			sepNavVisRange = "{0, 62}";
+			sepNavWindowFrame = "{{15, 111}, {1044, 1062}}";
+		};
+	};
+	DC86FF5A14F81F9B007429DA /* shellMain.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {985, 3444}}";
+			sepNavSelRange = "{4763, 0}";
+			sepNavVisRange = "{4074, 1060}";
+			sepNavWindowFrame = "{{282, 95}, {1044, 1062}}";
+		};
+	};
+	DC86FF5C14F81FAA007429DA /* reportError.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {548, 3556}}";
+			sepNavSelRange = "{1128, 42}";
+			sepNavVisRange = "{1023, 248}";
+		};
+	};
+	DC86FF6614F82092007429DA /* pluginHandler.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {566, 3178}}";
+			sepNavSelRange = "{5378, 29}";
+			sepNavVisRange = "{5249, 362}";
+			sepNavWindowFrame = "{{479, 96}, {1044, 1062}}";
+		};
+	};
+	DC86FF6714F82092007429DA /* pluginHandler.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {985, 934}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1030}";
+			sepNavWindowFrame = "{{15, 111}, {1044, 1062}}";
+		};
+	};
+	DC86FF6814F82092007429DA /* Common.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {985, 3248}}";
+			sepNavSelRange = "{1636, 0}";
+			sepNavVisRange = "{362, 1452}";
+			sepNavWindowFrame = "{{38, 90}, {1044, 1062}}";
+		};
+	};
+	DC86FF7714F820EF007429DA /* notifierHandler.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {985, 934}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 912}";
+			sepNavWindowFrame = "{{38, 90}, {1044, 1062}}";
+		};
+	};
+	DC86FF7814F820EF007429DA /* menuHandler.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {680, 2058}}";
+			sepNavSelRange = "{2615, 43}";
+			sepNavVisRange = "{2474, 420}";
+			sepNavWindowFrame = "{{15, 111}, {1044, 1062}}";
+		};
+	};
+	DC94BA280F82AB1500694CE5 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	DC94BA290F82AB1500694CE5 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}

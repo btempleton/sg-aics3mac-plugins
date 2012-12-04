@@ -1,0 +1,9 @@
+/Users/compmac8a/Desktop/Adobe Illustrator CS3 SDK/samplecode/MakeWindow/Source/MakeWindow.cpp:12: error: 'MySuiteImport' does not name a type
+/Users/compmac8a/Desktop/Adobe Illustrator CS3 SDK/samplecode/MakeWindow/Source/MakeWindow.cpp: In function 'AIErr AcquireSuites(SPBasicSuite*)':
+/Users/compmac8a/Desktop/Adobe Illustrator CS3 SDK/samplecode/MakeWindow/Source/MakeWindow.cpp:38: error: 'imports' was not declared in this scope
+/Users/compmac8a/Desktop/Adobe Illustrator CS3 SDK/samplecode/MakeWindow/Source/MakeWindow.cpp: In function 'AIErr ReleaseSuites(SPBasicSuite*)':
+/Users/compmac8a/Desktop/Adobe Illustrator CS3 SDK/samplecode/MakeWindow/Source/MakeWindow.cpp:55: error: 'imports' was not declared in this scope
+/Users/compmac8a/Desktop/Adobe Illustrator CS3 SDK/samplecode/MakeWindow/Source/MakeWindow.cpp: In function 'AIErr AddMenu(SPInterfaceMessage*)':
+/Users/compmac8a/Desktop/Adobe Illustrator CS3 SDK/samplecode/MakeWindow/Source/MakeWindow.cpp:76: error: 'SDKAboutPluginsHelper' was not declared in this scope
+/Users/compmac8a/Desktop/Adobe Illustrator CS3 SDK/samplecode/MakeWindow/Source/MakeWindow.cpp:76: error: expected `;' before 'aboutPluginsHelper'
+/Users/compmac8a/Desktop/Adobe Illustrator CS3 SDK/samplecode/MakeWindow/Source/MakeWindow.cpp:77: error: 'aboutPluginsHelper' was not declared in this scope

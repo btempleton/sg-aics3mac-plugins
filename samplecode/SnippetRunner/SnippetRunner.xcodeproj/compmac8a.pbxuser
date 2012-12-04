@@ -1,0 +1,233 @@
+// !$*UTF8*$!
+{
+	2AE00F360C87133B0065E29A /* SnpDocumentActionHelper.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {890, 19824}}";
+			sepNavSelRange = "{27397, 12}";
+			sepNavVisRange = "{26825, 1481}";
+			sepNavWindowFrame = "{{1005, 129}, {682, 1025}}";
+		};
+	};
+	2AE00F370C87133B0065E29A /* SnpDocumentActionHelper.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {650, 7812}}";
+			sepNavSelRange = "{13013, 120}";
+			sepNavVisRange = "{11183, 2404}";
+			sepNavWindowFrame = "{{613, 101}, {682, 1025}}";
+		};
+	};
+	2AE00F380C87133B0065E29A /* SnpObjectActionHelper.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {720, 3612}}";
+			sepNavSelRange = "{1517, 20}";
+			sepNavVisRange = "{1312, 263}";
+			sepNavWindowFrame = "{{107, 82}, {714, 1007}}";
+		};
+	};
+	508817C409F0C9740071BF1A /* Project object */ = {
+		activeArchitecture = i386;
+		activeBuildConfigurationName = Debug;
+		activeExecutable = DCF08A540FCC6F7200C718B0 /* Executable */;
+		activeTarget = 508817D309F0C9AD0071BF1A /* SnippetRunner */;
+		codeSenseManager = DCF08A640FCC6F8C00C718B0 /* Code sense */;
+		executables = (
+			DCF08A540FCC6F7200C718B0 /* Executable */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					130.58349609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					293,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					203,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 288294549;
+			PBXWorkspaceStateSaveDate = 288294549;
+		};
+		perUserProjectItems = {
+			DC4B5ACD112F03FE00558672 /* PBXBookmark */ = DC4B5ACD112F03FE00558672 /* PBXBookmark */;
+		};
+		sourceControlManager = DCF08A630FCC6F8C00C718B0 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	508817D309F0C9AD0071BF1A /* SnippetRunner */ = {
+		activeExec = 0;
+	};
+	DC4B5ACD112F03FE00558672 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 2AE00F360C87133B0065E29A /* SnpDocumentActionHelper.cpp */;
+	};
+	DCF08A540FCC6F7200C718B0 /* Executable */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+			"PBXLSLaunchAction-0" = {
+				PBXLSLaunchAction = 0;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXLSRunLaunchConfig;
+				commandLineArgs = (
+				);
+				displayName = "Executable Runner";
+				environment = {
+				};
+				identifier = com.apple.Xcode.launch.runConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = DCF08A550FCC6F7200C718B0 /* Adobe Illustrator.app */;
+		libgmallocEnabled = 0;
+		name = Executable;
+		sourceDirectories = (
+		);
+	};
+	DCF08A550FCC6F7200C718B0 /* Adobe Illustrator.app */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = wrapper.application;
+		name = "Adobe Illustrator.app";
+		path = "/Applications/Adobe Illustrator CS3/Adobe Illustrator.app";
+		sourceTree = "<absolute>";
+	};
+	DCF08A630FCC6F8C00C718B0 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	DCF08A640FCC6F8C00C718B0 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	F91923450C0D7661004B32CA /* SnpFileHelper.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1107, 5418}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1719}";
+			sepNavWindowFrame = "{{38, 145}, {1166, 1007}}";
+		};
+	};
+	F91923E00C2BE012004B32CA /* SnpDocumentHelper.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {720, 6384}}";
+			sepNavSelRange = "{6471, 12}";
+			sepNavVisRange = "{6395, 258}";
+			sepNavWindowFrame = "{{84, 103}, {1166, 1007}}";
+		};
+	};
+	F91923E20C2BE012004B32CA /* SnpFileHelper.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1107, 1386}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{282, 2633}";
+			sepNavWindowFrame = "{{61, 124}, {1166, 1007}}";
+		};
+	};
+	F91923F20C2BE02A004B32CA /* SnippetRunnerPreferences.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1107, 1484}}";
+			sepNavSelRange = "{3426, 13}";
+			sepNavVisRange = "{1909, 1644}";
+			sepNavWindowFrame = "{{107, 82}, {1166, 1007}}";
+		};
+	};
+	F94172890BF1CA6C0078B4F4 /* Main.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {623, 1330}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{934, 1173}";
+			sepNavWindowFrame = "{{809, 153}, {682, 1025}}";
+		};
+	};
+	F94172A00BF1D3900078B4F4 /* SnippetRunnerParameter.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {806, 4606}}";
+			sepNavSelRange = "{8202, 13}";
+			sepNavVisRange = "{8137, 226}";
+			sepNavWindowFrame = "{{15, 166}, {1166, 1007}}";
+		};
+	};
+	F94172A20BF1D3900078B4F4 /* SnippetRunnerPromptDialog.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {872, 3416}}";
+			sepNavSelRange = "{2875, 9}";
+			sepNavVisRange = "{2606, 405}";
+		};
+	};
+	F9D7E1B50BF8563C00CAE0DB /* SDKErrors.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {655, 1722}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1654, 2005}";
+			sepNavWindowFrame = "{{84, 103}, {714, 1007}}";
+		};
+	};
+}

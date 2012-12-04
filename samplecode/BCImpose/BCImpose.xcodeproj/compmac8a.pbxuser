@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	2AE97DE00BBC21630041212F /* BCImpose.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {966, 3836}}";
+			sepNavSelRange = "{310, 0}";
+			sepNavVisRange = "{0, 1820}";
+			sepNavWindowFrame = "{{211, 104}, {1025, 953}}";
+		};
+	};
+	2AE97DE20BBC218A0041212F /* BCImpose.r */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {967, 825}}";
+			sepNavSelRange = "{55, 0}";
+			sepNavVisRange = "{0, 55}";
+			sepNavWindowFrame = "{{38, 199}, {1026, 953}}";
+		};
+	};
+	508817C409F0C9740071BF1A /* Project object */ = {
+		activeArchitecture = i386;
+		activeBuildConfigurationName = Release;
+		activeExecutable = DCCD3FE710922EBB00F6D406 /* Illustrator */;
+		activeTarget = 508817D309F0C9AD0071BF1A /* BCImpose */;
+		addToTargets = (
+			508817D309F0C9AD0071BF1A /* BCImpose */,
+		);
+		breakpoints = (
+			DC8DF7CD109A192900F483D6 /* BCImpose.cpp:52 */,
+			DC8DF7CF109A192D00F483D6 /* BCImpose.cpp:46 */,
+			DC8DF7D1109A192F00F483D6 /* BCImpose.cpp:55 */,
+			DCB07D8A10A20ABA0033E0E4 /* BCImpose.cpp:246 */,
+			DCB07D9610A20BE90033E0E4 /* BCImpose.cpp:171 */,
+			DC5C465A10A4A9F2000C3651 /* BCImpose.cpp:76 */,
+			DC5C468510A4AC97000C3651 /* BCImpose.cpp:45 */,
+			DC13D09710A9F7420035A95D /* BCImpose.cpp:65 */,
+			DC5D2E5210AB429200041F68 /* BCImpose.cpp:183 */,
+			DCB3CC5F10B5C31300073494 /* BCImpose.cpp:235 */,
+			DCB3CC8610B5D30A00073494 /* BCImpose.cpp:175 */,
+			DCB3CC8810B5D31000073494 /* BCImpose.cpp:207 */,
+			DCB3CC8D10B5D4BF00073494 /* BCImpose.cpp:150 */,
+			DCB3CC9E10B5D76100073494 /* BCImpose.cpp:144 */,
+			DCB3CCA010B5D79600073494 /* BCImpose.cpp:162 */,
+			DCB3CCA710B5D7BF00073494 /* BCImpose.cpp:145 */,
+			DCB3CCAA10B5D80500073494 /* BCImpose.cpp:132 */,
+			DCB3CCAC10B5D80600073494 /* BCImpose.cpp:133 */,
+			DC6660B610BC668A009E4F51 /* BCImpose.cpp:221 */,
+			DCD32AE110D0361200040CFF /* BCImpose.cpp:78 */,
+			DCD32AE310D0361A00040CFF /* BCImpose.cpp:89 */,
+			DCD32AE910D0367500040CFF /* BCImpose.cpp:200 */,
+			DCD32AEE10D036B100040CFF /* BCImpose.cpp:36 */,
+			DCD32AF210D036C200040CFF /* BCImpose.cpp:38 */,
+		);
+		codeSenseManager = DC1F8129108CED38001ADEB5 /* Code sense */;
+		executables = (
+			DCCD3FE710922EBB00F6D406 /* Illustrator */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					131,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					194,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					154,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 310321985;
+			PBXWorkspaceStateSaveDate = 310321985;
+		};
+		perUserProjectItems = {
+			DCC0C249127F23990026E1DF /* PBXBookmark */ = DCC0C249127F23990026E1DF /* PBXBookmark */;
+			DCC0C24E127F23DE0026E1DF /* PBXTextBookmark */ = DCC0C24E127F23DE0026E1DF /* PBXTextBookmark */;
+		};
+		sourceControlManager = DC1F8128108CED38001ADEB5 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	508817D309F0C9AD0071BF1A /* BCImpose */ = {
+		activeExec = 0;
+	};
+	6E0C51960A8B6CC600C9A14A /* Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {992, 825}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1469}";
+			sepNavWindowFrame = "{{38, 199}, {1026, 953}}";
+		};
+	};
+	DC13D09710A9F7420035A95D /* BCImpose.cpp:65 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* BCImpose.cpp */;
+		functionName = "BCImpose()";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 65;
+		location = BCImpose;
+		modificationTime = 282081194.8163649;
+		state = 1;
+	};
+	DC1F8128108CED38001ADEB5 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	DC1F8129108CED38001ADEB5 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	DC5ADDE110ADEC6A000E0F1B /* ArtTree.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1076, 850}}";
+			sepNavSelRange = "{159, 0}";
+			sepNavVisRange = "{0, 1002}";
+			sepNavWindowFrame = "{{190, 110}, {1119, 978}}";
+		};
+	};
+	DC5ADDE210ADEC6A000E0F1B /* ArtTree.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1060, 2240}}";
+			sepNavSelRange = "{1257, 0}";
+			sepNavVisRange = "{0, 1491}";
+			sepNavWindowFrame = "{{553, 71}, {1119, 978}}";
+		};
+	};
+	DC5C465A10A4A9F2000C3651 /* BCImpose.cpp:76 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* BCImpose.cpp */;
+		functionName = "BCImpose()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 76;
+		modificationTime = 282081165.272398;
+		state = 2;
+	};
+	DC5C468510A4AC97000C3651 /* BCImpose.cpp:45 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* BCImpose.cpp */;
+		functionName = "BCImpose()";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 45;
+		location = BCImpose;
+		modificationTime = 282081194.05353;
+		state = 1;
+	};
+	DC5D2E5210AB429200041F68 /* BCImpose.cpp:183 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* BCImpose.cpp */;
+		functionName = "GetColorNamesArtHandle( AIArtHandle searchArt , AIArtHandle &colorNames )";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 183;
+		location = BCImpose;
+		modificationTime = 282081165.272532;
+		state = 2;
+	};
+	DC6660B610BC668A009E4F51 /* BCImpose.cpp:221 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* BCImpose.cpp */;
+		functionName = "CreateColorNameAndPlateNumberLists( AIArtHandle searchArt , AIArtHandle &colorNames , AIArtHandle &plateNumbers )";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 221;
+		location = BCImpose;
+		modificationTime = 282081165.2730042;
+		state = 2;
+	};
+	DC8DF7CD109A192900F483D6 /* BCImpose.cpp:52 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* BCImpose.cpp */;
+		functionName = "BCImpose()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 52;
+		location = BCImpose;
+		modificationTime = 282081165.272079;
+		state = 2;
+	};
+	DC8DF7CF109A192D00F483D6 /* BCImpose.cpp:46 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* BCImpose.cpp */;
+		functionName = "BCImpose()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 46;
+		location = BCImpose;
+		modificationTime = 282081165.272161;
+		state = 2;
+	};
+	DC8DF7D1109A192F00F483D6 /* BCImpose.cpp:55 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* BCImpose.cpp */;
+		functionName = "BCImpose()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 55;
+		location = BCImpose;
+		modificationTime = 282081165.272208;
+		state = 2;
+	};
+	DC9541CF10B331D20005D1AB /* ATEFuncs.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {966, 825}}";
+			sepNavSelRange = "{141, 63}";
+			sepNavVisRange = "{0, 205}";
+			sepNavWindowFrame = "{{15, 220}, {1025, 953}}";
+		};
+	};
+	DC9541D010B331D20005D1AB /* ATEFuncs.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {494, 378}}";
+			sepNavSelRange = "{162, 0}";
+			sepNavVisRange = "{0, 271}";
+			sepNavWindowFrame = "{{93, 182}, {1025, 953}}";
+		};
+	};
+	DCB07D8A10A20ABA0033E0E4 /* BCImpose.cpp:246 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* BCImpose.cpp */;
+		functionName = "GetColorNamesArtHandle( AIArtHandle searchArt , AIArtHandle *colorNames )";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 246;
+		location = BCImpose;
+		modificationTime = 282081165.2722551;
+		state = 2;
+	};
+	DCB07D9610A20BE90033E0E4 /* BCImpose.cpp:171 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* BCImpose.cpp */;
+		functionName = "GetColorNamesArtHandle( AIArtHandle searchArt , AIArtHandle *colorNames )";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 171;
+		location = BCImpose;
+		modificationTime = 282081195.555204;
+		state = 1;
+	};
+	DCB16B54116671F000977675 /* Node.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 19894}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1322}";
+			sepNavWindowFrame = "{{428, 102}, {929, 1021}}";
+		};
+	};
+	DCB16B55116671F000977675 /* Node.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 2730}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 2299}";
+			sepNavWindowFrame = "{{15, 152}, {929, 1021}}";
+		};
+	};
+	DCB16B57116671F000977675 /* Plate.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {896, 2716}}";
+			sepNavSelRange = "{3825, 27}";
+			sepNavVisRange = "{3599, 450}";
+		};
+	};
+	DCB3CC5F10B5C31300073494 /* BCImpose.cpp:235 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* BCImpose.cpp */;
+		functionName = "CreateColorNameAndPlateNumberLists( AIArtHandle searchArt , AIArtHandle &colorNames , AIArtHandle &plateNumbers )";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 235;
+		location = BCImpose;
+		modificationTime = 282081165.272577;
+		state = 2;
+	};
+	DCB3CC8610B5D30A00073494 /* BCImpose.cpp:175 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* BCImpose.cpp */;
+		functionName = "CreateColorNameAndPlateNumberLists( AIArtHandle searchArt , AIArtHandle &colorNames , AIArtHandle &plateNumbers )";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 175;
+		location = BCImpose;
+		modificationTime = 282081165.272629;
+		state = 2;
+	};
+	DCB3CC8810B5D31000073494 /* BCImpose.cpp:207 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* BCImpose.cpp */;
+		functionName = "CreateColorNameAndPlateNumberLists( AIArtHandle searchArt , AIArtHandle &colorNames , AIArtHandle &plateNumbers )";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 207;
+		modificationTime = 282081165.272674;
+		state = 2;
+	};
+	DCB3CC8D10B5D4BF00073494 /* BCImpose.cpp:150 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* BCImpose.cpp */;
+		functionName = "CreateColorNameAndPlateNumberLists( AIArtHandle searchArt , AIArtHandle &colorNames , AIArtHandle &plateNumbers )";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 150;
+		location = BCImpose;
+		modificationTime = 282081165.272726;
+		state = 2;
+	};
+	DCB3CC9E10B5D76100073494 /* BCImpose.cpp:144 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* BCImpose.cpp */;
+		functionName = "CreateColorNameAndPlateNumberLists( AIArtHandle searchArt , AIArtHandle &colorNames , AIArtHandle &plateNumbers )";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 144;
+		location = BCImpose;
+		modificationTime = 282081165.272771;
+		state = 2;
+	};
+	DCB3CCA010B5D79600073494 /* BCImpose.cpp:162 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* BCImpose.cpp */;
+		functionName = "CreateColorNameAndPlateNumberLists( AIArtHandle searchArt , AIArtHandle &colorNames , AIArtHandle &plateNumbers )";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 162;
+		location = BCImpose;
+		modificationTime = 282081165.272815;
+		state = 2;
+	};
+	DCB3CCA710B5D7BF00073494 /* BCImpose.cpp:145 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* BCImpose.cpp */;
+		functionName = "CreateColorNameAndPlateNumberLists( AIArtHandle searchArt , AIArtHandle &colorNames , AIArtHandle &plateNumbers )";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 145;
+		location = BCImpose;
+		modificationTime = 282081165.272859;
+		state = 2;
+	};
+	DCB3CCAA10B5D80500073494 /* BCImpose.cpp:132 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* BCImpose.cpp */;
+		functionName = "CreateColorNameAndPlateNumberLists( AIArtHandle searchArt , AIArtHandle &colorNames , AIArtHandle &plateNumbers )";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 132;
+		location = BCImpose;
+		modificationTime = 282081165.272903;
+		state = 2;
+	};
+	DCB3CCAC10B5D80600073494 /* BCImpose.cpp:133 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* BCImpose.cpp */;
+		functionName = "CreateColorNameAndPlateNumberLists( AIArtHandle searchArt , AIArtHandle &colorNames , AIArtHandle &plateNumbers )";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 133;
+		location = BCImpose;
+		modificationTime = 282081165.272956;
+		state = 2;
+	};
+	DCC0C249127F23990026E1DF /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = DCB16B54116671F000977675 /* Node.cpp */;
+	};
+	DCC0C24E127F23DE0026E1DF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DCB16B54116671F000977675 /* Node.cpp */;
+		name = "Node.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1322;
+		vrLoc = 0;
+	};
+	DCCD3FE710922EBB00F6D406 /* Illustrator */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+			"PBXLSLaunchAction-0" = {
+				PBXLSLaunchAction = 0;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXLSRunLaunchConfig;
+				commandLineArgs = (
+				);
+				displayName = "Executable Runner";
+				environment = {
+				};
+				identifier = com.apple.Xcode.launch.runConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = DCCD3FE810922EBB00F6D406 /* Adobe Illustrator.app */;
+		libgmallocEnabled = 0;
+		name = Illustrator;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	DCCD3FE810922EBB00F6D406 /* Adobe Illustrator.app */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = wrapper.application;
+		name = "Adobe Illustrator.app";
+		path = "/Applications/Adobe Illustrator CS3/Adobe Illustrator.app";
+		sourceTree = "<absolute>";
+	};
+	DCCD401510922F2400F6D406 /* Common.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {967, 4438}}";
+			sepNavSelRange = "{4709, 0}";
+			sepNavVisRange = "{5977, 1471}";
+			sepNavWindowFrame = "{{299, 161}, {1026, 953}}";
+		};
+	};
+	DCCD401F10922F7A00F6D406 /* BCImpose.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {967, 825}}";
+			sepNavSelRange = "{1042, 0}";
+			sepNavVisRange = "{0, 1159}";
+			sepNavWindowFrame = "{{172, 181}, {1026, 953}}";
+		};
+	};
+	DCCD402210922FA000F6D406 /* menuHandler.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {967, 1624}}";
+			sepNavSelRange = "{993, 10}";
+			sepNavVisRange = "{717, 1410}";
+			sepNavWindowFrame = "{{15, 220}, {1026, 953}}";
+		};
+	};
+	DCCD402310922FA000F6D406 /* Suites.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {967, 4270}}";
+			sepNavSelRange = "{13631, 0}";
+			sepNavVisRange = "{10037, 3600}";
+			sepNavWindowFrame = "{{122, 136}, {1026, 953}}";
+		};
+	};
+	DCCD402410922FA000F6D406 /* notifierHandler.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {967, 812}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1685}";
+			sepNavWindowFrame = "{{38, 199}, {1026, 953}}";
+		};
+	};
+	DCCD402510922FA000F6D406 /* pluginHandler.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {720, 2926}}";
+			sepNavSelRange = "{1994, 10}";
+			sepNavVisRange = "{1675, 512}";
+			sepNavWindowFrame = "{{15, 220}, {1026, 953}}";
+		};
+	};
+	DCCD402B10922FDC00F6D406 /* shellMain.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {967, 3710}}";
+			sepNavSelRange = "{958, 0}";
+			sepNavVisRange = "{203, 1605}";
+			sepNavWindowFrame = "{{697, 133}, {1026, 953}}";
+		};
+	};
+	DCCD40381092308800F6D406 /* ColorFuncs.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {872, 518}}";
+			sepNavSelRange = "{184, 28}";
+			sepNavVisRange = "{0, 233}";
+			sepNavWindowFrame = "{{61, 178}, {1026, 953}}";
+		};
+	};
+	DCCD40471092313D00F6D406 /* reportError.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {548, 3556}}";
+			sepNavSelRange = "{1128, 42}";
+			sepNavVisRange = "{922, 331}";
+		};
+	};
+	DCD32AE110D0361200040CFF /* BCImpose.cpp:78 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* BCImpose.cpp */;
+		functionName = "BCImpose()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 78;
+		location = BCImpose;
+		modificationTime = 282081175.301797;
+		state = 1;
+	};
+	DCD32AE310D0361A00040CFF /* BCImpose.cpp:89 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* BCImpose.cpp */;
+		functionName = "BCImpose()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 89;
+		location = BCImpose;
+		modificationTime = 282081175.316282;
+		state = 1;
+	};
+	DCD32AE910D0367500040CFF /* BCImpose.cpp:200 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* BCImpose.cpp */;
+		functionName = "CreateColorNameAndPlateNumberLists( AIArtHandle searchArt , AIArtHandle &colorNames , AIArtHandle &plateNumbers )";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 200;
+		location = BCImpose;
+		modificationTime = 282081175.321169;
+		state = 1;
+	};
+	DCD32AEE10D036B100040CFF /* BCImpose.cpp:36 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* BCImpose.cpp */;
+		functionName = "BCImpose()";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 36;
+		location = BCImpose;
+		modificationTime = 282081188.188245;
+		state = 1;
+	};
+	DCD32AF210D036C200040CFF /* BCImpose.cpp:38 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* BCImpose.cpp */;
+		functionName = "BCImpose()";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 38;
+		location = BCImpose;
+		modificationTime = 282081193.421312;
+		state = 1;
+	};
+	DCF3C9BF10A35149002C9741 /* IText.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {621, 175672}}";
+			sepNavSelRange = "{296789, 0}";
+			sepNavVisRange = "{296467, 765}";
+		};
+	};
+}

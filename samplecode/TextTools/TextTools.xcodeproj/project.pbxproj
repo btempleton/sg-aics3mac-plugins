@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A7772AE0BE6389300A9D493 /* IllustratorSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A7772AD0BE6389300A9D493 /* IllustratorSDK.cpp */; };
+		2AE97DE10BBC21630041212F /* TextTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AE97DE00BBC21630041212F /* TextTools.cpp */; };
+		2AE97DE30BBC218A0041212F /* TextTools.r in Rez */ = {isa = PBXBuildFile; fileRef = 2AE97DE20BBC218A0041212F /* TextTools.r */; };
+		6EE2BA9D0A41E04500CC7CE2 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE2BA9B0A41E04500CC7CE2 /* Carbon.framework */; };
+		DC76873D12AD73DA00AEAF83 /* ATEFuncs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC76872712AD73DA00AEAF83 /* ATEFuncs.cpp */; };
+		DC76873E12AD73DA00AEAF83 /* ATEFuncs.h in Headers */ = {isa = PBXBuildFile; fileRef = DC76872812AD73DA00AEAF83 /* ATEFuncs.h */; };
+		DC76873F12AD73DA00AEAF83 /* CException.mm in Sources */ = {isa = PBXBuildFile; fileRef = DC76872912AD73DA00AEAF83 /* CException.mm */; };
+		DC76874012AD73DA00AEAF83 /* CException.h in Headers */ = {isa = PBXBuildFile; fileRef = DC76872A12AD73DA00AEAF83 /* CException.h */; };
+		DC76874112AD73DA00AEAF83 /* ColorFuncs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC76872B12AD73DA00AEAF83 /* ColorFuncs.cpp */; };
+		DC76874212AD73DA00AEAF83 /* ColorFuncs.h in Headers */ = {isa = PBXBuildFile; fileRef = DC76872C12AD73DA00AEAF83 /* ColorFuncs.h */; };
+		DC76874712AD73DA00AEAF83 /* error.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC76873112AD73DA00AEAF83 /* error.cpp */; };
+		DC76874812AD73DA00AEAF83 /* error.h in Headers */ = {isa = PBXBuildFile; fileRef = DC76873212AD73DA00AEAF83 /* error.h */; };
+		DC76874D12AD73DA00AEAF83 /* PrefPathCheck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC76873712AD73DA00AEAF83 /* PrefPathCheck.cpp */; };
+		DC76874E12AD73DA00AEAF83 /* PrefPathCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = DC76873812AD73DA00AEAF83 /* PrefPathCheck.h */; };
+		DC76875312AD741500AEAF83 /* IAIFilePath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC76875212AD741500AEAF83 /* IAIFilePath.cpp */; };
+		DC76875512AD742700AEAF83 /* IAIUnicodeString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC76875412AD742700AEAF83 /* IAIUnicodeString.cpp */; };
+		DC76875712AD743300AEAF83 /* IText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC76875612AD743300AEAF83 /* IText.cpp */; };
+		DC76875912AD744A00AEAF83 /* IThrowException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC76875812AD744A00AEAF83 /* IThrowException.cpp */; };
+		DC76875B12AD746000AEAF83 /* stringUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC76875A12AD746000AEAF83 /* stringUtils.cpp */; };
+		DC76875D12AD746D00AEAF83 /* reportError.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC76875C12AD746D00AEAF83 /* reportError.cpp */; };
+		DC76876012AD74A000AEAF83 /* TextTools.h in Headers */ = {isa = PBXBuildFile; fileRef = DC76875F12AD74A000AEAF83 /* TextTools.h */; };
+		DC76876612AD74CF00AEAF83 /* FixFreehandType.h in Headers */ = {isa = PBXBuildFile; fileRef = DC76876412AD74CF00AEAF83 /* FixFreehandType.h */; };
+		DC76876712AD74CF00AEAF83 /* FixFreehandType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC76876512AD74CF00AEAF83 /* FixFreehandType.cpp */; };
+		DC76877712AD754200AEAF83 /* Common.h in Headers */ = {isa = PBXBuildFile; fileRef = DC76877512AD754200AEAF83 /* Common.h */; };
+		DC76877812AD754200AEAF83 /* shellMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC76877612AD754200AEAF83 /* shellMain.cpp */; };
+		DC76877F12AD757F00AEAF83 /* menuHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = DC76877D12AD757F00AEAF83 /* menuHandler.h */; };
+		DC76878012AD757F00AEAF83 /* menuHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC76877E12AD757F00AEAF83 /* menuHandler.cpp */; };
+		DC76878312AD759400AEAF83 /* notifierHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = DC76878112AD759400AEAF83 /* notifierHandler.h */; };
+		DC76878412AD759400AEAF83 /* notifierHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC76878212AD759400AEAF83 /* notifierHandler.cpp */; };
+		DC76878712AD75A900AEAF83 /* pluginHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = DC76878512AD75A900AEAF83 /* pluginHandler.h */; };
+		DC76878812AD75A900AEAF83 /* pluginHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC76878612AD75A900AEAF83 /* pluginHandler.cpp */; };
+		DC76879612AD75F600AEAF83 /* Suites.h in Headers */ = {isa = PBXBuildFile; fileRef = DC76879512AD75F600AEAF83 /* Suites.h */; };
+		DC7687A512AD764B00AEAF83 /* Plugin.h in Headers */ = {isa = PBXBuildFile; fileRef = DC7687A412AD764B00AEAF83 /* Plugin.h */; };
+		DCC3B32D14F6C6D50016C96B /* Node.h in Headers */ = {isa = PBXBuildFile; fileRef = DCC3B32C14F6C6D50016C96B /* Node.h */; };
+		DCC3B32F14F6C6DF0016C96B /* Node.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCC3B32E14F6C6DF0016C96B /* Node.mm */; };
+		DCC3B33214F6C6E50016C96B /* Plate.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCC3B33014F6C6E50016C96B /* Plate.mm */; };
+		DCC3B33314F6C6E50016C96B /* Plate.h in Headers */ = {isa = PBXBuildFile; fileRef = DCC3B33114F6C6E50016C96B /* Plate.h */; };
+		DCC3B35914F6C7290016C96B /* CropAreaFuncs.h in Headers */ = {isa = PBXBuildFile; fileRef = DCC3B35514F6C7290016C96B /* CropAreaFuncs.h */; };
+		DCC3B35A14F6C7290016C96B /* DictFuncs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCC3B35614F6C7290016C96B /* DictFuncs.cpp */; };
+		DCC3B35B14F6C7290016C96B /* CropAreaFuncs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCC3B35714F6C7290016C96B /* CropAreaFuncs.cpp */; };
+		DCC3B35C14F6C7290016C96B /* DictFuncs.h in Headers */ = {isa = PBXBuildFile; fileRef = DCC3B35814F6C7290016C96B /* DictFuncs.h */; };
+		DCD5834D13327AF80047D38E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD5834C13327AF80047D38E /* Cocoa.framework */; };
+		DCD5838913327B220047D38E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD5838813327B220047D38E /* Foundation.framework */; };
+		DCD7EA0714B73FB20010458F /* ArtTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCD7EA0514B73FB20010458F /* ArtTree.cpp */; };
+		DCD7EA0814B73FB20010458F /* ArtTree.h in Headers */ = {isa = PBXBuildFile; fileRef = DCD7EA0614B73FB20010458F /* ArtTree.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A7772AD0BE6389300A9D493 /* IllustratorSDK.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = IllustratorSDK.cpp; path = ../common/source/IllustratorSDK.cpp; sourceTree = SOURCE_ROOT; };
+		2AE97DE00BBC21630041212F /* TextTools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TextTools.cpp; path = Source/TextTools.cpp; sourceTree = "<group>"; };
+		2AE97DE20BBC218A0041212F /* TextTools.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; name = TextTools.r; path = Resources/TextTools.r; sourceTree = "<group>"; };
+		6E0C51960A8B6CC600C9A14A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = Info.plist; path = ../common/mac/Info.plist; sourceTree = SOURCE_ROOT; };
+		6EE2BA530A40BB2600CC7CE2 /* TextTools.aip */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextTools.aip; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EE2BA9B0A41E04500CC7CE2 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		DC76872712AD73DA00AEAF83 /* ATEFuncs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ATEFuncs.cpp; sourceTree = "<group>"; };
+		DC76872812AD73DA00AEAF83 /* ATEFuncs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATEFuncs.h; sourceTree = "<group>"; };
+		DC76872912AD73DA00AEAF83 /* CException.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = CException.mm; sourceTree = "<group>"; };
+		DC76872A12AD73DA00AEAF83 /* CException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CException.h; sourceTree = "<group>"; };
+		DC76872B12AD73DA00AEAF83 /* ColorFuncs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ColorFuncs.cpp; sourceTree = "<group>"; };
+		DC76872C12AD73DA00AEAF83 /* ColorFuncs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorFuncs.h; sourceTree = "<group>"; };
+		DC76873112AD73DA00AEAF83 /* error.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = error.cpp; sourceTree = "<group>"; };
+		DC76873212AD73DA00AEAF83 /* error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = "<group>"; };
+		DC76873712AD73DA00AEAF83 /* PrefPathCheck.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PrefPathCheck.cpp; sourceTree = "<group>"; };
+		DC76873812AD73DA00AEAF83 /* PrefPathCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefPathCheck.h; sourceTree = "<group>"; };
+		DC76875212AD741500AEAF83 /* IAIFilePath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IAIFilePath.cpp; path = ../../illustratorapi/illustrator/IAIFilePath.cpp; sourceTree = SOURCE_ROOT; };
+		DC76875412AD742700AEAF83 /* IAIUnicodeString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IAIUnicodeString.cpp; path = ../../illustratorapi/illustrator/IAIUnicodeString.cpp; sourceTree = SOURCE_ROOT; };
+		DC76875612AD743300AEAF83 /* IText.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IText.cpp; path = ../../illustratorapi/ate/IText.cpp; sourceTree = SOURCE_ROOT; };
+		DC76875812AD744A00AEAF83 /* IThrowException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IThrowException.cpp; path = ../../illustratorapi/ate/IThrowException.cpp; sourceTree = SOURCE_ROOT; };
+		DC76875A12AD746000AEAF83 /* stringUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = stringUtils.cpp; path = ../common/source/stringUtils.cpp; sourceTree = SOURCE_ROOT; };
+		DC76875C12AD746D00AEAF83 /* reportError.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = reportError.cpp; path = ../common/source/reportError.cpp; sourceTree = SOURCE_ROOT; };
+		DC76875F12AD74A000AEAF83 /* TextTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextTools.h; path = Source/TextTools.h; sourceTree = "<group>"; };
+		DC76876412AD74CF00AEAF83 /* FixFreehandType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FixFreehandType.h; path = Source/FixFreehandType.h; sourceTree = "<group>"; };
+		DC76876512AD74CF00AEAF83 /* FixFreehandType.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FixFreehandType.cpp; path = Source/FixFreehandType.cpp; sourceTree = "<group>"; };
+		DC76877512AD754200AEAF83 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Common.h; path = Source/Common.h; sourceTree = "<group>"; };
+		DC76877612AD754200AEAF83 /* shellMain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = shellMain.cpp; path = Source/shellMain.cpp; sourceTree = "<group>"; };
+		DC76877D12AD757F00AEAF83 /* menuHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = menuHandler.h; path = Source/menuHandler.h; sourceTree = "<group>"; };
+		DC76877E12AD757F00AEAF83 /* menuHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = menuHandler.cpp; path = Source/menuHandler.cpp; sourceTree = "<group>"; };
+		DC76878112AD759400AEAF83 /* notifierHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = notifierHandler.h; path = Source/notifierHandler.h; sourceTree = "<group>"; };
+		DC76878212AD759400AEAF83 /* notifierHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = notifierHandler.cpp; path = Source/notifierHandler.cpp; sourceTree = "<group>"; };
+		DC76878512AD75A900AEAF83 /* pluginHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pluginHandler.h; path = Source/pluginHandler.h; sourceTree = "<group>"; };
+		DC76878612AD75A900AEAF83 /* pluginHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pluginHandler.cpp; path = Source/pluginHandler.cpp; sourceTree = "<group>"; };
+		DC76879512AD75F600AEAF83 /* Suites.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Suites.h; path = Source/Suites.h; sourceTree = "<group>"; };
+		DC7687A412AD764B00AEAF83 /* Plugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Plugin.h; path = Resources/Plugin.h; sourceTree = "<group>"; };
+		DCC3B32C14F6C6D50016C96B /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		DCC3B32E14F6C6DF0016C96B /* Node.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Node.mm; sourceTree = "<group>"; };
+		DCC3B33014F6C6E50016C96B /* Plate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Plate.mm; sourceTree = "<group>"; };
+		DCC3B33114F6C6E50016C96B /* Plate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plate.h; sourceTree = "<group>"; };
+		DCC3B35514F6C7290016C96B /* CropAreaFuncs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CropAreaFuncs.h; sourceTree = "<group>"; };
+		DCC3B35614F6C7290016C96B /* DictFuncs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DictFuncs.cpp; sourceTree = "<group>"; };
+		DCC3B35714F6C7290016C96B /* CropAreaFuncs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CropAreaFuncs.cpp; sourceTree = "<group>"; };
+		DCC3B35814F6C7290016C96B /* DictFuncs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DictFuncs.h; sourceTree = "<group>"; };
+		DCD5834C13327AF80047D38E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		DCD5838813327B220047D38E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		DCD7EA0514B73FB20010458F /* ArtTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ArtTree.cpp; sourceTree = "<group>"; };
+		DCD7EA0614B73FB20010458F /* ArtTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtTree.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		508817D209F0C9AD0071BF1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE2BA9D0A41E04500CC7CE2 /* Carbon.framework in Frameworks */,
+				DCD5834D13327AF80047D38E /* Cocoa.framework in Frameworks */,
+				DCD5838913327B220047D38E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A7772AA0BE6387700A9D493 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				DC76875212AD741500AEAF83 /* IAIFilePath.cpp */,
+				DC76875412AD742700AEAF83 /* IAIUnicodeString.cpp */,
+				DC76875612AD743300AEAF83 /* IText.cpp */,
+				DC76875812AD744A00AEAF83 /* IThrowException.cpp */,
+				DC76875A12AD746000AEAF83 /* stringUtils.cpp */,
+				DC76875C12AD746D00AEAF83 /* reportError.cpp */,
+				2A7772AD0BE6389300A9D493 /* IllustratorSDK.cpp */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		2AE97C910BBC0FAB0041212F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				DC76875F12AD74A000AEAF83 /* TextTools.h */,
+				2AE97DE00BBC21630041212F /* TextTools.cpp */,
+				DC76876412AD74CF00AEAF83 /* FixFreehandType.h */,
+				DC76876512AD74CF00AEAF83 /* FixFreehandType.cpp */,
+				DC76872412AD73DA00AEAF83 /* My Custom Headers */,
+				2A7772AA0BE6387700A9D493 /* Shared */,
+				DC76877612AD754200AEAF83 /* shellMain.cpp */,
+				DC76877512AD754200AEAF83 /* Common.h */,
+				DC76877D12AD757F00AEAF83 /* menuHandler.h */,
+				DC76877E12AD757F00AEAF83 /* menuHandler.cpp */,
+				DC76878112AD759400AEAF83 /* notifierHandler.h */,
+				DC76878212AD759400AEAF83 /* notifierHandler.cpp */,
+				DC76878512AD75A900AEAF83 /* pluginHandler.h */,
+				DC76878612AD75A900AEAF83 /* pluginHandler.cpp */,
+				DC76879512AD75F600AEAF83 /* Suites.h */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		508817C209F0C9740071BF1A = {
+			isa = PBXGroup;
+			children = (
+				2AE97C910BBC0FAB0041212F /* Sources */,
+				5088180609F0CDD00071BF1A /* Libraries */,
+				6EE2BA590A40BDD300CC7CE2 /* Resources */,
+				508817D509F0C9AD0071BF1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		508817D509F0C9AD0071BF1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EE2BA530A40BB2600CC7CE2 /* TextTools.aip */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5088180609F0CDD00071BF1A /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				DCD5838813327B220047D38E /* Foundation.framework */,
+				DCD5834C13327AF80047D38E /* Cocoa.framework */,
+				6EE2BA9B0A41E04500CC7CE2 /* Carbon.framework */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		6EE2BA590A40BDD300CC7CE2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6E0C51960A8B6CC600C9A14A /* Info.plist */,
+				2AE97DE20BBC218A0041212F /* TextTools.r */,
+				DC7687A412AD764B00AEAF83 /* Plugin.h */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DC76872412AD73DA00AEAF83 /* My Custom Headers */ = {
+			isa = PBXGroup;
+			children = (
+				DCC3B35714F6C7290016C96B /* CropAreaFuncs.cpp */,
+				DCC3B35514F6C7290016C96B /* CropAreaFuncs.h */,
+				DCC3B35614F6C7290016C96B /* DictFuncs.cpp */,
+				DCC3B35814F6C7290016C96B /* DictFuncs.h */,
+				DCC3B32E14F6C6DF0016C96B /* Node.mm */,
+				DCC3B32C14F6C6D50016C96B /* Node.h */,
+				DCC3B33014F6C6E50016C96B /* Plate.mm */,
+				DCC3B33114F6C6E50016C96B /* Plate.h */,
+				DCD7EA0514B73FB20010458F /* ArtTree.cpp */,
+				DCD7EA0614B73FB20010458F /* ArtTree.h */,
+				DC76872712AD73DA00AEAF83 /* ATEFuncs.cpp */,
+				DC76872812AD73DA00AEAF83 /* ATEFuncs.h */,
+				DC76872912AD73DA00AEAF83 /* CException.mm */,
+				DC76872A12AD73DA00AEAF83 /* CException.h */,
+				DC76872B12AD73DA00AEAF83 /* ColorFuncs.cpp */,
+				DC76872C12AD73DA00AEAF83 /* ColorFuncs.h */,
+				DC76873112AD73DA00AEAF83 /* error.cpp */,
+				DC76873212AD73DA00AEAF83 /* error.h */,
+				DC76873712AD73DA00AEAF83 /* PrefPathCheck.cpp */,
+				DC76873812AD73DA00AEAF83 /* PrefPathCheck.h */,
+			);
+			name = "My Custom Headers";
+			path = "../common/My Custom Headers";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6EE2BA0A0A40B76300CC7CE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC76873E12AD73DA00AEAF83 /* ATEFuncs.h in Headers */,
+				DC76874012AD73DA00AEAF83 /* CException.h in Headers */,
+				DC76874212AD73DA00AEAF83 /* ColorFuncs.h in Headers */,
+				DC76874812AD73DA00AEAF83 /* error.h in Headers */,
+				DC76874E12AD73DA00AEAF83 /* PrefPathCheck.h in Headers */,
+				DC76876012AD74A000AEAF83 /* TextTools.h in Headers */,
+				DC76876612AD74CF00AEAF83 /* FixFreehandType.h in Headers */,
+				DC76877712AD754200AEAF83 /* Common.h in Headers */,
+				DC76877F12AD757F00AEAF83 /* menuHandler.h in Headers */,
+				DC76878312AD759400AEAF83 /* notifierHandler.h in Headers */,
+				DC76878712AD75A900AEAF83 /* pluginHandler.h in Headers */,
+				DC76879612AD75F600AEAF83 /* Suites.h in Headers */,
+				DC7687A512AD764B00AEAF83 /* Plugin.h in Headers */,
+				DCD7EA0814B73FB20010458F /* ArtTree.h in Headers */,
+				DCC3B32D14F6C6D50016C96B /* Node.h in Headers */,
+				DCC3B33314F6C6E50016C96B /* Plate.h in Headers */,
+				DCC3B35914F6C7290016C96B /* CropAreaFuncs.h in Headers */,
+				DCC3B35C14F6C7290016C96B /* DictFuncs.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		508817D309F0C9AD0071BF1A /* TextTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 508817D709F0C9AE0071BF1A /* Build configuration list for PBXNativeTarget "TextTools" */;
+			buildPhases = (
+				6EE2BA0A0A40B76300CC7CE2 /* Headers */,
+				508817D109F0C9AD0071BF1A /* Sources */,
+				508817D009F0C9AD0071BF1A /* Resources */,
+				508817D209F0C9AD0071BF1A /* Frameworks */,
+				6EE2BA0C0A40B77400CC7CE2 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextTools;
+			productName = TextTools;
+			productReference = 6EE2BA530A40BB2600CC7CE2 /* TextTools.aip */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		508817C409F0C9740071BF1A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 508817C509F0C9740071BF1A /* Build configuration list for PBXProject "TextTools" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 0;
+			mainGroup = 508817C209F0C9740071BF1A;
+			productRefGroup = 508817D509F0C9AD0071BF1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				508817D309F0C9AD0071BF1A /* TextTools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		508817D009F0C9AD0071BF1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		6EE2BA0C0A40B77400CC7CE2 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE97DE30BBC218A0041212F /* TextTools.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		508817D109F0C9AD0071BF1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE97DE10BBC21630041212F /* TextTools.cpp in Sources */,
+				2A7772AE0BE6389300A9D493 /* IllustratorSDK.cpp in Sources */,
+				DC76873D12AD73DA00AEAF83 /* ATEFuncs.cpp in Sources */,
+				DC76873F12AD73DA00AEAF83 /* CException.mm in Sources */,
+				DC76874112AD73DA00AEAF83 /* ColorFuncs.cpp in Sources */,
+				DC76874712AD73DA00AEAF83 /* error.cpp in Sources */,
+				DC76874D12AD73DA00AEAF83 /* PrefPathCheck.cpp in Sources */,
+				DC76875312AD741500AEAF83 /* IAIFilePath.cpp in Sources */,
+				DC76875512AD742700AEAF83 /* IAIUnicodeString.cpp in Sources */,
+				DC76875712AD743300AEAF83 /* IText.cpp in Sources */,
+				DC76875912AD744A00AEAF83 /* IThrowException.cpp in Sources */,
+				DC76875B12AD746000AEAF83 /* stringUtils.cpp in Sources */,
+				DC76875D12AD746D00AEAF83 /* reportError.cpp in Sources */,
+				DC76876712AD74CF00AEAF83 /* FixFreehandType.cpp in Sources */,
+				DC76877812AD754200AEAF83 /* shellMain.cpp in Sources */,
+				DC76878012AD757F00AEAF83 /* menuHandler.cpp in Sources */,
+				DC76878412AD759400AEAF83 /* notifierHandler.cpp in Sources */,
+				DC76878812AD75A900AEAF83 /* pluginHandler.cpp in Sources */,
+				DCD7EA0714B73FB20010458F /* ArtTree.cpp in Sources */,
+				DCC3B32F14F6C6DF0016C96B /* Node.mm in Sources */,
+				DCC3B33214F6C6E50016C96B /* Plate.mm in Sources */,
+				DCC3B35A14F6C7290016C96B /* DictFuncs.cpp in Sources */,
+				DCC3B35B14F6C7290016C96B /* CropAreaFuncs.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		508817C609F0C9740071BF1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AI_CONFIGURATION = debug;
+				AI_LOCALE = en_US;
+				AI_PLATFORM = xcode;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				CONFIGURATION_BUILD_DIR = "./../Output/Mac/$(AI_CONFIGURATION)";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/Default";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DSTROOT = "/tmp/$(PROJECT_NAME).dst";
+				EXPORTED_SYMBOLS_FILE = "";
+				FRAMEWORK_SEARCH_PATHS = "$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)";
+				GCC_DEBUGGING_SYMBOLS = used;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ./../common/includes/IllustratorSDKdebug.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"./../../illustratorapi/**",
+					"/Developer/Headers/FlatCarbon/**",
+					"./**",
+					"./../common/**",
+				);
+				INFOPLIST_FILE = ../common/mac/Info.plist;
+				INFOPLIST_PREFIX_HEADER = ../common/includes/SDKDef.h;
+				INFOPLIST_PREPROCESS = YES;
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				OBJROOT = .;
+				ONLY_LINK_ESSENTIAL_SYMBOLS = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				PRESERVE_DEAD_CODE_INITS_AND_TERMS = NO;
+				PRODUCT_NAME = TextTools;
+				PROJECTNAME = TextTools;
+				REZ_SEARCH_PATHS = "";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SEPARATE_STRIP = NO;
+				SHARED_PRECOMPS_DIR = "./../Output/Mac/SharedPrecompiledHeaders/$(AI_CONFIGURATION)";
+				SKIP_INSTALL = NO;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = all;
+				SYMROOT = "./../Output/Mac/$(AI_CONFIGURATION)";
+				WRAPPER_EXTENSION = aip;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		508817C709F0C9740071BF1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AI_CONFIGURATION = release;
+				AI_LOCALE = en_US;
+				AI_PLATFORM = xcode;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				CONFIGURATION_BUILD_DIR = "./../Output/Mac/$(AI_CONFIGURATION)";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/Default";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DSTROOT = "/tmp/$(PROJECT_NAME).dst";
+				EXPORTED_SYMBOLS_FILE = "";
+				FRAMEWORK_SEARCH_PATHS = "$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)";
+				GCC_DEBUGGING_SYMBOLS = used;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ./../common/includes/IllustratorSDKrelease.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"./../../illustratorapi/**",
+					"/Developer/Headers/FlatCarbon/**",
+					"./**",
+					"./../common/**",
+				);
+				INFOPLIST_FILE = ../common/mac/Info.plist;
+				INFOPLIST_PREFIX_HEADER = ../common/includes/SDKDef.h;
+				INFOPLIST_PREPROCESS = YES;
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				OBJROOT = .;
+				ONLY_LINK_ESSENTIAL_SYMBOLS = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				PRESERVE_DEAD_CODE_INITS_AND_TERMS = NO;
+				PRODUCT_NAME = TextTools;
+				PROJECTNAME = TextTools;
+				REZ_SEARCH_PATHS = "";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SEPARATE_STRIP = NO;
+				SHARED_PRECOMPS_DIR = "./../Output/Mac/SharedPrecompiledHeaders/$(AI_CONFIGURATION)";
+				SKIP_INSTALL = NO;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = all;
+				SYMROOT = "./../Output/Mac/$(AI_CONFIGURATION)";
+				WRAPPER_EXTENSION = aip;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		508817D809F0C9AE0071BF1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		508817D909F0C9AE0071BF1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		508817C509F0C9740071BF1A /* Build configuration list for PBXProject "TextTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				508817C609F0C9740071BF1A /* Debug */,
+				508817C709F0C9740071BF1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		508817D709F0C9AE0071BF1A /* Build configuration list for PBXNativeTarget "TextTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				508817D809F0C9AE0071BF1A /* Debug */,
+				508817D909F0C9AE0071BF1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 508817C409F0C9740071BF1A /* Project object */;
+}

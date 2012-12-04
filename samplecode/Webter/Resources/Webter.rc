@@ -1,0 +1,344 @@
+//========================================================================================
+//  
+//  $File: //ai/ai13/devtech/sdk/public/samplecode/Webter/Resources/Webter.rc $
+//
+//  $Revision: #2 $
+//
+//  Copyright 1987-2007 Adobe Systems Incorporated. All rights reserved.
+//  
+//  NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance 
+//  with the terms of the Adobe license agreement accompanying it.  If you have received
+//  this file from a source other than Adobe, then your use, modification, or 
+//  distribution of it requires the prior written permission of Adobe.
+//  
+//========================================================================================
+
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "plugin.h"
+#include "afxres.h"
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#define kMySDKPluginName "Webter"
+#define PIPL_PLUGIN_NAME kMySDKPluginName
+
+/////////////////////////////////////////////////////////////////////////////
+// VersionInfo
+//
+
+#include "VersionInfo.rc"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PIPL
+//
+
+#define LC(a,b,c,d)		#d, #c, #b, #a
+
+16000  PiPL  DISCARDABLE
+BEGIN
+	0x0001, 					/* Reserved (for Photoshop) */
+	0L, 						/* kCurrentPiPLVersion */
+	4L, 						/* Property Count */
+								
+	LC(A,D,B,E),				/* Vendor Key */
+	LC(k,i,n,d),				/* PIKindProperty */
+	0L,							/* Property ID */
+	4L,							/* Property Length */
+	LC(S,P,E,A),				/* SweetPEA2 plug in */
+								
+	LC(A,D,B,E),				/* Vendor Key */
+	LC(i,v,r,s),				/* Interface Version */
+	0L,							/* Property ID */
+	4L,							/* Property Length */
+	2L, 						/* Version Number */
+
+	LC(A,D,B,E),				/* Vendor Key */
+	LC(w,x,8,6),				/* PIWin32X86CodeProperty */
+	0L,							/* Property ID */
+	12L,						/* Property Length */
+	"PluginMain\0\0",			/* Entrypoint Name */
+								/* (Long Word padded C String) */
+
+	LC(A,D,B,E),				/* Vendor Key */
+	LC(p,i,n,m),				/* Interface Version */
+	0L,							/* Property ID */
+	8L,							/* Property Length */
+	PIPL_PLUGIN_NAME "\0\0"		/* Plug-in name (padded to 4 bytes) */
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+kFilterDLOG DIALOG DISCARDABLE  0, 0, 146, 73
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Filter"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",kDlgOKButton,90,10,50,14
+    PUSHBUTTON      "Cancel",kDlgCancelButton,90,28,50,14
+    EDITTEXT        kFilterAngleDItem,40,10,35,15,ES_AUTOHSCROLL
+    LTEXT           "Angle:",kFilterAngleDTextItem,11,13,23,10
+    LTEXT           "Note: Filter works best with lots of anchor points.",-1,
+                    11,41,79,26
+END
+
+kFilterFewDLOG DIALOG DISCARDABLE  0, 0, 146, 73
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Filter"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",kDlgOKButton,90,10,50,14
+    PUSHBUTTON      "Cancel",kDlgCancelButton,90,28,50,14
+    EDITTEXT        kFilterAngleDItem,40,10,35,15,ES_AUTOHSCROLL
+    LTEXT           "Angle:",kFilterAngleDTextItem,11,13,23,10
+    LTEXT           "Note: Filter works best with lots of anchor points.",-1,
+                    11,41,79,26
+END
+
+kAboutDLOG DIALOG DISCARDABLE  0, 0, 159, 80
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "About This Plug-in"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",kDlgOKButton,109,12,40,14
+    LTEXT           kSDKDefAboutPluginString,
+                    -1,7,12,93,27
+    LTEXT           kSDKDefCopyrightString,
+                    -1,11,44,129,20
+END
+
+kErrorDialogID DIALOG DISCARDABLE  175, 224, 167, 127
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Plug-in Error"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",kDlgOKButton,127,65,50,14
+    LTEXT           "Message",kErrorMessageText,43,12,126,28
+    LTEXT           "Code",kErrorCodeText,13,66,30,8
+    CONTROL         "",4,"Static",SS_BLACKFRAME,10,10,18,20
+END
+
+16000 DIALOG DISCARDABLE  0, 0, 240, 120
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Webter"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Custom1",5,"ADM Text Edit Popup Type",WS_TABSTOP,60,14,
+                    70,13
+    CONTROL         "Custom1",7,"ADM Popup List Type",WS_TABSTOP,60,48,70,13
+	LTEXT           "Entry:",1,8,14,25,10
+	LTEXT           "Definition:",2,8,31,36,10
+	LTEXT           "Type:",3,8,48,25,10
+    LTEXT           "Document:",4,70,1,54,10
+    LTEXT           "Art:",9,180,1,70,10
+    CONTROL         "Custom1",10,"ADM Text Edit Popup Type",WS_TABSTOP,170,
+                    14,70,12
+    CONTROL         "Custom1",12,"ADM Popup List Type",WS_TABSTOP,170,48,70,
+                    12
+    EDITTEXT        6,60,31,70,14,ES_AUTOHSCROLL
+    EDITTEXT        11,170,31,70,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Add",8,80,65,32,14
+    PUSHBUTTON      "Add",13,190,65,32,14
+END
+
+IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 186, 95
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,24,50,14
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""plugin.h""\r\n"
+    "#include ""afxres.h""\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+800 MENU DISCARDABLE 
+BEGIN
+    POPUP "Popup List"
+    BEGIN
+        MENUITEM "Unknown",                     1
+        MENUITEM "Integer",                     2
+        MENUITEM "Boolean",                     3
+        MENUITEM "Real",                        4
+        MENUITEM "String",                      5
+        MENUITEM "Dict",                        6
+        MENUITEM "Array",                       7
+        MENUITEM "Binary",                      8
+        MENUITEM "Point",                       9
+        MENUITEM "Matrix",                      10
+        MENUITEM "PatternRef",                  11
+        MENUITEM "BrushPatternRef",             12
+        MENUITEM "CustomColorRef",              13
+        MENUITEM "GradientRef",                 14
+        MENUITEM "PluginObjectRef",             15
+        MENUITEM "FillStyle",                   16
+        MENUITEM "StrokeStyle",                 17
+        MENUITEM "UIDType",						18
+        MENUITEM "UIDREFType",					19
+        MENUITEM "XMLNodeType",					20
+        MENUITEM "SVGFilterType",				21
+        MENUITEM "ArtStyleType", 				22
+    END
+END
+
+900 MENU DISCARDABLE 
+BEGIN
+    POPUP "Spin Edit Popup"
+    BEGIN
+        MENUITEM ".25",                         1
+        MENUITEM ".5",                          2
+        MENUITEM SEPARATOR
+        MENUITEM "1",                           4
+        MENUITEM SEPARATOR
+        MENUITEM "5",                           6
+        MENUITEM "10",                          7
+        MENUITEM "20",                          8
+        MENUITEM "50",                          9
+        MENUITEM "100",                         10
+    END
+END
+
+700 MENU DISCARDABLE 
+BEGIN
+    POPUP "Dialog List"
+    BEGIN
+        MENUITEM "ALT Key is pressed",          1
+        MENUITEM "CTRL key is pressed",         2
+        MENUITEM SEPARATOR
+        MENUITEM "Dialog Options...",           4
+        MENUITEM SEPARATOR
+        MENUITEM "Hide something",              6
+        MENUITEM "Lock something",              7
+        MENUITEM SEPARATOR
+        MENUITEM "Another option",              9
+        MENUITEM SEPARATOR
+        MENUITEM "Merge Something",             11
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    16000, DIALOG
+    BEGIN
+        LEFTMARGIN, 8
+        RIGHTMARGIN, 263
+        VERTGUIDE, 44
+        VERTGUIDE, 94
+        VERTGUIDE, 104
+        VERTGUIDE, 154
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 154
+        HORZGUIDE, 14
+        HORZGUIDE, 31
+        HORZGUIDE, 48
+        HORZGUIDE, 65
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    kFilterStrings          "<First Mac index is 1>"
+    16001                   "FIlter Category goes here"
+    16002                   "Filter name... goes here"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    kErrorStrings           "<Mac strings begin at index 1>"
+    16051                   "-108"
+    16052                   "The filter cannot complete because there isn't enough memory (RAM) available."
+    16053                   "271"
+    16054                   "The filter cannot complete because there isn't enough memory (RAM) available."
+    16055                   "SEGM"
+    16056                   "The filter cannot complete because a layer is locked or invisible."
+    16057                   "NESS"
+    16058                   "The filter cannot complete because a path has too many anchor points."
+    16059                   "!sel"
+    16060                   "The selection is not valid for this filter."
+    16061                   "<Others>"
+    16062                   "The filter cannot complete because of an unknown error."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    16600                   "<Mac strings begin  at index 1>"
+    16601                   "This plug-in was written using the"
+    16602                   "Adobe Illustrator CS SDK"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+

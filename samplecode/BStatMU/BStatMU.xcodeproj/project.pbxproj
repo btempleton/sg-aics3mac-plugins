@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A7772AE0BE6389300A9D493 /* IllustratorSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A7772AD0BE6389300A9D493 /* IllustratorSDK.cpp */; };
+		2AE97DE10BBC21630041212F /* BStatMU.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2AE97DE00BBC21630041212F /* BStatMU.mm */; };
+		2AE97DE30BBC218A0041212F /* BStatMU.r in Rez */ = {isa = PBXBuildFile; fileRef = 2AE97DE20BBC218A0041212F /* BStatMU.r */; };
+		6EE2BA9D0A41E04500CC7CE2 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE2BA9B0A41E04500CC7CE2 /* Carbon.framework */; };
+		DC1CFC121264D5BE004631DA /* CException.h in Headers */ = {isa = PBXBuildFile; fileRef = DC1CFBFE1264D5BE004631DA /* CException.h */; };
+		DC1CFC131264D5BE004631DA /* CException.mm in Sources */ = {isa = PBXBuildFile; fileRef = DC1CFBFF1264D5BE004631DA /* CException.mm */; };
+		DC1CFC141264D5BE004631DA /* CropAreaFuncs.h in Headers */ = {isa = PBXBuildFile; fileRef = DC1CFC001264D5BE004631DA /* CropAreaFuncs.h */; };
+		DC1CFC151264D5BE004631DA /* CropAreaFuncs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC1CFC011264D5BE004631DA /* CropAreaFuncs.cpp */; };
+		DC1CFC161264D5BE004631DA /* ColorFuncs.h in Headers */ = {isa = PBXBuildFile; fileRef = DC1CFC021264D5BE004631DA /* ColorFuncs.h */; };
+		DC1CFC171264D5BE004631DA /* ColorFuncs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC1CFC031264D5BE004631DA /* ColorFuncs.cpp */; };
+		DC1CFC181264D5BE004631DA /* PrefPathCheck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC1CFC041264D5BE004631DA /* PrefPathCheck.cpp */; };
+		DC1CFC191264D5BE004631DA /* Plate.h in Headers */ = {isa = PBXBuildFile; fileRef = DC1CFC051264D5BE004631DA /* Plate.h */; };
+		DC1CFC1A1264D5BE004631DA /* Plate.mm in Sources */ = {isa = PBXBuildFile; fileRef = DC1CFC061264D5BE004631DA /* Plate.mm */; };
+		DC1CFC1B1264D5BE004631DA /* ArtTree.h in Headers */ = {isa = PBXBuildFile; fileRef = DC1CFC071264D5BE004631DA /* ArtTree.h */; };
+		DC1CFC1C1264D5BE004631DA /* ArtTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC1CFC081264D5BE004631DA /* ArtTree.cpp */; };
+		DC1CFC1D1264D5BE004631DA /* error.h in Headers */ = {isa = PBXBuildFile; fileRef = DC1CFC091264D5BE004631DA /* error.h */; };
+		DC1CFC1E1264D5BE004631DA /* error.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC1CFC0A1264D5BE004631DA /* error.cpp */; };
+		DC1CFC1F1264D5BE004631DA /* DictFuncs.h in Headers */ = {isa = PBXBuildFile; fileRef = DC1CFC0B1264D5BE004631DA /* DictFuncs.h */; };
+		DC1CFC201264D5BE004631DA /* DictFuncs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC1CFC0C1264D5BE004631DA /* DictFuncs.cpp */; };
+		DC1CFC211264D5BE004631DA /* PrefPathCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = DC1CFC0D1264D5BE004631DA /* PrefPathCheck.h */; };
+		DC1CFC221264D5BE004631DA /* Node.h in Headers */ = {isa = PBXBuildFile; fileRef = DC1CFC0E1264D5BE004631DA /* Node.h */; };
+		DC1CFC231264D5BE004631DA /* Node.mm in Sources */ = {isa = PBXBuildFile; fileRef = DC1CFC0F1264D5BE004631DA /* Node.mm */; };
+		DC1CFC241264D5BE004631DA /* ATEFuncs.h in Headers */ = {isa = PBXBuildFile; fileRef = DC1CFC101264D5BE004631DA /* ATEFuncs.h */; };
+		DC1CFC251264D5BE004631DA /* ATEFuncs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC1CFC111264D5BE004631DA /* ATEFuncs.cpp */; };
+		DC1CFC2C1264D5CF004631DA /* IAIUnicodeString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC1CFC261264D5CF004631DA /* IAIUnicodeString.cpp */; };
+		DC1CFC2D1264D5CF004631DA /* IAIFilePath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC1CFC271264D5CF004631DA /* IAIFilePath.cpp */; };
+		DC1CFC2E1264D5CF004631DA /* IText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC1CFC281264D5CF004631DA /* IText.cpp */; };
+		DC1CFC2F1264D5CF004631DA /* IThrowException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC1CFC291264D5CF004631DA /* IThrowException.cpp */; };
+		DC1CFC301264D5CF004631DA /* stringUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC1CFC2A1264D5CF004631DA /* stringUtils.cpp */; };
+		DC1CFC311264D5CF004631DA /* reportError.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC1CFC2B1264D5CF004631DA /* reportError.cpp */; };
+		DC1CFC371264D625004631DA /* BStatMU.h in Headers */ = {isa = PBXBuildFile; fileRef = DC1CFC361264D625004631DA /* BStatMU.h */; };
+		DC1CFC421264D63E004631DA /* pluginHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = DC1CFC381264D63E004631DA /* pluginHandler.h */; };
+		DC1CFC431264D63E004631DA /* pluginHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC1CFC391264D63E004631DA /* pluginHandler.cpp */; };
+		DC1CFC441264D63E004631DA /* Plugin.h in Headers */ = {isa = PBXBuildFile; fileRef = DC1CFC3A1264D63E004631DA /* Plugin.h */; };
+		DC1CFC451264D63E004631DA /* notifierHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = DC1CFC3B1264D63E004631DA /* notifierHandler.h */; };
+		DC1CFC461264D63E004631DA /* notifierHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC1CFC3C1264D63E004631DA /* notifierHandler.cpp */; };
+		DC1CFC471264D63E004631DA /* menuHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = DC1CFC3D1264D63E004631DA /* menuHandler.h */; };
+		DC1CFC481264D63E004631DA /* menuHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC1CFC3E1264D63E004631DA /* menuHandler.cpp */; };
+		DC1CFC491264D63E004631DA /* Common.h in Headers */ = {isa = PBXBuildFile; fileRef = DC1CFC3F1264D63E004631DA /* Common.h */; };
+		DC1CFC4A1264D63E004631DA /* Suites.h in Headers */ = {isa = PBXBuildFile; fileRef = DC1CFC401264D63E004631DA /* Suites.h */; };
+		DC1CFC4B1264D63E004631DA /* shellMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC1CFC411264D63E004631DA /* shellMain.cpp */; };
+		DC337C91134386E800517177 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC337C90134386E800517177 /* Cocoa.framework */; };
+		DC337C95134386F500517177 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC337C94134386F500517177 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A7772AD0BE6389300A9D493 /* IllustratorSDK.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = IllustratorSDK.cpp; path = ../common/source/IllustratorSDK.cpp; sourceTree = SOURCE_ROOT; };
+		2AE97DE00BBC21630041212F /* BStatMU.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = BStatMU.mm; path = Source/BStatMU.mm; sourceTree = "<group>"; };
+		2AE97DE20BBC218A0041212F /* BStatMU.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; name = BStatMU.r; path = Resources/BStatMU.r; sourceTree = "<group>"; };
+		6E0C51960A8B6CC600C9A14A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = Info.plist; path = ../common/mac/Info.plist; sourceTree = SOURCE_ROOT; };
+		6EE2BA530A40BB2600CC7CE2 /* BStatMU.aip */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BStatMU.aip; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EE2BA9B0A41E04500CC7CE2 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		DC1CFBFE1264D5BE004631DA /* CException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CException.h; path = "../common/My Custom Headers/CException.h"; sourceTree = SOURCE_ROOT; };
+		DC1CFBFF1264D5BE004631DA /* CException.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = CException.mm; path = "../common/My Custom Headers/CException.mm"; sourceTree = SOURCE_ROOT; };
+		DC1CFC001264D5BE004631DA /* CropAreaFuncs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CropAreaFuncs.h; path = "../common/My Custom Headers/CropAreaFuncs.h"; sourceTree = SOURCE_ROOT; };
+		DC1CFC011264D5BE004631DA /* CropAreaFuncs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CropAreaFuncs.cpp; path = "../common/My Custom Headers/CropAreaFuncs.cpp"; sourceTree = SOURCE_ROOT; };
+		DC1CFC021264D5BE004631DA /* ColorFuncs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorFuncs.h; path = "../common/My Custom Headers/ColorFuncs.h"; sourceTree = SOURCE_ROOT; };
+		DC1CFC031264D5BE004631DA /* ColorFuncs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ColorFuncs.cpp; path = "../common/My Custom Headers/ColorFuncs.cpp"; sourceTree = SOURCE_ROOT; };
+		DC1CFC041264D5BE004631DA /* PrefPathCheck.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PrefPathCheck.cpp; path = "../common/My Custom Headers/PrefPathCheck.cpp"; sourceTree = SOURCE_ROOT; };
+		DC1CFC051264D5BE004631DA /* Plate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Plate.h; path = "../common/My Custom Headers/Plate.h"; sourceTree = SOURCE_ROOT; };
+		DC1CFC061264D5BE004631DA /* Plate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Plate.mm; path = "../common/My Custom Headers/Plate.mm"; sourceTree = SOURCE_ROOT; };
+		DC1CFC071264D5BE004631DA /* ArtTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArtTree.h; path = "../common/My Custom Headers/ArtTree.h"; sourceTree = SOURCE_ROOT; };
+		DC1CFC081264D5BE004631DA /* ArtTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ArtTree.cpp; path = "../common/My Custom Headers/ArtTree.cpp"; sourceTree = SOURCE_ROOT; };
+		DC1CFC091264D5BE004631DA /* error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = error.h; path = "../common/My Custom Headers/error.h"; sourceTree = SOURCE_ROOT; };
+		DC1CFC0A1264D5BE004631DA /* error.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = error.cpp; path = "../common/My Custom Headers/error.cpp"; sourceTree = SOURCE_ROOT; };
+		DC1CFC0B1264D5BE004631DA /* DictFuncs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DictFuncs.h; path = "../common/My Custom Headers/DictFuncs.h"; sourceTree = SOURCE_ROOT; };
+		DC1CFC0C1264D5BE004631DA /* DictFuncs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DictFuncs.cpp; path = "../common/My Custom Headers/DictFuncs.cpp"; sourceTree = SOURCE_ROOT; };
+		DC1CFC0D1264D5BE004631DA /* PrefPathCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefPathCheck.h; path = "../common/My Custom Headers/PrefPathCheck.h"; sourceTree = SOURCE_ROOT; };
+		DC1CFC0E1264D5BE004631DA /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Node.h; path = "../common/My Custom Headers/Node.h"; sourceTree = SOURCE_ROOT; };
+		DC1CFC0F1264D5BE004631DA /* Node.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Node.mm; path = "../common/My Custom Headers/Node.mm"; sourceTree = SOURCE_ROOT; };
+		DC1CFC101264D5BE004631DA /* ATEFuncs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATEFuncs.h; path = "../common/My Custom Headers/ATEFuncs.h"; sourceTree = SOURCE_ROOT; };
+		DC1CFC111264D5BE004631DA /* ATEFuncs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ATEFuncs.cpp; path = "../common/My Custom Headers/ATEFuncs.cpp"; sourceTree = SOURCE_ROOT; };
+		DC1CFC261264D5CF004631DA /* IAIUnicodeString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IAIUnicodeString.cpp; path = ../../illustratorapi/illustrator/IAIUnicodeString.cpp; sourceTree = SOURCE_ROOT; };
+		DC1CFC271264D5CF004631DA /* IAIFilePath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IAIFilePath.cpp; path = ../../illustratorapi/illustrator/IAIFilePath.cpp; sourceTree = SOURCE_ROOT; };
+		DC1CFC281264D5CF004631DA /* IText.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IText.cpp; path = ../../illustratorapi/ate/IText.cpp; sourceTree = SOURCE_ROOT; };
+		DC1CFC291264D5CF004631DA /* IThrowException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IThrowException.cpp; path = ../../illustratorapi/ate/IThrowException.cpp; sourceTree = SOURCE_ROOT; };
+		DC1CFC2A1264D5CF004631DA /* stringUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = stringUtils.cpp; path = ../common/source/stringUtils.cpp; sourceTree = SOURCE_ROOT; };
+		DC1CFC2B1264D5CF004631DA /* reportError.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = reportError.cpp; path = ../common/source/reportError.cpp; sourceTree = SOURCE_ROOT; };
+		DC1CFC361264D625004631DA /* BStatMU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BStatMU.h; path = Source/BStatMU.h; sourceTree = "<group>"; };
+		DC1CFC381264D63E004631DA /* pluginHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pluginHandler.h; path = Source/pluginHandler.h; sourceTree = "<group>"; };
+		DC1CFC391264D63E004631DA /* pluginHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pluginHandler.cpp; path = Source/pluginHandler.cpp; sourceTree = "<group>"; };
+		DC1CFC3A1264D63E004631DA /* Plugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Plugin.h; path = Source/Plugin.h; sourceTree = "<group>"; };
+		DC1CFC3B1264D63E004631DA /* notifierHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = notifierHandler.h; path = Source/notifierHandler.h; sourceTree = "<group>"; };
+		DC1CFC3C1264D63E004631DA /* notifierHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = notifierHandler.cpp; path = Source/notifierHandler.cpp; sourceTree = "<group>"; };
+		DC1CFC3D1264D63E004631DA /* menuHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = menuHandler.h; path = Source/menuHandler.h; sourceTree = "<group>"; };
+		DC1CFC3E1264D63E004631DA /* menuHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = menuHandler.cpp; path = Source/menuHandler.cpp; sourceTree = "<group>"; };
+		DC1CFC3F1264D63E004631DA /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Common.h; path = Source/Common.h; sourceTree = "<group>"; };
+		DC1CFC401264D63E004631DA /* Suites.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Suites.h; path = Source/Suites.h; sourceTree = "<group>"; };
+		DC1CFC411264D63E004631DA /* shellMain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = shellMain.cpp; path = Source/shellMain.cpp; sourceTree = "<group>"; };
+		DC337C90134386E800517177 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		DC337C94134386F500517177 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		508817D209F0C9AD0071BF1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE2BA9D0A41E04500CC7CE2 /* Carbon.framework in Frameworks */,
+				DC337C91134386E800517177 /* Cocoa.framework in Frameworks */,
+				DC337C95134386F500517177 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A7772AA0BE6387700A9D493 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				DC1CFC261264D5CF004631DA /* IAIUnicodeString.cpp */,
+				DC1CFC271264D5CF004631DA /* IAIFilePath.cpp */,
+				DC1CFC281264D5CF004631DA /* IText.cpp */,
+				DC1CFC291264D5CF004631DA /* IThrowException.cpp */,
+				DC1CFC2A1264D5CF004631DA /* stringUtils.cpp */,
+				DC1CFC2B1264D5CF004631DA /* reportError.cpp */,
+				2A7772AD0BE6389300A9D493 /* IllustratorSDK.cpp */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		2AE97C910BBC0FAB0041212F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2AE97DE00BBC21630041212F /* BStatMU.mm */,
+				DC1CFC361264D625004631DA /* BStatMU.h */,
+				2A7772AA0BE6387700A9D493 /* Shared */,
+				DC1CFBFD1264D5BE004631DA /* My Custom Headers */,
+				DC1CFC381264D63E004631DA /* pluginHandler.h */,
+				DC1CFC391264D63E004631DA /* pluginHandler.cpp */,
+				DC1CFC3A1264D63E004631DA /* Plugin.h */,
+				DC1CFC3B1264D63E004631DA /* notifierHandler.h */,
+				DC1CFC3C1264D63E004631DA /* notifierHandler.cpp */,
+				DC1CFC3D1264D63E004631DA /* menuHandler.h */,
+				DC1CFC3E1264D63E004631DA /* menuHandler.cpp */,
+				DC1CFC3F1264D63E004631DA /* Common.h */,
+				DC1CFC401264D63E004631DA /* Suites.h */,
+				DC1CFC411264D63E004631DA /* shellMain.cpp */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		508817C209F0C9740071BF1A = {
+			isa = PBXGroup;
+			children = (
+				2AE97C910BBC0FAB0041212F /* Sources */,
+				5088180609F0CDD00071BF1A /* Libraries */,
+				6EE2BA590A40BDD300CC7CE2 /* Resources */,
+				508817D509F0C9AD0071BF1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		508817D509F0C9AD0071BF1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EE2BA530A40BB2600CC7CE2 /* BStatMU.aip */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5088180609F0CDD00071BF1A /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				DC337C94134386F500517177 /* Foundation.framework */,
+				DC337C90134386E800517177 /* Cocoa.framework */,
+				6EE2BA9B0A41E04500CC7CE2 /* Carbon.framework */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		6EE2BA590A40BDD300CC7CE2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6E0C51960A8B6CC600C9A14A /* Info.plist */,
+				2AE97DE20BBC218A0041212F /* BStatMU.r */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DC1CFBFD1264D5BE004631DA /* My Custom Headers */ = {
+			isa = PBXGroup;
+			children = (
+				DC1CFBFE1264D5BE004631DA /* CException.h */,
+				DC1CFBFF1264D5BE004631DA /* CException.mm */,
+				DC1CFC001264D5BE004631DA /* CropAreaFuncs.h */,
+				DC1CFC011264D5BE004631DA /* CropAreaFuncs.cpp */,
+				DC1CFC021264D5BE004631DA /* ColorFuncs.h */,
+				DC1CFC031264D5BE004631DA /* ColorFuncs.cpp */,
+				DC1CFC0D1264D5BE004631DA /* PrefPathCheck.h */,
+				DC1CFC041264D5BE004631DA /* PrefPathCheck.cpp */,
+				DC1CFC051264D5BE004631DA /* Plate.h */,
+				DC1CFC061264D5BE004631DA /* Plate.mm */,
+				DC1CFC071264D5BE004631DA /* ArtTree.h */,
+				DC1CFC081264D5BE004631DA /* ArtTree.cpp */,
+				DC1CFC091264D5BE004631DA /* error.h */,
+				DC1CFC0A1264D5BE004631DA /* error.cpp */,
+				DC1CFC0B1264D5BE004631DA /* DictFuncs.h */,
+				DC1CFC0C1264D5BE004631DA /* DictFuncs.cpp */,
+				DC1CFC0E1264D5BE004631DA /* Node.h */,
+				DC1CFC0F1264D5BE004631DA /* Node.mm */,
+				DC1CFC101264D5BE004631DA /* ATEFuncs.h */,
+				DC1CFC111264D5BE004631DA /* ATEFuncs.cpp */,
+			);
+			name = "My Custom Headers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6EE2BA0A0A40B76300CC7CE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1CFC121264D5BE004631DA /* CException.h in Headers */,
+				DC1CFC141264D5BE004631DA /* CropAreaFuncs.h in Headers */,
+				DC1CFC161264D5BE004631DA /* ColorFuncs.h in Headers */,
+				DC1CFC191264D5BE004631DA /* Plate.h in Headers */,
+				DC1CFC1B1264D5BE004631DA /* ArtTree.h in Headers */,
+				DC1CFC1D1264D5BE004631DA /* error.h in Headers */,
+				DC1CFC1F1264D5BE004631DA /* DictFuncs.h in Headers */,
+				DC1CFC211264D5BE004631DA /* PrefPathCheck.h in Headers */,
+				DC1CFC221264D5BE004631DA /* Node.h in Headers */,
+				DC1CFC241264D5BE004631DA /* ATEFuncs.h in Headers */,
+				DC1CFC371264D625004631DA /* BStatMU.h in Headers */,
+				DC1CFC421264D63E004631DA /* pluginHandler.h in Headers */,
+				DC1CFC441264D63E004631DA /* Plugin.h in Headers */,
+				DC1CFC451264D63E004631DA /* notifierHandler.h in Headers */,
+				DC1CFC471264D63E004631DA /* menuHandler.h in Headers */,
+				DC1CFC491264D63E004631DA /* Common.h in Headers */,
+				DC1CFC4A1264D63E004631DA /* Suites.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		508817D309F0C9AD0071BF1A /* BStatMU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 508817D709F0C9AE0071BF1A /* Build configuration list for PBXNativeTarget "BStatMU" */;
+			buildPhases = (
+				6EE2BA0A0A40B76300CC7CE2 /* Headers */,
+				508817D109F0C9AD0071BF1A /* Sources */,
+				508817D009F0C9AD0071BF1A /* Resources */,
+				508817D209F0C9AD0071BF1A /* Frameworks */,
+				6EE2BA0C0A40B77400CC7CE2 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BStatMU;
+			productName = BStatMU;
+			productReference = 6EE2BA530A40BB2600CC7CE2 /* BStatMU.aip */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		508817C409F0C9740071BF1A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 508817C509F0C9740071BF1A /* Build configuration list for PBXProject "BStatMU" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 0;
+			mainGroup = 508817C209F0C9740071BF1A;
+			productRefGroup = 508817D509F0C9AD0071BF1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				508817D309F0C9AD0071BF1A /* BStatMU */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		508817D009F0C9AD0071BF1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		6EE2BA0C0A40B77400CC7CE2 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE97DE30BBC218A0041212F /* BStatMU.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		508817D109F0C9AD0071BF1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE97DE10BBC21630041212F /* BStatMU.mm in Sources */,
+				2A7772AE0BE6389300A9D493 /* IllustratorSDK.cpp in Sources */,
+				DC1CFC131264D5BE004631DA /* CException.mm in Sources */,
+				DC1CFC151264D5BE004631DA /* CropAreaFuncs.cpp in Sources */,
+				DC1CFC171264D5BE004631DA /* ColorFuncs.cpp in Sources */,
+				DC1CFC181264D5BE004631DA /* PrefPathCheck.cpp in Sources */,
+				DC1CFC1A1264D5BE004631DA /* Plate.mm in Sources */,
+				DC1CFC1C1264D5BE004631DA /* ArtTree.cpp in Sources */,
+				DC1CFC1E1264D5BE004631DA /* error.cpp in Sources */,
+				DC1CFC201264D5BE004631DA /* DictFuncs.cpp in Sources */,
+				DC1CFC231264D5BE004631DA /* Node.mm in Sources */,
+				DC1CFC251264D5BE004631DA /* ATEFuncs.cpp in Sources */,
+				DC1CFC2C1264D5CF004631DA /* IAIUnicodeString.cpp in Sources */,
+				DC1CFC2D1264D5CF004631DA /* IAIFilePath.cpp in Sources */,
+				DC1CFC2E1264D5CF004631DA /* IText.cpp in Sources */,
+				DC1CFC2F1264D5CF004631DA /* IThrowException.cpp in Sources */,
+				DC1CFC301264D5CF004631DA /* stringUtils.cpp in Sources */,
+				DC1CFC311264D5CF004631DA /* reportError.cpp in Sources */,
+				DC1CFC431264D63E004631DA /* pluginHandler.cpp in Sources */,
+				DC1CFC461264D63E004631DA /* notifierHandler.cpp in Sources */,
+				DC1CFC481264D63E004631DA /* menuHandler.cpp in Sources */,
+				DC1CFC4B1264D63E004631DA /* shellMain.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		508817C609F0C9740071BF1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AI_CONFIGURATION = debug;
+				AI_LOCALE = en_US;
+				AI_PLATFORM = xcode;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				CONFIGURATION_BUILD_DIR = "./../Output/Mac/$(AI_CONFIGURATION)";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/Default";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DSTROOT = "/tmp/$(PROJECT_NAME).dst";
+				EXPORTED_SYMBOLS_FILE = "";
+				FRAMEWORK_SEARCH_PATHS = "$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)";
+				GCC_DEBUGGING_SYMBOLS = full;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ./../common/includes/IllustratorSDKdebug.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"./../../illustratorapi/**",
+					"/Developer/Headers/FlatCarbon/**",
+					"./**",
+					"./../common/**",
+				);
+				INFOPLIST_FILE = ../common/mac/Info.plist;
+				INFOPLIST_PREFIX_HEADER = ../common/includes/SDKDef.h;
+				INFOPLIST_PREPROCESS = YES;
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				OBJROOT = .;
+				ONLY_LINK_ESSENTIAL_SYMBOLS = YES;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				PRESERVE_DEAD_CODE_INITS_AND_TERMS = NO;
+				PRODUCT_NAME = BStatMU;
+				PROJECTNAME = BStatMU;
+				REZ_SEARCH_PATHS = "";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SEPARATE_STRIP = NO;
+				SHARED_PRECOMPS_DIR = "./../Output/Mac/SharedPrecompiledHeaders/$(AI_CONFIGURATION)";
+				SKIP_INSTALL = NO;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = all;
+				SYMROOT = "./../Output/Mac/$(AI_CONFIGURATION)";
+				WRAPPER_EXTENSION = aip;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		508817C709F0C9740071BF1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AI_CONFIGURATION = release;
+				AI_LOCALE = en_US;
+				AI_PLATFORM = xcode;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				CONFIGURATION_BUILD_DIR = "./../Output/Mac/$(AI_CONFIGURATION)";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/Default";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DSTROOT = "/tmp/$(PROJECT_NAME).dst";
+				EXPORTED_SYMBOLS_FILE = "";
+				FRAMEWORK_SEARCH_PATHS = "$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)";
+				GCC_DEBUGGING_SYMBOLS = used;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ./../common/includes/IllustratorSDKrelease.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"./../../illustratorapi/**",
+					"/Developer/Headers/FlatCarbon/**",
+					"./**",
+					"./../common/**",
+				);
+				INFOPLIST_FILE = ../common/mac/Info.plist;
+				INFOPLIST_PREFIX_HEADER = ../common/includes/SDKDef.h;
+				INFOPLIST_PREPROCESS = YES;
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				OBJROOT = .;
+				ONLY_LINK_ESSENTIAL_SYMBOLS = YES;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				PRESERVE_DEAD_CODE_INITS_AND_TERMS = NO;
+				PRODUCT_NAME = BStatMU;
+				PROJECTNAME = BStatMU;
+				REZ_SEARCH_PATHS = "";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SEPARATE_STRIP = NO;
+				SHARED_PRECOMPS_DIR = "./../Output/Mac/SharedPrecompiledHeaders/$(AI_CONFIGURATION)";
+				SKIP_INSTALL = NO;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = all;
+				SYMROOT = "./../Output/Mac/$(AI_CONFIGURATION)";
+				WRAPPER_EXTENSION = aip;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		508817D809F0C9AE0071BF1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		508817D909F0C9AE0071BF1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		508817C509F0C9740071BF1A /* Build configuration list for PBXProject "BStatMU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				508817C609F0C9740071BF1A /* Debug */,
+				508817C709F0C9740071BF1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		508817D709F0C9AE0071BF1A /* Build configuration list for PBXNativeTarget "BStatMU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				508817D809F0C9AE0071BF1A /* Debug */,
+				508817D909F0C9AE0071BF1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 508817C409F0C9740071BF1A /* Project object */;
+}

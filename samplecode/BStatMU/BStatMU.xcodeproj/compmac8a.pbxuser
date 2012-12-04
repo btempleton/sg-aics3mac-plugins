@@ -1,0 +1,1293 @@
+// !$*UTF8*$!
+{
+	2AE97DE00BBC21630041212F /* BStatMU.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 3528}}";
+			sepNavSelRange = "{3777, 0}";
+			sepNavVisRange = "{2525, 3218}";
+			sepNavWindowFrame = "{{470, 157}, {929, 1021}}";
+		};
+	};
+	2AE97DE20BBC218A0041212F /* BStatMU.r */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 893}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 54}";
+			sepNavWindowFrame = "{{15, 152}, {929, 1021}}";
+		};
+	};
+	508817C409F0C9740071BF1A /* Project object */ = {
+		activeArchitecture = i386;
+		activeBuildConfigurationName = Debug;
+		activeExecutable = DC1CFC4D1264D673004631DA /* Illustrator */;
+		activeTarget = 508817D309F0C9AD0071BF1A /* BStatMU */;
+		addToTargets = (
+			508817D309F0C9AD0071BF1A /* BStatMU */,
+		);
+		breakpoints = (
+			DCA07AD7126E132B00DEB9AE /* Node.mm:1211 */,
+			DCA07AE8126E13DE00DEB9AE /* Node.mm:1256 */,
+			DC3E06DD126F5A4C001B9C5A /* Node.mm:671 */,
+			DC3E0732126F6522001B9C5A /* CException.mm:16 */,
+			DC3E073D126F6544001B9C5A /* Node.mm:1248 */,
+			DC9F8872127F2E7C0030EED6 /* BStatMU.mm:141 */,
+			DC337CFD134387D400517177 /* BStatMU.mm:266 */,
+			DC337CFF134387D500517177 /* BStatMU.mm:262 */,
+			DC337D01134387D700517177 /* BStatMU.mm:258 */,
+			DC337D03134387D900517177 /* BStatMU.mm:249 */,
+			DC337D05134387DB00517177 /* BStatMU.mm:245 */,
+			DC337D07134387DD00517177 /* BStatMU.mm:241 */,
+			DC337D09134387DE00517177 /* BStatMU.mm:232 */,
+			DC337D0B134387DF00517177 /* BStatMU.mm:228 */,
+			DC337D0D134387E000517177 /* BStatMU.mm:224 */,
+			DC337D0F134387E200517177 /* BStatMU.mm:215 */,
+			DC337D11134387E300517177 /* BStatMU.mm:211 */,
+			DC337D13134387E400517177 /* BStatMU.mm:207 */,
+			DC337E5E134393F500517177 /* BStatMU.mm:151 */,
+			DC337E65134394C000517177 /* Node.mm:235 */,
+			DC337E67134394C100517177 /* Node.mm:238 */,
+			DC337E69134394C200517177 /* Node.mm:241 */,
+			DC337E6B134394C300517177 /* Node.mm:244 */,
+			DC337E6D134394C700517177 /* Node.mm:253 */,
+			DC337E6F134394C900517177 /* Node.mm:256 */,
+			DC337E71134394D600517177 /* Node.mm:262 */,
+			DC337E73134394E800517177 /* Node.mm:309 */,
+			DC337F901343B05200517177 /* BStatMU.mm:109 */,
+			DC337FA91343B0A900517177 /* Plate.mm:314 */,
+			DC337FAB1343B0D500517177 /* CropAreaFuncs.cpp:43 */,
+			DC582457134E2DCC00A531A1 /* Plate.mm:101 */,
+			DC582459134E2DE900A531A1 /* Plate.mm:311 */,
+			DC58245C134E2E5200A531A1 /* Plate.mm:445 */,
+			DC582460134E2EAC00A531A1 /* Plate.mm:312 */,
+			DC582462134E2EC900A531A1 /* Plate.mm:102 */,
+			DC582475134E2F4600A531A1 /* Plate.mm:167 */,
+			DC582477134E2F4600A531A1 /* Plate.mm:168 */,
+			DC582479134E2F4700A531A1 /* Plate.mm:169 */,
+			DC5824A1134E369600A531A1 /* Plate.mm:438 */,
+			DC5824A3134E372500A531A1 /* Plate.mm:440 */,
+			DC5824A5134E372700A531A1 /* Plate.mm:442 */,
+			DC6A51A6134E3A1C003F5529 /* Plate.mm:429 */,
+			DC6A51D6134E3CB9003F5529 /* Plate.mm:42 */,
+			DC6A51DE134E3CDD003F5529 /* BStatMU.mm:90 */,
+			DC6A5205134E3F07003F5529 /* Plate.mm:422 */,
+			DC6A520E134E3F5C003F5529 /* Plate.mm:237 */,
+			DC6A521B134E4014003F5529 /* BStatMU.mm:200 */,
+		);
+		codeSenseManager = DC1F8129108CED38001ADEB5 /* Code sense */;
+		executables = (
+			DC1CFC4D1264D673004631DA /* Illustrator */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					306,
+					20,
+					207,
+					207,
+					136,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					131,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					286,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 323893677;
+			PBXWorkspaceStateSaveDate = 323893677;
+		};
+		perUserProjectItems = {
+			DC5824C3134E396C00A531A1 /* PBXTextBookmark */ = DC5824C3134E396C00A531A1 /* PBXTextBookmark */;
+			DC5824C4134E396C00A531A1 /* PBXTextBookmark */ = DC5824C4134E396C00A531A1 /* PBXTextBookmark */;
+			DC6A521C134E402A003F5529 /* PBXTextBookmark */ = DC6A521C134E402A003F5529 /* PBXTextBookmark */;
+			DC6A521E134E402A003F5529 /* PBXTextBookmark */ = DC6A521E134E402A003F5529 /* PBXTextBookmark */;
+			DC6A5227134E402F003F5529 /* PBXTextBookmark */ = DC6A5227134E402F003F5529 /* PBXTextBookmark */;
+			DC6A5228134E402F003F5529 /* PBXTextBookmark */ = DC6A5228134E402F003F5529 /* PBXTextBookmark */;
+			DC6A5229134E402F003F5529 /* PBXTextBookmark */ = DC6A5229134E402F003F5529 /* PBXTextBookmark */;
+			DC6A522A134E402F003F5529 /* PBXTextBookmark */ = DC6A522A134E402F003F5529 /* PBXTextBookmark */;
+		};
+		sourceControlManager = DC1F8128108CED38001ADEB5 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	508817D309F0C9AD0071BF1A /* BStatMU */ = {
+		activeExec = 0;
+	};
+	DC1CFBFE1264D5BE004631DA /* CException.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {728, 980}}";
+			sepNavSelRange = "{7, 12}";
+			sepNavVisRange = "{0, 190}";
+			sepNavWindowFrame = "{{15, 152}, {929, 1021}}";
+		};
+	};
+	DC1CFBFF1264D5BE004631DA /* CException.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {722, 1876}}";
+			sepNavSelRange = "{155, 12}";
+			sepNavVisRange = "{37, 203}";
+			sepNavWindowFrame = "{{348, 140}, {929, 1021}}";
+		};
+	};
+	DC1CFC001264D5BE004631DA /* CropAreaFuncs.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 893}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 666}";
+			sepNavWindowFrame = "{{61, 110}, {929, 1021}}";
+		};
+	};
+	DC1CFC011264D5BE004631DA /* CropAreaFuncs.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1273, 1680}}";
+			sepNavSelRange = "{1067, 0}";
+			sepNavVisRange = "{360, 870}";
+			sepNavWindowFrame = "{{577, 94}, {929, 1021}}";
+		};
+	};
+	DC1CFC021264D5BE004631DA /* ColorFuncs.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {998, 462}}";
+			sepNavSelRange = "{184, 28}";
+			sepNavVisRange = "{0, 438}";
+			sepNavWindowFrame = "{{15, 152}, {929, 1021}}";
+		};
+	};
+	DC1CFC031264D5BE004631DA /* ColorFuncs.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {884, 5124}}";
+			sepNavSelRange = "{1519, 0}";
+			sepNavVisRange = "{10464, 1893}";
+			sepNavWindowFrame = "{{38, 131}, {929, 1021}}";
+		};
+	};
+	DC1CFC041264D5BE004631DA /* PrefPathCheck.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 893}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 510}";
+			sepNavWindowFrame = "{{61, 110}, {929, 1021}}";
+		};
+	};
+	DC1CFC051264D5BE004631DA /* Plate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 3738}}";
+			sepNavSelRange = "{4833, 0}";
+			sepNavVisRange = "{3596, 3490}";
+			sepNavWindowFrame = "{{102, 115}, {929, 1021}}";
+		};
+	};
+	DC1CFC061264D5BE004631DA /* Plate.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {896, 6930}}";
+			sepNavSelRange = "{12760, 0}";
+			sepNavVisRange = "{11993, 1806}";
+			sepNavWindowFrame = "{{191, 123}, {929, 1021}}";
+		};
+	};
+	DC1CFC071264D5BE004631DA /* ArtTree.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1046, 893}}";
+			sepNavSelRange = "{197, 0}";
+			sepNavVisRange = "{0, 1125}";
+			sepNavWindowFrame = "{{84, 89}, {929, 1021}}";
+		};
+	};
+	DC1CFC081264D5BE004631DA /* ArtTree.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {872, 2842}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1728}";
+			sepNavWindowFrame = "{{15, 152}, {929, 1021}}";
+		};
+	};
+	DC1CFC091264D5BE004631DA /* error.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 893}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 217}";
+			sepNavWindowFrame = "{{38, 131}, {929, 1021}}";
+		};
+	};
+	DC1CFC0A1264D5BE004631DA /* error.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 893}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 181}";
+			sepNavWindowFrame = "{{61, 110}, {929, 1021}}";
+		};
+	};
+	DC1CFC0B1264D5BE004631DA /* DictFuncs.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 893}}";
+			sepNavSelRange = "{869, 0}";
+			sepNavVisRange = "{0, 1289}";
+			sepNavWindowFrame = "{{84, 89}, {929, 1021}}";
+		};
+	};
+	DC1CFC0C1264D5BE004631DA /* DictFuncs.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 1596}}";
+			sepNavSelRange = "{2013, 54}";
+			sepNavVisRange = "{1025, 1358}";
+			sepNavWindowFrame = "{{15, 152}, {929, 1021}}";
+		};
+	};
+	DC1CFC0D1264D5BE004631DA /* PrefPathCheck.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 893}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 269}";
+			sepNavWindowFrame = "{{38, 131}, {929, 1021}}";
+		};
+	};
+	DC1CFC0E1264D5BE004631DA /* Node.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 2744}}";
+			sepNavSelRange = "{611, 16}";
+			sepNavVisRange = "{167, 2348}";
+			sepNavWindowFrame = "{{315, 134}, {929, 1021}}";
+		};
+	};
+	DC1CFC0F1264D5BE004631DA /* Node.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 20384}}";
+			sepNavSelRange = "{1009, 20}";
+			sepNavVisRange = "{153, 1394}";
+			sepNavWindowFrame = "{{801, 139}, {929, 1021}}";
+		};
+	};
+	DC1CFC101264D5BE004631DA /* ATEFuncs.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {986, 893}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1033}";
+			sepNavWindowFrame = "{{61, 110}, {929, 1021}}";
+		};
+	};
+	DC1CFC111264D5BE004631DA /* ATEFuncs.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {980, 2898}}";
+			sepNavSelRange = "{2648, 6}";
+			sepNavVisRange = "{2559, 205}";
+			sepNavWindowFrame = "{{84, 89}, {929, 1021}}";
+		};
+	};
+	DC1CFC361264D625004631DA /* BStatMU.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {870, 893}}";
+			sepNavSelRange = "{954, 15}";
+			sepNavVisRange = "{0, 1063}";
+			sepNavWindowFrame = "{{38, 131}, {929, 1021}}";
+		};
+	};
+	DC1CFC391264D63E004631DA /* pluginHandler.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1273, 2996}}";
+			sepNavSelRange = "{1413, 0}";
+			sepNavVisRange = "{1005, 948}";
+		};
+	};
+	DC1CFC3C1264D63E004631DA /* notifierHandler.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {720, 1582}}";
+			sepNavSelRange = "{2437, 0}";
+			sepNavVisRange = "{2340, 210}";
+			sepNavWindowFrame = "{{324, 141}, {1144, 1014}}";
+		};
+	};
+	DC1CFC3E1264D63E004631DA /* menuHandler.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1273, 1722}}";
+			sepNavSelRange = "{572, 0}";
+			sepNavVisRange = "{348, 399}";
+		};
+	};
+	DC1CFC411264D63E004631DA /* shellMain.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1273, 3444}}";
+			sepNavSelRange = "{3447, 0}";
+			sepNavVisRange = "{3162, 658}";
+		};
+	};
+	DC1CFC4D1264D673004631DA /* Illustrator */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+			"PBXLSLaunchAction-0" = {
+				PBXLSLaunchAction = 0;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXLSRunLaunchConfig;
+				commandLineArgs = (
+				);
+				displayName = "Executable Runner";
+				environment = {
+				};
+				identifier = com.apple.Xcode.launch.runConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = DC1CFC4E1264D673004631DA /* Adobe Illustrator.app */;
+		libgmallocEnabled = 0;
+		name = Illustrator;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	DC1CFC4E1264D673004631DA /* Adobe Illustrator.app */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = wrapper.application;
+		name = "Adobe Illustrator.app";
+		path = "/Applications/Adobe Illustrator CS3/Adobe Illustrator.app";
+		sourceTree = "<absolute>";
+	};
+	DC1F8128108CED38001ADEB5 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	DC1F8129108CED38001ADEB5 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	DC337CFD134387D400517177 /* BStatMU.mm:266 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* BStatMU.mm */;
+		functionName = "KeyObjectsFound()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 266;
+		location = BStatMU;
+		modificationTime = 323895256.407852;
+		state = 1;
+	};
+	DC337CFF134387D500517177 /* BStatMU.mm:262 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* BStatMU.mm */;
+		functionName = "KeyObjectsFound()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 262;
+		location = BStatMU;
+		modificationTime = 323895256.421876;
+		state = 1;
+	};
+	DC337D01134387D700517177 /* BStatMU.mm:258 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* BStatMU.mm */;
+		functionName = "KeyObjectsFound()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 258;
+		location = BStatMU;
+		modificationTime = 323895256.482644;
+		state = 1;
+	};
+	DC337D03134387D900517177 /* BStatMU.mm:249 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* BStatMU.mm */;
+		functionName = "KeyObjectsFound()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 249;
+		location = BStatMU;
+		modificationTime = 323895256.495292;
+		state = 1;
+	};
+	DC337D05134387DB00517177 /* BStatMU.mm:245 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* BStatMU.mm */;
+		functionName = "KeyObjectsFound()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 245;
+		location = BStatMU;
+		modificationTime = 323895256.519908;
+		state = 1;
+	};
+	DC337D07134387DD00517177 /* BStatMU.mm:241 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* BStatMU.mm */;
+		functionName = "KeyObjectsFound()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 241;
+		location = BStatMU;
+		modificationTime = 323895256.534589;
+		state = 1;
+	};
+	DC337D09134387DE00517177 /* BStatMU.mm:232 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* BStatMU.mm */;
+		functionName = "KeyObjectsFound()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 232;
+		location = BStatMU;
+		modificationTime = 323895256.582533;
+		state = 1;
+	};
+	DC337D0B134387DF00517177 /* BStatMU.mm:228 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* BStatMU.mm */;
+		functionName = "KeyObjectsFound()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 228;
+		location = BStatMU;
+		modificationTime = 323895256.598377;
+		state = 1;
+	};
+	DC337D0D134387E000517177 /* BStatMU.mm:224 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* BStatMU.mm */;
+		functionName = "KeyObjectsFound()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 224;
+		location = BStatMU;
+		modificationTime = 323895256.623415;
+		state = 1;
+	};
+	DC337D0F134387E200517177 /* BStatMU.mm:215 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* BStatMU.mm */;
+		functionName = "KeyObjectsFound()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 215;
+		location = BStatMU;
+		modificationTime = 323895256.638192;
+		state = 1;
+	};
+	DC337D11134387E300517177 /* BStatMU.mm:211 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* BStatMU.mm */;
+		functionName = "KeyObjectsFound()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 211;
+		location = BStatMU;
+		modificationTime = 323895256.677517;
+		state = 1;
+	};
+	DC337D13134387E400517177 /* BStatMU.mm:207 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* BStatMU.mm */;
+		functionName = "KeyObjectsFound()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 207;
+		location = BStatMU;
+		modificationTime = 323895256.693737;
+		state = 1;
+	};
+	DC337E5E134393F500517177 /* BStatMU.mm:151 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* BStatMU.mm */;
+		functionName = "BStatMU()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 151;
+		location = BStatMU;
+		modificationTime = 323895256.720594;
+		state = 1;
+	};
+	DC337E65134394C000517177 /* Node.mm:235 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC1CFC0F1264D5BE004631DA /* Node.mm */;
+		functionName = "Node::FindPlateNumber(Node* const startNode, AIArtHandle currArtHandle, int const lookWhere)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 235;
+		location = BStatMU;
+		modificationTime = 323895244.669588;
+		state = 2;
+	};
+	DC337E67134394C100517177 /* Node.mm:238 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC1CFC0F1264D5BE004631DA /* Node.mm */;
+		functionName = "Node::FindPlateNumber(Node* const startNode, AIArtHandle currArtHandle, int const lookWhere)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 238;
+		location = BStatMU;
+		modificationTime = 323895244.669643;
+		state = 2;
+	};
+	DC337E69134394C200517177 /* Node.mm:241 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC1CFC0F1264D5BE004631DA /* Node.mm */;
+		functionName = "Node::FindPlateNumber(Node* const startNode, AIArtHandle currArtHandle, int const lookWhere)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 241;
+		location = BStatMU;
+		modificationTime = 323895244.669696;
+		state = 2;
+	};
+	DC337E6B134394C300517177 /* Node.mm:244 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC1CFC0F1264D5BE004631DA /* Node.mm */;
+		functionName = "Node::FindPlateNumber(Node* const startNode, AIArtHandle currArtHandle, int const lookWhere)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 244;
+		location = BStatMU;
+		modificationTime = 323895244.66975;
+		state = 2;
+	};
+	DC337E6D134394C700517177 /* Node.mm:253 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC1CFC0F1264D5BE004631DA /* Node.mm */;
+		functionName = "Node::FindPlateNumber(Node* const startNode, AIArtHandle currArtHandle, int const lookWhere)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 253;
+		location = BStatMU;
+		modificationTime = 323895244.669804;
+		state = 2;
+	};
+	DC337E6F134394C900517177 /* Node.mm:256 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC1CFC0F1264D5BE004631DA /* Node.mm */;
+		functionName = "Node::FindPlateNumber(Node* const startNode, AIArtHandle currArtHandle, int const lookWhere)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 256;
+		location = BStatMU;
+		modificationTime = 323895244.669858;
+		state = 2;
+	};
+	DC337E71134394D600517177 /* Node.mm:262 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC1CFC0F1264D5BE004631DA /* Node.mm */;
+		functionName = "Node::FindPlateNumber(Node* const startNode, AIArtHandle currArtHandle, int const lookWhere)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 262;
+		location = BStatMU;
+		modificationTime = 323895244.669913;
+		state = 2;
+	};
+	DC337E73134394E800517177 /* Node.mm:309 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC1CFC0F1264D5BE004631DA /* Node.mm */;
+		functionName = "Node::FindPlateNumber(Node* const startNode, AIArtHandle currArtHandle, int const lookWhere)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 309;
+		location = BStatMU;
+		modificationTime = 323895244.669967;
+		state = 2;
+	};
+	DC337F901343B05200517177 /* BStatMU.mm:109 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* BStatMU.mm */;
+		functionName = "BStatMU()";
+		hitCount = 2;
+		ignoreCount = 0;
+		lineNumber = 109;
+		location = BStatMU;
+		modificationTime = 323895300.888143;
+		state = 1;
+	};
+	DC337FA91343B0A900517177 /* Plate.mm:314 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC1CFC061264D5BE004631DA /* Plate.mm */;
+		functionName = "Plate::PlateDictionaryStore()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 314;
+		location = PrintToPDF;
+		modificationTime = 323895256.019842;
+		state = 1;
+	};
+	DC337FAB1343B0D500517177 /* CropAreaFuncs.cpp:43 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC1CFC011264D5BE004631DA /* CropAreaFuncs.cpp */;
+		functionName = "ForceCropCoordUpdate()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 43;
+		location = PrintToPDF;
+		modificationTime = 323895256.078007;
+		state = 1;
+	};
+	DC3E06DD126F5A4C001B9C5A /* Node.mm:671 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC1CFC0F1264D5BE004631DA /* Node.mm */;
+		functionName = "Node::FindRegBox(Node* const startNode, AIArtHandle const currArtHandle, int const lookWhere)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 671;
+		location = BStatMU;
+		modificationTime = 323895244.668471;
+		state = 2;
+	};
+	DC3E0732126F6522001B9C5A /* CException.mm:16 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC1CFBFF1264D5BE004631DA /* CException.mm */;
+		functionName = "CException::Report()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 16;
+		location = PrintToPDF;
+		modificationTime = 323895342.390399;
+		state = 1;
+	};
+	DC3E073D126F6544001B9C5A /* Node.mm:1248 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC1CFC0F1264D5BE004631DA /* Node.mm */;
+		functionName = "FindAllObjects(Node* const startNode, Node* const currNode)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1248;
+		location = BStatMU;
+		modificationTime = 323895244.668547;
+		state = 2;
+	};
+	DC582457134E2DCC00A531A1 /* Plate.mm:101 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC1CFC061264D5BE004631DA /* Plate.mm */;
+		functionName = "Plate()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 101;
+		location = PrintToPDF;
+		modificationTime = 323895256.107444;
+		state = 1;
+	};
+	DC582459134E2DE900A531A1 /* Plate.mm:311 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC1CFC061264D5BE004631DA /* Plate.mm */;
+		functionName = "Plate::PlateDictionaryStore()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 311;
+		location = PrintToPDF;
+		modificationTime = 323895256.121382;
+		state = 1;
+	};
+	DC58245C134E2E5200A531A1 /* Plate.mm:445 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC1CFC061264D5BE004631DA /* Plate.mm */;
+		functionName = "Plate::PutUIDRefInPlateDict(AIUIDRef uidRef, ai::UnicodeString objectLabel, int CAIndex)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 445;
+		location = BStatMU;
+		modificationTime = 323895244.670547;
+		state = 2;
+	};
+	DC582460134E2EAC00A531A1 /* Plate.mm:312 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC1CFC061264D5BE004631DA /* Plate.mm */;
+		functionName = "Plate::PlateDictionaryStore()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 312;
+		location = PrintToPDF;
+		modificationTime = 323895256.154348;
+		state = 1;
+	};
+	DC582462134E2EC900A531A1 /* Plate.mm:102 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC1CFC061264D5BE004631DA /* Plate.mm */;
+		functionName = "Plate()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 102;
+		location = PrintToPDF;
+		modificationTime = 323895256.169298;
+		state = 1;
+	};
+	DC582475134E2F4600A531A1 /* Plate.mm:167 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC1CFC061264D5BE004631DA /* Plate.mm */;
+		functionName = "Plate::PlateDictionaryRetrieve()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 167;
+		location = PrintToPDF;
+		modificationTime = 323895256.205772;
+		state = 1;
+	};
+	DC582477134E2F4600A531A1 /* Plate.mm:168 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC1CFC061264D5BE004631DA /* Plate.mm */;
+		functionName = "Plate::PlateDictionaryRetrieve()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 168;
+		location = PrintToPDF;
+		modificationTime = 323895256.24403;
+		state = 1;
+	};
+	DC582479134E2F4700A531A1 /* Plate.mm:169 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC1CFC061264D5BE004631DA /* Plate.mm */;
+		functionName = "Plate::PlateDictionaryRetrieve()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 169;
+		location = PrintToPDF;
+		modificationTime = 323895256.268693;
+		state = 1;
+	};
+	DC5824A1134E369600A531A1 /* Plate.mm:438 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC1CFC061264D5BE004631DA /* Plate.mm */;
+		functionName = "Plate::PutUIDRefInPlateDict(AIUIDRef uidRef, ai::UnicodeString objectLabel, int CAIndex)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 438;
+		location = PrintToPDF;
+		modificationTime = 323895244.671751;
+		state = 2;
+	};
+	DC5824A3134E372500A531A1 /* Plate.mm:440 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC1CFC061264D5BE004631DA /* Plate.mm */;
+		functionName = "Plate::PutUIDRefInPlateDict(AIUIDRef uidRef, ai::UnicodeString objectLabel, int CAIndex)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 440;
+		location = PrintToPDF;
+		modificationTime = 323895244.671896;
+		state = 2;
+	};
+	DC5824A5134E372700A531A1 /* Plate.mm:442 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC1CFC061264D5BE004631DA /* Plate.mm */;
+		functionName = "Plate::PutUIDRefInPlateDict(AIUIDRef uidRef, ai::UnicodeString objectLabel, int CAIndex)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 442;
+		location = PrintToPDF;
+		modificationTime = 323895244.672039;
+		state = 2;
+	};
+	DC5824C3134E396C00A531A1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC1CFC0F1264D5BE004631DA /* Node.mm */;
+		name = "Node.mm: 56";
+		rLen = 20;
+		rLoc = 1009;
+		rType = 0;
+		vrLen = 1394;
+		vrLoc = 153;
+	};
+	DC5824C4134E396C00A531A1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC1CFC051264D5BE004631DA /* Plate.h */;
+		name = "Plate.h: 149";
+		rLen = 0;
+		rLoc = 4833;
+		rType = 0;
+		vrLen = 3341;
+		vrLoc = 3620;
+	};
+	DC6A51A6134E3A1C003F5529 /* Plate.mm:429 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC1CFC061264D5BE004631DA /* Plate.mm */;
+		functionName = "Plate::GetUIDRefFromPlateDict(ai::UnicodeString objectLabel, int CAIndex, AIUIDRef* uidRef)";
+		hitCount = 2;
+		ignoreCount = 0;
+		lineNumber = 429;
+		location = BStatMU;
+		modificationTime = 323895299.362529;
+		state = 2;
+	};
+	DC6A51D6134E3CB9003F5529 /* Plate.mm:42 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC1CFC061264D5BE004631DA /* Plate.mm */;
+		functionName = "Plate::Plate(int CAIndex)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 42;
+		location = PrintToPDF;
+		modificationTime = 323895256.300514;
+		state = 1;
+	};
+	DC6A51DE134E3CDD003F5529 /* BStatMU.mm:90 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* BStatMU.mm */;
+		functionName = "BStatMU()";
+		hitCount = 2;
+		ignoreCount = 0;
+		lineNumber = 90;
+		location = BStatMU;
+		modificationTime = 323895287.487175;
+		state = 1;
+	};
+	DC6A5205134E3F07003F5529 /* Plate.mm:422 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC1CFC061264D5BE004631DA /* Plate.mm */;
+		functionName = "Plate::GetUIDRefFromPlateDict(ai::UnicodeString objectLabel, int CAIndex, AIUIDRef* uidRef)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 422;
+		location = PrintToPDF;
+		modificationTime = 323895298.146479;
+		state = 2;
+	};
+	DC6A520E134E3F5C003F5529 /* Plate.mm:237 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC1CFC061264D5BE004631DA /* Plate.mm */;
+		functionName = "Plate::PlateDictionaryRetrieve()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 237;
+		location = PrintToPDF;
+		modificationTime = 323895256.356359;
+		state = 1;
+	};
+	DC6A521B134E4014003F5529 /* BStatMU.mm:200 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* BStatMU.mm */;
+		functionName = "KeyObjectsFound()";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 200;
+		location = BStatMU;
+		modificationTime = 323895317.48455;
+		state = 1;
+	};
+	DC6A521C134E402A003F5529 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC1CFC061264D5BE004631DA /* Plate.mm */;
+		rLen = 0;
+		rLoc = 428;
+		rType = 1;
+	};
+	DC6A521E134E402A003F5529 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2AE97DE00BBC21630041212F /* BStatMU.mm */;
+		rLen = 0;
+		rLoc = 89;
+		rType = 1;
+	};
+	DC6A5227134E402F003F5529 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC1CFC061264D5BE004631DA /* Plate.mm */;
+		name = "Plate.mm: 429";
+		rLen = 0;
+		rLoc = 12760;
+		rType = 0;
+		vrLen = 1806;
+		vrLoc = 11993;
+	};
+	DC6A5228134E402F003F5529 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2AE97DE00BBC21630041212F /* BStatMU.mm */;
+		name = "BStatMU.mm: 90";
+		rLen = 0;
+		rLoc = 3777;
+		rType = 0;
+		vrLen = 3218;
+		vrLoc = 2525;
+	};
+	DC6A5229134E402F003F5529 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC1CFC051264D5BE004631DA /* Plate.h */;
+		name = "Plate.h: 148";
+		rLen = 0;
+		rLoc = 4833;
+		rType = 0;
+		vrLen = 3490;
+		vrLoc = 3596;
+	};
+	DC6A522A134E402F003F5529 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DC1CFC0F1264D5BE004631DA /* Node.mm */;
+		name = "Node.mm: 56";
+		rLen = 20;
+		rLoc = 1009;
+		rType = 0;
+		vrLen = 1394;
+		vrLoc = 153;
+	};
+	DC9F8872127F2E7C0030EED6 /* BStatMU.mm:141 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* BStatMU.mm */;
+		functionName = "BStatMU()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 141;
+		location = BStatMU;
+		modificationTime = 323895244.668599;
+		state = 2;
+	};
+	DCA07AD7126E132B00DEB9AE /* Node.mm:1211 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC1CFC0F1264D5BE004631DA /* Node.mm */;
+		functionName = "FindAllObjects(Node* const startNode, Node* const currNode)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1211;
+		location = BStatMU;
+		modificationTime = 323895244.668325;
+		state = 2;
+	};
+	DCA07AE8126E13DE00DEB9AE /* Node.mm:1256 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC1CFC0F1264D5BE004631DA /* Node.mm */;
+		functionName = "Find(Node* const startNode, Node* inNode, FIND_FUNCTIONS const &find)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 1256;
+		location = BStatMU;
+		modificationTime = 323895244.668415;
+		state = 2;
+	};
+}

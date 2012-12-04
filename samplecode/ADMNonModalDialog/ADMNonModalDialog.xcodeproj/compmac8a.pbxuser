@@ -1,0 +1,255 @@
+// !$*UTF8*$!
+{
+	2A7B29CE0B676052007BC262 /* Resource.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 854}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{618, 1723}";
+			sepNavWindowFrame = "{{107, 335}, {987, 754}}";
+		};
+	};
+	2A7B2C3E0B68C461007BC262 /* Icons.r */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 430}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 933}";
+			sepNavWindowFrame = "{{15, 615}, {750, 558}}";
+		};
+	};
+	508817C409F0C9740071BF1A /* Project object */ = {
+		activeArchitecture = i386;
+		activeBuildConfigurationName = Debug;
+		activeExecutable = DCD5F1C30FB21CCF0035786A /* Executable */;
+		activeTarget = 508817D309F0C9AD0071BF1A /* ADMNonModalDialog */;
+		breakpoints = (
+			DCD5F1BE0FB21CB50035786A /* admHandler.cpp:43 */,
+			DCD5F1FE0FB21E4E0035786A /* admHandler.cpp:40 */,
+		);
+		codeSenseManager = DC5917FC0F815F12005CB653 /* Code sense */;
+		executables = (
+			DCD5F1C30FB21CCF0035786A /* Executable */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					172.58349609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					285,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 288553670;
+			PBXWorkspaceStateSaveDate = 288553670;
+		};
+		sourceControlManager = DC5917FB0F815F12005CB653 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	508817D309F0C9AD0071BF1A /* ADMNonModalDialog */ = {
+		activeExec = 0;
+	};
+	6E0C51E00A8B700900C9A14A /* Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1168, 630}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1469}";
+			sepNavWindowFrame = "{{38, 394}, {1227, 758}}";
+		};
+	};
+	6E9997A90A536A7200D69A4A /* admHandler.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {716, 6622}}";
+			sepNavSelRange = "{814, 21}";
+			sepNavVisRange = "{0, 1137}";
+			sepNavWindowFrame = "{{496, 397}, {750, 558}}";
+		};
+	};
+	6E9997AA0A536A7200D69A4A /* Common.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 3360}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1483, 661}";
+			sepNavWindowFrame = "{{153, 293}, {987, 754}}";
+		};
+	};
+	6E9997AB0A536A7200D69A4A /* menuHandler.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1168, 2562}}";
+			sepNavSelRange = "{2797, 7}";
+			sepNavVisRange = "{2838, 1465}";
+			sepNavWindowFrame = "{{654, 124}, {1227, 758}}";
+		};
+	};
+	6E9997AC0A536A7200D69A4A /* notifierHandler.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {937, 714}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{217, 1313}";
+			sepNavWindowFrame = "{{38, 424}, {996, 728}}";
+		};
+	};
+	6E9997AD0A536A7200D69A4A /* pluginHandler.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1168, 2954}}";
+			sepNavSelRange = "{4702, 13}";
+			sepNavVisRange = "{1028, 1143}";
+			sepNavWindowFrame = "{{107, 332}, {1227, 758}}";
+		};
+	};
+	6E9997C80A536AE100D69A4A /* adm.rsrc */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1188, 630}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {1188, 630}}";
+			sepNavWindowFrame = "{{61, 373}, {1227, 758}}";
+		};
+	};
+	DC5917FB0F815F12005CB653 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	DC5917FC0F815F12005CB653 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	DCD5F1BE0FB21CB50035786A /* admHandler.cpp:43 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6E9997A90A536A7200D69A4A /* admHandler.cpp */;
+		functionName = "createADMDialog( AINotifierMessage *message )";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 43;
+		location = ADMNonModalDialog;
+		modificationTime = 263331437.464438;
+		state = 1;
+	};
+	DCD5F1C30FB21CCF0035786A /* Executable */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+			"PBXLSLaunchAction-0" = {
+				PBXLSLaunchAction = 0;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXLSRunLaunchConfig;
+				commandLineArgs = (
+				);
+				displayName = "Executable Runner";
+				environment = {
+				};
+				identifier = com.apple.Xcode.launch.runConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = DCD5F1C40FB21CCF0035786A /* Adobe Illustrator.app */;
+		libgmallocEnabled = 0;
+		name = Executable;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	DCD5F1C40FB21CCF0035786A /* Adobe Illustrator.app */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = wrapper.application;
+		name = "Adobe Illustrator.app";
+		path = "/Applications/Adobe Illustrator CS3/Adobe Illustrator.app";
+		sourceTree = "<absolute>";
+	};
+	DCD5F1FE0FB21E4E0035786A /* admHandler.cpp:40 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 6E9997A90A536A7200D69A4A /* admHandler.cpp */;
+		functionName = "createADMDialog( AINotifierMessage *message )";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 40;
+		location = ADMNonModalDialog;
+		modificationTime = 263331421.873022;
+		state = 1;
+	};
+	F938CA500B8B47B10039754D /* ADMNonModalDialog.r */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 430}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 788}";
+			sepNavWindowFrame = "{{107, 531}, {750, 558}}";
+		};
+	};
+	F97105A10B9DB4BA005AD480 /* shellMain.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {937, 3276}}";
+			sepNavSelRange = "{3097, 55}";
+			sepNavVisRange = "{368, 1167}";
+			sepNavWindowFrame = "{{38, 424}, {996, 728}}";
+		};
+	};
+	F9C02C1F0BA6EA3E0039151A /* SDKAboutPluginsHelper.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 1764}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1373}";
+			sepNavWindowFrame = "{{130, 314}, {987, 754}}";
+		};
+	};
+}

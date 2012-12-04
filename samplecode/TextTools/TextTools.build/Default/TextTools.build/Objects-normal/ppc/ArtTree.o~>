@@ -1,0 +1,2 @@
+/Users/compmac8a/Desktop/Adobe Illustrator CS3 SDK/samplecode/TextTools/../common/My Custom Headers/ArtTree.cpp: In function 'void GetBoundsOfSelectionFromRoot(ArtObject*, ArtObject*, AIRealRect*, bool*)':
+/Users/compmac8a/Desktop/Adobe Illustrator CS3 SDK/samplecode/TextTools/../common/My Custom Headers/ArtTree.cpp:292: error: 'GetBoundsOfClipGroup' was not declared in this scope

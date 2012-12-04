@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A4454A30C72015D007D666D /* SnpText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A44549F0C72015D007D666D /* SnpText.cpp */; };
+		2A4454A60C72015D007D666D /* SnpTextStyles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A4454A20C72015D007D666D /* SnpTextStyles.cpp */; };
+		2A4454B10C7202B8007D666D /* IText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A4454AF0C7202B8007D666D /* IText.cpp */; };
+		2A4454B20C7202B8007D666D /* IThrowException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A4454B00C7202B8007D666D /* IThrowException.cpp */; };
+		2A4454CB0C72129C007D666D /* Icons.r in Rez */ = {isa = PBXBuildFile; fileRef = 2A4454CA0C72129C007D666D /* Icons.r */; };
+		2A52FEF40C59F381003A84C5 /* SnpLiveColor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A52FEF10C59F381003A84C5 /* SnpLiveColor.cpp */; };
+		2A52FEF50C59F381003A84C5 /* SnpLiveTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A52FEF20C59F381003A84C5 /* SnpLiveTrace.h */; };
+		2A52FEF60C59F381003A84C5 /* SnpSwatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A52FEF30C59F381003A84C5 /* SnpSwatch.cpp */; };
+		2A7772AE0BE6389300A9D493 /* IllustratorSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A7772AD0BE6389300A9D493 /* IllustratorSDK.cpp */; };
+		2AE00F260C86D0BA0065E29A /* SnpArtHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AE00F240C86D0BA0065E29A /* SnpArtHelper.cpp */; };
+		2AE00F270C86D0BA0065E29A /* SnpArtHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AE00F250C86D0BA0065E29A /* SnpArtHelper.h */; };
+		2AE00F3A0C87133B0065E29A /* SnpDocumentActionHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AE00F360C87133B0065E29A /* SnpDocumentActionHelper.cpp */; };
+		2AE00F3B0C87133B0065E29A /* SnpDocumentActionHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AE00F370C87133B0065E29A /* SnpDocumentActionHelper.h */; };
+		2AE00F3C0C87133B0065E29A /* SnpObjectActionHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AE00F380C87133B0065E29A /* SnpObjectActionHelper.cpp */; };
+		2AE00F3D0C87133B0065E29A /* SnpObjectActionHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AE00F390C87133B0065E29A /* SnpObjectActionHelper.h */; };
+		2AE97DE30BBC218A0041212F /* SnippetRunner.r in Rez */ = {isa = PBXBuildFile; fileRef = 2AE97DE20BBC218A0041212F /* SnippetRunner.r */; };
+		2AFC5EC80C7DE22A00E614BF /* SnpTextException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AFC5EC50C7DE22A00E614BF /* SnpTextException.cpp */; };
+		2AFC5EC90C7DE22A00E614BF /* SnpTextIterator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AFC5EC60C7DE22A00E614BF /* SnpTextIterator.cpp */; };
+		2AFC5ECA0C7DE22A00E614BF /* SnpTextStyler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AFC5EC70C7DE22A00E614BF /* SnpTextStyler.cpp */; };
+		6EE2BA9D0A41E04500CC7CE2 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE2BA9B0A41E04500CC7CE2 /* Carbon.framework */; };
+		F919233D0C0C7B3A004B32CA /* IAIFilePath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F919233C0C0C7B3A004B32CA /* IAIFilePath.cpp */; };
+		F91923460C0D7661004B32CA /* SnpFileHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F91923450C0D7661004B32CA /* SnpFileHelper.cpp */; };
+		F91923C50C0DBE28004B32CA /* SnpLiveTrace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F91923C40C0DBE28004B32CA /* SnpLiveTrace.cpp */; };
+		F91923E90C2BE012004B32CA /* SnpArtSetHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F91923DE0C2BE012004B32CA /* SnpArtSetHelper.cpp */; };
+		F91923EA0C2BE012004B32CA /* SnpArtSetHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F91923DF0C2BE012004B32CA /* SnpArtSetHelper.h */; };
+		F91923EB0C2BE012004B32CA /* SnpDocumentHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F91923E00C2BE012004B32CA /* SnpDocumentHelper.cpp */; };
+		F91923EC0C2BE012004B32CA /* SnpDocumentHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F91923E10C2BE012004B32CA /* SnpDocumentHelper.h */; };
+		F91923ED0C2BE012004B32CA /* SnpFileHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F91923E20C2BE012004B32CA /* SnpFileHelper.h */; };
+		F91923EF0C2BE012004B32CA /* SnpProgressBar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F91923E40C2BE012004B32CA /* SnpProgressBar.cpp */; };
+		F91923F00C2BE012004B32CA /* SnpUnitTestHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F91923E50C2BE012004B32CA /* SnpUnitTestHelper.cpp */; };
+		F91923F10C2BE012004B32CA /* SnpUnitTestHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F91923E60C2BE012004B32CA /* SnpUnitTestHelper.h */; };
+		F91923F40C2BE02A004B32CA /* SnippetRunnerPreferences.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F91923F20C2BE02A004B32CA /* SnippetRunnerPreferences.cpp */; };
+		F91923F50C2BE02A004B32CA /* SnippetRunnerPreferences.h in Headers */ = {isa = PBXBuildFile; fileRef = F91923F30C2BE02A004B32CA /* SnippetRunnerPreferences.h */; };
+		F91924630C2BFABC004B32CA /* SnippetRunnerUnitTestManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F91924610C2BFABC004B32CA /* SnippetRunnerUnitTestManager.cpp */; };
+		F91924640C2BFABC004B32CA /* SnippetRunnerUnitTestManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F91924620C2BFABC004B32CA /* SnippetRunnerUnitTestManager.h */; };
+		F91924890C2FFCE2004B32CA /* SnpChooser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F91924850C2FFCE1004B32CA /* SnpChooser.cpp */; };
+		F919248A0C2FFCE2004B32CA /* SnpChooser.h in Headers */ = {isa = PBXBuildFile; fileRef = F91924860C2FFCE1004B32CA /* SnpChooser.h */; };
+		F919248B0C2FFCE2004B32CA /* SnpSelectionHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F91924870C2FFCE1004B32CA /* SnpSelectionHelper.cpp */; };
+		F919248C0C2FFCE2004B32CA /* SnpSelectionHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F91924880C2FFCE1004B32CA /* SnpSelectionHelper.h */; };
+		F941728C0BF1CA6C0078B4F4 /* AppContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F94172880BF1CA6C0078B4F4 /* AppContext.cpp */; };
+		F941728D0BF1CA6C0078B4F4 /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F94172890BF1CA6C0078B4F4 /* Main.cpp */; };
+		F941728E0BF1CA6C0078B4F4 /* Plugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F941728A0BF1CA6C0078B4F4 /* Plugin.cpp */; };
+		F941728F0BF1CA6C0078B4F4 /* Suites.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F941728B0BF1CA6C0078B4F4 /* Suites.cpp */; };
+		F94172960BF1D35C0078B4F4 /* ASMemory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F94172920BF1D35C0078B4F4 /* ASMemory.cpp */; };
+		F94172970BF1D35C0078B4F4 /* BaseADMDialog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F94172930BF1D35C0078B4F4 /* BaseADMDialog.cpp */; };
+		F94172980BF1D35C0078B4F4 /* IAIStringFormatUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F94172940BF1D35C0078B4F4 /* IAIStringFormatUtils.cpp */; };
+		F94172990BF1D35C0078B4F4 /* IAIUnicodeString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F94172950BF1D35C0078B4F4 /* IAIUnicodeString.cpp */; };
+		F941729B0BF1D36D0078B4F4 /* SDKAboutPluginsHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F941729A0BF1D36D0078B4F4 /* SDKAboutPluginsHelper.cpp */; };
+		F94172A70BF1D3900078B4F4 /* SnippetRunnerLog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F941729D0BF1D3900078B4F4 /* SnippetRunnerLog.cpp */; };
+		F94172A80BF1D3900078B4F4 /* SnippetRunnerManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F941729E0BF1D3900078B4F4 /* SnippetRunnerManager.cpp */; };
+		F94172A90BF1D3900078B4F4 /* SnippetRunnerPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F941729F0BF1D3900078B4F4 /* SnippetRunnerPanel.cpp */; };
+		F94172AA0BF1D3900078B4F4 /* SnippetRunnerParameter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F94172A00BF1D3900078B4F4 /* SnippetRunnerParameter.cpp */; };
+		F94172AB0BF1D3900078B4F4 /* SnippetRunnerPlugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F94172A10BF1D3900078B4F4 /* SnippetRunnerPlugin.cpp */; };
+		F94172AC0BF1D3900078B4F4 /* SnippetRunnerPromptDialog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F94172A20BF1D3900078B4F4 /* SnippetRunnerPromptDialog.cpp */; };
+		F94172AD0BF1D3900078B4F4 /* SnippetRunnerSuites.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F94172A30BF1D3900078B4F4 /* SnippetRunnerSuites.cpp */; };
+		F94172AE0BF1D3900078B4F4 /* SnippetRunnerTokenisor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F94172A40BF1D3900078B4F4 /* SnippetRunnerTokenisor.cpp */; };
+		F94172AF0BF1D3900078B4F4 /* SnpRunnable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F94172A50BF1D3900078B4F4 /* SnpRunnable.cpp */; };
+		F94172B50BF1D3B60078B4F4 /* SnpTemplate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F94172B20BF1D3B60078B4F4 /* SnpTemplate.cpp */; };
+		F941730B0BF1D4B90078B4F4 /* SnippetRunnerID.h in Headers */ = {isa = PBXBuildFile; fileRef = F94173000BF1D4B90078B4F4 /* SnippetRunnerID.h */; };
+		F941730C0BF1D4B90078B4F4 /* SnippetRunnerLog.h in Headers */ = {isa = PBXBuildFile; fileRef = F94173010BF1D4B90078B4F4 /* SnippetRunnerLog.h */; };
+		F941730D0BF1D4B90078B4F4 /* SnippetRunnerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F94173020BF1D4B90078B4F4 /* SnippetRunnerManager.h */; };
+		F941730E0BF1D4B90078B4F4 /* SnippetRunnerPanel.h in Headers */ = {isa = PBXBuildFile; fileRef = F94173030BF1D4B90078B4F4 /* SnippetRunnerPanel.h */; };
+		F941730F0BF1D4B90078B4F4 /* SnippetRunnerParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = F94173040BF1D4B90078B4F4 /* SnippetRunnerParameter.h */; };
+		F94173100BF1D4B90078B4F4 /* SnippetRunnerPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = F94173050BF1D4B90078B4F4 /* SnippetRunnerPlugin.h */; };
+		F94173110BF1D4B90078B4F4 /* SnippetRunnerPromptDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = F94173060BF1D4B90078B4F4 /* SnippetRunnerPromptDialog.h */; };
+		F94173120BF1D4B90078B4F4 /* SnippetRunnerSuites.h in Headers */ = {isa = PBXBuildFile; fileRef = F94173070BF1D4B90078B4F4 /* SnippetRunnerSuites.h */; };
+		F94173130BF1D4B90078B4F4 /* SnippetRunnerTokenisor.h in Headers */ = {isa = PBXBuildFile; fileRef = F94173080BF1D4B90078B4F4 /* SnippetRunnerTokenisor.h */; };
+		F94173140BF1D4B90078B4F4 /* SnpRunnable.h in Headers */ = {isa = PBXBuildFile; fileRef = F94173090BF1D4B90078B4F4 /* SnpRunnable.h */; };
+		F9D7E1B60BF8563C00CAE0DB /* SDKErrors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9D7E1B40BF8563C00CAE0DB /* SDKErrors.cpp */; };
+		F9D7E1B70BF8563C00CAE0DB /* SDKErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = F9D7E1B50BF8563C00CAE0DB /* SDKErrors.h */; };
+		F9DEE0350BFB746000F67084 /* SnpTestSnippetRunner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9DEE0340BFB746000F67084 /* SnpTestSnippetRunner.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A44549F0C72015D007D666D /* SnpText.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SnpText.cpp; path = ../CodeSnippets/SnpText.cpp; sourceTree = SOURCE_ROOT; };
+		2A4454A20C72015D007D666D /* SnpTextStyles.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SnpTextStyles.cpp; path = ../CodeSnippets/SnpTextStyles.cpp; sourceTree = SOURCE_ROOT; };
+		2A4454AF0C7202B8007D666D /* IText.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = IText.cpp; path = ../../illustratorapi/ate/IText.cpp; sourceTree = SOURCE_ROOT; };
+		2A4454B00C7202B8007D666D /* IThrowException.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = IThrowException.cpp; path = ../../illustratorapi/ate/IThrowException.cpp; sourceTree = SOURCE_ROOT; };
+		2A4454CA0C72129C007D666D /* Icons.r */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.rez; name = Icons.r; path = Resources/Icons.r; sourceTree = "<group>"; };
+		2A52FEF10C59F381003A84C5 /* SnpLiveColor.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SnpLiveColor.cpp; path = ../CodeSnippets/SnpLiveColor.cpp; sourceTree = SOURCE_ROOT; };
+		2A52FEF20C59F381003A84C5 /* SnpLiveTrace.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SnpLiveTrace.h; path = ../CodeSnippets/SnpLiveTrace.h; sourceTree = SOURCE_ROOT; };
+		2A52FEF30C59F381003A84C5 /* SnpSwatch.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SnpSwatch.cpp; path = ../CodeSnippets/SnpSwatch.cpp; sourceTree = SOURCE_ROOT; };
+		2A7772AD0BE6389300A9D493 /* IllustratorSDK.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = IllustratorSDK.cpp; path = ../common/source/IllustratorSDK.cpp; sourceTree = SOURCE_ROOT; };
+		2AE00F240C86D0BA0065E29A /* SnpArtHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SnpArtHelper.cpp; path = ../CodeSnippets/SnpArtHelper.cpp; sourceTree = SOURCE_ROOT; };
+		2AE00F250C86D0BA0065E29A /* SnpArtHelper.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SnpArtHelper.h; path = ../CodeSnippets/SnpArtHelper.h; sourceTree = SOURCE_ROOT; };
+		2AE00F360C87133B0065E29A /* SnpDocumentActionHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SnpDocumentActionHelper.cpp; path = ../CodeSnippets/SnpDocumentActionHelper.cpp; sourceTree = SOURCE_ROOT; };
+		2AE00F370C87133B0065E29A /* SnpDocumentActionHelper.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SnpDocumentActionHelper.h; path = ../CodeSnippets/SnpDocumentActionHelper.h; sourceTree = SOURCE_ROOT; };
+		2AE00F380C87133B0065E29A /* SnpObjectActionHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SnpObjectActionHelper.cpp; path = ../CodeSnippets/SnpObjectActionHelper.cpp; sourceTree = SOURCE_ROOT; };
+		2AE00F390C87133B0065E29A /* SnpObjectActionHelper.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SnpObjectActionHelper.h; path = ../CodeSnippets/SnpObjectActionHelper.h; sourceTree = SOURCE_ROOT; };
+		2AE97DE20BBC218A0041212F /* SnippetRunner.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; name = SnippetRunner.r; path = Resources/SnippetRunner.r; sourceTree = "<group>"; };
+		2AFC5EC50C7DE22A00E614BF /* SnpTextException.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SnpTextException.cpp; path = ../CodeSnippets/SnpTextException.cpp; sourceTree = SOURCE_ROOT; };
+		2AFC5EC60C7DE22A00E614BF /* SnpTextIterator.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SnpTextIterator.cpp; path = ../CodeSnippets/SnpTextIterator.cpp; sourceTree = SOURCE_ROOT; };
+		2AFC5EC70C7DE22A00E614BF /* SnpTextStyler.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SnpTextStyler.cpp; path = ../CodeSnippets/SnpTextStyler.cpp; sourceTree = SOURCE_ROOT; };
+		6E0C51960A8B6CC600C9A14A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = Info.plist; path = ../common/mac/Info.plist; sourceTree = SOURCE_ROOT; };
+		6EE2BA530A40BB2600CC7CE2 /* SnippetRunner.aip */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnippetRunner.aip; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EE2BA9B0A41E04500CC7CE2 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		F919233C0C0C7B3A004B32CA /* IAIFilePath.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = IAIFilePath.cpp; path = ../../illustratorapi/illustrator/IAIFilePath.cpp; sourceTree = SOURCE_ROOT; };
+		F91923450C0D7661004B32CA /* SnpFileHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SnpFileHelper.cpp; path = ../CodeSnippets/SnpFileHelper.cpp; sourceTree = SOURCE_ROOT; };
+		F91923C40C0DBE28004B32CA /* SnpLiveTrace.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SnpLiveTrace.cpp; path = ../CodeSnippets/SnpLiveTrace.cpp; sourceTree = SOURCE_ROOT; };
+		F91923DE0C2BE012004B32CA /* SnpArtSetHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SnpArtSetHelper.cpp; path = ../CodeSnippets/SnpArtSetHelper.cpp; sourceTree = SOURCE_ROOT; };
+		F91923DF0C2BE012004B32CA /* SnpArtSetHelper.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SnpArtSetHelper.h; path = ../CodeSnippets/SnpArtSetHelper.h; sourceTree = SOURCE_ROOT; };
+		F91923E00C2BE012004B32CA /* SnpDocumentHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SnpDocumentHelper.cpp; path = ../CodeSnippets/SnpDocumentHelper.cpp; sourceTree = SOURCE_ROOT; };
+		F91923E10C2BE012004B32CA /* SnpDocumentHelper.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SnpDocumentHelper.h; path = ../CodeSnippets/SnpDocumentHelper.h; sourceTree = SOURCE_ROOT; };
+		F91923E20C2BE012004B32CA /* SnpFileHelper.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SnpFileHelper.h; path = ../CodeSnippets/SnpFileHelper.h; sourceTree = SOURCE_ROOT; };
+		F91923E40C2BE012004B32CA /* SnpProgressBar.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SnpProgressBar.cpp; path = ../CodeSnippets/SnpProgressBar.cpp; sourceTree = SOURCE_ROOT; };
+		F91923E50C2BE012004B32CA /* SnpUnitTestHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SnpUnitTestHelper.cpp; path = ../CodeSnippets/SnpUnitTestHelper.cpp; sourceTree = SOURCE_ROOT; };
+		F91923E60C2BE012004B32CA /* SnpUnitTestHelper.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SnpUnitTestHelper.h; path = ../CodeSnippets/SnpUnitTestHelper.h; sourceTree = SOURCE_ROOT; };
+		F91923F20C2BE02A004B32CA /* SnippetRunnerPreferences.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SnippetRunnerPreferences.cpp; path = Source/SnippetRunnerPreferences.cpp; sourceTree = "<group>"; };
+		F91923F30C2BE02A004B32CA /* SnippetRunnerPreferences.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SnippetRunnerPreferences.h; path = Source/SnippetRunnerPreferences.h; sourceTree = "<group>"; };
+		F91924610C2BFABC004B32CA /* SnippetRunnerUnitTestManager.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SnippetRunnerUnitTestManager.cpp; path = Source/SnippetRunnerUnitTestManager.cpp; sourceTree = "<group>"; };
+		F91924620C2BFABC004B32CA /* SnippetRunnerUnitTestManager.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SnippetRunnerUnitTestManager.h; path = Source/SnippetRunnerUnitTestManager.h; sourceTree = "<group>"; };
+		F91924850C2FFCE1004B32CA /* SnpChooser.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SnpChooser.cpp; path = ../CodeSnippets/SnpChooser.cpp; sourceTree = SOURCE_ROOT; };
+		F91924860C2FFCE1004B32CA /* SnpChooser.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SnpChooser.h; path = ../CodeSnippets/SnpChooser.h; sourceTree = SOURCE_ROOT; };
+		F91924870C2FFCE1004B32CA /* SnpSelectionHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SnpSelectionHelper.cpp; path = ../CodeSnippets/SnpSelectionHelper.cpp; sourceTree = SOURCE_ROOT; };
+		F91924880C2FFCE1004B32CA /* SnpSelectionHelper.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SnpSelectionHelper.h; path = ../CodeSnippets/SnpSelectionHelper.h; sourceTree = SOURCE_ROOT; };
+		F94172880BF1CA6C0078B4F4 /* AppContext.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = AppContext.cpp; path = ../common/source/AppContext.cpp; sourceTree = SOURCE_ROOT; };
+		F94172890BF1CA6C0078B4F4 /* Main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Main.cpp; path = ../common/source/Main.cpp; sourceTree = SOURCE_ROOT; };
+		F941728A0BF1CA6C0078B4F4 /* Plugin.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Plugin.cpp; path = ../common/source/Plugin.cpp; sourceTree = SOURCE_ROOT; };
+		F941728B0BF1CA6C0078B4F4 /* Suites.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Suites.cpp; path = ../common/source/Suites.cpp; sourceTree = SOURCE_ROOT; };
+		F94172920BF1D35C0078B4F4 /* ASMemory.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = ASMemory.cpp; path = ../../illustratorapi/illustrator/ASMemory.cpp; sourceTree = SOURCE_ROOT; };
+		F94172930BF1D35C0078B4F4 /* BaseADMDialog.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = BaseADMDialog.cpp; path = ../../illustratorapi/illustrator/BaseADMDialog.cpp; sourceTree = SOURCE_ROOT; };
+		F94172940BF1D35C0078B4F4 /* IAIStringFormatUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = IAIStringFormatUtils.cpp; path = ../../illustratorapi/illustrator/IAIStringFormatUtils.cpp; sourceTree = SOURCE_ROOT; };
+		F94172950BF1D35C0078B4F4 /* IAIUnicodeString.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = IAIUnicodeString.cpp; path = ../../illustratorapi/illustrator/IAIUnicodeString.cpp; sourceTree = SOURCE_ROOT; };
+		F941729A0BF1D36D0078B4F4 /* SDKAboutPluginsHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SDKAboutPluginsHelper.cpp; path = ../common/source/SDKAboutPluginsHelper.cpp; sourceTree = SOURCE_ROOT; };
+		F941729D0BF1D3900078B4F4 /* SnippetRunnerLog.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SnippetRunnerLog.cpp; path = Source/SnippetRunnerLog.cpp; sourceTree = "<group>"; };
+		F941729E0BF1D3900078B4F4 /* SnippetRunnerManager.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SnippetRunnerManager.cpp; path = Source/SnippetRunnerManager.cpp; sourceTree = "<group>"; };
+		F941729F0BF1D3900078B4F4 /* SnippetRunnerPanel.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SnippetRunnerPanel.cpp; path = Source/SnippetRunnerPanel.cpp; sourceTree = "<group>"; };
+		F94172A00BF1D3900078B4F4 /* SnippetRunnerParameter.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SnippetRunnerParameter.cpp; path = Source/SnippetRunnerParameter.cpp; sourceTree = "<group>"; };
+		F94172A10BF1D3900078B4F4 /* SnippetRunnerPlugin.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SnippetRunnerPlugin.cpp; path = Source/SnippetRunnerPlugin.cpp; sourceTree = "<group>"; };
+		F94172A20BF1D3900078B4F4 /* SnippetRunnerPromptDialog.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SnippetRunnerPromptDialog.cpp; path = Source/SnippetRunnerPromptDialog.cpp; sourceTree = "<group>"; };
+		F94172A30BF1D3900078B4F4 /* SnippetRunnerSuites.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SnippetRunnerSuites.cpp; path = Source/SnippetRunnerSuites.cpp; sourceTree = "<group>"; };
+		F94172A40BF1D3900078B4F4 /* SnippetRunnerTokenisor.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SnippetRunnerTokenisor.cpp; path = Source/SnippetRunnerTokenisor.cpp; sourceTree = "<group>"; };
+		F94172A50BF1D3900078B4F4 /* SnpRunnable.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SnpRunnable.cpp; path = Source/SnpRunnable.cpp; sourceTree = "<group>"; };
+		F94172B20BF1D3B60078B4F4 /* SnpTemplate.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SnpTemplate.cpp; path = ../CodeSnippets/SnpTemplate.cpp; sourceTree = SOURCE_ROOT; };
+		F94173000BF1D4B90078B4F4 /* SnippetRunnerID.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SnippetRunnerID.h; path = Source/SnippetRunnerID.h; sourceTree = "<group>"; };
+		F94173010BF1D4B90078B4F4 /* SnippetRunnerLog.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SnippetRunnerLog.h; path = Source/SnippetRunnerLog.h; sourceTree = "<group>"; };
+		F94173020BF1D4B90078B4F4 /* SnippetRunnerManager.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SnippetRunnerManager.h; path = Source/SnippetRunnerManager.h; sourceTree = "<group>"; };
+		F94173030BF1D4B90078B4F4 /* SnippetRunnerPanel.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SnippetRunnerPanel.h; path = Source/SnippetRunnerPanel.h; sourceTree = "<group>"; };
+		F94173040BF1D4B90078B4F4 /* SnippetRunnerParameter.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SnippetRunnerParameter.h; path = Source/SnippetRunnerParameter.h; sourceTree = "<group>"; };
+		F94173050BF1D4B90078B4F4 /* SnippetRunnerPlugin.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SnippetRunnerPlugin.h; path = Source/SnippetRunnerPlugin.h; sourceTree = "<group>"; };
+		F94173060BF1D4B90078B4F4 /* SnippetRunnerPromptDialog.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SnippetRunnerPromptDialog.h; path = Source/SnippetRunnerPromptDialog.h; sourceTree = "<group>"; };
+		F94173070BF1D4B90078B4F4 /* SnippetRunnerSuites.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SnippetRunnerSuites.h; path = Source/SnippetRunnerSuites.h; sourceTree = "<group>"; };
+		F94173080BF1D4B90078B4F4 /* SnippetRunnerTokenisor.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SnippetRunnerTokenisor.h; path = Source/SnippetRunnerTokenisor.h; sourceTree = "<group>"; };
+		F94173090BF1D4B90078B4F4 /* SnpRunnable.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SnpRunnable.h; path = Source/SnpRunnable.h; sourceTree = "<group>"; };
+		F9D7E1B40BF8563C00CAE0DB /* SDKErrors.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SDKErrors.cpp; path = Source/SDKErrors.cpp; sourceTree = "<group>"; };
+		F9D7E1B50BF8563C00CAE0DB /* SDKErrors.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SDKErrors.h; path = Source/SDKErrors.h; sourceTree = "<group>"; };
+		F9DEE0340BFB746000F67084 /* SnpTestSnippetRunner.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = SnpTestSnippetRunner.cpp; path = ../CodeSnippets/SnpTestSnippetRunner.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		508817D209F0C9AD0071BF1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE2BA9D0A41E04500CC7CE2 /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A7772AA0BE6387700A9D493 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				2A4454AF0C7202B8007D666D /* IText.cpp */,
+				2A4454B00C7202B8007D666D /* IThrowException.cpp */,
+				F919233C0C0C7B3A004B32CA /* IAIFilePath.cpp */,
+				F941729A0BF1D36D0078B4F4 /* SDKAboutPluginsHelper.cpp */,
+				F94172920BF1D35C0078B4F4 /* ASMemory.cpp */,
+				F94172930BF1D35C0078B4F4 /* BaseADMDialog.cpp */,
+				F94172940BF1D35C0078B4F4 /* IAIStringFormatUtils.cpp */,
+				F94172950BF1D35C0078B4F4 /* IAIUnicodeString.cpp */,
+				F94172880BF1CA6C0078B4F4 /* AppContext.cpp */,
+				F94172890BF1CA6C0078B4F4 /* Main.cpp */,
+				F941728A0BF1CA6C0078B4F4 /* Plugin.cpp */,
+				F941728B0BF1CA6C0078B4F4 /* Suites.cpp */,
+				2A7772AD0BE6389300A9D493 /* IllustratorSDK.cpp */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		2AE97C910BBC0FAB0041212F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F91924610C2BFABC004B32CA /* SnippetRunnerUnitTestManager.cpp */,
+				F91924620C2BFABC004B32CA /* SnippetRunnerUnitTestManager.h */,
+				F91923F20C2BE02A004B32CA /* SnippetRunnerPreferences.cpp */,
+				F91923F30C2BE02A004B32CA /* SnippetRunnerPreferences.h */,
+				F9D7E1B40BF8563C00CAE0DB /* SDKErrors.cpp */,
+				F9D7E1B50BF8563C00CAE0DB /* SDKErrors.h */,
+				F94173000BF1D4B90078B4F4 /* SnippetRunnerID.h */,
+				F94173010BF1D4B90078B4F4 /* SnippetRunnerLog.h */,
+				F94173020BF1D4B90078B4F4 /* SnippetRunnerManager.h */,
+				F94173030BF1D4B90078B4F4 /* SnippetRunnerPanel.h */,
+				F94173040BF1D4B90078B4F4 /* SnippetRunnerParameter.h */,
+				F94173050BF1D4B90078B4F4 /* SnippetRunnerPlugin.h */,
+				F94173060BF1D4B90078B4F4 /* SnippetRunnerPromptDialog.h */,
+				F94173070BF1D4B90078B4F4 /* SnippetRunnerSuites.h */,
+				F94173080BF1D4B90078B4F4 /* SnippetRunnerTokenisor.h */,
+				F94173090BF1D4B90078B4F4 /* SnpRunnable.h */,
+				F941729D0BF1D3900078B4F4 /* SnippetRunnerLog.cpp */,
+				F941729E0BF1D3900078B4F4 /* SnippetRunnerManager.cpp */,
+				F941729F0BF1D3900078B4F4 /* SnippetRunnerPanel.cpp */,
+				F94172A00BF1D3900078B4F4 /* SnippetRunnerParameter.cpp */,
+				F94172A10BF1D3900078B4F4 /* SnippetRunnerPlugin.cpp */,
+				F94172A20BF1D3900078B4F4 /* SnippetRunnerPromptDialog.cpp */,
+				F94172A30BF1D3900078B4F4 /* SnippetRunnerSuites.cpp */,
+				F94172A40BF1D3900078B4F4 /* SnippetRunnerTokenisor.cpp */,
+				F94172A50BF1D3900078B4F4 /* SnpRunnable.cpp */,
+				2A7772AA0BE6387700A9D493 /* Shared */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		508817C209F0C9740071BF1A = {
+			isa = PBXGroup;
+			children = (
+				F94172B00BF1D39E0078B4F4 /* CodeSnippets */,
+				2AE97C910BBC0FAB0041212F /* Sources */,
+				5088180609F0CDD00071BF1A /* Libraries */,
+				6EE2BA590A40BDD300CC7CE2 /* Resources */,
+				508817D509F0C9AD0071BF1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		508817D509F0C9AD0071BF1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EE2BA530A40BB2600CC7CE2 /* SnippetRunner.aip */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5088180609F0CDD00071BF1A /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				6EE2BA9B0A41E04500CC7CE2 /* Carbon.framework */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		6EE2BA590A40BDD300CC7CE2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2A4454CA0C72129C007D666D /* Icons.r */,
+				6E0C51960A8B6CC600C9A14A /* Info.plist */,
+				2AE97DE20BBC218A0041212F /* SnippetRunner.r */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F94172B00BF1D39E0078B4F4 /* CodeSnippets */ = {
+			isa = PBXGroup;
+			children = (
+				2AE00F360C87133B0065E29A /* SnpDocumentActionHelper.cpp */,
+				2AE00F370C87133B0065E29A /* SnpDocumentActionHelper.h */,
+				2AE00F380C87133B0065E29A /* SnpObjectActionHelper.cpp */,
+				2AE00F390C87133B0065E29A /* SnpObjectActionHelper.h */,
+				2AE00F240C86D0BA0065E29A /* SnpArtHelper.cpp */,
+				2AE00F250C86D0BA0065E29A /* SnpArtHelper.h */,
+				2AFC5EC50C7DE22A00E614BF /* SnpTextException.cpp */,
+				2AFC5EC60C7DE22A00E614BF /* SnpTextIterator.cpp */,
+				2AFC5EC70C7DE22A00E614BF /* SnpTextStyler.cpp */,
+				2A44549F0C72015D007D666D /* SnpText.cpp */,
+				2A4454A20C72015D007D666D /* SnpTextStyles.cpp */,
+				2A52FEF10C59F381003A84C5 /* SnpLiveColor.cpp */,
+				2A52FEF20C59F381003A84C5 /* SnpLiveTrace.h */,
+				2A52FEF30C59F381003A84C5 /* SnpSwatch.cpp */,
+				F91924850C2FFCE1004B32CA /* SnpChooser.cpp */,
+				F91924860C2FFCE1004B32CA /* SnpChooser.h */,
+				F91924870C2FFCE1004B32CA /* SnpSelectionHelper.cpp */,
+				F91924880C2FFCE1004B32CA /* SnpSelectionHelper.h */,
+				F91923DE0C2BE012004B32CA /* SnpArtSetHelper.cpp */,
+				F91923DF0C2BE012004B32CA /* SnpArtSetHelper.h */,
+				F91923E00C2BE012004B32CA /* SnpDocumentHelper.cpp */,
+				F91923E10C2BE012004B32CA /* SnpDocumentHelper.h */,
+				F91923E20C2BE012004B32CA /* SnpFileHelper.h */,
+				F91923E40C2BE012004B32CA /* SnpProgressBar.cpp */,
+				F91923E50C2BE012004B32CA /* SnpUnitTestHelper.cpp */,
+				F91923E60C2BE012004B32CA /* SnpUnitTestHelper.h */,
+				F91923C40C0DBE28004B32CA /* SnpLiveTrace.cpp */,
+				F91923450C0D7661004B32CA /* SnpFileHelper.cpp */,
+				F9DEE0340BFB746000F67084 /* SnpTestSnippetRunner.cpp */,
+				F94172B20BF1D3B60078B4F4 /* SnpTemplate.cpp */,
+			);
+			name = CodeSnippets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6EE2BA0A0A40B76300CC7CE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F941730B0BF1D4B90078B4F4 /* SnippetRunnerID.h in Headers */,
+				F941730C0BF1D4B90078B4F4 /* SnippetRunnerLog.h in Headers */,
+				F941730D0BF1D4B90078B4F4 /* SnippetRunnerManager.h in Headers */,
+				F941730E0BF1D4B90078B4F4 /* SnippetRunnerPanel.h in Headers */,
+				F941730F0BF1D4B90078B4F4 /* SnippetRunnerParameter.h in Headers */,
+				F94173100BF1D4B90078B4F4 /* SnippetRunnerPlugin.h in Headers */,
+				F94173110BF1D4B90078B4F4 /* SnippetRunnerPromptDialog.h in Headers */,
+				F94173120BF1D4B90078B4F4 /* SnippetRunnerSuites.h in Headers */,
+				F94173130BF1D4B90078B4F4 /* SnippetRunnerTokenisor.h in Headers */,
+				F94173140BF1D4B90078B4F4 /* SnpRunnable.h in Headers */,
+				F9D7E1B70BF8563C00CAE0DB /* SDKErrors.h in Headers */,
+				F91923EA0C2BE012004B32CA /* SnpArtSetHelper.h in Headers */,
+				F91923EC0C2BE012004B32CA /* SnpDocumentHelper.h in Headers */,
+				F91923ED0C2BE012004B32CA /* SnpFileHelper.h in Headers */,
+				F91923F10C2BE012004B32CA /* SnpUnitTestHelper.h in Headers */,
+				F91923F50C2BE02A004B32CA /* SnippetRunnerPreferences.h in Headers */,
+				F91924640C2BFABC004B32CA /* SnippetRunnerUnitTestManager.h in Headers */,
+				F919248A0C2FFCE2004B32CA /* SnpChooser.h in Headers */,
+				F919248C0C2FFCE2004B32CA /* SnpSelectionHelper.h in Headers */,
+				2A52FEF50C59F381003A84C5 /* SnpLiveTrace.h in Headers */,
+				2AE00F270C86D0BA0065E29A /* SnpArtHelper.h in Headers */,
+				2AE00F3B0C87133B0065E29A /* SnpDocumentActionHelper.h in Headers */,
+				2AE00F3D0C87133B0065E29A /* SnpObjectActionHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		508817D309F0C9AD0071BF1A /* SnippetRunner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 508817D709F0C9AE0071BF1A /* Build configuration list for PBXNativeTarget "SnippetRunner" */;
+			buildPhases = (
+				6EE2BA0A0A40B76300CC7CE2 /* Headers */,
+				508817D109F0C9AD0071BF1A /* Sources */,
+				508817D009F0C9AD0071BF1A /* Resources */,
+				508817D209F0C9AD0071BF1A /* Frameworks */,
+				6EE2BA0C0A40B77400CC7CE2 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnippetRunner;
+			productName = SnippetRunner;
+			productReference = 6EE2BA530A40BB2600CC7CE2 /* SnippetRunner.aip */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		508817C409F0C9740071BF1A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 508817C509F0C9740071BF1A /* Build configuration list for PBXProject "SnippetRunner" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 0;
+			mainGroup = 508817C209F0C9740071BF1A;
+			productRefGroup = 508817D509F0C9AD0071BF1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				508817D309F0C9AD0071BF1A /* SnippetRunner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		508817D009F0C9AD0071BF1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		6EE2BA0C0A40B77400CC7CE2 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE97DE30BBC218A0041212F /* SnippetRunner.r in Rez */,
+				2A4454CB0C72129C007D666D /* Icons.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		508817D109F0C9AD0071BF1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A7772AE0BE6389300A9D493 /* IllustratorSDK.cpp in Sources */,
+				F941728C0BF1CA6C0078B4F4 /* AppContext.cpp in Sources */,
+				F941728D0BF1CA6C0078B4F4 /* Main.cpp in Sources */,
+				F941728E0BF1CA6C0078B4F4 /* Plugin.cpp in Sources */,
+				F941728F0BF1CA6C0078B4F4 /* Suites.cpp in Sources */,
+				F94172960BF1D35C0078B4F4 /* ASMemory.cpp in Sources */,
+				F94172970BF1D35C0078B4F4 /* BaseADMDialog.cpp in Sources */,
+				F94172980BF1D35C0078B4F4 /* IAIStringFormatUtils.cpp in Sources */,
+				F94172990BF1D35C0078B4F4 /* IAIUnicodeString.cpp in Sources */,
+				F941729B0BF1D36D0078B4F4 /* SDKAboutPluginsHelper.cpp in Sources */,
+				F94172A70BF1D3900078B4F4 /* SnippetRunnerLog.cpp in Sources */,
+				F94172A80BF1D3900078B4F4 /* SnippetRunnerManager.cpp in Sources */,
+				F94172A90BF1D3900078B4F4 /* SnippetRunnerPanel.cpp in Sources */,
+				F94172AA0BF1D3900078B4F4 /* SnippetRunnerParameter.cpp in Sources */,
+				F94172AB0BF1D3900078B4F4 /* SnippetRunnerPlugin.cpp in Sources */,
+				F94172AC0BF1D3900078B4F4 /* SnippetRunnerPromptDialog.cpp in Sources */,
+				F94172AD0BF1D3900078B4F4 /* SnippetRunnerSuites.cpp in Sources */,
+				F94172AE0BF1D3900078B4F4 /* SnippetRunnerTokenisor.cpp in Sources */,
+				F94172AF0BF1D3900078B4F4 /* SnpRunnable.cpp in Sources */,
+				F94172B50BF1D3B60078B4F4 /* SnpTemplate.cpp in Sources */,
+				F9D7E1B60BF8563C00CAE0DB /* SDKErrors.cpp in Sources */,
+				F9DEE0350BFB746000F67084 /* SnpTestSnippetRunner.cpp in Sources */,
+				F919233D0C0C7B3A004B32CA /* IAIFilePath.cpp in Sources */,
+				F91923460C0D7661004B32CA /* SnpFileHelper.cpp in Sources */,
+				F91923C50C0DBE28004B32CA /* SnpLiveTrace.cpp in Sources */,
+				F91923E90C2BE012004B32CA /* SnpArtSetHelper.cpp in Sources */,
+				F91923EB0C2BE012004B32CA /* SnpDocumentHelper.cpp in Sources */,
+				F91923EF0C2BE012004B32CA /* SnpProgressBar.cpp in Sources */,
+				F91923F00C2BE012004B32CA /* SnpUnitTestHelper.cpp in Sources */,
+				F91923F40C2BE02A004B32CA /* SnippetRunnerPreferences.cpp in Sources */,
+				F91924630C2BFABC004B32CA /* SnippetRunnerUnitTestManager.cpp in Sources */,
+				F91924890C2FFCE2004B32CA /* SnpChooser.cpp in Sources */,
+				F919248B0C2FFCE2004B32CA /* SnpSelectionHelper.cpp in Sources */,
+				2A52FEF40C59F381003A84C5 /* SnpLiveColor.cpp in Sources */,
+				2A52FEF60C59F381003A84C5 /* SnpSwatch.cpp in Sources */,
+				2A4454A30C72015D007D666D /* SnpText.cpp in Sources */,
+				2A4454A60C72015D007D666D /* SnpTextStyles.cpp in Sources */,
+				2A4454B10C7202B8007D666D /* IText.cpp in Sources */,
+				2A4454B20C7202B8007D666D /* IThrowException.cpp in Sources */,
+				2AFC5EC80C7DE22A00E614BF /* SnpTextException.cpp in Sources */,
+				2AFC5EC90C7DE22A00E614BF /* SnpTextIterator.cpp in Sources */,
+				2AFC5ECA0C7DE22A00E614BF /* SnpTextStyler.cpp in Sources */,
+				2AE00F260C86D0BA0065E29A /* SnpArtHelper.cpp in Sources */,
+				2AE00F3A0C87133B0065E29A /* SnpDocumentActionHelper.cpp in Sources */,
+				2AE00F3C0C87133B0065E29A /* SnpObjectActionHelper.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		508817C609F0C9740071BF1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AI_CONFIGURATION = debug;
+				AI_LOCALE = en_US;
+				AI_PLATFORM = xcode;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				CONFIGURATION_BUILD_DIR = "./../Output/Mac/$(AI_CONFIGURATION)";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/Default";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DSTROOT = "/tmp/$(PROJECT_NAME).dst";
+				EXPORTED_SYMBOLS_FILE = "";
+				FRAMEWORK_SEARCH_PATHS = "$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)";
+				GCC_DEBUGGING_SYMBOLS = used;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ./../common/includes/IllustratorSDKdebug.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"./../../illustratorapi/**",
+					"/Developer/Headers/FlatCarbon/**",
+					"./**",
+					"./../common/**",
+				);
+				INFOPLIST_FILE = ../common/mac/Info.plist;
+				INFOPLIST_PREFIX_HEADER = ../common/includes/SDKDef.h;
+				INFOPLIST_PREPROCESS = YES;
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				OBJROOT = .;
+				ONLY_LINK_ESSENTIAL_SYMBOLS = YES;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				PRESERVE_DEAD_CODE_INITS_AND_TERMS = NO;
+				PRODUCT_NAME = SnippetRunner;
+				PROJECTNAME = SnippetRunner;
+				REZ_SEARCH_PATHS = "";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SEPARATE_STRIP = NO;
+				SHARED_PRECOMPS_DIR = "./../Output/Mac/SharedPrecompiledHeaders/$(AI_CONFIGURATION)";
+				SKIP_INSTALL = NO;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = all;
+				SYMROOT = "./../Output/Mac/$(AI_CONFIGURATION)";
+				WRAPPER_EXTENSION = aip;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		508817C709F0C9740071BF1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AI_CONFIGURATION = release;
+				AI_LOCALE = en_US;
+				AI_PLATFORM = xcode;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				CONFIGURATION_BUILD_DIR = "./../Output/Mac/$(AI_CONFIGURATION)";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/Default";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DSTROOT = "/tmp/$(PROJECT_NAME).dst";
+				EXPORTED_SYMBOLS_FILE = "";
+				FRAMEWORK_SEARCH_PATHS = "$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)";
+				GCC_DEBUGGING_SYMBOLS = used;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.cpp;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ./../common/includes/IllustratorSDKrelease.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"./../../illustratorapi/**",
+					"/Developer/Headers/FlatCarbon/**",
+					"./**",
+					"./../common/**",
+				);
+				INFOPLIST_FILE = ../common/mac/Info.plist;
+				INFOPLIST_PREFIX_HEADER = ../common/includes/SDKDef.h;
+				INFOPLIST_PREPROCESS = YES;
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				OBJROOT = .;
+				ONLY_LINK_ESSENTIAL_SYMBOLS = YES;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				PRESERVE_DEAD_CODE_INITS_AND_TERMS = NO;
+				PRODUCT_NAME = SnippetRunner;
+				PROJECTNAME = SnippetRunner;
+				REZ_SEARCH_PATHS = "";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SEPARATE_STRIP = NO;
+				SHARED_PRECOMPS_DIR = "./../Output/Mac/SharedPrecompiledHeaders/$(AI_CONFIGURATION)";
+				SKIP_INSTALL = NO;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = all;
+				SYMROOT = "./../Output/Mac/$(AI_CONFIGURATION)";
+				WRAPPER_EXTENSION = aip;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		508817D809F0C9AE0071BF1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		508817D909F0C9AE0071BF1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		508817C509F0C9740071BF1A /* Build configuration list for PBXProject "SnippetRunner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				508817C609F0C9740071BF1A /* Debug */,
+				508817C709F0C9740071BF1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		508817D709F0C9AE0071BF1A /* Build configuration list for PBXNativeTarget "SnippetRunner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				508817D809F0C9AE0071BF1A /* Debug */,
+				508817D909F0C9AE0071BF1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 508817C409F0C9740071BF1A /* Project object */;
+}

@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A7772AE0BE6389300A9D493 /* IllustratorSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A7772AD0BE6389300A9D493 /* IllustratorSDK.cpp */; };
+		2AE97DE30BBC218A0041212F /* PrintToPDF.r in Rez */ = {isa = PBXBuildFile; fileRef = 2AE97DE20BBC218A0041212F /* PrintToPDF.r */; };
+		6EE2BA9D0A41E04500CC7CE2 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE2BA9B0A41E04500CC7CE2 /* Carbon.framework */; };
+		DC0499E1136EE0490019DE1C /* Layer.h in Headers */ = {isa = PBXBuildFile; fileRef = DC0499DF136EE0490019DE1C /* Layer.h */; };
+		DC0499E2136EE0490019DE1C /* Layer.mm in Sources */ = {isa = PBXBuildFile; fileRef = DC0499E0136EE0490019DE1C /* Layer.mm */; };
+		DC049A20136EF7050019DE1C /* NSStringAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DC049A1E136EF7050019DE1C /* NSStringAdditions.h */; };
+		DC049A21136EF7050019DE1C /* NSStringAdditions.mm in Sources */ = {isa = PBXBuildFile; fileRef = DC049A1F136EF7050019DE1C /* NSStringAdditions.mm */; };
+		DC189BB7134F6F3400E4A121 /* BStatMU.h in Headers */ = {isa = PBXBuildFile; fileRef = DC189BB5134F6F3400E4A121 /* BStatMU.h */; };
+		DC189BB8134F6F3400E4A121 /* BStatMU.mm in Sources */ = {isa = PBXBuildFile; fileRef = DC189BB6134F6F3400E4A121 /* BStatMU.mm */; };
+		DC2D8E911373112C002E43C7 /* OutputFolderItem.h in Headers */ = {isa = PBXBuildFile; fileRef = DC2D8E8F1373112C002E43C7 /* OutputFolderItem.h */; };
+		DC2D8E921373112C002E43C7 /* OutputFolderItem.mm in Sources */ = {isa = PBXBuildFile; fileRef = DC2D8E901373112C002E43C7 /* OutputFolderItem.mm */; };
+		DC2D8EB3137315F9002E43C7 /* validPathImageTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = DC2D8EB1137315F9002E43C7 /* validPathImageTransformer.h */; };
+		DC2D8EB4137315F9002E43C7 /* validPathImageTransformer.mm in Sources */ = {isa = PBXBuildFile; fileRef = DC2D8EB2137315F9002E43C7 /* validPathImageTransformer.mm */; };
+		DC4B33F213BCEC7A00A60790 /* OutputFolderDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = DC4B33F013BCEC7A00A60790 /* OutputFolderDataSource.h */; };
+		DC4B33F313BCEC7A00A60790 /* OutputFolderDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4B33F113BCEC7A00A60790 /* OutputFolderDataSource.m */; };
+		DC5F1B7D12D4D860002AF4F2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5F1B7B12D4D860002AF4F2 /* Cocoa.framework */; };
+		DC5F1B7E12D4D860002AF4F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5F1B7C12D4D860002AF4F2 /* Foundation.framework */; };
+		DC5F1B9D12D4D906002AF4F2 /* PlateItem.h in Headers */ = {isa = PBXBuildFile; fileRef = DC5F1B8B12D4D906002AF4F2 /* PlateItem.h */; };
+		DC5F1B9E12D4D906002AF4F2 /* Callbacks.mm in Sources */ = {isa = PBXBuildFile; fileRef = DC5F1B8C12D4D906002AF4F2 /* Callbacks.mm */; };
+		DC5F1BA012D4D906002AF4F2 /* shell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC5F1B8E12D4D906002AF4F2 /* shell.cpp */; };
+		DC5F1BA112D4D906002AF4F2 /* Dialog.h in Headers */ = {isa = PBXBuildFile; fileRef = DC5F1B8F12D4D906002AF4F2 /* Dialog.h */; };
+		DC5F1BA212D4D906002AF4F2 /* notifierHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = DC5F1B9012D4D906002AF4F2 /* notifierHandler.h */; };
+		DC5F1BA312D4D906002AF4F2 /* Common.h in Headers */ = {isa = PBXBuildFile; fileRef = DC5F1B9112D4D906002AF4F2 /* Common.h */; };
+		DC5F1BA412D4D906002AF4F2 /* menuHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = DC5F1B9212D4D906002AF4F2 /* menuHandler.h */; };
+		DC5F1BA612D4D906002AF4F2 /* PlateItem.mm in Sources */ = {isa = PBXBuildFile; fileRef = DC5F1B9412D4D906002AF4F2 /* PlateItem.mm */; };
+		DC5F1BA712D4D906002AF4F2 /* notifierHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC5F1B9512D4D906002AF4F2 /* notifierHandler.cpp */; };
+		DC5F1BA812D4D906002AF4F2 /* pluginHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = DC5F1B9612D4D906002AF4F2 /* pluginHandler.h */; };
+		DC5F1BA912D4D906002AF4F2 /* Suites.h in Headers */ = {isa = PBXBuildFile; fileRef = DC5F1B9712D4D906002AF4F2 /* Suites.h */; };
+		DC5F1BAA12D4D906002AF4F2 /* Dialog.mm in Sources */ = {isa = PBXBuildFile; fileRef = DC5F1B9812D4D906002AF4F2 /* Dialog.mm */; };
+		DC5F1BAB12D4D906002AF4F2 /* Callbacks.h in Headers */ = {isa = PBXBuildFile; fileRef = DC5F1B9912D4D906002AF4F2 /* Callbacks.h */; };
+		DC5F1BAC12D4D906002AF4F2 /* pluginHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC5F1B9A12D4D906002AF4F2 /* pluginHandler.cpp */; };
+		DC5F1BAE12D4D906002AF4F2 /* menuHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC5F1B9C12D4D906002AF4F2 /* menuHandler.cpp */; };
+		DC5F1BB212D4D9C2002AF4F2 /* pPDFcocoa.nib in Resources */ = {isa = PBXBuildFile; fileRef = DC5F1BB112D4D9C2002AF4F2 /* pPDFcocoa.nib */; };
+		DC5F1BEA12D4DA06002AF4F2 /* stringUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC5F1BE812D4DA06002AF4F2 /* stringUtils.cpp */; };
+		DC5F1BEB12D4DA06002AF4F2 /* SDKAboutPluginsHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC5F1BE912D4DA06002AF4F2 /* SDKAboutPluginsHelper.cpp */; };
+		DC5F1BEE12D4DA26002AF4F2 /* IAIUnicodeString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC5F1BEC12D4DA26002AF4F2 /* IAIUnicodeString.cpp */; };
+		DC5F1BEF12D4DA26002AF4F2 /* IAIFilePath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC5F1BED12D4DA26002AF4F2 /* IAIFilePath.cpp */; };
+		DC5F1BF212D4DA3A002AF4F2 /* IText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC5F1BF012D4DA3A002AF4F2 /* IText.cpp */; };
+		DC5F1BF312D4DA3A002AF4F2 /* IThrowException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC5F1BF112D4DA3A002AF4F2 /* IThrowException.cpp */; };
+		DC5F1C3812D4DB06002AF4F2 /* SDKErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = DC5F1C3612D4DB06002AF4F2 /* SDKErrors.h */; };
+		DC5F1C3912D4DB06002AF4F2 /* SDKErrors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC5F1C3712D4DB06002AF4F2 /* SDKErrors.cpp */; };
+		DC5F1C9F12D4E3E3002AF4F2 /* ATEFuncs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC5F1C8912D4E3E3002AF4F2 /* ATEFuncs.cpp */; };
+		DC5F1CA012D4E3E3002AF4F2 /* ATEFuncs.h in Headers */ = {isa = PBXBuildFile; fileRef = DC5F1C8A12D4E3E3002AF4F2 /* ATEFuncs.h */; };
+		DC5F1CA112D4E3E3002AF4F2 /* ArtTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC5F1C8B12D4E3E3002AF4F2 /* ArtTree.cpp */; };
+		DC5F1CA212D4E3E3002AF4F2 /* ArtTree.h in Headers */ = {isa = PBXBuildFile; fileRef = DC5F1C8C12D4E3E3002AF4F2 /* ArtTree.h */; };
+		DC5F1CA312D4E3E3002AF4F2 /* CException.mm in Sources */ = {isa = PBXBuildFile; fileRef = DC5F1C8D12D4E3E3002AF4F2 /* CException.mm */; };
+		DC5F1CA412D4E3E3002AF4F2 /* CException.h in Headers */ = {isa = PBXBuildFile; fileRef = DC5F1C8E12D4E3E3002AF4F2 /* CException.h */; };
+		DC5F1CA512D4E3E3002AF4F2 /* ColorFuncs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC5F1C8F12D4E3E3002AF4F2 /* ColorFuncs.cpp */; };
+		DC5F1CA612D4E3E3002AF4F2 /* ColorFuncs.h in Headers */ = {isa = PBXBuildFile; fileRef = DC5F1C9012D4E3E3002AF4F2 /* ColorFuncs.h */; };
+		DC5F1CA712D4E3E3002AF4F2 /* CropAreaFuncs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC5F1C9112D4E3E3002AF4F2 /* CropAreaFuncs.cpp */; };
+		DC5F1CA812D4E3E3002AF4F2 /* CropAreaFuncs.h in Headers */ = {isa = PBXBuildFile; fileRef = DC5F1C9212D4E3E3002AF4F2 /* CropAreaFuncs.h */; };
+		DC5F1CA912D4E3E3002AF4F2 /* DictFuncs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC5F1C9312D4E3E3002AF4F2 /* DictFuncs.cpp */; };
+		DC5F1CAA12D4E3E3002AF4F2 /* DictFuncs.h in Headers */ = {isa = PBXBuildFile; fileRef = DC5F1C9412D4E3E3002AF4F2 /* DictFuncs.h */; };
+		DC5F1CAB12D4E3E3002AF4F2 /* Node.mm in Sources */ = {isa = PBXBuildFile; fileRef = DC5F1C9512D4E3E3002AF4F2 /* Node.mm */; };
+		DC5F1CAC12D4E3E3002AF4F2 /* Node.h in Headers */ = {isa = PBXBuildFile; fileRef = DC5F1C9612D4E3E3002AF4F2 /* Node.h */; };
+		DC5F1CAD12D4E3E3002AF4F2 /* Plate.mm in Sources */ = {isa = PBXBuildFile; fileRef = DC5F1C9712D4E3E3002AF4F2 /* Plate.mm */; };
+		DC5F1CAE12D4E3E3002AF4F2 /* Plate.h in Headers */ = {isa = PBXBuildFile; fileRef = DC5F1C9812D4E3E3002AF4F2 /* Plate.h */; };
+		DC5F1CAF12D4E3E3002AF4F2 /* PrefPathCheck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC5F1C9912D4E3E3002AF4F2 /* PrefPathCheck.cpp */; };
+		DC5F1CB012D4E3E3002AF4F2 /* PrefPathCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = DC5F1C9A12D4E3E3002AF4F2 /* PrefPathCheck.h */; };
+		DC5F1CB112D4E3E3002AF4F2 /* VPB.mm in Sources */ = {isa = PBXBuildFile; fileRef = DC5F1C9B12D4E3E3002AF4F2 /* VPB.mm */; };
+		DC5F1CB212D4E3E3002AF4F2 /* VPB.h in Headers */ = {isa = PBXBuildFile; fileRef = DC5F1C9C12D4E3E3002AF4F2 /* VPB.h */; };
+		DC5F1CB312D4E3E3002AF4F2 /* error.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC5F1C9D12D4E3E3002AF4F2 /* error.cpp */; };
+		DC5F1CB412D4E3E3002AF4F2 /* error.h in Headers */ = {isa = PBXBuildFile; fileRef = DC5F1C9E12D4E3E3002AF4F2 /* error.h */; };
+		DC618A391372FF4300F981BB /* smerror.png in Resources */ = {isa = PBXBuildFile; fileRef = DC618A381372FF4300F981BB /* smerror.png */; };
+		DC8E064813059937003E22B8 /* resultImageTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = DC8E064613059937003E22B8 /* resultImageTransformer.h */; };
+		DC8E064913059937003E22B8 /* resultImageTransformer.mm in Sources */ = {isa = PBXBuildFile; fileRef = DC8E064713059937003E22B8 /* resultImageTransformer.mm */; };
+		DCF08D7313B117F40086A319 /* NSTreeController-DMExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = DCF08D7113B117F40086A319 /* NSTreeController-DMExtensions.h */; };
+		DCF08D7413B117F40086A319 /* NSTreeController-DMExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF08D7213B117F40086A319 /* NSTreeController-DMExtensions.m */; };
+		DCF08D8413B118C30086A319 /* NSOutlineView-DMExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = DCF08D8213B118C30086A319 /* NSOutlineView-DMExtensions.h */; };
+		DCF08D8513B118C30086A319 /* NSOutlineView-DMExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF08D8313B118C30086A319 /* NSOutlineView-DMExtensions.m */; };
+		DCF5C784130C2A8B0000B472 /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = DCF5C782130C2A8B0000B472 /* error.png */; };
+		DCF5C785130C2A8B0000B472 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = DCF5C783130C2A8B0000B472 /* check.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A7772AD0BE6389300A9D493 /* IllustratorSDK.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = IllustratorSDK.cpp; path = ../common/source/IllustratorSDK.cpp; sourceTree = SOURCE_ROOT; };
+		2AE97DE20BBC218A0041212F /* PrintToPDF.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; name = PrintToPDF.r; path = Resources/PrintToPDF.r; sourceTree = "<group>"; };
+		6E0C51960A8B6CC600C9A14A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = Info.plist; path = ../common/mac/Info.plist; sourceTree = SOURCE_ROOT; };
+		6EE2BA530A40BB2600CC7CE2 /* PrintToPDF.aip */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrintToPDF.aip; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EE2BA9B0A41E04500CC7CE2 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		DC0499DF136EE0490019DE1C /* Layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Layer.h; path = "../common/My Custom Headers/Layer.h"; sourceTree = SOURCE_ROOT; };
+		DC0499E0136EE0490019DE1C /* Layer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Layer.mm; path = "../common/My Custom Headers/Layer.mm"; sourceTree = SOURCE_ROOT; };
+		DC049A1E136EF7050019DE1C /* NSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSStringAdditions.h; path = "../common/My Custom Headers/NSStringAdditions.h"; sourceTree = SOURCE_ROOT; };
+		DC049A1F136EF7050019DE1C /* NSStringAdditions.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = NSStringAdditions.mm; path = "../common/My Custom Headers/NSStringAdditions.mm"; sourceTree = SOURCE_ROOT; };
+		DC189BB5134F6F3400E4A121 /* BStatMU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BStatMU.h; path = Source/BStatMU.h; sourceTree = "<group>"; };
+		DC189BB6134F6F3400E4A121 /* BStatMU.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = BStatMU.mm; path = Source/BStatMU.mm; sourceTree = "<group>"; };
+		DC2D8E8F1373112C002E43C7 /* OutputFolderItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OutputFolderItem.h; path = Source/OutputFolderItem.h; sourceTree = "<group>"; };
+		DC2D8E901373112C002E43C7 /* OutputFolderItem.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = OutputFolderItem.mm; path = Source/OutputFolderItem.mm; sourceTree = "<group>"; };
+		DC2D8EB1137315F9002E43C7 /* validPathImageTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = validPathImageTransformer.h; path = Source/validPathImageTransformer.h; sourceTree = "<group>"; };
+		DC2D8EB2137315F9002E43C7 /* validPathImageTransformer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = validPathImageTransformer.mm; path = Source/validPathImageTransformer.mm; sourceTree = "<group>"; };
+		DC4B33F013BCEC7A00A60790 /* OutputFolderDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OutputFolderDataSource.h; path = Source/OutputFolderDataSource.h; sourceTree = "<group>"; };
+		DC4B33F113BCEC7A00A60790 /* OutputFolderDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OutputFolderDataSource.m; path = Source/OutputFolderDataSource.m; sourceTree = "<group>"; };
+		DC5F1B7B12D4D860002AF4F2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		DC5F1B7C12D4D860002AF4F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		DC5F1B8B12D4D906002AF4F2 /* PlateItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlateItem.h; path = Source/PlateItem.h; sourceTree = "<group>"; };
+		DC5F1B8C12D4D906002AF4F2 /* Callbacks.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Callbacks.mm; path = Source/Callbacks.mm; sourceTree = "<group>"; };
+		DC5F1B8E12D4D906002AF4F2 /* shell.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = shell.cpp; path = Source/shell.cpp; sourceTree = "<group>"; };
+		DC5F1B8F12D4D906002AF4F2 /* Dialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Dialog.h; path = Source/Dialog.h; sourceTree = "<group>"; };
+		DC5F1B9012D4D906002AF4F2 /* notifierHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = notifierHandler.h; path = Source/notifierHandler.h; sourceTree = "<group>"; };
+		DC5F1B9112D4D906002AF4F2 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Common.h; path = Source/Common.h; sourceTree = "<group>"; };
+		DC5F1B9212D4D906002AF4F2 /* menuHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = menuHandler.h; path = Source/menuHandler.h; sourceTree = "<group>"; };
+		DC5F1B9412D4D906002AF4F2 /* PlateItem.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = PlateItem.mm; path = Source/PlateItem.mm; sourceTree = "<group>"; };
+		DC5F1B9512D4D906002AF4F2 /* notifierHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = notifierHandler.cpp; path = Source/notifierHandler.cpp; sourceTree = "<group>"; };
+		DC5F1B9612D4D906002AF4F2 /* pluginHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pluginHandler.h; path = Source/pluginHandler.h; sourceTree = "<group>"; };
+		DC5F1B9712D4D906002AF4F2 /* Suites.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Suites.h; path = Source/Suites.h; sourceTree = "<group>"; };
+		DC5F1B9812D4D906002AF4F2 /* Dialog.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Dialog.mm; path = Source/Dialog.mm; sourceTree = "<group>"; };
+		DC5F1B9912D4D906002AF4F2 /* Callbacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Callbacks.h; path = Source/Callbacks.h; sourceTree = "<group>"; };
+		DC5F1B9A12D4D906002AF4F2 /* pluginHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pluginHandler.cpp; path = Source/pluginHandler.cpp; sourceTree = "<group>"; };
+		DC5F1B9C12D4D906002AF4F2 /* menuHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = menuHandler.cpp; path = Source/menuHandler.cpp; sourceTree = "<group>"; };
+		DC5F1BB112D4D9C2002AF4F2 /* pPDFcocoa.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = pPDFcocoa.nib; path = Resources/pPDFcocoa.nib; sourceTree = "<group>"; };
+		DC5F1BE812D4DA06002AF4F2 /* stringUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = stringUtils.cpp; path = ../common/source/stringUtils.cpp; sourceTree = SOURCE_ROOT; };
+		DC5F1BE912D4DA06002AF4F2 /* SDKAboutPluginsHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SDKAboutPluginsHelper.cpp; path = ../common/source/SDKAboutPluginsHelper.cpp; sourceTree = SOURCE_ROOT; };
+		DC5F1BEC12D4DA26002AF4F2 /* IAIUnicodeString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IAIUnicodeString.cpp; path = ../../illustratorapi/illustrator/IAIUnicodeString.cpp; sourceTree = SOURCE_ROOT; };
+		DC5F1BED12D4DA26002AF4F2 /* IAIFilePath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IAIFilePath.cpp; path = ../../illustratorapi/illustrator/IAIFilePath.cpp; sourceTree = SOURCE_ROOT; };
+		DC5F1BF012D4DA3A002AF4F2 /* IText.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IText.cpp; path = ../../illustratorapi/ate/IText.cpp; sourceTree = SOURCE_ROOT; };
+		DC5F1BF112D4DA3A002AF4F2 /* IThrowException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IThrowException.cpp; path = ../../illustratorapi/ate/IThrowException.cpp; sourceTree = SOURCE_ROOT; };
+		DC5F1C3612D4DB06002AF4F2 /* SDKErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDKErrors.h; path = Source/SDKErrors.h; sourceTree = "<group>"; };
+		DC5F1C3712D4DB06002AF4F2 /* SDKErrors.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SDKErrors.cpp; path = Source/SDKErrors.cpp; sourceTree = "<group>"; };
+		DC5F1C8912D4E3E3002AF4F2 /* ATEFuncs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ATEFuncs.cpp; path = "../common/My Custom Headers/ATEFuncs.cpp"; sourceTree = SOURCE_ROOT; };
+		DC5F1C8A12D4E3E3002AF4F2 /* ATEFuncs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATEFuncs.h; path = "../common/My Custom Headers/ATEFuncs.h"; sourceTree = SOURCE_ROOT; };
+		DC5F1C8B12D4E3E3002AF4F2 /* ArtTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ArtTree.cpp; path = "../common/My Custom Headers/ArtTree.cpp"; sourceTree = SOURCE_ROOT; };
+		DC5F1C8C12D4E3E3002AF4F2 /* ArtTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArtTree.h; path = "../common/My Custom Headers/ArtTree.h"; sourceTree = SOURCE_ROOT; };
+		DC5F1C8D12D4E3E3002AF4F2 /* CException.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = CException.mm; path = "../common/My Custom Headers/CException.mm"; sourceTree = SOURCE_ROOT; };
+		DC5F1C8E12D4E3E3002AF4F2 /* CException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CException.h; path = "../common/My Custom Headers/CException.h"; sourceTree = SOURCE_ROOT; };
+		DC5F1C8F12D4E3E3002AF4F2 /* ColorFuncs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ColorFuncs.cpp; path = "../common/My Custom Headers/ColorFuncs.cpp"; sourceTree = SOURCE_ROOT; };
+		DC5F1C9012D4E3E3002AF4F2 /* ColorFuncs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorFuncs.h; path = "../common/My Custom Headers/ColorFuncs.h"; sourceTree = SOURCE_ROOT; };
+		DC5F1C9112D4E3E3002AF4F2 /* CropAreaFuncs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CropAreaFuncs.cpp; path = "../common/My Custom Headers/CropAreaFuncs.cpp"; sourceTree = SOURCE_ROOT; };
+		DC5F1C9212D4E3E3002AF4F2 /* CropAreaFuncs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CropAreaFuncs.h; path = "../common/My Custom Headers/CropAreaFuncs.h"; sourceTree = SOURCE_ROOT; };
+		DC5F1C9312D4E3E3002AF4F2 /* DictFuncs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DictFuncs.cpp; path = "../common/My Custom Headers/DictFuncs.cpp"; sourceTree = SOURCE_ROOT; };
+		DC5F1C9412D4E3E3002AF4F2 /* DictFuncs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DictFuncs.h; path = "../common/My Custom Headers/DictFuncs.h"; sourceTree = SOURCE_ROOT; };
+		DC5F1C9512D4E3E3002AF4F2 /* Node.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Node.mm; path = "../common/My Custom Headers/Node.mm"; sourceTree = SOURCE_ROOT; };
+		DC5F1C9612D4E3E3002AF4F2 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Node.h; path = "../common/My Custom Headers/Node.h"; sourceTree = SOURCE_ROOT; };
+		DC5F1C9712D4E3E3002AF4F2 /* Plate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Plate.mm; path = "../common/My Custom Headers/Plate.mm"; sourceTree = SOURCE_ROOT; };
+		DC5F1C9812D4E3E3002AF4F2 /* Plate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Plate.h; path = "../common/My Custom Headers/Plate.h"; sourceTree = SOURCE_ROOT; };
+		DC5F1C9912D4E3E3002AF4F2 /* PrefPathCheck.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PrefPathCheck.cpp; path = "../common/My Custom Headers/PrefPathCheck.cpp"; sourceTree = SOURCE_ROOT; };
+		DC5F1C9A12D4E3E3002AF4F2 /* PrefPathCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefPathCheck.h; path = "../common/My Custom Headers/PrefPathCheck.h"; sourceTree = SOURCE_ROOT; };
+		DC5F1C9B12D4E3E3002AF4F2 /* VPB.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = VPB.mm; path = "../common/My Custom Headers/VPB.mm"; sourceTree = SOURCE_ROOT; };
+		DC5F1C9C12D4E3E3002AF4F2 /* VPB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VPB.h; path = "../common/My Custom Headers/VPB.h"; sourceTree = SOURCE_ROOT; };
+		DC5F1C9D12D4E3E3002AF4F2 /* error.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = error.cpp; path = "../common/My Custom Headers/error.cpp"; sourceTree = SOURCE_ROOT; };
+		DC5F1C9E12D4E3E3002AF4F2 /* error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = error.h; path = "../common/My Custom Headers/error.h"; sourceTree = SOURCE_ROOT; };
+		DC618A381372FF4300F981BB /* smerror.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smerror.png; path = Resources/smerror.png; sourceTree = "<group>"; };
+		DC8E064613059937003E22B8 /* resultImageTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = resultImageTransformer.h; path = Source/resultImageTransformer.h; sourceTree = "<group>"; };
+		DC8E064713059937003E22B8 /* resultImageTransformer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = resultImageTransformer.mm; path = Source/resultImageTransformer.mm; sourceTree = "<group>"; };
+		DCF08D7113B117F40086A319 /* NSTreeController-DMExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSTreeController-DMExtensions.h"; path = "../common/My Custom Headers/NSTreeController-DMExtensions.h"; sourceTree = SOURCE_ROOT; };
+		DCF08D7213B117F40086A319 /* NSTreeController-DMExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSTreeController-DMExtensions.m"; path = "../common/My Custom Headers/NSTreeController-DMExtensions.m"; sourceTree = SOURCE_ROOT; };
+		DCF08D8213B118C30086A319 /* NSOutlineView-DMExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSOutlineView-DMExtensions.h"; path = "../common/My Custom Headers/NSOutlineView-DMExtensions.h"; sourceTree = SOURCE_ROOT; };
+		DCF08D8313B118C30086A319 /* NSOutlineView-DMExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSOutlineView-DMExtensions.m"; path = "../common/My Custom Headers/NSOutlineView-DMExtensions.m"; sourceTree = SOURCE_ROOT; };
+		DCF5C782130C2A8B0000B472 /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = error.png; path = Resources/error.png; sourceTree = "<group>"; };
+		DCF5C783130C2A8B0000B472 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = check.png; path = Resources/check.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		508817D209F0C9AD0071BF1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE2BA9D0A41E04500CC7CE2 /* Carbon.framework in Frameworks */,
+				DC5F1B7D12D4D860002AF4F2 /* Cocoa.framework in Frameworks */,
+				DC5F1B7E12D4D860002AF4F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A7772AA0BE6387700A9D493 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				DC5F1BF012D4DA3A002AF4F2 /* IText.cpp */,
+				DC5F1BF112D4DA3A002AF4F2 /* IThrowException.cpp */,
+				DC5F1BEC12D4DA26002AF4F2 /* IAIUnicodeString.cpp */,
+				DC5F1BED12D4DA26002AF4F2 /* IAIFilePath.cpp */,
+				DC5F1BE812D4DA06002AF4F2 /* stringUtils.cpp */,
+				DC5F1BE912D4DA06002AF4F2 /* SDKAboutPluginsHelper.cpp */,
+				2A7772AD0BE6389300A9D493 /* IllustratorSDK.cpp */,
+				DC5F1C3612D4DB06002AF4F2 /* SDKErrors.h */,
+				DC5F1C3712D4DB06002AF4F2 /* SDKErrors.cpp */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		2AE97C910BBC0FAB0041212F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				DC189BB5134F6F3400E4A121 /* BStatMU.h */,
+				DC189BB6134F6F3400E4A121 /* BStatMU.mm */,
+				DC5F1B8F12D4D906002AF4F2 /* Dialog.h */,
+				DC5F1B9812D4D906002AF4F2 /* Dialog.mm */,
+				DC5F1B8B12D4D906002AF4F2 /* PlateItem.h */,
+				DC5F1B9412D4D906002AF4F2 /* PlateItem.mm */,
+				DC2D8E8F1373112C002E43C7 /* OutputFolderItem.h */,
+				DC2D8E901373112C002E43C7 /* OutputFolderItem.mm */,
+				DC4B33F013BCEC7A00A60790 /* OutputFolderDataSource.h */,
+				DC4B33F113BCEC7A00A60790 /* OutputFolderDataSource.m */,
+				DC8E064613059937003E22B8 /* resultImageTransformer.h */,
+				DC8E064713059937003E22B8 /* resultImageTransformer.mm */,
+				DC2D8EB1137315F9002E43C7 /* validPathImageTransformer.h */,
+				DC2D8EB2137315F9002E43C7 /* validPathImageTransformer.mm */,
+				DC5F1B9912D4D906002AF4F2 /* Callbacks.h */,
+				DC5F1B8C12D4D906002AF4F2 /* Callbacks.mm */,
+				DC5F1B9112D4D906002AF4F2 /* Common.h */,
+				DC5F1B9712D4D906002AF4F2 /* Suites.h */,
+				DC5F1B8E12D4D906002AF4F2 /* shell.cpp */,
+				DC5F1C8812D4E3D1002AF4F2 /* My Headers */,
+				2A7772AA0BE6387700A9D493 /* Shared */,
+				DC5F1B9012D4D906002AF4F2 /* notifierHandler.h */,
+				DC5F1B9512D4D906002AF4F2 /* notifierHandler.cpp */,
+				DC5F1B9212D4D906002AF4F2 /* menuHandler.h */,
+				DC5F1B9C12D4D906002AF4F2 /* menuHandler.cpp */,
+				DC5F1B9612D4D906002AF4F2 /* pluginHandler.h */,
+				DC5F1B9A12D4D906002AF4F2 /* pluginHandler.cpp */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		508817C209F0C9740071BF1A = {
+			isa = PBXGroup;
+			children = (
+				2AE97C910BBC0FAB0041212F /* Sources */,
+				5088180609F0CDD00071BF1A /* Libraries */,
+				6EE2BA590A40BDD300CC7CE2 /* Resources */,
+				508817D509F0C9AD0071BF1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		508817D509F0C9AD0071BF1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EE2BA530A40BB2600CC7CE2 /* PrintToPDF.aip */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5088180609F0CDD00071BF1A /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				DC5F1B7B12D4D860002AF4F2 /* Cocoa.framework */,
+				DC5F1B7C12D4D860002AF4F2 /* Foundation.framework */,
+				6EE2BA9B0A41E04500CC7CE2 /* Carbon.framework */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		6EE2BA590A40BDD300CC7CE2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DC618A381372FF4300F981BB /* smerror.png */,
+				DCF5C782130C2A8B0000B472 /* error.png */,
+				DCF5C783130C2A8B0000B472 /* check.png */,
+				DC5F1BB112D4D9C2002AF4F2 /* pPDFcocoa.nib */,
+				6E0C51960A8B6CC600C9A14A /* Info.plist */,
+				2AE97DE20BBC218A0041212F /* PrintToPDF.r */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DC5F1C8812D4E3D1002AF4F2 /* My Headers */ = {
+			isa = PBXGroup;
+			children = (
+				DCF08D7113B117F40086A319 /* NSTreeController-DMExtensions.h */,
+				DCF08D7213B117F40086A319 /* NSTreeController-DMExtensions.m */,
+				DCF08D8213B118C30086A319 /* NSOutlineView-DMExtensions.h */,
+				DCF08D8313B118C30086A319 /* NSOutlineView-DMExtensions.m */,
+				DC5F1C8912D4E3E3002AF4F2 /* ATEFuncs.cpp */,
+				DC5F1C8A12D4E3E3002AF4F2 /* ATEFuncs.h */,
+				DC5F1C8B12D4E3E3002AF4F2 /* ArtTree.cpp */,
+				DC5F1C8C12D4E3E3002AF4F2 /* ArtTree.h */,
+				DC0499DF136EE0490019DE1C /* Layer.h */,
+				DC0499E0136EE0490019DE1C /* Layer.mm */,
+				DC5F1C8D12D4E3E3002AF4F2 /* CException.mm */,
+				DC5F1C8E12D4E3E3002AF4F2 /* CException.h */,
+				DC5F1C8F12D4E3E3002AF4F2 /* ColorFuncs.cpp */,
+				DC5F1C9012D4E3E3002AF4F2 /* ColorFuncs.h */,
+				DC5F1C9112D4E3E3002AF4F2 /* CropAreaFuncs.cpp */,
+				DC5F1C9212D4E3E3002AF4F2 /* CropAreaFuncs.h */,
+				DC5F1C9312D4E3E3002AF4F2 /* DictFuncs.cpp */,
+				DC5F1C9412D4E3E3002AF4F2 /* DictFuncs.h */,
+				DC5F1C9512D4E3E3002AF4F2 /* Node.mm */,
+				DC5F1C9612D4E3E3002AF4F2 /* Node.h */,
+				DC5F1C9712D4E3E3002AF4F2 /* Plate.mm */,
+				DC5F1C9812D4E3E3002AF4F2 /* Plate.h */,
+				DC5F1C9912D4E3E3002AF4F2 /* PrefPathCheck.cpp */,
+				DC5F1C9A12D4E3E3002AF4F2 /* PrefPathCheck.h */,
+				DC5F1C9B12D4E3E3002AF4F2 /* VPB.mm */,
+				DC5F1C9C12D4E3E3002AF4F2 /* VPB.h */,
+				DC5F1C9D12D4E3E3002AF4F2 /* error.cpp */,
+				DC5F1C9E12D4E3E3002AF4F2 /* error.h */,
+				DC049A1E136EF7050019DE1C /* NSStringAdditions.h */,
+				DC049A1F136EF7050019DE1C /* NSStringAdditions.mm */,
+			);
+			name = "My Headers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6EE2BA0A0A40B76300CC7CE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC5F1B9D12D4D906002AF4F2 /* PlateItem.h in Headers */,
+				DC5F1BA112D4D906002AF4F2 /* Dialog.h in Headers */,
+				DC5F1BA212D4D906002AF4F2 /* notifierHandler.h in Headers */,
+				DC5F1BA312D4D906002AF4F2 /* Common.h in Headers */,
+				DC5F1BA412D4D906002AF4F2 /* menuHandler.h in Headers */,
+				DC5F1BA812D4D906002AF4F2 /* pluginHandler.h in Headers */,
+				DC5F1BA912D4D906002AF4F2 /* Suites.h in Headers */,
+				DC5F1BAB12D4D906002AF4F2 /* Callbacks.h in Headers */,
+				DC5F1C3812D4DB06002AF4F2 /* SDKErrors.h in Headers */,
+				DC5F1CA012D4E3E3002AF4F2 /* ATEFuncs.h in Headers */,
+				DC5F1CA212D4E3E3002AF4F2 /* ArtTree.h in Headers */,
+				DC5F1CA412D4E3E3002AF4F2 /* CException.h in Headers */,
+				DC5F1CA612D4E3E3002AF4F2 /* ColorFuncs.h in Headers */,
+				DC5F1CA812D4E3E3002AF4F2 /* CropAreaFuncs.h in Headers */,
+				DC5F1CAA12D4E3E3002AF4F2 /* DictFuncs.h in Headers */,
+				DC5F1CAC12D4E3E3002AF4F2 /* Node.h in Headers */,
+				DC5F1CAE12D4E3E3002AF4F2 /* Plate.h in Headers */,
+				DC5F1CB012D4E3E3002AF4F2 /* PrefPathCheck.h in Headers */,
+				DC5F1CB212D4E3E3002AF4F2 /* VPB.h in Headers */,
+				DC5F1CB412D4E3E3002AF4F2 /* error.h in Headers */,
+				DC8E064813059937003E22B8 /* resultImageTransformer.h in Headers */,
+				DC189BB7134F6F3400E4A121 /* BStatMU.h in Headers */,
+				DC0499E1136EE0490019DE1C /* Layer.h in Headers */,
+				DC049A20136EF7050019DE1C /* NSStringAdditions.h in Headers */,
+				DC2D8E911373112C002E43C7 /* OutputFolderItem.h in Headers */,
+				DC2D8EB3137315F9002E43C7 /* validPathImageTransformer.h in Headers */,
+				DCF08D7313B117F40086A319 /* NSTreeController-DMExtensions.h in Headers */,
+				DCF08D8413B118C30086A319 /* NSOutlineView-DMExtensions.h in Headers */,
+				DC4B33F213BCEC7A00A60790 /* OutputFolderDataSource.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		508817D309F0C9AD0071BF1A /* PrintToPDF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 508817D709F0C9AE0071BF1A /* Build configuration list for PBXNativeTarget "PrintToPDF" */;
+			buildPhases = (
+				6EE2BA0A0A40B76300CC7CE2 /* Headers */,
+				508817D109F0C9AD0071BF1A /* Sources */,
+				508817D009F0C9AD0071BF1A /* Resources */,
+				508817D209F0C9AD0071BF1A /* Frameworks */,
+				6EE2BA0C0A40B77400CC7CE2 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrintToPDF;
+			productName = PrintToPDF;
+			productReference = 6EE2BA530A40BB2600CC7CE2 /* PrintToPDF.aip */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		508817C409F0C9740071BF1A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 508817C509F0C9740071BF1A /* Build configuration list for PBXProject "PrintToPDF" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 0;
+			mainGroup = 508817C209F0C9740071BF1A;
+			productRefGroup = 508817D509F0C9AD0071BF1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				508817D309F0C9AD0071BF1A /* PrintToPDF */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		508817D009F0C9AD0071BF1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC5F1BB212D4D9C2002AF4F2 /* pPDFcocoa.nib in Resources */,
+				DCF5C784130C2A8B0000B472 /* error.png in Resources */,
+				DCF5C785130C2A8B0000B472 /* check.png in Resources */,
+				DC618A391372FF4300F981BB /* smerror.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		6EE2BA0C0A40B77400CC7CE2 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE97DE30BBC218A0041212F /* PrintToPDF.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		508817D109F0C9AD0071BF1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A7772AE0BE6389300A9D493 /* IllustratorSDK.cpp in Sources */,
+				DC5F1B9E12D4D906002AF4F2 /* Callbacks.mm in Sources */,
+				DC5F1BA012D4D906002AF4F2 /* shell.cpp in Sources */,
+				DC5F1BA612D4D906002AF4F2 /* PlateItem.mm in Sources */,
+				DC5F1BA712D4D906002AF4F2 /* notifierHandler.cpp in Sources */,
+				DC5F1BAA12D4D906002AF4F2 /* Dialog.mm in Sources */,
+				DC5F1BAC12D4D906002AF4F2 /* pluginHandler.cpp in Sources */,
+				DC5F1BAE12D4D906002AF4F2 /* menuHandler.cpp in Sources */,
+				DC5F1BEA12D4DA06002AF4F2 /* stringUtils.cpp in Sources */,
+				DC5F1BEB12D4DA06002AF4F2 /* SDKAboutPluginsHelper.cpp in Sources */,
+				DC5F1BEE12D4DA26002AF4F2 /* IAIUnicodeString.cpp in Sources */,
+				DC5F1BEF12D4DA26002AF4F2 /* IAIFilePath.cpp in Sources */,
+				DC5F1BF212D4DA3A002AF4F2 /* IText.cpp in Sources */,
+				DC5F1BF312D4DA3A002AF4F2 /* IThrowException.cpp in Sources */,
+				DC5F1C3912D4DB06002AF4F2 /* SDKErrors.cpp in Sources */,
+				DC5F1C9F12D4E3E3002AF4F2 /* ATEFuncs.cpp in Sources */,
+				DC5F1CA112D4E3E3002AF4F2 /* ArtTree.cpp in Sources */,
+				DC5F1CA312D4E3E3002AF4F2 /* CException.mm in Sources */,
+				DC5F1CA512D4E3E3002AF4F2 /* ColorFuncs.cpp in Sources */,
+				DC5F1CA712D4E3E3002AF4F2 /* CropAreaFuncs.cpp in Sources */,
+				DC5F1CA912D4E3E3002AF4F2 /* DictFuncs.cpp in Sources */,
+				DC5F1CAB12D4E3E3002AF4F2 /* Node.mm in Sources */,
+				DC5F1CAD12D4E3E3002AF4F2 /* Plate.mm in Sources */,
+				DC5F1CAF12D4E3E3002AF4F2 /* PrefPathCheck.cpp in Sources */,
+				DC5F1CB112D4E3E3002AF4F2 /* VPB.mm in Sources */,
+				DC5F1CB312D4E3E3002AF4F2 /* error.cpp in Sources */,
+				DC8E064913059937003E22B8 /* resultImageTransformer.mm in Sources */,
+				DC189BB8134F6F3400E4A121 /* BStatMU.mm in Sources */,
+				DC0499E2136EE0490019DE1C /* Layer.mm in Sources */,
+				DC049A21136EF7050019DE1C /* NSStringAdditions.mm in Sources */,
+				DC2D8E921373112C002E43C7 /* OutputFolderItem.mm in Sources */,
+				DC2D8EB4137315F9002E43C7 /* validPathImageTransformer.mm in Sources */,
+				DCF08D7413B117F40086A319 /* NSTreeController-DMExtensions.m in Sources */,
+				DCF08D8513B118C30086A319 /* NSOutlineView-DMExtensions.m in Sources */,
+				DC4B33F313BCEC7A00A60790 /* OutputFolderDataSource.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		508817C609F0C9740071BF1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AI_CONFIGURATION = debug;
+				AI_LOCALE = en_US;
+				AI_PLATFORM = xcode;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				CONFIGURATION_BUILD_DIR = "./../Output/Mac/$(AI_CONFIGURATION)";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/Default";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DSTROOT = "/tmp/$(PROJECT_NAME).dst";
+				EXPORTED_SYMBOLS_FILE = "";
+				FRAMEWORK_SEARCH_PATHS = "$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)";
+				GCC_DEBUGGING_SYMBOLS = used;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ./../common/includes/IllustratorSDKdebug.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"./../../illustratorapi/**",
+					"/Developer/Headers/FlatCarbon/**",
+					"./**",
+					"./../common/**",
+				);
+				INFOPLIST_FILE = ../common/mac/Info.plist;
+				INFOPLIST_PREFIX_HEADER = ../common/includes/SDKDef.h;
+				INFOPLIST_PREPROCESS = YES;
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				OBJROOT = .;
+				ONLY_LINK_ESSENTIAL_SYMBOLS = YES;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				PRESERVE_DEAD_CODE_INITS_AND_TERMS = NO;
+				PRODUCT_NAME = PrintToPDF;
+				PROJECTNAME = PrintToPDF;
+				REZ_SEARCH_PATHS = "";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SEPARATE_STRIP = NO;
+				SHARED_PRECOMPS_DIR = "./../Output/Mac/SharedPrecompiledHeaders/$(AI_CONFIGURATION)";
+				SKIP_INSTALL = NO;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = all;
+				SYMROOT = "./../Output/Mac/$(AI_CONFIGURATION)";
+				WRAPPER_EXTENSION = aip;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		508817C709F0C9740071BF1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AI_CONFIGURATION = release;
+				AI_LOCALE = en_US;
+				AI_PLATFORM = xcode;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				CONFIGURATION_BUILD_DIR = "./../Output/Mac/$(AI_CONFIGURATION)";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/Default";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DSTROOT = "/tmp/$(PROJECT_NAME).dst";
+				EXPORTED_SYMBOLS_FILE = "";
+				FRAMEWORK_SEARCH_PATHS = "$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)";
+				GCC_DEBUGGING_SYMBOLS = used;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ./../common/includes/IllustratorSDKrelease.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"./../../illustratorapi/**",
+					"/Developer/Headers/FlatCarbon/**",
+					"./**",
+					"./../common/**",
+				);
+				INFOPLIST_FILE = ../common/mac/Info.plist;
+				INFOPLIST_PREFIX_HEADER = ../common/includes/SDKDef.h;
+				INFOPLIST_PREPROCESS = YES;
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				OBJROOT = .;
+				ONLY_LINK_ESSENTIAL_SYMBOLS = YES;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				PRESERVE_DEAD_CODE_INITS_AND_TERMS = NO;
+				PRODUCT_NAME = PrintToPDF;
+				PROJECTNAME = PrintToPDF;
+				REZ_SEARCH_PATHS = "";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SEPARATE_STRIP = NO;
+				SHARED_PRECOMPS_DIR = "./../Output/Mac/SharedPrecompiledHeaders/$(AI_CONFIGURATION)";
+				SKIP_INSTALL = NO;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = all;
+				SYMROOT = "./../Output/Mac/$(AI_CONFIGURATION)";
+				WRAPPER_EXTENSION = aip;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		508817D809F0C9AE0071BF1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		508817D909F0C9AE0071BF1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		508817C509F0C9740071BF1A /* Build configuration list for PBXProject "PrintToPDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				508817C609F0C9740071BF1A /* Debug */,
+				508817C709F0C9740071BF1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		508817D709F0C9AE0071BF1A /* Build configuration list for PBXNativeTarget "PrintToPDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				508817D809F0C9AE0071BF1A /* Debug */,
+				508817D909F0C9AE0071BF1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 508817C409F0C9740071BF1A /* Project object */;
+}

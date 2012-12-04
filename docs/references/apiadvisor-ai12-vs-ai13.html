@@ -1,0 +1,3390 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   
+      <title>Adobe Illustrator CS3 SDK API Advisor</title>
+      <link rel="stylesheet" href="adobe.css" type="text/css">
+   </head>
+   <body bgcolor="#FFFFFF" text="#000000">
+      <h1>Adobe Illustrator CS3 SDK API Advisor</h1>
+      				Comparing the APIs for <b>Illustrator CS2 Build 207 (GM) </b> and <b>Illustrator CS3 Build 407 (GMF) </b>:
+      				
+      				
+      <ul>
+         <li>Class changes
+            		
+            <ul>
+               <li><a href="#obsolete_classes">Obsolete classes
+                     			</a></li>
+               <li><a href="#new_classes">New classes
+                     			</a></li>
+               <li><a href="#class_function_member_changes">Function member changes for common classes
+                     			</a></li>
+               <li><a href="#class_function_pointer_member_changes">Function pointer member changes for common classes
+                     			</a></li>
+            </ul>
+         </li>
+         <li>Struct changes
+            		
+            <ul>
+               <li><a href="#obsolete_structs">Obsolete structs
+                     			</a></li>
+               <li><a href="#new_structs">New structs
+                     			</a></li>
+               <li><a href="#struct_function_member_changes">Function member changes for common structs
+                     			</a></li>
+               <li><a href="#struct_function_pointer_member_changes">Function pointer member changes for common structs
+                     			</a></li>
+            </ul>
+         </li>
+         <li>File changes
+            		
+            <ul>
+               <li><a href="#obsolete_files">Obsolete files
+                     			</a></li>
+               <li><a href="#new_files">New files
+                     			</a></li>
+            </ul>
+         </li>
+      </ul>
+      <hr>
+      <h2>Class changes</h2><a name="obsolete_classes"></a><h3>Obsolete classes</h3>
+      			The following classes from have been removed from the API for <b>Illustrator CS3 Build 407 (GMF) </b>, these classes existed in the API for <b>Illustrator CS2 Build 207 (GM) </b>:<br>
+      				&nbsp; 
+      			
+      <hr><a name="new_classes"></a><h3>New classes</h3>
+      			The following classes have been added to the API for <b>Illustrator CS3 Build 407 (GMF) </b>, these classes did not exist in the API for <b>Illustrator CS2 Build 207 (GM) </b>:<br><ul>
+         <li>ai::ColorSpace</li>
+         <li>ai::ColorSpaceList</li>
+         <li>ai::Locale</li>
+         <li>ai::NumberFormat</li>
+         <li>ai::WCHARStr</li>
+      </ul>
+      <hr><a name="class_function_member_changes"></a><h3>Function member changes for common classes</h3>Functions that have changed in APIs common to both  <b>Illustrator CS2 Build 207 (GM) </b> and <b>Illustrator CS3 Build 407 (GMF) </b>:
+      		
+      <ul>
+         <li>If a member listed under <b>Illustrator CS2 Build 207 (GM) </b> isn't listed under <b>Illustrator CS3 Build 407 (GMF) </b> then it has been removed from the API for <b>Illustrator CS3 Build 407 (GMF) </b>.
+         </li>
+         <li>If a member listed under <b>Illustrator CS3 Build 407 (GMF) </b> isn't listed under <b>Illustrator CS2 Build 207 (GM) </b> then it has been added to the API for <b>Illustrator CS3 Build 407 (GMF) </b>.
+         </li>
+      </ul>
+      <table width="100%" border="1">
+         <tr>
+            <td width="50%"><b>Illustrator CS2 Build 207 (GM) </b></td>
+            <td width="50%"><b>Illustrator CS3 Build 407 (GMF) </b></td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ASUserInteractionChecker (See illustrator/ASUserInteraction.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               								&nbsp; 
+               							
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ASErr logInfo(const ai::UnicodeString &amp;msg1, const ai::UnicodeString *msg2=NULL)</li>
+                  <li>void logError(const ai::UnicodeString &amp;msg1, const ai::UnicodeString *msg2=NULL)</li>
+                  <li>void logWarning(const ai::UnicodeString &amp;msg1, const ai::UnicodeString *msg2=NULL)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ai::AutoSuite (See illustrator/AutoSuite.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               								&nbsp; 
+               							
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>virtual ~AutoSuite()</li>
+                  <li>AutoSuite(const AutoSuite &amp;)</li>
+                  <li>AutoSuite&amp; operator=(const AutoSuite &amp;)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ai::const_PStr (See illustrator/IAIUnicodeString.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               								&nbsp; 
+               							
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>virtual ~const_PStr()</li>
+                  <li>const_PStr&amp; operator=(const const_PStr &amp;)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ai::FilePath (See illustrator/IAIFilePath.hpp)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>FilePath::FilePath(const ai::UnicodeString &amp;)</li>
+                  <li>FilePath(AliasHandle)</li>
+                  <li>void FilePath::Set(const ai::UnicodeString &amp;string)</li>
+                  <li>OSStatus SetFromAlias(AliasHandle)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>FilePath::FilePath(const ai::UnicodeString &amp;path, bool expandName=true)</li>
+                  <li>void FilePath::Set(const ai::UnicodeString &amp;path, bool expandName=true)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">IADMDialog (See illustrator/IADMDialog.hpp)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>int GetTextLength()</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>void SetName(const char *inName)</li>
+                  <li>ADMBoolean IsTabHidden()</li>
+                  <li>ADMBoolean IsContextHidden()</li>
+                  <li>void GetMainViewRect(ADMRect *outBoundsRect)</li>
+                  <li>void SetPreferredSizes(const ADMPoint *inConstrained, const ADMPoint *inUnconstrained)</li>
+                  <li>void GetPreferredSizes(ADMPoint *outConstrained, ADMPoint *outUnconstrained)</li>
+                  <li>void SetTextW(const ADMUnicode *inText)</li>
+                  <li>void GetTextW(ADMUnicode *outText, ADMInt32 inMaxLength)</li>
+                  <li>ADMInt32 GetTextLength()</li>
+                  <li>ADMInt32 GetTextLengthW()</li>
+                  <li>void SetNotifyProc(ADMDialogNotifyProc inNotifyProc)</li>
+                  <li>ADMDialogNotifyProc GetNotifyProc()</li>
+                  <li>ADMErr SetIcon(bool rollover, ADMIconRef)</li>
+                  <li>ADMErr SetToolbarIcon(ADMToolbarIconType, ADMIconRef)</li>
+                  <li>ADMErr SetToolbarMode(ADMToolbarMode)</li>
+                  <li>ADMErr GetToolbarMode(ADMToolbarMode &amp;)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">IADMDrawer (See illustrator/IADMDrawer.hpp)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               								&nbsp; 
+               							
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ADMBoolean GetUsePaletteBGColor()</li>
+                  <li>void SetUsePaletteBGColor(ADMBoolean inUsePaletteBGColor)</li>
+                  <li>int GetTextWidthW(const ADMUnicode *text)</li>
+                  <li>void DrawTextW(const ADMUnicode *text, const IADMPoint &amp;point)</li>
+                  <li>void DrawTextLeftW(const ADMUnicode *text, const IADMRect &amp;rect)</li>
+                  <li>void DrawTextCenteredW(const ADMUnicode *text, const IADMRect &amp;rect)</li>
+                  <li>void DrawTextRightW(const ADMUnicode *text, const IADMRect &amp;rect)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">IADMItem (See illustrator/IADMItem.hpp)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               								&nbsp; 
+               							
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>void SetTrackProc(ADMItemTrackProc proc)</li>
+                  <li>ADMItemTrackProc GetTrackProc()</li>
+                  <li>ADMBoolean DefaultTrack(ADMTrackerRef inTracker)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ai::Ref (See illustrator/IAIRef.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>X* ai::Ref&lt; X &gt;::operator&lt;&lt;(void(*f)(const RefReplaceParam &amp;p))</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>X * ai::Ref&lt; X &gt;::operator&lt;&lt;(void(*f)(const RefReplaceParam &amp;p))</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ai::UnicodeString (See illustrator/IAIUnicodeString.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               								&nbsp; 
+               							
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ai::UnicodeString &amp; normalize(NormalizedForm form)</li>
+               </ul>
+            </td>
+         </tr>
+      </table>
+      <hr><a name="class_function_pointer_member_changes"></a><h3>Function pointer member changes for common classes</h3>Function pointers that have changed in APIs common to both  <b>Illustrator CS2 Build 207 (GM) </b> and <b>Illustrator CS3 Build 407 (GMF) </b>:
+      		
+      <ul>
+         <li>If a member listed under <b>Illustrator CS2 Build 207 (GM) </b> isn't listed under <b>Illustrator CS3 Build 407 (GMF) </b> then it has been removed from the API for <b>Illustrator CS3 Build 407 (GMF) </b>.
+         </li>
+         <li>If a member listed under <b>Illustrator CS3 Build 407 (GMF) </b> isn't listed under <b>Illustrator CS2 Build 207 (GM) </b> then it has been added to the API for <b>Illustrator CS3 Build 407 (GMF) </b>.
+         </li>
+      </ul>
+      <table width="100%" border="1">
+         <tr>
+            <td width="50%"><b>Illustrator CS2 Build 207 (GM) </b></td>
+            <td width="50%"><b>Illustrator CS3 Build 407 (GMF) </b></td>
+         </tr>
+      </table>
+      <hr>
+      <h2>Struct changes</h2><a name="obsolete_structs"></a><h3>Obsolete structs</h3>
+      			The following structs from have been removed from the API for <b>Illustrator CS3 Build 407 (GMF) </b>, these structs existed in the API for <b>Illustrator CS2 Build 207 (GM) </b>:<br><ul>
+         <li>ADMUITConversionSuite1</li>
+         <li>AIFileFormatStreamMessage</li>
+         <li>FlashOptions</li>
+         <li>AIMenu::MenuItemParams</li>
+      </ul>
+      <hr><a name="new_structs"></a><h3>New structs</h3>
+      			The following structs have been added to the API for <b>Illustrator CS3 Build 407 (GMF) </b>, these structs did not exist in the API for <b>Illustrator CS2 Build 207 (GM) </b>:<br><ul>
+         <li>_ADMFlashPlayerProcs</li>
+         <li>_AI120ArtSuite</li>
+         <li>_FlashOptions</li>
+         <li>_SPErrorData</li>
+         <li>ADMBasicSuite10</li>
+         <li>ADMDialogGroupSuite5</li>
+         <li>ADMDialogGroupSuite6</li>
+         <li>ADMDialogSuite10</li>
+         <li>ADMDrawerSuite6</li>
+         <li>ADMFlashPlayerSuite</li>
+         <li>ADMHostSuite7</li>
+         <li>ADMPaneProperties</li>
+         <li>ADMTrackerSuite2</li>
+         <li>AI120AnnotatorSuite</li>
+         <li>AI120AppContextSuite</li>
+         <li>AI120ArtStyleParserSuite</li>
+         <li>AI120AssetMgmtSuite</li>
+         <li>AI120ColorConversionSuite</li>
+         <li>AI120ColorEditorOptions</li>
+         <li>AI120CursorSnapSuite</li>
+         <li>AI120DataFilterSuite</li>
+         <li>AI120DocumentListSuite</li>
+         <li>AI120DocumentSuite</li>
+         <li>AI120DocumentViewSuite</li>
+         <li>AI120FileFormatSuite</li>
+         <li>AI120FilePathSuite</li>
+         <li>AI120FontSuite</li>
+         <li>AI120ImageOptSuite</li>
+         <li>AI120LiveEffectSuite</li>
+         <li>AI120PaintStyleSuite</li>
+         <li>AI120PathStyleSuite</li>
+         <li>AI120PathSuite</li>
+         <li>AI120PlanarObjectSuite</li>
+         <li>AI120PlatformFileDlgOpts</li>
+         <li>AI120RasterSuite</li>
+         <li>AI120RuntimeSuite</li>
+         <li>AI120SwatchLibrariesSuite</li>
+         <li>AI120SymbolSuite</li>
+         <li>AI120Tile</li>
+         <li>AI120ToolboxSuite</li>
+         <li>AI120ToolSuite</li>
+         <li>AI120UnicodeStringSuite</li>
+         <li>AI120UserSuite</li>
+         <li>AIArtConverterSuite</li>
+         <li>AIColorHarmonySuite</li>
+         <li>AIColorPickerOptions</li>
+         <li>AIColorSpaceSuite</li>
+         <li>AICropArea</li>
+         <li>AICropAreaSuite</li>
+         <li>AIIsolationModeChangedNotifierData</li>
+         <li>AIIsolationModeSuite</li>
+         <li>AILiveEffectAdjustColorsMessage</li>
+         <li>AINewDocumentPreset</li>
+         <li>AIPlatformFileDlgOpts::PopupFilter</li>
+         <li>AIStringFormatUtilsSuite</li>
+         <li>AISwatchGroupSuite</li>
+         <li>AISwatchLibraryChangedNotifierData</li>
+         <li>AISymbolInstanceDoubleClickedNotifierData</li>
+         <li>AS120UserInteractionSuite</li>
+         <li>ai::CompileTimeChecker</li>
+         <li>ai::CompileTimeChecker&lt; false &gt;</li>
+         <li>DxfDwgExportPrefs</li>
+         <li>IASRealRectCartesian</li>
+         <li>PIFragmentCodeDesc</li>
+         <li>PIMachCodeDesc</li>
+         <li>PIMacIntelCodeDesc</li>
+         <li>PIPSMachOCodeDesc</li>
+         <li>SPBasicFuncStruct</li>
+      </ul>
+      <hr><a name="struct_function_member_changes"></a><h3>Function member changes for common structs</h3>Functions that have changed in APIs common to both  <b>Illustrator CS2 Build 207 (GM) </b> and <b>Illustrator CS3 Build 407 (GMF) </b>:
+      		
+      <ul>
+         <li>If a member listed under <b>Illustrator CS2 Build 207 (GM) </b> isn't listed under <b>Illustrator CS3 Build 407 (GMF) </b> then it has been removed from the API for <b>Illustrator CS3 Build 407 (GMF) </b>.
+         </li>
+         <li>If a member listed under <b>Illustrator CS3 Build 407 (GMF) </b> isn't listed under <b>Illustrator CS2 Build 207 (GM) </b> then it has been added to the API for <b>Illustrator CS3 Build 407 (GMF) </b>.
+         </li>
+      </ul>
+      <table width="100%" border="1">
+         <tr>
+            <td width="50%"><b>Illustrator CS2 Build 207 (GM) </b></td>
+            <td width="50%"><b>Illustrator CS3 Build 407 (GMF) </b></td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">AIFilePathSuite (See illustrator/AIFilePath.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>OSStatus SetFromAlias(AliasHandle)</li>
+                  <li>AliasHandle GetAsAlias() const </li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               								&nbsp; 
+               							
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">AIPlatformFileDlgOpts (See illustrator/AIUser.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               								&nbsp; 
+               							
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>void SetFilterArray(PopupFilter *filters, ASInt32 count)</li>
+                  <li>const PopupFilter * AIPlatformFileDlgOpts::GetFilterArray() const </li>
+                  <li>const ASInt32 GetFilterCount() const </li>
+                  <li>AIPlatformFileDlgOpts()</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">AIRasterizeSettings (See illustrator/AIRasterize.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               								&nbsp; 
+               							
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>AIRasterizeSettings(AIRasterizeType iType, AIReal iResolution, short iAntialiasing, AIRasterizeOptions iOptions, AIColorConvertOptions
+                     iCcoptions, AIBoolean iPreserveSpotColors)
+                  </li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">IADMPoint (See illustrator/IADMPoint.hpp)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>void operator=(const ADMPoint &amp;p)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>IADMPoint &amp; operator=(const ADMPoint &amp;p)</li>
+               </ul>
+            </td>
+         </tr>
+      </table>
+      <hr><a name="struct_function_pointer_member_changes"></a><h3>Function pointer member changes for common structs</h3>Function pointers that have changed in APIs common to both  <b>Illustrator CS2 Build 207 (GM) </b> and <b>Illustrator CS3 Build 407 (GMF) </b>:
+      		
+      <ul>
+         <li>If a member listed under <b>Illustrator CS2 Build 207 (GM) </b> isn't listed under <b>Illustrator CS3 Build 407 (GMF) </b> then it has been removed from the API for <b>Illustrator CS3 Build 407 (GMF) </b>.
+         </li>
+         <li>If a member listed under <b>Illustrator CS3 Build 407 (GMF) </b> isn't listed under <b>Illustrator CS2 Build 207 (GM) </b> then it has been added to the API for <b>Illustrator CS3 Build 407 (GMF) </b>.
+         </li>
+      </ul>
+      <table width="100%" border="1">
+         <tr>
+            <td width="50%"><b>Illustrator CS2 Build 207 (GM) </b></td>
+            <td width="50%"><b>Illustrator CS3 Build 407 (GMF) </b></td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ADMCustomResourceSuite1 (See adm/legacy/ADMCustomResourceOld.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>ADMErr ADMAPI(* OpenResourceStream)(ADMCustomResourceRef inFormat, SPPluginRef inPlugin, ADMInt32 inResID, const char *inResName, ASDataStreamRef
+                     *outResStream)
+                  </li>
+                  <li>ADMErr ADMAPI(* CloseResourceStream)(ASDataStreamRef inResStream)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ADMErr ADMAPI(* OpenResourceStream)(ADMCustomResourceRef inFormat, SPPluginRef inPlugin, ADMInt32 inResID, const char *inResName, AIDataFilter
+                     **outResStream)
+                  </li>
+                  <li>ADMErr ADMAPI(* CloseResourceStream)(AIDataFilter *inResStream)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ADMCustomResourceSuite2 (See adm/legacy/ADMCustomResourceOld.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>ADMErr ADMAPI(* OpenResourceStream)(ADMCustomResourceRef inFormat, SPPluginRef inPlugin, ADMInt32 inResID, const char *inResName, ASDataStreamRef
+                     *outResStream)
+                  </li>
+                  <li>ADMErr ADMAPI(* CloseResourceStream)(ASDataStreamRef inResStream)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ADMErr ADMAPI(* OpenResourceStream)(ADMCustomResourceRef inFormat, SPPluginRef inPlugin, ADMInt32 inResID, const char *inResName, AIDataFilter
+                     **outResStream)
+                  </li>
+                  <li>ADMErr ADMAPI(* CloseResourceStream)(AIDataFilter *inResStream)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ADMCustomResourceSuite3 (See adm/ADMCustomResource.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>ADMErr ADMAPI(* OpenResourceStream)(ADMCustomResourceRef inFormat, SPPluginRef inPlugin, ADMInt32 inResID, const char *inResName, ASDataStreamRef
+                     *outResStream)
+                  </li>
+                  <li>ADMErr ADMAPI(* CloseResourceStream)(ASDataStreamRef inResStream)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ADMErr ADMAPI(* OpenResourceStream)(ADMCustomResourceRef inFormat, SPPluginRef inPlugin, ADMInt32 inResID, const char *inResName, AIDataFilter
+                     **outResStream)
+                  </li>
+                  <li>ADMErr ADMAPI(* CloseResourceStream)(AIDataFilter *inResStream)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ADMHierarchyListSuite5 (See adm/ADMHierarchyList.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>void ADMAPI(* SetMask)(ADMHierarchyListRef inEntry, ADMActionMask inMask)</li>
+                  <li>void ADMAPI(* SetMaskRecursive)(ADMHierarchyListRef inEntry, ADMActionMask inMask)</li>
+                  <li>ADMActionMask ADMAPI(* GetMask)(ADMHierarchyListRef inEntry)</li>
+                  <li>void ADMAPI(* SetNotifierData)(ADMHierarchyListRef inEntry, ADMUserData inData)</li>
+                  <li>ADMUserData ADMAPI(* GetNotifierData)(ADMHierarchyListRef inEntry)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>void ADMAPI(* SetMask)(ADMHierarchyListRef inList, ADMActionMask inMask)</li>
+                  <li>void ADMAPI(* SetMaskRecursive)(ADMHierarchyListRef inList, ADMActionMask inMask)</li>
+                  <li>ADMActionMask ADMAPI(* GetMask)(ADMHierarchyListRef inList)</li>
+                  <li>void ADMAPI(* SetNotifierData)(ADMHierarchyListRef inList, ADMUserData inData)</li>
+                  <li>ADMUserData ADMAPI(* GetNotifierData)(ADMHierarchyListRef inList)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ADMListSuite4 (See adm/ADMList.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>void ADMAPI(* SetMask)(ADMListRef inEntry, ADMActionMask inActionMask)</li>
+                  <li>ADMActionMask ADMAPI(* GetMask)(ADMListRef inEntry)</li>
+                  <li>void ADMAPI(* SetNotifierData)(ADMListRef inEntry, ADMUserData inUserData)</li>
+                  <li>ADMUserData ADMAPI(* GetNotifierData)(ADMListRef inEntry)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>void ADMAPI(* SetMask)(ADMListRef inList, ADMActionMask inActionMask)</li>
+                  <li>ADMActionMask ADMAPI(* GetMask)(ADMListRef inList)</li>
+                  <li>void ADMAPI(* SetNotifierData)(ADMListRef inList, ADMUserData inUserData)</li>
+                  <li>ADMUserData ADMAPI(* GetNotifierData)(ADMListRef inList)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ADMWindowSuite1 (See adm/ADMWindow.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>ADMWindowRef ADMAPI(* NewLayerWindow)(ADMWindowStyle inWindowKind, unsigned char *inStorage, const ADMRect *inBoundsRect, const char *inTitle, ADMBoolean
+                     inVisible, ADMBoolean inGoAwayFlag, ADMInt32 inRefCon)
+                  </li>
+                  <li>ADMWindowRef ADMAPI(* GetNewLayerWindow)(SPPluginRef inPluginRef, ADMWindowStyle inWindowKind, ADMInt16 inWindowID, unsigned char *inStorage)</li>
+                  <li>void ADMAPI(* DisposeLayerWindow)(ADMWindowRef inWindow)</li>
+                  <li>void ADMAPI(* DragLayerWindow)(ADMWindowRef inWindow, ADMPoint inStartPoint, const ADMRect *inDraggingBounds)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ADMWindowRef ADMAPI(* NewLayerWindow_DEPRECATED)(ADMWindowStyle inWindowKind, unsigned char *inStorage, const ADMRect *inBoundsRect, const char
+                     *inTitle, ADMBoolean inVisible, ADMBoolean inGoAwayFlag, ADMInt32 inRefCon)
+                  </li>
+                  <li>ADMWindowRef ADMAPI(* GetNewLayerWindow_DEPRECATED)(SPPluginRef inPluginRef, ADMWindowStyle inWindowKind, ADMInt16 inWindowID, unsigned char *inStorage)</li>
+                  <li>void ADMAPI(* DisposeLayerWindow_DEPRECATED)(ADMWindowRef inWindow)</li>
+                  <li>void ADMAPI(* DragLayerWindow_DEPRECATED)(ADMWindowRef inWindow, ADMPoint inStartPoint, const ADMRect *inDraggingBounds)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">AI110SVGFilterSuite (See illustrator/legacy/AI110SVGFilter.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIErr(* SetSVGFilterContents)(AISVGFilterHandle filter, AIXMLNodeRef filterContents, bool forceUniqueID)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIErr(* SetSVGFilterContents)(AISVGFilterHandle filter, AIXMLNodeRef filterContents, AIBool8 forceUniqueID)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">AIAnnotatorSuite (See illustrator/AIAnnotator.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               								&nbsp; 
+               							
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIErr(* GetAnnotatorOptions)(AIAnnotatorHandle notifier, long *flags)</li>
+                  <li>AIAPI AIErr(* SetAnnotatorOptions)(AIAnnotatorHandle notifier, const long flags)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">AIAppContextSuite (See illustrator/AIContext.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               								&nbsp; 
+               							
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIErr(* AllowAllChanges)(ASBoolean allowAllChanges, ASBoolean *previousState)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">AIArtStyleParserSuite (See illustrator/AIArtStyleParser.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               								&nbsp; 
+               							
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIErr(* EditPaintEffectParameters)(AIArtStyleHandle artStyle, AIParserPaintField paintField)</li>
+                  <li>AIAPI AIBoolean(* IsNormalOpaquePaintBlend)(AIParserPaintField paintField)</li>
+                  <li>AIAPI AIBoolean(* IsNormalOpaqueBlend)(AIParserBlendField blendField)</li>
+                  <li>AIAPI AIBoolean(* IsDefaultPaintBlend)(AIParserPaintField paintField)</li>
+                  <li>AIAPI AIErr(* SetDefaultPaintBlend)(AIParserPaintField paintField)</li>
+                  <li>AIAPI AIBoolean(* IsDefaultBlend)(AIParserBlendField blendField)</li>
+                  <li>AIAPI AIErr(* SetDefaultBlend)(AIParserBlendField blendField, AIBoolean knockoutOff)</li>
+                  <li>AIAPI AIBoolean(* IsStyleSimple)(AIStyleParser parser)</li>
+                  <li>AIAPI AIErr(* GetLiveEffectNameAndVersion)(AIParserLiveEffect effect, const char **name, long *major, long *minor)</li>
+                  <li>AIAPI AIErr(* GetPaintLiveEffectNameAndVersion)(AIParserPaintField paintField, const char **name, long *major, long *minor)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">AIArtSuite (See illustrator/AIArt.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               								&nbsp; 
+               							
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIErr(* ArtIsGraph)(AIArtHandle art, AIBoolean *artisgraph)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">AIAssetMgmtSuite (See illustrator/AIAssetMgmt.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIErr(* UpdateDynamicMetadata)(const char *mimeType, const char *managedURL, AIBoolean preserveDocID)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIErr(* UpdateDynamicMetadata)(const char *mimeType, const char *managedURL, ASUInt32 metadataSelectors)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">AICharacterEncodingSuite (See illustrator/AICharacterEncoding.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI bool(* IsPunct)(ASUnicode inChar)</li>
+                  <li>AIAPI bool(* IsSpace)(ASUnicode inChar)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIBool8(* IsPunct)(ASUnicode inChar)</li>
+                  <li>AIAPI AIBool8(* IsSpace)(ASUnicode inChar)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">AIColorConversionSuite (See illustrator/AIColorConversion.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               								&nbsp; 
+               							
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIErr(* ConvertSampleColorEx)(const ai::ColorSpace &amp;srcSpace, AISampleComponent *srcColor, const ai::ColorSpace &amp;dstSpace, AISampleComponent
+                     *dstColor, const AIColorConvertOptions &amp;options, ASBoolean *inGamut)
+                  </li>
+                  <li>AIAPI AIErr(* ConvertImageColorEx)(const ai::ColorSpace &amp;srcSpace, long srcBitsPerPixel, AIImageComponent *srcColor, const ai::ColorSpace
+                     &amp;dstSpace, long dstBitsPerPixel, AIImageComponent *dstColor, long pixelCount, unsigned short flags, const AIColorConvertOptions
+                     &amp;options)
+                  </li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">AICommandManagerSuite (See illustrator/AICommandManager.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIErr(* GetCommandIDFromLocalizedName)(const ai::UnicodeString &amp;, AICommandID *commandID)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIErr(* GetCommandIDFromLocalizedName)(const ai::UnicodeString &amp;localizedName, AICommandID *commandID)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">AICursorSnapSuite (See illustrator/AICursorSnap.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               								&nbsp; 
+               							
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIErr(* HitTrack)(AIDocumentViewHandle view, AIRealPoint srcpoint, const AIEvent *event, const char *control, AIRealPoint *dstpoint,
+                     AIBoolean magnifyAnchorPoint)
+                  </li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">AIDataFilterSuite (See illustrator/AIDataFilter.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               								&nbsp; 
+               							
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIErr(* NewResourceDataFilter)(SPPluginRef plugin, long type, long id, const char *name, AIDataFilter **filter)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">AIDocumentListSuite (See illustrator/AIDocumentList.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIErr(* New)(ai::UnicodeString &amp;title, AIColorModel *colorMode, AIReal *artboardWidth, AIReal *artboardHeight, ActionDialogStatus
+                     dialogStatus, AIDocumentHandle *document)
+                  </li>
+                  <li>AIAPI AIErr(* Open)(const ai::FilePath &amp;fileSpec, AIColorModel colorMode, ActionDialogStatus dialogStatus, AIDocumentHandle *document)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIErr(* New)(ai::UnicodeString &amp;preset, AINewDocumentPreset *parameter, ActionDialogStatus dialogStatus, AIDocumentHandle *document)</li>
+                  <li>AIAPI AIErr(* Open)(const ai::FilePath &amp;fileSpec, AIColorModel colorMode, ActionDialogStatus dialogStatus, AIBoolean forceCopy, AIDocumentHandle
+                     *document)
+                  </li>
+                  <li>AIAPI AIErr(* GetPresetSettings)(ai::UnicodeString &amp;preset, AINewDocumentPreset *param)</li>
+                  <li>AIAPI ASInt32(* CountRecentDocuments)()</li>
+                  <li>AIAPI AIErr(* GetNthRecentDocument)(ASInt32 index, ai::FilePath &amp;document)</li>
+                  <li>AIAPI AIErr(* OpenNthRecentDocument)(ASInt32 index)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">AIDocumentSuite (See illustrator/AIDocument.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               								&nbsp; 
+               							
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIErr(* Undo)()</li>
+                  <li>AIAPI AIErr(* Redo)()</li>
+                  <li>AIAPI AIErr(* DocumentRasterAttributes)(AIBoolean *hasDeviceNRasters, AIBoolean *hasOverprint)</li>
+                  <li>AIAPI AIErr(* GetDocumentStartupProfile)(AIDocumentHandle document, AIDocumentStartupProfile *startupProfile)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">AIDocumentViewSuite (See illustrator/AIDocumentView.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIErr(* SetDocumentViewCenter)(AIDocumentViewHandle view, AIRealPoint *center)</li>
+                  <li>AIAPI AIErr(* ArtworkPointToViewPoint)(AIDocumentViewHandle view, AIRealPoint *artworkPoint, AIPoint *viewPoint)</li>
+                  <li>AIAPI AIErr(* ViewPointToArtworkPoint)(AIDocumentViewHandle view, AIPoint *viewPoint, AIRealPoint *artworkPoint)</li>
+                  <li>AIAPI AIErr(* FixedArtworkPointToViewPoint)(AIDocumentViewHandle view, AIRealPoint *artworkPoint, AIRealPoint *viewPoint)</li>
+                  <li>AIAPI AIErr(* FixedViewPointToArtworkPoint)(AIDocumentViewHandle view, AIRealPoint *viewPoint, AIRealPoint *artworkPoint)</li>
+                  <li>AIAPI AIErr(* SetDocumentViewInvalidRect)(AIDocumentViewHandle view, AIRealRect *invalidRect)</li>
+                  <li>AIAPI AIErr(* SetDocumentViewInvalidDocumentRect)(AIDocumentViewHandle view, AIRealRect *invalidRect)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIErr(* SetDocumentViewCenter)(AIDocumentViewHandle view, const AIRealPoint *center)</li>
+                  <li>AIAPI AIErr(* ArtworkPointToViewPoint)(AIDocumentViewHandle view, const AIRealPoint *artworkPoint, AIPoint *viewPoint)</li>
+                  <li>AIAPI AIErr(* ViewPointToArtworkPoint)(AIDocumentViewHandle view, const AIPoint *viewPoint, AIRealPoint *artworkPoint)</li>
+                  <li>AIAPI AIErr(* FixedArtworkPointToViewPoint)(AIDocumentViewHandle view, const AIRealPoint *artworkPoint, AIRealPoint *viewPoint)</li>
+                  <li>AIAPI AIErr(* FixedViewPointToArtworkPoint)(AIDocumentViewHandle view, const AIRealPoint *viewPoint, AIRealPoint *artworkPoint)</li>
+                  <li>AIAPI AIErr(* SetDocumentViewInvalidRect)(AIDocumentViewHandle view, const AIRealRect *invalidRect)</li>
+                  <li>AIAPI AIErr(* SetDocumentViewInvalidDocumentRect)(AIDocumentViewHandle view, const AIRealRect *invalidRect)</li>
+                  <li>AIAPI AIErr(* GetShowEdges)(AIDocumentViewHandle view, ASBoolean *show)</li>
+                  <li>AIAPI AIErr(* SetShowEdges)(AIDocumentViewHandle view, ASBoolean show)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">AIEnvelopeSuite (See illustrator/AIEnvelope.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               								&nbsp; 
+               							
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIErr(* GetEnvelopeType)(AIArtHandle envelope, AIEnvelopeType *type)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">AIFileFormatSuite (See illustrator/AIFileFormat.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               								&nbsp; 
+               							
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIErr(* GetFileStartupProfileType)(const ai::FilePath &amp;file, AIDocumentStartupProfile *docStartupProfile)</li>
+                  <li>AIAPI AIErr(* GetStartupFileOfType)(const AIDocumentStartupProfile docStartupProfile, ai::FilePath &amp;profile)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">AIFilePathSuite (See illustrator/AIFilePath.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>AIErr AIAPI(* NewFilePath)(ai::FilePath &amp;)</li>
+                  <li>AIErr AIAPI(* DeleteFilePath)(ai::FilePath &amp;)</li>
+                  <li>bool AIAPI(* IsEmpty)(const ai::FilePath &amp;)</li>
+                  <li>void AIAPI(* MakeEmpty)(ai::FilePath &amp;)</li>
+                  <li>bool AIAPI(* Equal)(const ai::FilePath &amp;a, const ai::FilePath &amp;b, const bool resolveLinks)</li>
+                  <li>bool AIAPI(* LessThan)(const ai::FilePath &amp;a, const ai::FilePath &amp;b)</li>
+                  <li>bool AIAPI(* StartsWithDelimiter)(const ai::FilePath &amp;)</li>
+                  <li>bool AIAPI(* EndsWithDelimiter)(const ai::FilePath &amp;)</li>
+                  <li>void AIAPI(* RemoveComponent)(ai::FilePath &amp;)</li>
+                  <li>void AIAPI(* AddExtension)(const ai::UnicodeString &amp;ext, ai::FilePath &amp;)</li>
+                  <li>void AIAPI(* RemoveExtension)(ai::FilePath &amp;)</li>
+                  <li>bool AIAPI(* Exists)(const ai::FilePath &amp;path, const bool resolveLinks, ai::UnicodeString *longPath, bool *isFile)</li>
+                  <li>AIErr AIAPI(* Set)(const ai::UnicodeString &amp;, ai::FilePath &amp;)</li>
+                  <li>void AIAPI(* SetFromSPFileSpec)(const SPPlatformFileSpecification &amp;, ai::FilePath &amp;)</li>
+                  <li>AIErr AIAPI(* SetFromCFString)(const CFStringRef, ai::FilePath &amp;)</li>
+                  <li>AIErr AIAPI(* SetFromFSRef)(const FSRef &amp;, ai::FilePath &amp;)</li>
+                  <li>AIErr AIAPI(* SetFromFSSpec)(const FSSpec &amp;, ai::FilePath &amp;)</li>
+                  <li>void AIAPI(* SetFromCFURL)(const CFURLRef, ai::FilePath &amp;)</li>
+                  <li>AIErr AIAPI(* GetFileName)(const ai::FilePath &amp;path, const bool displayName, ai::UnicodeString &amp;fileName)</li>
+                  <li>AIErr AIAPI(* GetFullPath)(const ai::FilePath &amp;path, const bool displayName, ai::UnicodeString &amp;fullPath)</li>
+                  <li>AIErr AIAPI(* GetDirectory)(const ai::FilePath &amp;path, const bool displayName, ai::UnicodeString &amp;directory)</li>
+                  <li>AIErr AIAPI(* GetAsURL)(const ai::FilePath &amp;path, const bool displayName, ai::UnicodeString &amp;url)</li>
+                  <li>AIErr AIAPI(* GetAsSPPlatformFileSpec)(const ai::FilePath &amp;, SPPlatformFileSpecification &amp;)</li>
+                  <li>OSStatus AIAPI(* GetAsFSSpec)(const ai::FilePath &amp;, FSSpec &amp;)</li>
+                  <li>CFStringRef AIAPI(* GetAsCFString)(const ai::FilePath &amp;)</li>
+                  <li>OSStatus AIAPI(* GetAsFSRef)(const ai::FilePath &amp;, FSRef &amp;)</li>
+                  <li>CFURLRef AIAPI(* GetAsCFURL)(const ai::FilePath &amp;)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>AIErr AIAPI(* NewFilePath)(ai::FilePath &amp;path)</li>
+                  <li>AIErr AIAPI(* DeleteFilePath)(ai::FilePath &amp;path)</li>
+                  <li>AIBool8 AIAPI(* IsEmpty)(const ai::FilePath &amp;path)</li>
+                  <li>void AIAPI(* MakeEmpty)(ai::FilePath &amp;path)</li>
+                  <li>AIBool8 AIAPI(* Equal)(const ai::FilePath &amp;a, const ai::FilePath &amp;b, const AIBool8 resolveLinks)</li>
+                  <li>AIBool8 AIAPI(* LessThan)(const ai::FilePath &amp;a, const ai::FilePath &amp;b)</li>
+                  <li>AIBool8 AIAPI(* StartsWithDelimiter)(const ai::FilePath &amp;path)</li>
+                  <li>AIBool8 AIAPI(* EndsWithDelimiter)(const ai::FilePath &amp;path)</li>
+                  <li>void AIAPI(* RemoveComponent)(ai::FilePath &amp;path)</li>
+                  <li>void AIAPI(* AddExtension)(const ai::UnicodeString &amp;ext, ai::FilePath &amp;path)</li>
+                  <li>void AIAPI(* RemoveExtension)(ai::FilePath &amp;path)</li>
+                  <li>AIBool8 AIAPI(* Exists)(const ai::FilePath &amp;path, const AIBool8 resolveLinks, ai::UnicodeString *longPath, AIBool8 *isFile)</li>
+                  <li>AIErr AIAPI(* Set)(const ai::UnicodeString &amp;pathString, AIBool8 expandName, ai::FilePath &amp;path)</li>
+                  <li>void AIAPI(* SetFromSPFileSpec)(const SPPlatformFileSpecification &amp;, ai::FilePath &amp;path)</li>
+                  <li>AIErr AIAPI(* SetFromCFString)(const CFStringRef, ai::FilePath &amp;path)</li>
+                  <li>AIErr AIAPI(* SetFromFSRef)(const FSRef &amp;, ai::FilePath &amp;path)</li>
+                  <li>AIErr AIAPI(* SetFromFSSpec)(const FSSpec &amp;, ai::FilePath &amp;path)</li>
+                  <li>void AIAPI(* SetFromCFURL)(const CFURLRef, ai::FilePath &amp;path)</li>
+                  <li>AIErr AIAPI(* GetFileName)(const ai::FilePath &amp;path, const AIBool8 displayName, ai::UnicodeString &amp;fileName)</li>
+                  <li>AIErr AIAPI(* GetFullPath)(const ai::FilePath &amp;path, const AIBool8 displayName, ai::UnicodeString &amp;fullPath)</li>
+                  <li>AIErr AIAPI(* GetDirectory)(const ai::FilePath &amp;path, const AIBool8 displayName, ai::UnicodeString &amp;directory)</li>
+                  <li>AIErr AIAPI(* GetAsURL)(const ai::FilePath &amp;path, const AIBool8 displayName, ai::UnicodeString &amp;url)</li>
+                  <li>AIErr AIAPI(* GetAsSPPlatformFileSpec)(const ai::FilePath &amp;path, SPPlatformFileSpecification &amp;spPlatformFileSpec)</li>
+                  <li>OSStatus AIAPI(* GetAsFSSpec)(const ai::FilePath &amp;path, FSSpec &amp;fsSpec)</li>
+                  <li>CFStringRef AIAPI(* GetAsCFString)(const ai::FilePath &amp;path)</li>
+                  <li>OSStatus AIAPI(* GetAsFSRef)(const ai::FilePath &amp;path, FSRef &amp;fsRef)</li>
+                  <li>CFURLRef AIAPI(* GetAsCFURL)(const ai::FilePath &amp;path)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">AIFontSuite (See illustrator/AIFont.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               								&nbsp; 
+               							
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIErr(* GetVersionString)(AIFontKey fontKey, ai::UnicodeString &amp;versionString)</li>
+                  <li>AIAPI AIErr(* GetFontFilePathCount)(AIFontKey fontKey, ASUInt32 &amp;count)</li>
+                  <li>AIAPI AIErr(* GetNthFilePath)(AIFontKey fontKey, ASUInt32 n, ai::FilePath &amp;filePath)</li>
+                  <li>AIAPI AIErr(* GetNumATCComponents)(AIFontKey fontKey, ASUInt32 &amp;count)</li>
+                  <li>AIAPI AIErr(* GetNthATCComponent)(AIFontKey fontKey, ASUInt32 n, AIFontKey &amp;componentFontKey)</li>
+                  <li>AIAPI AIErr(* GetUserFontNameUnicode)(AIFontKey fontKey, ai::UnicodeString &amp;name, AIBoolean native)</li>
+                  <li>AIAPI AIErr(* GetFontFamilyNameUnicode)(AIFontKey fontKey, ai::UnicodeString &amp;name, AIBoolean native)</li>
+                  <li>AIAPI AIErr(* GetFontStyleNameUnicode)(AIFontKey fontKey, ai::UnicodeString &amp;name, AIBoolean native)</li>
+                  <li>AIAPI AIErr(* GetIdeoEmBox)(AIFontKey fontKey, AIRealRect &amp;ideoEmBox)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">AIImageOptSuite (See illustrator/AIImageOptimization.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               								&nbsp; 
+               							
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIErr(* CreateReducedPalette)(AIPaletteColor *colorList, int colorListCount, int reduceColorCount, AIColorPaletteHandle *palette)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">AILiveEffectSuite (See illustrator/AILiveEffect.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIErr(* GetLiveEffectAppVersion)(AILiveEffectHandle effect, AIVersion *appVersion)</li>
+                  <li>AIAPI AIErr(* SetLiveEffectAppVersion)(AILiveEffectHandle effect, AIVersion appVersion)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIErr(* GetLiveEffectAppVersion)(AILiveEffectHandle effect, AIVersion *appVersionRGB, AIVersion *appVersionCMYK)</li>
+                  <li>AIAPI AIErr(* SetLiveEffectAppVersion)(AILiveEffectHandle effect, AIVersion appVersion, AIVersion appVersionCMYK)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">AIMeshVertexIteratorSuite (See illustrator/AIMesh.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIErr(* GetPatch)(AIMeshVertexIterator vertex, long i, AIMeshPatchIterator *segment)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIErr(* GetPatch)(AIMeshVertexIterator vertex, long i, AIMeshPatchIterator *patch)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">AIPaintStyleSuite (See illustrator/AIPaintStyle.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               								&nbsp; 
+               							
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ASErr ASAPI(* CreateColorEditor)(ADMDialogRef dialog, int itemID, const ADMRect &amp;boundsRect, ADMItemRef *colorEditor)</li>
+                  <li>ASErr ASAPI(* SetColorEditorTrackProc)(ADMItemRef colorEditor, ColorEditorTrackProc trackProc, ColorEditorClientData clientData)</li>
+                  <li>ASErr ASAPI(* ShowColorEditor)(ADMItemRef colorEditor, AIBoolean show)</li>
+                  <li>ASBoolean ASAPI(* DisplayColorPickerWithOptions)(AIColor *currentColor, const AIColorPickerOptions &amp;options)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">AIPathStyleSuite (See illustrator/AIPathStyle.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               								&nbsp; 
+               							
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIErr(* AdjustObjectAIColors)(AIArtHandle art, AIAdjustColorFunc adjustColorCallback, void *clientData, VisitAIColorFlags controlFlags,
+                     AIBoolean *madeReplacement)
+                  </li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">AIPathSuite (See illustrator/AIPath.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               								&nbsp; 
+               							
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIErr(* GetKeySegment)(AIArtHandle *path, short *segmentNumber)</li>
+                  <li>AIAPI AIErr(* CancelKeySegment)(void)</li>
+                  <li>AIAPI AIBoolean(* IsPath9SliceSplitter)(AIArtHandle path)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">AIPlanarObjectSuite (See illustrator/AIPlanarObject.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               								&nbsp; 
+               							
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIErr(* EraseBlob)(AIArtHandle pathBlob, AIArtHandle planarObject, AIBoolean *erasedSomething)</li>
+                  <li>AIAPI AIErr(* SelectSimilarFaceStyle)(void)</li>
+                  <li>AIAPI AIBoolean(* CanSelectSimilarFaceStyle)(void)</li>
+                  <li>AIAPI AIErr(* SelectSimilarEdgeWeights)(void)</li>
+                  <li>AIAPI AIBoolean(* CanSelectSimilarEdgeWeights)(void)</li>
+                  <li>AIAPI AIErr(* SelectSimilarEdgeColors)(void)</li>
+                  <li>AIAPI AIBoolean(* CanSelectSimilarEdgeColors)(void)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">AIRasterSuite (See illustrator/AIRaster.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIErr(* GetRasterFileSpecification)(AIArtHandle raster, ai::FilePath &amp;)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIErr(* GetRasterFileSpecification)(AIArtHandle raster, ai::FilePath &amp;file)</li>
+                  <li>AIAPI AIErr(* SetColorSpaceInfo)(AIArtHandle raster, const ai::ColorSpace &amp;cs)</li>
+                  <li>AIAPI AIErr(* GetColorSpaceInfo)(AIArtHandle raster, ai::ColorSpace &amp;cs)</li>
+                  <li>AIAPI AIErr(* SetOverprint)(AIArtHandle raster, AIBoolean enable)</li>
+                  <li>AIAPI AIErr(* GetOverprint)(AIArtHandle raster, AIBoolean *status)</li>
+                  <li>AIAPI AIErr(* IsColorized)(AIArtHandle raster, AIBoolean *isColorized, AIBoolean *isAdditive)</li>
+                  <li>AIAPI AIErr(* ClearColorization)(AIArtHandle raster)</li>
+                  <li>AIAPI AIErr(* ConvertColors)(AIArtHandle *raster, const ai::ColorSpace &amp;dstCS)</li>
+                  <li>AIAPI AIErr(* InvertColors)(AIArtHandle *raster)</li>
+                  <li>AIAPI AIErr(* SplitChannels)(AIArtHandle raster, AIArtHandle **rasterArray, long *numRasters, uint32 flags)</li>
+                  <li>AIAPI AIErr(* InterleaveChannels)(AIArtHandle *rasterArray, long numRasters, AIArtHandle *raster, uint32 flags)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">AIRuntimeSuite (See illustrator/AIRuntime.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               								&nbsp; 
+               							
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIBoolean(* GetIsExeBuild)(void)</li>
+                  <li>AIAPI AIErr(* ShowAdobeHelp)(const char *pageID)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">AISVGFilterSuite (See illustrator/AISVGFilter.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIErr(* SetSVGFilterContents)(AISVGFilterHandle filter, AIXMLNodeRef filterContents, bool forceUniqueID)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIErr(* SetSVGFilterContents)(AISVGFilterHandle filter, AIXMLNodeRef filterContents, AIBool8 forceUniqueID)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">AISwatchLibrariesSuite (See illustrator/AISwatchLibraries.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               								&nbsp; 
+               							
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ASErr ASAPI(* OpenNthLibrary)(long num, ASBoolean showPalette, AISwatchListRef *swatchList)</li>
+                  <li>ASBoolean ASAPI(* NthLibraryIsOpen)(long num)</li>
+                  <li>ASBoolean ASAPI(* SelectNthDocumentSwatchIfVisible)(int index, ASBoolean deselectOthers)</li>
+                  <li>ASBoolean ASAPI(* SelectNthDocColorGroupIfVisible)(int index, ASBoolean deselectOthers)</li>
+                  <li>ASErr ASAPI(* BuildLibrariesList)(ADMHierarchyListRef librariesList, AISwatchLibraryType includeLibraryTypes, int startIndex, long *contentChangeStampRef,
+                     int *checkLibraryID)
+                  </li>
+                  <li>ASErr ASAPI(* GetActiveSwatchList)(ADMHierarchyListRef librariesList, AISwatchListRef *swatchlist, int *activeLibraryID)</li>
+                  <li>int ASAPI(* CountSelectedDocSwatches)()</li>
+                  <li>ASErr ASAPI(* GetSelectedDocSwatchColors)(AIColor *colors, int bufferSize)</li>
+                  <li>int ASAPI(* CountSelectedDocSwatchGroups)()</li>
+                  <li>ASErr ASAPI(* GetSelectedDocSwatchGroups)(AISwatchGroupRef *swatchGroups, int bufferSize)</li>
+                  <li>ASErr ASAPI(* GetRelativeDocSwatch)(AIRelativeDocSwatchKind selectKind, AIBoolean selectIt, AIBoolean wrap, AIWhichDocSwatchesPalette targetPalette,
+                     AISwatchRef *relativeSwatch)
+                  </li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">AISymbolSuite (See illustrator/AISymbol.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               								&nbsp; 
+               							
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIErr(* SetSymbolPatternFromSelGetBounds)(AIPatternHandle symbolPattern, AIRealRect *selectionBounds)</li>
+                  <li>AIAPI AIErr(* SetSymbolExportType)(AIPatternHandle symbolPattern, AISymbolFlashExportType exportType)</li>
+                  <li>AIAPI AIErr(* GetSymbolExportType)(AIPatternHandle symbolPattern, AISymbolFlashExportType *exportType)</li>
+                  <li>AIAPI AIErr(* SetSymbolRegistrationPoint)(AIPatternHandle symbolPattern, AISymbolRegistrationPoint registrationPoint)</li>
+                  <li>AIAPI AIErr(* GetSymbolRegistrationPoint)(AIPatternHandle symbolPattern, AISymbolRegistrationPoint *registrationPoint)</li>
+                  <li>AIAPI AIErr(* SetSymbolEnableGuides)(AIPatternHandle symbolPattern, AIBoolean enableGuides)</li>
+                  <li>AIAPI AIErr(* GetSymbolEnableGuides)(AIPatternHandle symbolPattern, AIBoolean *enableGuides)</li>
+                  <li>AIAPI AIErr(* SetSymbol9SliceGrid)(AIPatternHandle symbolPattern, AIRealRect slice9Grid)</li>
+                  <li>AIAPI AIErr(* GetSymbol9SliceGrid)(AIPatternHandle symbolPattern, AIRealRect *slice9Grid)</li>
+                  <li>AIAPI AIErr(* SetEditingSymbolDefinition)(AIPatternHandle symbolPattern, AIArtHandle symbolArt)</li>
+                  <li>AIAPI AIErr(* EndEditingSymbolDefinition)(AIPatternHandle symbolPattern, AIBoolean updateSymbol)</li>
+                  <li>AIAPI AIBoolean(* GetSymbolEditMode)()</li>
+                  <li>AIAPI AIErr(* ExitSymbolEditMode)()</li>
+                  <li>AIAPI AIBoolean(* EditingSymbolPattern)(AIPatternHandle symbolPattern)</li>
+                  <li>AIAPI AIBoolean(* IsSymbolEditingArtType)(AIArtHandle art, AIPatternHandle *symbolPattern)</li>
+                  <li>AIAPI AIErr(* ValidateSymbolEditingArt)(AIPatternHandle symbolPattern, AIArtHandle editingArtParent)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">AITextFrameSuite (See illustrator/AITextFrame.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIErr(* NewInPathText)(short paintOrder, AIArtHandle prep, AITextOrientation orient, AIArtHandle path, AIArtHandle baseFrame, bool
+                     append, AIArtHandle *newTextFrame)
+                  </li>
+                  <li>AIAPI AIErr(* NewOnPathText)(short paintOrder, AIArtHandle prep, AITextOrientation orient, AIArtHandle path, AIReal startT, AIReal endT,
+                     AIArtHandle baseFrame, bool append, AIArtHandle *newTextFrame)
+                  </li>
+                  <li>AIAPI AIErr(* NewOnPathText2)(short paintOrder, AIArtHandle prep, AITextOrientation orient, AIArtHandle path, AIRealPoint anchor, AIArtHandle
+                     baseFrame, bool append, AIArtHandle *newTextFrame)
+                  </li>
+                  <li>AIAPI AIErr(* Unlink)(AIArtHandle frame, bool before, bool after)</li>
+                  <li>AIAPI AIErr(* PartOfLinkedText)(AIArtHandle frame, bool *linked)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIErr(* NewInPathText)(short paintOrder, AIArtHandle prep, AITextOrientation orient, AIArtHandle path, AIArtHandle baseFrame, AIBool8
+                     append, AIArtHandle *newTextFrame)
+                  </li>
+                  <li>AIAPI AIErr(* NewOnPathText)(short paintOrder, AIArtHandle prep, AITextOrientation orient, AIArtHandle path, AIReal startT, AIReal endT,
+                     AIArtHandle baseFrame, AIBool8 append, AIArtHandle *newTextFrame)
+                  </li>
+                  <li>AIAPI AIErr(* NewOnPathText2)(short paintOrder, AIArtHandle prep, AITextOrientation orient, AIArtHandle path, AIRealPoint anchor, AIArtHandle
+                     baseFrame, AIBool8 append, AIArtHandle *newTextFrame)
+                  </li>
+                  <li>AIAPI AIErr(* Unlink)(AIArtHandle frame, AIBool8 before, AIBool8 after)</li>
+                  <li>AIAPI AIErr(* PartOfLinkedText)(AIArtHandle frame, AIBool8 *linked)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">AIToolboxSuite (See illustrator/AIToolbox.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               								&nbsp; 
+               							
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIErr(* GetCurrentToolType)(AIToolType *toolNum)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">AIToolSuite (See illustrator/AITool.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               								&nbsp; 
+               							
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIErr(* SetSoftSelectedTool)(AIToolHandle tool)</li>
+                  <li>AIAPI AIErr(* IsSoftModeSelection)(AIBoolean *isSoftMode)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">AITracingSuite (See illustrator/AITracing.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIErr(* CopyTracingArt)(AIArtHandle tracing, short paintOrder, AIArtHandle prep, AIArtHandle *art, bool copyAsViewed)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIErr(* CopyTracingArt)(AIArtHandle tracing, short paintOrder, AIArtHandle prep, AIArtHandle *art, AIBool8 copyAsViewed)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">AIUnicodeStringSuite (See illustrator/AIUnicodeString.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI bool(* Empty)(const ai::UnicodeString &amp;str)</li>
+                  <li>AIAPI bool(* HasSurrogates)(const ai::UnicodeString &amp;str)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIBool8(* Empty)(const ai::UnicodeString &amp;str)</li>
+                  <li>AIAPI AIBool8(* HasSurrogates)(const ai::UnicodeString &amp;str)</li>
+                  <li>AIAPI AIErr(* Normalize)(ai::UnicodeString &amp;str, ai::UnicodeString::NormalizedForm form)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">AIUserSuite (See illustrator/AIUser.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIErr(* PutFileDialog)(const ai::UnicodeString &amp;title, const AIPlatformFileDlgOpts *, bool forceLocalFileView, const ai::UnicodeString
+                     &amp;defaultName, ai::FilePath &amp;ioFilePath)
+                  </li>
+                  <li>AIAPI AIErr(* GetFileDialog)(const ai::UnicodeString &amp;title, const AIPlatformFileDlgOpts *, bool forceLocalFileView, ai::FilePath &amp;ioFilePath)</li>
+                  <li>AIAPI AIErr(* GetDirectoryDialog)(const ai::UnicodeString &amp;title, bool forceLocalFileView, ai::FilePath &amp;ioFilePath)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>AIAPI AIErr(* PutFileDialog)(const ai::UnicodeString &amp;title, const AIPlatformFileDlgOpts *, AIBool8 forceLocalFileView, const ai::UnicodeString
+                     &amp;defaultName, ai::FilePath &amp;ioFilePath)
+                  </li>
+                  <li>AIAPI AIErr(* GetFileDialog)(const ai::UnicodeString &amp;title, const AIPlatformFileDlgOpts *, AIBool8 forceLocalFileView, ai::FilePath &amp;ioFilePath)</li>
+                  <li>AIAPI AIErr(* GetDirectoryDialog)(const ai::UnicodeString &amp;title, AIBool8 forceLocalFileView, ai::FilePath &amp;ioFilePath)</li>
+                  <li>AIAPI void(* WarningAlert)(const ai::UnicodeString &amp;msg, const char *dontShowKey)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::ApplicationPaintSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(ApplicationPaintRef applicationpaint)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(ApplicationPaintRef applicationpaint)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::ApplicationTextResourcesSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(ApplicationTextResourcesRef applicationtextresources)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(ApplicationTextResourcesRef applicationtextresources)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::ArrayApplicationPaintRefSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(ArrayApplicationPaintRefRef arrayapplicationpaintref)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(ArrayApplicationPaintRefRef arrayapplicationpaintref)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::ArrayArrayRealSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(ArrayArrayRealRef arrayarrayreal)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(ArrayArrayRealRef arrayarrayreal)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::ArrayAutoKernTypeSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(ArrayAutoKernTypeRef arrayautokerntype)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(ArrayAutoKernTypeRef arrayautokerntype)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::ArrayBaselineDirectionSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(ArrayBaselineDirectionRef arraybaselinedirection)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(ArrayBaselineDirectionRef arraybaselinedirection)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::ArrayBoolSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(ArrayBoolRef arraybool)</li>
+                  <li>ATEErr(* GetFirst)(ArrayBoolRef arraybool, bool *ret)</li>
+                  <li>ATEErr(* GetLast)(ArrayBoolRef arraybool, bool *ret)</li>
+                  <li>ATEErr(* Item)(ArrayBoolRef arraybool, ASInt32 index, bool *ret)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(ArrayBoolRef arraybool)</li>
+                  <li>ATEErr(* GetFirst)(ArrayBoolRef arraybool, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetLast)(ArrayBoolRef arraybool, ATEBool8 *ret)</li>
+                  <li>ATEErr(* Item)(ArrayBoolRef arraybool, ASInt32 index, ATEBool8 *ret)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::ArrayBurasagariTypeSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(ArrayBurasagariTypeRef arrayburasagaritype)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(ArrayBurasagariTypeRef arrayburasagaritype)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::ArrayFigureStyleSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(ArrayFigureStyleRef arrayfigurestyle)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(ArrayFigureStyleRef arrayfigurestyle)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::ArrayFontBaselineOptionSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(ArrayFontBaselineOptionRef arrayfontbaselineoption)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(ArrayFontBaselineOptionRef arrayfontbaselineoption)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::ArrayFontCapsOptionSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(ArrayFontCapsOptionRef arrayfontcapsoption)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(ArrayFontCapsOptionRef arrayfontcapsoption)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::ArrayFontOpenTypePositionOptionSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(ArrayFontOpenTypePositionOptionRef arrayfontopentypepositionoption)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(ArrayFontOpenTypePositionOptionRef arrayfontopentypepositionoption)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::ArrayFontRefSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(ArrayFontRefRef arrayfontref)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(ArrayFontRefRef arrayfontref)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::ArrayGlyphIDSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(ArrayGlyphIDRef arrayglyphid)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(ArrayGlyphIDRef arrayglyphid)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::ArrayIntegerSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(ArrayIntegerRef arrayinteger)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(ArrayIntegerRef arrayinteger)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::ArrayKinsokuRefSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(ArrayKinsokuRefRef arraykinsokuref)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(ArrayKinsokuRefRef arraykinsokuref)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::ArrayLanguageSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(ArrayLanguageRef arraylanguage)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(ArrayLanguageRef arraylanguage)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::ArrayLeadingTypeSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(ArrayLeadingTypeRef arrayleadingtype)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(ArrayLeadingTypeRef arrayleadingtype)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::ArrayLineCapTypeSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(ArrayLineCapTypeRef arraylinecaptype)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(ArrayLineCapTypeRef arraylinecaptype)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::ArrayLineJoinTypeSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(ArrayLineJoinTypeRef arraylinejointype)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(ArrayLineJoinTypeRef arraylinejointype)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::ArrayMojiKumiRefSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(ArrayMojiKumiRefRef arraymojikumiref)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(ArrayMojiKumiRefRef arraymojikumiref)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::ArrayMojiKumiSetRefSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(ArrayMojiKumiSetRefRef arraymojikumisetref)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(ArrayMojiKumiSetRefRef arraymojikumisetref)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::ArrayParagraphJustificationSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(ArrayParagraphJustificationRef arrayparagraphjustification)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(ArrayParagraphJustificationRef arrayparagraphjustification)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::ArrayPreferredKinsokuOrderSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(ArrayPreferredKinsokuOrderRef arraypreferredkinsokuorder)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(ArrayPreferredKinsokuOrderRef arraypreferredkinsokuorder)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::ArrayRealMatrixSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(ArrayRealMatrixRef arrayrealmatrix)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(ArrayRealMatrixRef arrayrealmatrix)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::ArrayRealPointSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(ArrayRealPointRef arrayrealpoint)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(ArrayRealPointRef arrayrealpoint)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::ArrayRealSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(ArrayRealRef arrayreal)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(ArrayRealRef arrayreal)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::ArrayStrikethroughPositionSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(ArrayStrikethroughPositionRef arraystrikethroughposition)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(ArrayStrikethroughPositionRef arraystrikethroughposition)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::ArrayStyleRunAlignmentSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(ArrayStyleRunAlignmentRef arraystylerunalignment)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(ArrayStyleRunAlignmentRef arraystylerunalignment)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::ArrayTabStopsRefSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(ArrayTabStopsRefRef arraytabstopsref)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(ArrayTabStopsRefRef arraytabstopsref)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::ArrayUnderlinePositionSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(ArrayUnderlinePositionRef arrayunderlineposition)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(ArrayUnderlinePositionRef arrayunderlineposition)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::ArrayWariChuJustificationSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(ArrayWariChuJustificationRef arraywarichujustification)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(ArrayWariChuJustificationRef arraywarichujustification)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ASUserInteractionSuite (See illustrator/ASUserInteraction.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               								&nbsp; 
+               							
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ASAPI ASErr(* LogInteraction)(const char *msg)</li>
+                  <li>ASAPI ASErr(* LogInteractionW)(const ASUnicode *msg)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::CharFeaturesSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(CharFeaturesRef charfeatures)</li>
+                  <li>ATEErr(* GetFont)(CharFeaturesRef charfeatures, bool *isAssigned, FontRef *ret)</li>
+                  <li>ATEErr(* GetFontSize)(CharFeaturesRef charfeatures, bool *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetHorizontalScale)(CharFeaturesRef charfeatures, bool *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetVerticalScale)(CharFeaturesRef charfeatures, bool *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetAutoLeading)(CharFeaturesRef charfeatures, bool *isAssigned, bool *ret)</li>
+                  <li>ATEErr(* GetLeading)(CharFeaturesRef charfeatures, bool *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetTracking)(CharFeaturesRef charfeatures, bool *isAssigned, ASInt32 *ret)</li>
+                  <li>ATEErr(* GetBaselineShift)(CharFeaturesRef charfeatures, bool *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetCharacterRotation)(CharFeaturesRef charfeatures, bool *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetAutoKernType)(CharFeaturesRef charfeatures, bool *isAssigned, AutoKernType *ret)</li>
+                  <li>ATEErr(* GetFontCapsOption)(CharFeaturesRef charfeatures, bool *isAssigned, FontCapsOption *ret)</li>
+                  <li>ATEErr(* GetFontBaselineOption)(CharFeaturesRef charfeatures, bool *isAssigned, FontBaselineOption *ret)</li>
+                  <li>ATEErr(* GetFontOpenTypePositionOption)(CharFeaturesRef charfeatures, bool *isAssigned, FontOpenTypePositionOption *ret)</li>
+                  <li>ATEErr(* GetStrikethroughPosition)(CharFeaturesRef charfeatures, bool *isAssigned, StrikethroughPosition *ret)</li>
+                  <li>ATEErr(* GetUnderlinePosition)(CharFeaturesRef charfeatures, bool *isAssigned, UnderlinePosition *ret)</li>
+                  <li>ATEErr(* GetUnderlineOffset)(CharFeaturesRef charfeatures, bool *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetLigature)(CharFeaturesRef charfeatures, bool *isAssigned, bool *ret)</li>
+                  <li>ATEErr(* GetDiscretionaryLigatures)(CharFeaturesRef charfeatures, bool *isAssigned, bool *ret)</li>
+                  <li>ATEErr(* GetContextualLigatures)(CharFeaturesRef charfeatures, bool *isAssigned, bool *ret)</li>
+                  <li>ATEErr(* GetAlternateLigatures)(CharFeaturesRef charfeatures, bool *isAssigned, bool *ret)</li>
+                  <li>ATEErr(* GetOldStyle)(CharFeaturesRef charfeatures, bool *isAssigned, bool *ret)</li>
+                  <li>ATEErr(* GetFractions)(CharFeaturesRef charfeatures, bool *isAssigned, bool *ret)</li>
+                  <li>ATEErr(* GetOrdinals)(CharFeaturesRef charfeatures, bool *isAssigned, bool *ret)</li>
+                  <li>ATEErr(* GetSwash)(CharFeaturesRef charfeatures, bool *isAssigned, bool *ret)</li>
+                  <li>ATEErr(* GetTitling)(CharFeaturesRef charfeatures, bool *isAssigned, bool *ret)</li>
+                  <li>ATEErr(* GetConnectionForms)(CharFeaturesRef charfeatures, bool *isAssigned, bool *ret)</li>
+                  <li>ATEErr(* GetStylisticAlternates)(CharFeaturesRef charfeatures, bool *isAssigned, bool *ret)</li>
+                  <li>ATEErr(* GetOrnaments)(CharFeaturesRef charfeatures, bool *isAssigned, bool *ret)</li>
+                  <li>ATEErr(* GetFigureStyle)(CharFeaturesRef charfeatures, bool *isAssigned, FigureStyle *ret)</li>
+                  <li>ATEErr(* GetProportionalMetrics)(CharFeaturesRef charfeatures, bool *isAssigned, bool *ret)</li>
+                  <li>ATEErr(* GetKana)(CharFeaturesRef charfeatures, bool *isAssigned, bool *ret)</li>
+                  <li>ATEErr(* GetRuby)(CharFeaturesRef charfeatures, bool *isAssigned, bool *ret)</li>
+                  <li>ATEErr(* GetItalics)(CharFeaturesRef charfeatures, bool *isAssigned, bool *ret)</li>
+                  <li>ATEErr(* GetBaselineDirection)(CharFeaturesRef charfeatures, bool *isAssigned, BaselineDirection *ret)</li>
+                  <li>ATEErr(* GetLanguage)(CharFeaturesRef charfeatures, bool *isAssigned, Language *ret)</li>
+                  <li>ATEErr(* GetJapaneseAlternateFeature)(CharFeaturesRef charfeatures, bool *isAssigned, JapaneseAlternateFeature *ret)</li>
+                  <li>ATEErr(* GetTsume)(CharFeaturesRef charfeatures, bool *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetStyleRunAlignment)(CharFeaturesRef charfeatures, bool *isAssigned, StyleRunAlignment *ret)</li>
+                  <li>ATEErr(* GetWariChuEnabled)(CharFeaturesRef charfeatures, bool *isAssigned, bool *ret)</li>
+                  <li>ATEErr(* GetWariChuLineCount)(CharFeaturesRef charfeatures, bool *isAssigned, ASInt32 *ret)</li>
+                  <li>ATEErr(* GetWariChuLineGap)(CharFeaturesRef charfeatures, bool *isAssigned, ASInt32 *ret)</li>
+                  <li>ATEErr(* GetWariChuScale)(CharFeaturesRef charfeatures, bool *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetWariChuSize)(CharFeaturesRef charfeatures, bool *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetWariChuWidowAmount)(CharFeaturesRef charfeatures, bool *isAssigned, ASInt32 *ret)</li>
+                  <li>ATEErr(* GetWariChuOrphanAmount)(CharFeaturesRef charfeatures, bool *isAssigned, ASInt32 *ret)</li>
+                  <li>ATEErr(* GetWariChuJustification)(CharFeaturesRef charfeatures, bool *isAssigned, WariChuJustification *ret)</li>
+                  <li>ATEErr(* GetTCYUpDownAdjustment)(CharFeaturesRef charfeatures, bool *isAssigned, ASInt32 *ret)</li>
+                  <li>ATEErr(* GetTCYLeftRightAdjustment)(CharFeaturesRef charfeatures, bool *isAssigned, ASInt32 *ret)</li>
+                  <li>ATEErr(* GetLeftAki)(CharFeaturesRef charfeatures, bool *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetRightAki)(CharFeaturesRef charfeatures, bool *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetNoBreak)(CharFeaturesRef charfeatures, bool *isAssigned, bool *ret)</li>
+                  <li>ATEErr(* GetFillColor)(CharFeaturesRef charfeatures, bool *isAssigned, ApplicationPaintRef *ret)</li>
+                  <li>ATEErr(* GetStrokeColor)(CharFeaturesRef charfeatures, bool *isAssigned, ApplicationPaintRef *ret)</li>
+                  <li>ATEErr(* GetFill)(CharFeaturesRef charfeatures, bool *isAssigned, bool *ret)</li>
+                  <li>ATEErr(* GetStroke)(CharFeaturesRef charfeatures, bool *isAssigned, bool *ret)</li>
+                  <li>ATEErr(* GetFillFirst)(CharFeaturesRef charfeatures, bool *isAssigned, bool *ret)</li>
+                  <li>ATEErr(* GetFillOverPrint)(CharFeaturesRef charfeatures, bool *isAssigned, bool *ret)</li>
+                  <li>ATEErr(* GetStrokeOverPrint)(CharFeaturesRef charfeatures, bool *isAssigned, bool *ret)</li>
+                  <li>ATEErr(* GetLineCap)(CharFeaturesRef charfeatures, bool *isAssigned, LineCapType *ret)</li>
+                  <li>ATEErr(* GetLineJoin)(CharFeaturesRef charfeatures, bool *isAssigned, LineJoinType *ret)</li>
+                  <li>ATEErr(* GetLineWidth)(CharFeaturesRef charfeatures, bool *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetMiterLimit)(CharFeaturesRef charfeatures, bool *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetLineDashOffset)(CharFeaturesRef charfeatures, bool *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetLineDashArray)(CharFeaturesRef charfeatures, bool *isAssigned, ArrayRealRef *ret)</li>
+                  <li>ATEErr(* SetAutoLeading)(CharFeaturesRef charfeatures, bool newVal)</li>
+                  <li>ATEErr(* SetLigature)(CharFeaturesRef charfeatures, bool newVal)</li>
+                  <li>ATEErr(* SetDiscretionaryLigatures)(CharFeaturesRef charfeatures, bool newVal)</li>
+                  <li>ATEErr(* SetContextualLigatures)(CharFeaturesRef charfeatures, bool newVal)</li>
+                  <li>ATEErr(* SetAlternateLigatures)(CharFeaturesRef charfeatures, bool newVal)</li>
+                  <li>ATEErr(* SetOldStyle)(CharFeaturesRef charfeatures, bool newVal)</li>
+                  <li>ATEErr(* SetFractions)(CharFeaturesRef charfeatures, bool newVal)</li>
+                  <li>ATEErr(* SetOrdinals)(CharFeaturesRef charfeatures, bool newVal)</li>
+                  <li>ATEErr(* SetSwash)(CharFeaturesRef charfeatures, bool newVal)</li>
+                  <li>ATEErr(* SetTitling)(CharFeaturesRef charfeatures, bool newVal)</li>
+                  <li>ATEErr(* SetConnectionForms)(CharFeaturesRef charfeatures, bool newVal)</li>
+                  <li>ATEErr(* SetStylisticAlternates)(CharFeaturesRef charfeatures, bool newVal)</li>
+                  <li>ATEErr(* SetOrnaments)(CharFeaturesRef charfeatures, bool newVal)</li>
+                  <li>ATEErr(* SetProportionalMetrics)(CharFeaturesRef charfeatures, bool newVal)</li>
+                  <li>ATEErr(* SetKana)(CharFeaturesRef charfeatures, bool newVal)</li>
+                  <li>ATEErr(* SetItalics)(CharFeaturesRef charfeatures, bool newVal)</li>
+                  <li>ATEErr(* SetRuby)(CharFeaturesRef charfeatures, bool newVal)</li>
+                  <li>ATEErr(* SetWariChuEnabled)(CharFeaturesRef charfeatures, bool newVal)</li>
+                  <li>ATEErr(* SetNoBreak)(CharFeaturesRef charfeatures, bool newVal)</li>
+                  <li>ATEErr(* SetFill)(CharFeaturesRef charfeatures, bool newVal)</li>
+                  <li>ATEErr(* SetStroke)(CharFeaturesRef charfeatures, bool newVal)</li>
+                  <li>ATEErr(* SetFillFirst)(CharFeaturesRef charfeatures, bool newVal)</li>
+                  <li>ATEErr(* SetFillOverPrint)(CharFeaturesRef charfeatures, bool newVal)</li>
+                  <li>ATEErr(* SetStrokeOverPrint)(CharFeaturesRef charfeatures, bool newVal)</li>
+                  <li>ATEErr(* IntersectFeatures)(CharFeaturesRef charfeatures, CharFeaturesRef rhs, bool *ret)</li>
+                  <li>ATEErr(* ReplaceOrAddFeatures)(CharFeaturesRef charfeatures, CharFeaturesRef rhs, bool *ret)</li>
+                  <li>ATEErr(* UnassignEachIfEqual)(CharFeaturesRef charfeatures, CharFeaturesRef rhs, bool *ret)</li>
+                  <li>ATEErr(* IsEachNotAssigned)(CharFeaturesRef charfeatures, bool *ret)</li>
+                  <li>ATEErr(* IsEachAssigned)(CharFeaturesRef charfeatures, bool *ret)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(CharFeaturesRef charfeatures)</li>
+                  <li>ATEErr(* GetFont)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, FontRef *ret)</li>
+                  <li>ATEErr(* GetFontSize)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetHorizontalScale)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetVerticalScale)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetAutoLeading)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetLeading)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetTracking)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ASInt32 *ret)</li>
+                  <li>ATEErr(* GetBaselineShift)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetCharacterRotation)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetAutoKernType)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, AutoKernType *ret)</li>
+                  <li>ATEErr(* GetFontCapsOption)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, FontCapsOption *ret)</li>
+                  <li>ATEErr(* GetFontBaselineOption)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, FontBaselineOption *ret)</li>
+                  <li>ATEErr(* GetFontOpenTypePositionOption)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, FontOpenTypePositionOption *ret)</li>
+                  <li>ATEErr(* GetStrikethroughPosition)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, StrikethroughPosition *ret)</li>
+                  <li>ATEErr(* GetUnderlinePosition)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, UnderlinePosition *ret)</li>
+                  <li>ATEErr(* GetUnderlineOffset)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetLigature)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetDiscretionaryLigatures)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetContextualLigatures)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetAlternateLigatures)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetOldStyle)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetFractions)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetOrdinals)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetSwash)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetTitling)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetConnectionForms)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetStylisticAlternates)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetOrnaments)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetFigureStyle)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, FigureStyle *ret)</li>
+                  <li>ATEErr(* GetProportionalMetrics)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetKana)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetRuby)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetItalics)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetBaselineDirection)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, BaselineDirection *ret)</li>
+                  <li>ATEErr(* GetLanguage)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, Language *ret)</li>
+                  <li>ATEErr(* GetJapaneseAlternateFeature)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, JapaneseAlternateFeature *ret)</li>
+                  <li>ATEErr(* GetTsume)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetStyleRunAlignment)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, StyleRunAlignment *ret)</li>
+                  <li>ATEErr(* GetWariChuEnabled)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetWariChuLineCount)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ASInt32 *ret)</li>
+                  <li>ATEErr(* GetWariChuLineGap)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ASInt32 *ret)</li>
+                  <li>ATEErr(* GetWariChuScale)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetWariChuSize)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetWariChuWidowAmount)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ASInt32 *ret)</li>
+                  <li>ATEErr(* GetWariChuOrphanAmount)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ASInt32 *ret)</li>
+                  <li>ATEErr(* GetWariChuJustification)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, WariChuJustification *ret)</li>
+                  <li>ATEErr(* GetTCYUpDownAdjustment)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ASInt32 *ret)</li>
+                  <li>ATEErr(* GetTCYLeftRightAdjustment)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ASInt32 *ret)</li>
+                  <li>ATEErr(* GetLeftAki)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetRightAki)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetNoBreak)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetFillColor)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ApplicationPaintRef *ret)</li>
+                  <li>ATEErr(* GetStrokeColor)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ApplicationPaintRef *ret)</li>
+                  <li>ATEErr(* GetFill)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetStroke)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetFillFirst)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetFillOverPrint)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetStrokeOverPrint)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetLineCap)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, LineCapType *ret)</li>
+                  <li>ATEErr(* GetLineJoin)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, LineJoinType *ret)</li>
+                  <li>ATEErr(* GetLineWidth)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetMiterLimit)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetLineDashOffset)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetLineDashArray)(CharFeaturesRef charfeatures, ATEBool8 *isAssigned, ArrayRealRef *ret)</li>
+                  <li>ATEErr(* SetAutoLeading)(CharFeaturesRef charfeatures, ATEBool8 newVal)</li>
+                  <li>ATEErr(* SetLigature)(CharFeaturesRef charfeatures, ATEBool8 newVal)</li>
+                  <li>ATEErr(* SetDiscretionaryLigatures)(CharFeaturesRef charfeatures, ATEBool8 newVal)</li>
+                  <li>ATEErr(* SetContextualLigatures)(CharFeaturesRef charfeatures, ATEBool8 newVal)</li>
+                  <li>ATEErr(* SetAlternateLigatures)(CharFeaturesRef charfeatures, ATEBool8 newVal)</li>
+                  <li>ATEErr(* SetOldStyle)(CharFeaturesRef charfeatures, ATEBool8 newVal)</li>
+                  <li>ATEErr(* SetFractions)(CharFeaturesRef charfeatures, ATEBool8 newVal)</li>
+                  <li>ATEErr(* SetOrdinals)(CharFeaturesRef charfeatures, ATEBool8 newVal)</li>
+                  <li>ATEErr(* SetSwash)(CharFeaturesRef charfeatures, ATEBool8 newVal)</li>
+                  <li>ATEErr(* SetTitling)(CharFeaturesRef charfeatures, ATEBool8 newVal)</li>
+                  <li>ATEErr(* SetConnectionForms)(CharFeaturesRef charfeatures, ATEBool8 newVal)</li>
+                  <li>ATEErr(* SetStylisticAlternates)(CharFeaturesRef charfeatures, ATEBool8 newVal)</li>
+                  <li>ATEErr(* SetOrnaments)(CharFeaturesRef charfeatures, ATEBool8 newVal)</li>
+                  <li>ATEErr(* SetProportionalMetrics)(CharFeaturesRef charfeatures, ATEBool8 newVal)</li>
+                  <li>ATEErr(* SetKana)(CharFeaturesRef charfeatures, ATEBool8 newVal)</li>
+                  <li>ATEErr(* SetItalics)(CharFeaturesRef charfeatures, ATEBool8 newVal)</li>
+                  <li>ATEErr(* SetRuby)(CharFeaturesRef charfeatures, ATEBool8 newVal)</li>
+                  <li>ATEErr(* SetWariChuEnabled)(CharFeaturesRef charfeatures, ATEBool8 newVal)</li>
+                  <li>ATEErr(* SetNoBreak)(CharFeaturesRef charfeatures, ATEBool8 newVal)</li>
+                  <li>ATEErr(* SetFill)(CharFeaturesRef charfeatures, ATEBool8 newVal)</li>
+                  <li>ATEErr(* SetStroke)(CharFeaturesRef charfeatures, ATEBool8 newVal)</li>
+                  <li>ATEErr(* SetFillFirst)(CharFeaturesRef charfeatures, ATEBool8 newVal)</li>
+                  <li>ATEErr(* SetFillOverPrint)(CharFeaturesRef charfeatures, ATEBool8 newVal)</li>
+                  <li>ATEErr(* SetStrokeOverPrint)(CharFeaturesRef charfeatures, ATEBool8 newVal)</li>
+                  <li>ATEErr(* IntersectFeatures)(CharFeaturesRef charfeatures, CharFeaturesRef rhs, ATEBool8 *ret)</li>
+                  <li>ATEErr(* ReplaceOrAddFeatures)(CharFeaturesRef charfeatures, CharFeaturesRef rhs, ATEBool8 *ret)</li>
+                  <li>ATEErr(* UnassignEachIfEqual)(CharFeaturesRef charfeatures, CharFeaturesRef rhs, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsEachNotAssigned)(CharFeaturesRef charfeatures, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsEachAssigned)(CharFeaturesRef charfeatures, ATEBool8 *ret)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::CharInspectorSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(CharInspectorRef charinspector)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(CharInspectorRef charinspector)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::CharStylesIteratorSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(CharStylesIteratorRef charstylesiterator)</li>
+                  <li>ATEErr(* IsNotDone)(CharStylesIteratorRef charstylesiterator, bool *ret)</li>
+                  <li>ATEErr(* IsDone)(CharStylesIteratorRef charstylesiterator, bool *ret)</li>
+                  <li>ATEErr(* IsEmpty)(CharStylesIteratorRef charstylesiterator, bool *ret)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(CharStylesIteratorRef charstylesiterator)</li>
+                  <li>ATEErr(* IsNotDone)(CharStylesIteratorRef charstylesiterator, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsDone)(CharStylesIteratorRef charstylesiterator, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsEmpty)(CharStylesIteratorRef charstylesiterator, ATEBool8 *ret)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::CharStylesSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(CharStylesRef charstyles)</li>
+                  <li>ATEErr(* IsEmpty)(CharStylesRef charstyles, bool *ret)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(CharStylesRef charstyles)</li>
+                  <li>ATEErr(* IsEmpty)(CharStylesRef charstyles, ATEBool8 *ret)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::CharStyleSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(CharStyleRef charstyle)</li>
+                  <li>ATEErr(* SetName)(CharStyleRef charstyle, const ASUnicode *pName, bool *ret)</li>
+                  <li>ATEErr(* SetParent)(CharStyleRef charstyle, const CharStyleRef pStyle, bool *ret)</li>
+                  <li>ATEErr(* HasParent)(CharStyleRef charstyle, bool *ret)</li>
+                  <li>ATEErr(* IsEqual)(CharStyleRef charstyle, const CharStyleRef pStyle, bool *ret)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(CharStyleRef charstyle)</li>
+                  <li>ATEErr(* SetName)(CharStyleRef charstyle, const ASUnicode *pName, ATEBool8 *ret)</li>
+                  <li>ATEErr(* SetParent)(CharStyleRef charstyle, const CharStyleRef pStyle, ATEBool8 *ret)</li>
+                  <li>ATEErr(* HasParent)(CharStyleRef charstyle, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsEqual)(CharStyleRef charstyle, const CharStyleRef pStyle, ATEBool8 *ret)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::CompFontClassSetSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(CompFontClassSetRef compfontclassset)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(CompFontClassSetRef compfontclassset)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::CompFontClassSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(CompFontClassRef compfontclass)</li>
+                  <li>ATEErr(* IsCodeInClass)(CompFontClassRef compfontclass, ASUnicode code, bool *ret)</li>
+                  <li>ATEErr(* IsEditable)(CompFontClassRef compfontclass, bool *ret)</li>
+                  <li>ATEErr(* IsCustomOverride)(CompFontClassRef compfontclass, bool *ret)</li>
+                  <li>ATEErr(* IsModified)(CompFontClassRef compfontclass, bool *ret)</li>
+                  <li>ATEErr(* VerifyState)(CompFontClassRef compfontclass, bool *ret)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(CompFontClassRef compfontclass)</li>
+                  <li>ATEErr(* IsCodeInClass)(CompFontClassRef compfontclass, ASUnicode code, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsEditable)(CompFontClassRef compfontclass, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsCustomOverride)(CompFontClassRef compfontclass, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsModified)(CompFontClassRef compfontclass, ATEBool8 *ret)</li>
+                  <li>ATEErr(* VerifyState)(CompFontClassRef compfontclass, ATEBool8 *ret)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::CompFontComponentSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(CompFontComponentRef compfontcomponent)</li>
+                  <li>ATEErr(* GetCenterGlyph)(CompFontComponentRef compfontcomponent, bool *ret)</li>
+                  <li>ATEErr(* SetCenterGlyph)(CompFontComponentRef compfontcomponent, bool centerglyph)</li>
+                  <li>ATEErr(* IsModified)(CompFontComponentRef compfontcomponent, bool *ret)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(CompFontComponentRef compfontcomponent)</li>
+                  <li>ATEErr(* GetCenterGlyph)(CompFontComponentRef compfontcomponent, ATEBool8 *ret)</li>
+                  <li>ATEErr(* SetCenterGlyph)(CompFontComponentRef compfontcomponent, ATEBool8 centerglyph)</li>
+                  <li>ATEErr(* IsModified)(CompFontComponentRef compfontcomponent, ATEBool8 *ret)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::CompFontSetSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(CompFontSetRef compfontset)</li>
+                  <li>ATEErr(* Remove)(CompFontSetRef compfontset, ASInt32 nIndex, bool *ret)</li>
+                  <li>ATEErr(* Replace)(CompFontSetRef compfontset, ASInt32 nIndex, CompFontRef newFont, bool *ret)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(CompFontSetRef compfontset)</li>
+                  <li>ATEErr(* Remove)(CompFontSetRef compfontset, ASInt32 nIndex, ATEBool8 *ret)</li>
+                  <li>ATEErr(* Replace)(CompFontSetRef compfontset, ASInt32 nIndex, CompFontRef newFont, ATEBool8 *ret)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::CompFontSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(CompFontRef compfont)</li>
+                  <li>ATEErr(* IsModified)(CompFontRef compfont, bool *ret)</li>
+                  <li>ATEErr(* IsEditable)(CompFontRef compfont, bool *ret)</li>
+                  <li>ATEErr(* IsCommitted)(CompFontRef compfont, bool *ret)</li>
+                  <li>ATEErr(* VerifyState)(CompFontRef compfont, bool *ret)</li>
+                  <li>ATEErr(* IsATCFileLoaded)(CompFontRef compfont, bool *ret)</li>
+                  <li>ATEErr(* RemoveComponent)(CompFontRef compfont, ASInt32 index, bool *ret)</li>
+                  <li>ATEErr(* ReplaceComponent)(CompFontRef compfont, ASInt32 index, CompFontComponentRef component, bool *ret)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(CompFontRef compfont)</li>
+                  <li>ATEErr(* IsModified)(CompFontRef compfont, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsEditable)(CompFontRef compfont, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsCommitted)(CompFontRef compfont, ATEBool8 *ret)</li>
+                  <li>ATEErr(* VerifyState)(CompFontRef compfont, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsATCFileLoaded)(CompFontRef compfont, ATEBool8 *ret)</li>
+                  <li>ATEErr(* RemoveComponent)(CompFontRef compfont, ASInt32 index, ATEBool8 *ret)</li>
+                  <li>ATEErr(* ReplaceComponent)(CompFontRef compfont, ASInt32 index, CompFontComponentRef component, ATEBool8 *ret)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::DocumentTextResourcesSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(DocumentTextResourcesRef documenttextresources)</li>
+                  <li>ATEErr(* InsertAlternateGlyph)(DocumentTextResourcesRef documenttextresources, const ASUnicode *theCharacters, const ATEGlyphID glyphID,
+                     const char *otFeatureArray, ASInt32 otFeatureCount, const long *otFeatureIndexArray, bool leaveSelected)
+                  </li>
+                  <li>ATEErr(* GetJapaneseAlternateFeatureInSelection)(DocumentTextResourcesRef documenttextresources, bool *isFeature, JapaneseAlternateFeature
+                     *ret)
+                  </li>
+                  <li>ATEErr(* RemoveCharStyle)(DocumentTextResourcesRef documenttextresources, const ASUnicode *pName, bool *ret)</li>
+                  <li>ATEErr(* RemoveParaStyle)(DocumentTextResourcesRef documenttextresources, const ASUnicode *pName, bool *ret)</li>
+                  <li>ATEErr(* SetUseSmartQuotes)(DocumentTextResourcesRef documenttextresources, bool smartQuotesAreOn)</li>
+                  <li>ATEErr(* UseSmartQuotes)(DocumentTextResourcesRef documenttextresources, bool *ret)</li>
+                  <li>ATEErr(* GetShowHiddenCharacters)(DocumentTextResourcesRef documenttextresources, bool *ret)</li>
+                  <li>ATEErr(* SetShowHiddenCharacters)(DocumentTextResourcesRef documenttextresources, bool value)</li>
+                  <li>ATEErr(* GetHighlightSubstituteFonts)(DocumentTextResourcesRef documenttextresources, bool *ret)</li>
+                  <li>ATEErr(* SetHighlightSubstituteFonts)(DocumentTextResourcesRef documenttextresources, bool value)</li>
+                  <li>ATEErr(* GetHighlightAlternateGlyphs)(DocumentTextResourcesRef documenttextresources, bool *ret)</li>
+                  <li>ATEErr(* SetHighlightAlternateGlyphs)(DocumentTextResourcesRef documenttextresources, bool value)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(DocumentTextResourcesRef documenttextresources)</li>
+                  <li>ATEErr(* InsertAlternateGlyph)(DocumentTextResourcesRef documenttextresources, const ASUnicode *theCharacters, const ATEGlyphID glyphID,
+                     const char *otFeatureArray, ASInt32 otFeatureCount, const long *otFeatureIndexArray, ATEBool8 leaveSelected)
+                  </li>
+                  <li>ATEErr(* GetJapaneseAlternateFeatureInSelection)(DocumentTextResourcesRef documenttextresources, ATEBool8 *isFeature, JapaneseAlternateFeature
+                     *ret)
+                  </li>
+                  <li>ATEErr(* RemoveCharStyle)(DocumentTextResourcesRef documenttextresources, const ASUnicode *pName, ATEBool8 *ret)</li>
+                  <li>ATEErr(* RemoveParaStyle)(DocumentTextResourcesRef documenttextresources, const ASUnicode *pName, ATEBool8 *ret)</li>
+                  <li>ATEErr(* SetUseSmartQuotes)(DocumentTextResourcesRef documenttextresources, ATEBool8 smartQuotesAreOn)</li>
+                  <li>ATEErr(* UseSmartQuotes)(DocumentTextResourcesRef documenttextresources, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetShowHiddenCharacters)(DocumentTextResourcesRef documenttextresources, ATEBool8 *ret)</li>
+                  <li>ATEErr(* SetShowHiddenCharacters)(DocumentTextResourcesRef documenttextresources, ATEBool8 value)</li>
+                  <li>ATEErr(* GetHighlightSubstituteFonts)(DocumentTextResourcesRef documenttextresources, ATEBool8 *ret)</li>
+                  <li>ATEErr(* SetHighlightSubstituteFonts)(DocumentTextResourcesRef documenttextresources, ATEBool8 value)</li>
+                  <li>ATEErr(* GetHighlightAlternateGlyphs)(DocumentTextResourcesRef documenttextresources, ATEBool8 *ret)</li>
+                  <li>ATEErr(* SetHighlightAlternateGlyphs)(DocumentTextResourcesRef documenttextresources, ATEBool8 value)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::FindSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(FindRef find)</li>
+                  <li>ATEErr(* GetIgnoreCase)(FindRef find, bool *ret)</li>
+                  <li>ATEErr(* GetWholeWord)(FindRef find, bool *ret)</li>
+                  <li>ATEErr(* GetWrap)(FindRef find, bool *ret)</li>
+                  <li>ATEErr(* GetFindWordsOutOfBounds)(FindRef find, bool *ret)</li>
+                  <li>ATEErr(* SetIgnoreCase)(FindRef find, bool newValue)</li>
+                  <li>ATEErr(* SetWholeWord)(FindRef find, bool newValue)</li>
+                  <li>ATEErr(* SetWrap)(FindRef find, bool newValue)</li>
+                  <li>ATEErr(* SetFindWordsOutOfBounds)(FindRef find, bool newValue)</li>
+                  <li>ATEErr(* FindMatch)(FindRef find, TextRangeRef pTextRange, bool *ret)</li>
+                  <li>ATEErr(* FindNextMatch)(FindRef find, TextRangeRef pTextRange, bool *ret)</li>
+                  <li>ATEErr(* ReplaceMatch)(FindRef find, TextRangeRef pTextRange, bool findNext, bool *ret)</li>
+                  <li>ATEErr(* FindAndReplaceAllMatches)(FindRef find, ASInt32 *pReplaceCount, bool *ret)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(FindRef find)</li>
+                  <li>ATEErr(* GetIgnoreCase)(FindRef find, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetWholeWord)(FindRef find, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetWrap)(FindRef find, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetFindWordsOutOfBounds)(FindRef find, ATEBool8 *ret)</li>
+                  <li>ATEErr(* SetIgnoreCase)(FindRef find, ATEBool8 newValue)</li>
+                  <li>ATEErr(* SetWholeWord)(FindRef find, ATEBool8 newValue)</li>
+                  <li>ATEErr(* SetWrap)(FindRef find, ATEBool8 newValue)</li>
+                  <li>ATEErr(* SetFindWordsOutOfBounds)(FindRef find, ATEBool8 newValue)</li>
+                  <li>ATEErr(* FindMatch)(FindRef find, TextRangeRef pTextRange, ATEBool8 *ret)</li>
+                  <li>ATEErr(* FindNextMatch)(FindRef find, TextRangeRef pTextRange, ATEBool8 *ret)</li>
+                  <li>ATEErr(* ReplaceMatch)(FindRef find, TextRangeRef pTextRange, ATEBool8 findNext, ATEBool8 *ret)</li>
+                  <li>ATEErr(* FindAndReplaceAllMatches)(FindRef find, ASInt32 *pReplaceCount, ATEBool8 *ret)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::FontSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(FontRef font)</li>
+                  <li>ATEErr(* IsCoolTypeTechnology)(FontRef font, bool *ret)</li>
+                  <li>ATEErr(* IsVerticalRomanGlyphsOnSideByDefault)(FontRef font, bool withItalics, StyleRunAlignment characterAlignment, bool *ret)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(FontRef font)</li>
+                  <li>ATEErr(* IsCoolTypeTechnology)(FontRef font, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsVerticalRomanGlyphsOnSideByDefault)(FontRef font, ATEBool8 withItalics, StyleRunAlignment characterAlignment, ATEBool8 *ret)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::GlyphRunsIteratorSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(GlyphRunsIteratorRef glyphrunsiterator)</li>
+                  <li>ATEErr(* IsNotDone)(GlyphRunsIteratorRef glyphrunsiterator, bool *ret)</li>
+                  <li>ATEErr(* IsDone)(GlyphRunsIteratorRef glyphrunsiterator, bool *ret)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(GlyphRunsIteratorRef glyphrunsiterator)</li>
+                  <li>ATEErr(* IsNotDone)(GlyphRunsIteratorRef glyphrunsiterator, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsDone)(GlyphRunsIteratorRef glyphrunsiterator, ATEBool8 *ret)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::GlyphRunSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(GlyphRunRef glyphrun)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(GlyphRunRef glyphrun)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::GlyphsIteratorSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(GlyphsIteratorRef glyphsiterator)</li>
+                  <li>ATEErr(* IsNotDone)(GlyphsIteratorRef glyphsiterator, bool *ret)</li>
+                  <li>ATEErr(* IsDone)(GlyphsIteratorRef glyphsiterator, bool *ret)</li>
+                  <li>ATEErr(* IsEmpty)(GlyphsIteratorRef glyphsiterator, bool *ret)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(GlyphsIteratorRef glyphsiterator)</li>
+                  <li>ATEErr(* IsNotDone)(GlyphsIteratorRef glyphsiterator, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsDone)(GlyphsIteratorRef glyphsiterator, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsEmpty)(GlyphsIteratorRef glyphsiterator, ATEBool8 *ret)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::GlyphsSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(GlyphsRef glyphs)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(GlyphsRef glyphs)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::GlyphSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(GlyphRef glyph)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(GlyphRef glyph)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::KinsokuSetSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(KinsokuSetRef kinsokuset)</li>
+                  <li>ATEErr(* Remove)(KinsokuSetRef kinsokuset, ASInt32 nIndex, bool *ret)</li>
+                  <li>ATEErr(* Replace)(KinsokuSetRef kinsokuset, ASInt32 nIndex, KinsokuRef kinsoku, bool *ret)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(KinsokuSetRef kinsokuset)</li>
+                  <li>ATEErr(* Remove)(KinsokuSetRef kinsokuset, ASInt32 nIndex, ATEBool8 *ret)</li>
+                  <li>ATEErr(* Replace)(KinsokuSetRef kinsokuset, ASInt32 nIndex, KinsokuRef kinsoku, ATEBool8 *ret)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::KinsokuSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(KinsokuRef kinsoku)</li>
+                  <li>ATEErr(* MatchesPredefinedResourceTag)(KinsokuRef kinsoku, ATE::KinsokuPredefinedTag tag, bool *ret)</li>
+                  <li>ATEErr(* IsNoStartChar)(KinsokuRef kinsoku, ASUnicode character, bool *ret)</li>
+                  <li>ATEErr(* IsNoEndChar)(KinsokuRef kinsoku, ASUnicode character, bool *ret)</li>
+                  <li>ATEErr(* IsNoBreakChar)(KinsokuRef kinsoku, ASUnicode character, bool *ret)</li>
+                  <li>ATEErr(* IsHangingChar)(KinsokuRef kinsoku, ASUnicode character, bool *ret)</li>
+                  <li>ATEErr(* IsEqual)(KinsokuRef kinsoku, KinsokuRef rhsKinsoku, bool *ret)</li>
+                  <li>ATEErr(* IsEquivalent)(KinsokuRef kinsoku, KinsokuRef rhsKinsoku, bool *ret)</li>
+                  <li>ATEErr(* IsModified)(KinsokuRef kinsoku, bool *ret)</li>
+                  <li>ATEErr(* IsPredefined)(KinsokuRef kinsoku, bool *ret)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(KinsokuRef kinsoku)</li>
+                  <li>ATEErr(* MatchesPredefinedResourceTag)(KinsokuRef kinsoku, ATE::KinsokuPredefinedTag tag, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsNoStartChar)(KinsokuRef kinsoku, ASUnicode character, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsNoEndChar)(KinsokuRef kinsoku, ASUnicode character, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsNoBreakChar)(KinsokuRef kinsoku, ASUnicode character, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsHangingChar)(KinsokuRef kinsoku, ASUnicode character, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsEqual)(KinsokuRef kinsoku, KinsokuRef rhsKinsoku, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsEquivalent)(KinsokuRef kinsoku, KinsokuRef rhsKinsoku, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsModified)(KinsokuRef kinsoku, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsPredefined)(KinsokuRef kinsoku, ATEBool8 *ret)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::MojiKumiSetSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(MojiKumiSetRef mojikumiset)</li>
+                  <li>ATEErr(* Remove)(MojiKumiSetRef mojikumiset, ASInt32 nIndex, bool *ret)</li>
+                  <li>ATEErr(* Replace)(MojiKumiSetRef mojikumiset, ASInt32 nIndex, MojiKumiRef mojiKumi, bool *ret)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(MojiKumiSetRef mojikumiset)</li>
+                  <li>ATEErr(* Remove)(MojiKumiSetRef mojikumiset, ASInt32 nIndex, ATEBool8 *ret)</li>
+                  <li>ATEErr(* Replace)(MojiKumiSetRef mojikumiset, ASInt32 nIndex, MojiKumiRef mojiKumi, ATEBool8 *ret)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::MojiKumiSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(MojiKumiRef mojikumi)</li>
+                  <li>ATEErr(* MatchesPredefinedResourceTag)(MojiKumiRef mojikumi, ATE::MojikumiTablePredefinedTag tag, bool *ret)</li>
+                  <li>ATEErr(* IsEqual)(MojiKumiRef mojikumi, MojiKumiRef rhsMojiKumi, bool *ret)</li>
+                  <li>ATEErr(* IsEquivalent)(MojiKumiRef mojikumi, MojiKumiRef rhsMojiKumi, bool *ret)</li>
+                  <li>ATEErr(* IsModified)(MojiKumiRef mojikumi, bool *ret)</li>
+                  <li>ATEErr(* IsPredefined)(MojiKumiRef mojikumi, bool *ret)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(MojiKumiRef mojikumi)</li>
+                  <li>ATEErr(* MatchesPredefinedResourceTag)(MojiKumiRef mojikumi, ATE::MojikumiTablePredefinedTag tag, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsEqual)(MojiKumiRef mojikumi, MojiKumiRef rhsMojiKumi, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsEquivalent)(MojiKumiRef mojikumi, MojiKumiRef rhsMojiKumi, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsModified)(MojiKumiRef mojikumi, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsPredefined)(MojiKumiRef mojikumi, ATEBool8 *ret)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::ParaFeaturesSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(ParaFeaturesRef parafeatures)</li>
+                  <li>ATEErr(* GetJustification)(ParaFeaturesRef parafeatures, bool *isAssigned, ParagraphJustification *ret)</li>
+                  <li>ATEErr(* GetFirstLineIndent)(ParaFeaturesRef parafeatures, bool *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetStartIndent)(ParaFeaturesRef parafeatures, bool *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetEndIndent)(ParaFeaturesRef parafeatures, bool *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetSpaceBefore)(ParaFeaturesRef parafeatures, bool *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetSpaceAfter)(ParaFeaturesRef parafeatures, bool *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetAutoHyphenate)(ParaFeaturesRef parafeatures, bool *isAssigned, bool *ret)</li>
+                  <li>ATEErr(* GetHyphenatedWordSize)(ParaFeaturesRef parafeatures, bool *isAssigned, ASInt32 *ret)</li>
+                  <li>ATEErr(* GetPreHyphenSize)(ParaFeaturesRef parafeatures, bool *isAssigned, ASInt32 *ret)</li>
+                  <li>ATEErr(* GetPostHyphenSize)(ParaFeaturesRef parafeatures, bool *isAssigned, ASInt32 *ret)</li>
+                  <li>ATEErr(* GetConsecutiveHyphenLimit)(ParaFeaturesRef parafeatures, bool *isAssigned, ASInt32 *ret)</li>
+                  <li>ATEErr(* GetHyphenationZone)(ParaFeaturesRef parafeatures, bool *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetHyphenateCapitalized)(ParaFeaturesRef parafeatures, bool *isAssigned, bool *ret)</li>
+                  <li>ATEErr(* GetHyphenationPreference)(ParaFeaturesRef parafeatures, bool *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetDesiredWordSpacing)(ParaFeaturesRef parafeatures, bool *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetMaxWordSpacing)(ParaFeaturesRef parafeatures, bool *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetMinWordSpacing)(ParaFeaturesRef parafeatures, bool *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetDesiredLetterSpacing)(ParaFeaturesRef parafeatures, bool *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetMaxLetterSpacing)(ParaFeaturesRef parafeatures, bool *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetMinLetterSpacing)(ParaFeaturesRef parafeatures, bool *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetDesiredGlyphScaling)(ParaFeaturesRef parafeatures, bool *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetMaxGlyphScaling)(ParaFeaturesRef parafeatures, bool *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetMinGlyphScaling)(ParaFeaturesRef parafeatures, bool *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetSingleWordJustification)(ParaFeaturesRef parafeatures, bool *isAssigned, ParagraphJustification *ret)</li>
+                  <li>ATEErr(* GetAutoLeadingPercentage)(ParaFeaturesRef parafeatures, bool *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetLeadingType)(ParaFeaturesRef parafeatures, bool *isAssigned, LeadingType *ret)</li>
+                  <li>ATEErr(* GetTabStops)(ParaFeaturesRef parafeatures, bool *isAssigned, TabStopsRef *ret)</li>
+                  <li>ATEErr(* GetDefaultTabWidth)(ParaFeaturesRef parafeatures, bool *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetHangingRoman)(ParaFeaturesRef parafeatures, bool *isAssigned, bool *ret)</li>
+                  <li>ATEErr(* GetAutoTCY)(ParaFeaturesRef parafeatures, bool *isAssigned, ASInt32 *ret)</li>
+                  <li>ATEErr(* GetBunriKinshi)(ParaFeaturesRef parafeatures, bool *isAssigned, bool *ret)</li>
+                  <li>ATEErr(* GetBurasagariType)(ParaFeaturesRef parafeatures, bool *isAssigned, BurasagariType *ret)</li>
+                  <li>ATEErr(* GetPreferredKinsokuOrder)(ParaFeaturesRef parafeatures, bool *isAssigned, PreferredKinsokuOrder *ret)</li>
+                  <li>ATEErr(* GetKurikaeshiMojiShori)(ParaFeaturesRef parafeatures, bool *isAssigned, bool *ret)</li>
+                  <li>ATEErr(* GetKinsoku)(ParaFeaturesRef parafeatures, bool *isAssigned, KinsokuRef *ret)</li>
+                  <li>ATEErr(* GetMojiKumi)(ParaFeaturesRef parafeatures, bool *isAssigned, MojiKumiRef *ret)</li>
+                  <li>ATEErr(* GetEveryLineComposer)(ParaFeaturesRef parafeatures, bool *isAssigned, bool *ret)</li>
+                  <li>ATEErr(* GetDefaultCharFeatures)(ParaFeaturesRef parafeatures, bool *isAssigned, CharFeaturesRef *ret)</li>
+                  <li>ATEErr(* SetAutoHyphenate)(ParaFeaturesRef parafeatures, bool newVal)</li>
+                  <li>ATEErr(* SetHyphenateCapitalized)(ParaFeaturesRef parafeatures, bool newVal)</li>
+                  <li>ATEErr(* SetHangingRoman)(ParaFeaturesRef parafeatures, bool newVal)</li>
+                  <li>ATEErr(* SetBunriKinshi)(ParaFeaturesRef parafeatures, bool newVal)</li>
+                  <li>ATEErr(* SetKurikaeshiMojiShori)(ParaFeaturesRef parafeatures, bool newVal)</li>
+                  <li>ATEErr(* SetEveryLineComposer)(ParaFeaturesRef parafeatures, bool newVal)</li>
+                  <li>ATEErr(* IntersectFeatures)(ParaFeaturesRef parafeatures, ParaFeaturesRef rhs, bool *ret)</li>
+                  <li>ATEErr(* ReplaceOrAddFeatures)(ParaFeaturesRef parafeatures, ParaFeaturesRef rhs, bool *ret)</li>
+                  <li>ATEErr(* UnassignEachIfEqual)(ParaFeaturesRef parafeatures, const ParaFeaturesRef rhs, bool *ret)</li>
+                  <li>ATEErr(* IsEachNotAssigned)(ParaFeaturesRef parafeatures, bool *ret)</li>
+                  <li>ATEErr(* IsEachAssigned)(ParaFeaturesRef parafeatures, bool *ret)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(ParaFeaturesRef parafeatures)</li>
+                  <li>ATEErr(* GetJustification)(ParaFeaturesRef parafeatures, ATEBool8 *isAssigned, ParagraphJustification *ret)</li>
+                  <li>ATEErr(* GetFirstLineIndent)(ParaFeaturesRef parafeatures, ATEBool8 *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetStartIndent)(ParaFeaturesRef parafeatures, ATEBool8 *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetEndIndent)(ParaFeaturesRef parafeatures, ATEBool8 *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetSpaceBefore)(ParaFeaturesRef parafeatures, ATEBool8 *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetSpaceAfter)(ParaFeaturesRef parafeatures, ATEBool8 *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetAutoHyphenate)(ParaFeaturesRef parafeatures, ATEBool8 *isAssigned, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetHyphenatedWordSize)(ParaFeaturesRef parafeatures, ATEBool8 *isAssigned, ASInt32 *ret)</li>
+                  <li>ATEErr(* GetPreHyphenSize)(ParaFeaturesRef parafeatures, ATEBool8 *isAssigned, ASInt32 *ret)</li>
+                  <li>ATEErr(* GetPostHyphenSize)(ParaFeaturesRef parafeatures, ATEBool8 *isAssigned, ASInt32 *ret)</li>
+                  <li>ATEErr(* GetConsecutiveHyphenLimit)(ParaFeaturesRef parafeatures, ATEBool8 *isAssigned, ASInt32 *ret)</li>
+                  <li>ATEErr(* GetHyphenationZone)(ParaFeaturesRef parafeatures, ATEBool8 *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetHyphenateCapitalized)(ParaFeaturesRef parafeatures, ATEBool8 *isAssigned, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetHyphenationPreference)(ParaFeaturesRef parafeatures, ATEBool8 *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetDesiredWordSpacing)(ParaFeaturesRef parafeatures, ATEBool8 *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetMaxWordSpacing)(ParaFeaturesRef parafeatures, ATEBool8 *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetMinWordSpacing)(ParaFeaturesRef parafeatures, ATEBool8 *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetDesiredLetterSpacing)(ParaFeaturesRef parafeatures, ATEBool8 *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetMaxLetterSpacing)(ParaFeaturesRef parafeatures, ATEBool8 *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetMinLetterSpacing)(ParaFeaturesRef parafeatures, ATEBool8 *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetDesiredGlyphScaling)(ParaFeaturesRef parafeatures, ATEBool8 *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetMaxGlyphScaling)(ParaFeaturesRef parafeatures, ATEBool8 *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetMinGlyphScaling)(ParaFeaturesRef parafeatures, ATEBool8 *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetSingleWordJustification)(ParaFeaturesRef parafeatures, ATEBool8 *isAssigned, ParagraphJustification *ret)</li>
+                  <li>ATEErr(* GetAutoLeadingPercentage)(ParaFeaturesRef parafeatures, ATEBool8 *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetLeadingType)(ParaFeaturesRef parafeatures, ATEBool8 *isAssigned, LeadingType *ret)</li>
+                  <li>ATEErr(* GetTabStops)(ParaFeaturesRef parafeatures, ATEBool8 *isAssigned, TabStopsRef *ret)</li>
+                  <li>ATEErr(* GetDefaultTabWidth)(ParaFeaturesRef parafeatures, ATEBool8 *isAssigned, ASReal *ret)</li>
+                  <li>ATEErr(* GetHangingRoman)(ParaFeaturesRef parafeatures, ATEBool8 *isAssigned, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetAutoTCY)(ParaFeaturesRef parafeatures, ATEBool8 *isAssigned, ASInt32 *ret)</li>
+                  <li>ATEErr(* GetBunriKinshi)(ParaFeaturesRef parafeatures, ATEBool8 *isAssigned, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetBurasagariType)(ParaFeaturesRef parafeatures, ATEBool8 *isAssigned, BurasagariType *ret)</li>
+                  <li>ATEErr(* GetPreferredKinsokuOrder)(ParaFeaturesRef parafeatures, ATEBool8 *isAssigned, PreferredKinsokuOrder *ret)</li>
+                  <li>ATEErr(* GetKurikaeshiMojiShori)(ParaFeaturesRef parafeatures, ATEBool8 *isAssigned, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetKinsoku)(ParaFeaturesRef parafeatures, ATEBool8 *isAssigned, KinsokuRef *ret)</li>
+                  <li>ATEErr(* GetMojiKumi)(ParaFeaturesRef parafeatures, ATEBool8 *isAssigned, MojiKumiRef *ret)</li>
+                  <li>ATEErr(* GetEveryLineComposer)(ParaFeaturesRef parafeatures, ATEBool8 *isAssigned, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetDefaultCharFeatures)(ParaFeaturesRef parafeatures, ATEBool8 *isAssigned, CharFeaturesRef *ret)</li>
+                  <li>ATEErr(* SetAutoHyphenate)(ParaFeaturesRef parafeatures, ATEBool8 newVal)</li>
+                  <li>ATEErr(* SetHyphenateCapitalized)(ParaFeaturesRef parafeatures, ATEBool8 newVal)</li>
+                  <li>ATEErr(* SetHangingRoman)(ParaFeaturesRef parafeatures, ATEBool8 newVal)</li>
+                  <li>ATEErr(* SetBunriKinshi)(ParaFeaturesRef parafeatures, ATEBool8 newVal)</li>
+                  <li>ATEErr(* SetKurikaeshiMojiShori)(ParaFeaturesRef parafeatures, ATEBool8 newVal)</li>
+                  <li>ATEErr(* SetEveryLineComposer)(ParaFeaturesRef parafeatures, ATEBool8 newVal)</li>
+                  <li>ATEErr(* IntersectFeatures)(ParaFeaturesRef parafeatures, ParaFeaturesRef rhs, ATEBool8 *ret)</li>
+                  <li>ATEErr(* ReplaceOrAddFeatures)(ParaFeaturesRef parafeatures, ParaFeaturesRef rhs, ATEBool8 *ret)</li>
+                  <li>ATEErr(* UnassignEachIfEqual)(ParaFeaturesRef parafeatures, const ParaFeaturesRef rhs, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsEachNotAssigned)(ParaFeaturesRef parafeatures, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsEachAssigned)(ParaFeaturesRef parafeatures, ATEBool8 *ret)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::ParagraphsIteratorSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(ParagraphsIteratorRef paragraphsiterator)</li>
+                  <li>ATEErr(* IsDone)(ParagraphsIteratorRef paragraphsiterator, bool *ret)</li>
+                  <li>ATEErr(* IsNotDone)(ParagraphsIteratorRef paragraphsiterator, bool *ret)</li>
+                  <li>ATEErr(* IsEmpty)(ParagraphsIteratorRef paragraphsiterator, bool *ret)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(ParagraphsIteratorRef paragraphsiterator)</li>
+                  <li>ATEErr(* IsDone)(ParagraphsIteratorRef paragraphsiterator, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsNotDone)(ParagraphsIteratorRef paragraphsiterator, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsEmpty)(ParagraphsIteratorRef paragraphsiterator, ATEBool8 *ret)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::ParagraphSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(ParagraphRef paragraph)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(ParagraphRef paragraph)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::ParaInspectorSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(ParaInspectorRef parainspector)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(ParaInspectorRef parainspector)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::ParaStylesIteratorSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(ParaStylesIteratorRef parastylesiterator)</li>
+                  <li>ATEErr(* IsNotDone)(ParaStylesIteratorRef parastylesiterator, bool *ret)</li>
+                  <li>ATEErr(* IsDone)(ParaStylesIteratorRef parastylesiterator, bool *ret)</li>
+                  <li>ATEErr(* IsEmpty)(ParaStylesIteratorRef parastylesiterator, bool *ret)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(ParaStylesIteratorRef parastylesiterator)</li>
+                  <li>ATEErr(* IsNotDone)(ParaStylesIteratorRef parastylesiterator, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsDone)(ParaStylesIteratorRef parastylesiterator, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsEmpty)(ParaStylesIteratorRef parastylesiterator, ATEBool8 *ret)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::ParaStylesSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(ParaStylesRef parastyles)</li>
+                  <li>ATEErr(* IsEmpty)(ParaStylesRef parastyles, bool *ret)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(ParaStylesRef parastyles)</li>
+                  <li>ATEErr(* IsEmpty)(ParaStylesRef parastyles, ATEBool8 *ret)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::ParaStyleSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(ParaStyleRef parastyle)</li>
+                  <li>ATEErr(* SetName)(ParaStyleRef parastyle, const ASUnicode *pName, bool *ret)</li>
+                  <li>ATEErr(* SetParent)(ParaStyleRef parastyle, const ParaStyleRef pStyle, bool *ret)</li>
+                  <li>ATEErr(* HasParent)(ParaStyleRef parastyle, bool *ret)</li>
+                  <li>ATEErr(* IsEqual)(ParaStyleRef parastyle, const ParaStyleRef pStyle, bool *ret)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(ParaStyleRef parastyle)</li>
+                  <li>ATEErr(* SetName)(ParaStyleRef parastyle, const ASUnicode *pName, ATEBool8 *ret)</li>
+                  <li>ATEErr(* SetParent)(ParaStyleRef parastyle, const ParaStyleRef pStyle, ATEBool8 *ret)</li>
+                  <li>ATEErr(* HasParent)(ParaStyleRef parastyle, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsEqual)(ParaStyleRef parastyle, const ParaStyleRef pStyle, ATEBool8 *ret)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::SpellSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(SpellRef spell)</li>
+                  <li>ATEErr(* IsInitialized)(SpellRef spell, bool *ret)</li>
+                  <li>ATEErr(* GetIgnoreWordsInAllUppercase)(SpellRef spell, bool *ret)</li>
+                  <li>ATEErr(* GetIgnoreWordsWithNumbers)(SpellRef spell, bool *ret)</li>
+                  <li>ATEErr(* GetIgnoreRomanNumerals)(SpellRef spell, bool *ret)</li>
+                  <li>ATEErr(* GetIgnoreRepeatedWords)(SpellRef spell, bool *ret)</li>
+                  <li>ATEErr(* GetIgnoreUncapitalizedStartOfSentence)(SpellRef spell, bool *ret)</li>
+                  <li>ATEErr(* SetIgnoreWordsInAllUppercase)(SpellRef spell, bool newValue)</li>
+                  <li>ATEErr(* SetIgnoreWordsWithNumbers)(SpellRef spell, bool newValue)</li>
+                  <li>ATEErr(* SetIgnoreRomanNumerals)(SpellRef spell, bool newValue)</li>
+                  <li>ATEErr(* SetIgnoreRepeatedWords)(SpellRef spell, bool newValue)</li>
+                  <li>ATEErr(* SetIgnoreUncapitalizedStartOfSentence)(SpellRef spell, bool newValue)</li>
+                  <li>ATEErr(* SetSearchRange)(SpellRef spell, const TextRangeRef pRange, const bool resetEndOfSentence, const bool resetCurPos)</li>
+                  <li>ATEErr(* FindOneMisspelledWord)(SpellRef spell, SpellCheckingResult *pResult, TextRangeRef pRange, Language *pLanguage, bool *ret)</li>
+                  <li>ATEErr(* DoReplaceAll)(SpellRef spell, bool *ret)</li>
+                  <li>ATEErr(* GetPreReplaceAllSettings)(SpellRef spell, ASInt32 *pCurrentPoint, bool *pFoundSentenceEnd)</li>
+                  <li>ATEErr(* FindReplaceAllWord)(SpellRef spell, TextRangeRef pRange, const bool firstTimeInThisObject, bool *ret)</li>
+                  <li>ATEErr(* RestorePreReplaceAllSettings)(SpellRef spell, const ASInt32 currentPoint, const bool foundSentenceEnd)</li>
+                  <li>ATEErr(* AddToUserDictionary)(SpellRef spell, const ASUnicode *pWord, bool *ret)</li>
+                  <li>ATEErr(* WordExistsInUserDictionary)(SpellRef spell, const ASUnicode *pWord, bool *ret)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(SpellRef spell)</li>
+                  <li>ATEErr(* IsInitialized)(SpellRef spell, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetIgnoreWordsInAllUppercase)(SpellRef spell, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetIgnoreWordsWithNumbers)(SpellRef spell, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetIgnoreRomanNumerals)(SpellRef spell, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetIgnoreRepeatedWords)(SpellRef spell, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetIgnoreUncapitalizedStartOfSentence)(SpellRef spell, ATEBool8 *ret)</li>
+                  <li>ATEErr(* SetIgnoreWordsInAllUppercase)(SpellRef spell, ATEBool8 newValue)</li>
+                  <li>ATEErr(* SetIgnoreWordsWithNumbers)(SpellRef spell, ATEBool8 newValue)</li>
+                  <li>ATEErr(* SetIgnoreRomanNumerals)(SpellRef spell, ATEBool8 newValue)</li>
+                  <li>ATEErr(* SetIgnoreRepeatedWords)(SpellRef spell, ATEBool8 newValue)</li>
+                  <li>ATEErr(* SetIgnoreUncapitalizedStartOfSentence)(SpellRef spell, ATEBool8 newValue)</li>
+                  <li>ATEErr(* SetSearchRange)(SpellRef spell, const TextRangeRef pRange, const ATEBool8 resetEndOfSentence, const ATEBool8 resetCurPos)</li>
+                  <li>ATEErr(* FindOneMisspelledWord)(SpellRef spell, SpellCheckingResult *pResult, TextRangeRef pRange, Language *pLanguage, ATEBool8 *ret)</li>
+                  <li>ATEErr(* DoReplaceAll)(SpellRef spell, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetPreReplaceAllSettings)(SpellRef spell, ASInt32 *pCurrentPoint, ATEBool8 *pFoundSentenceEnd)</li>
+                  <li>ATEErr(* FindReplaceAllWord)(SpellRef spell, TextRangeRef pRange, const ATEBool8 firstTimeInThisObject, ATEBool8 *ret)</li>
+                  <li>ATEErr(* RestorePreReplaceAllSettings)(SpellRef spell, const ASInt32 currentPoint, const ATEBool8 foundSentenceEnd)</li>
+                  <li>ATEErr(* AddToUserDictionary)(SpellRef spell, const ASUnicode *pWord, ATEBool8 *ret)</li>
+                  <li>ATEErr(* WordExistsInUserDictionary)(SpellRef spell, const ASUnicode *pWord, ATEBool8 *ret)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">SPPluginsSuite (See pica_sp/SPPlugs.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>SPAPI SPErr(* GetPluginHostEntry)(SPPluginRef plugin, void **host)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>SPAPI SPErr(* GetPluginHostEntry)(SPPluginRef plugin, SPPluginEntryFunc *host)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::StoriesSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(StoriesRef stories)</li>
+                  <li>ATEErr(* HasFocus)(StoriesRef stories, bool *ret)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(StoriesRef stories)</li>
+                  <li>ATEErr(* HasFocus)(StoriesRef stories, ATEBool8 *ret)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::StorySuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(StoryRef story)</li>
+                  <li>ATEErr(* IsEqual)(StoryRef story, const StoryRef anotherStory, bool *ret)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(StoryRef story)</li>
+                  <li>ATEErr(* IsEqual)(StoryRef story, const StoryRef anotherStory, ATEBool8 *ret)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::TabStopsIteratorSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(TabStopsIteratorRef tabstopsiterator)</li>
+                  <li>ATEErr(* IsDone)(TabStopsIteratorRef tabstopsiterator, bool *ret)</li>
+                  <li>ATEErr(* IsNotDone)(TabStopsIteratorRef tabstopsiterator, bool *ret)</li>
+                  <li>ATEErr(* IsEmpty)(TabStopsIteratorRef tabstopsiterator, bool *ret)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(TabStopsIteratorRef tabstopsiterator)</li>
+                  <li>ATEErr(* IsDone)(TabStopsIteratorRef tabstopsiterator, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsNotDone)(TabStopsIteratorRef tabstopsiterator, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsEmpty)(TabStopsIteratorRef tabstopsiterator, ATEBool8 *ret)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::TabStopsSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(TabStopsRef tabstops)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(TabStopsRef tabstops)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::TabStopSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(TabStopRef tabstop)</li>
+                  <li>ATEErr(* HasLeader)(TabStopRef tabstop, bool *ret)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(TabStopRef tabstop)</li>
+                  <li>ATEErr(* HasLeader)(TabStopRef tabstop, ATEBool8 *ret)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::TextFramesIteratorSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(TextFramesIteratorRef textframesiterator)</li>
+                  <li>ATEErr(* IsNotDone)(TextFramesIteratorRef textframesiterator, bool *ret)</li>
+                  <li>ATEErr(* IsDone)(TextFramesIteratorRef textframesiterator, bool *ret)</li>
+                  <li>ATEErr(* IsEmpty)(TextFramesIteratorRef textframesiterator, bool *ret)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(TextFramesIteratorRef textframesiterator)</li>
+                  <li>ATEErr(* IsNotDone)(TextFramesIteratorRef textframesiterator, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsDone)(TextFramesIteratorRef textframesiterator, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsEmpty)(TextFramesIteratorRef textframesiterator, ATEBool8 *ret)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::TextFrameSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(TextFrameRef textframe)</li>
+                  <li>ATEErr(* GetTextRange)(TextFrameRef textframe, bool bIncludeOverflow, TextRangeRef *ret)</li>
+                  <li>ATEErr(* IsEqual)(TextFrameRef textframe, const TextFrameRef anotherFrame, bool *ret)</li>
+                  <li>ATEErr(* GetSelected)(TextFrameRef textframe, bool *ret)</li>
+                  <li>ATEErr(* GetRowMajorOrder)(TextFrameRef textframe, bool *ret)</li>
+                  <li>ATEErr(* GetOpticalAlignment)(TextFrameRef textframe, bool *ret)</li>
+                  <li>ATEErr(* SetRowMajorOrder)(TextFrameRef textframe, bool isRowMajor)</li>
+                  <li>ATEErr(* SetOpticalAlignment)(TextFrameRef textframe, bool isActive)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(TextFrameRef textframe)</li>
+                  <li>ATEErr(* GetTextRange)(TextFrameRef textframe, ATEBool8 bIncludeOverflow, TextRangeRef *ret)</li>
+                  <li>ATEErr(* IsEqual)(TextFrameRef textframe, const TextFrameRef anotherFrame, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetSelected)(TextFrameRef textframe, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetRowMajorOrder)(TextFrameRef textframe, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetOpticalAlignment)(TextFrameRef textframe, ATEBool8 *ret)</li>
+                  <li>ATEErr(* SetRowMajorOrder)(TextFrameRef textframe, ATEBool8 isRowMajor)</li>
+                  <li>ATEErr(* SetOpticalAlignment)(TextFrameRef textframe, ATEBool8 isActive)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::TextLinesIteratorSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(TextLinesIteratorRef textlinesiterator)</li>
+                  <li>ATEErr(* IsNotDone)(TextLinesIteratorRef textlinesiterator, bool *ret)</li>
+                  <li>ATEErr(* IsDone)(TextLinesIteratorRef textlinesiterator, bool *ret)</li>
+                  <li>ATEErr(* IsEmpty)(TextLinesIteratorRef textlinesiterator, bool *ret)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(TextLinesIteratorRef textlinesiterator)</li>
+                  <li>ATEErr(* IsNotDone)(TextLinesIteratorRef textlinesiterator, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsDone)(TextLinesIteratorRef textlinesiterator, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsEmpty)(TextLinesIteratorRef textlinesiterator, ATEBool8 *ret)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::TextLineSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(TextLineRef textline)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(TextLineRef textline)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::TextRangesIteratorSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(TextRangesIteratorRef textrangesiterator)</li>
+                  <li>ATEErr(* IsNotDone)(TextRangesIteratorRef textrangesiterator, bool *ret)</li>
+                  <li>ATEErr(* IsDone)(TextRangesIteratorRef textrangesiterator, bool *ret)</li>
+                  <li>ATEErr(* IsEmpty)(TextRangesIteratorRef textrangesiterator, bool *ret)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(TextRangesIteratorRef textrangesiterator)</li>
+                  <li>ATEErr(* IsNotDone)(TextRangesIteratorRef textrangesiterator, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsDone)(TextRangesIteratorRef textrangesiterator, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsEmpty)(TextRangesIteratorRef textrangesiterator, ATEBool8 *ret)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::TextRangesSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(TextRangesRef textranges)</li>
+                  <li>ATEErr(* HasLocalCharFeatures)(TextRangesRef textranges, bool *ret)</li>
+                  <li>ATEErr(* HasLocalParaFeatures)(TextRangesRef textranges, bool *ret)</li>
+                  <li>ATEErr(* Select)(TextRangesRef textranges, bool addToSelection)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(TextRangesRef textranges)</li>
+                  <li>ATEErr(* HasLocalCharFeatures)(TextRangesRef textranges, ATEBool8 *ret)</li>
+                  <li>ATEErr(* HasLocalParaFeatures)(TextRangesRef textranges, ATEBool8 *ret)</li>
+                  <li>ATEErr(* Select)(TextRangesRef textranges, ATEBool8 addToSelection)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::TextRangeSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(TextRangeRef textrange)</li>
+                  <li>ATEErr(* SetNamedCharStyle)(TextRangeRef textrange, const ASUnicode *pName, bool *ret)</li>
+                  <li>ATEErr(* SetNamedParaStyle)(TextRangeRef textrange, const ASUnicode *pName, bool *ret)</li>
+                  <li>ATEErr(* HasLocalCharFeatures)(TextRangeRef textrange, bool *ret)</li>
+                  <li>ATEErr(* HasLocalParaFeatures)(TextRangeRef textrange, bool *ret)</li>
+                  <li>ATEErr(* GetSingleGlyphInRange)(TextRangeRef textrange, ATEGlyphID *pSingleGlyph, bool *ret)</li>
+                  <li>ATEErr(* Select)(TextRangeRef textrange, bool addToSelection)</li>
+                  <li>ATEErr(* IsEqual)(TextRangeRef textrange, const TextRangeRef anotherRange, bool *ret)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(TextRangeRef textrange)</li>
+                  <li>ATEErr(* SetNamedCharStyle)(TextRangeRef textrange, const ASUnicode *pName, ATEBool8 *ret)</li>
+                  <li>ATEErr(* SetNamedParaStyle)(TextRangeRef textrange, const ASUnicode *pName, ATEBool8 *ret)</li>
+                  <li>ATEErr(* HasLocalCharFeatures)(TextRangeRef textrange, ATEBool8 *ret)</li>
+                  <li>ATEErr(* HasLocalParaFeatures)(TextRangeRef textrange, ATEBool8 *ret)</li>
+                  <li>ATEErr(* GetSingleGlyphInRange)(TextRangeRef textrange, ATEGlyphID *pSingleGlyph, ATEBool8 *ret)</li>
+                  <li>ATEErr(* Select)(TextRangeRef textrange, ATEBool8 addToSelection)</li>
+                  <li>ATEErr(* IsEqual)(TextRangeRef textrange, const TextRangeRef anotherRange, ATEBool8 *ret)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::TextResourcesSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(TextResourcesRef textresources)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(TextResourcesRef textresources)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::TextRunsIteratorSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(TextRunsIteratorRef textrunsiterator)</li>
+                  <li>ATEErr(* IsNotDone)(TextRunsIteratorRef textrunsiterator, bool *ret)</li>
+                  <li>ATEErr(* IsDone)(TextRunsIteratorRef textrunsiterator, bool *ret)</li>
+                  <li>ATEErr(* IsEmpty)(TextRunsIteratorRef textrunsiterator, bool *ret)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(TextRunsIteratorRef textrunsiterator)</li>
+                  <li>ATEErr(* IsNotDone)(TextRunsIteratorRef textrunsiterator, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsDone)(TextRunsIteratorRef textrunsiterator, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsEmpty)(TextRunsIteratorRef textrunsiterator, ATEBool8 *ret)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::VersionInfoSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(VersionInfoRef versioninfo)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(VersionInfoRef versioninfo)</li>
+               </ul>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" bgcolor="#D3D3D3">ATE::WordsIteratorSuite (See ate/ATESuites.h)
+               						
+            </td>
+         </tr>
+         <tr>
+            <td valign="TOP">
+               <ul>
+                  <li>bool(* IsNull)(WordsIteratorRef wordsiterator)</li>
+                  <li>ATEErr(* IsNotDone)(WordsIteratorRef wordsiterator, bool *ret)</li>
+                  <li>ATEErr(* IsDone)(WordsIteratorRef wordsiterator, bool *ret)</li>
+                  <li>ATEErr(* IsEmpty)(WordsIteratorRef wordsiterator, bool *ret)</li>
+               </ul>
+            </td>
+            <td valign="TOP">
+               <ul>
+                  <li>ATEBool8(* IsNull)(WordsIteratorRef wordsiterator)</li>
+                  <li>ATEErr(* IsNotDone)(WordsIteratorRef wordsiterator, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsDone)(WordsIteratorRef wordsiterator, ATEBool8 *ret)</li>
+                  <li>ATEErr(* IsEmpty)(WordsIteratorRef wordsiterator, ATEBool8 *ret)</li>
+               </ul>
+            </td>
+         </tr>
+      </table>
+      <hr>
+      <h2>File changes</h2><a name="obsolete_files"></a><h3>Obsolete files</h3>
+      			The following files from have been removed from the API for <b>Illustrator CS3 Build 407 (GMF) </b>, these files existed in the API for <b>Illustrator CS2 Build 207 (GM) </b>:<br><ul>
+         <li>ADMUITConversionSuite.h</li>
+         <li>aiexpand.h</li>
+         <li>AIMenuHelpers.cpp</li>
+         <li>autosuite.h</li>
+      </ul>
+      <hr><a name="new_files"></a><h3>New files</h3>
+      			The following files have been added to the API for <b>Illustrator CS3 Build 407 (GMF) </b>, these files did not exist in the API for <b>Illustrator CS2 Build 207 (GM) </b>:<br><ul>
+         <li>ADMFlashPlayer.h</li>
+         <li>ADMHeaderBegin.h</li>
+         <li>ADMHeaderEnd.h</li>
+         <li>ADMTrackerOld.h</li>
+         <li>AI120Annotator.h</li>
+         <li>AI120Art.h</li>
+         <li>AI120ArtStyleParser.h</li>
+         <li>AI120AssetMgmt.h</li>
+         <li>AI120ColorConversion.h</li>
+         <li>AI120Context.h</li>
+         <li>AI120CursorSnap.h</li>
+         <li>AI120DataFilter.h</li>
+         <li>AI120Document.h</li>
+         <li>AI120DocumentList.h</li>
+         <li>AI120DocumentView.h</li>
+         <li>AI120FileFormat.h</li>
+         <li>AI120FilePath.h</li>
+         <li>AI120Font.h</li>
+         <li>AI120ImageOptimization.h</li>
+         <li>AI120LiveEffect.h</li>
+         <li>AI120PaintStyle.h</li>
+         <li>AI120Path.h</li>
+         <li>AI120PathStyle.h</li>
+         <li>AI120PlanarObject.h</li>
+         <li>AI120Raster.h</li>
+         <li>AI120Runtime.h</li>
+         <li>AI120SwatchLibraries.h</li>
+         <li>AI120Symbol.h</li>
+         <li>AI120Tool.h</li>
+         <li>AI120Toolbox.h</li>
+         <li>AI120UnicodeString.h</li>
+         <li>AI120User.h</li>
+         <li>AIArtConverter.h</li>
+         <li>AIColorHarmony.h</li>
+         <li>AIColorSpace.h</li>
+         <li>AICropArea.h</li>
+         <li>AIDxfDwgPrefs.h</li>
+         <li>AIExpand.h</li>
+         <li>AIHeaderBegin.h</li>
+         <li>AIHeaderEnd.h</li>
+         <li>AIIsolationMode.h</li>
+         <li>AILivePaintAction.h</li>
+         <li>AIStringFormatUtils.h</li>
+         <li>AS120UserInteraction.h</li>
+         <li>AutoSuite.h</li>
+         <li>IAIAutoBuffer.cpp</li>
+         <li>IAIAutoBuffer.h</li>
+         <li>IAIColorSpace.cpp</li>
+         <li>IAIColorSpace.hpp</li>
+         <li>IAIColorSpace.inl</li>
+         <li>IAILocale.h</li>
+         <li>IAIStringFormatUtils.cpp</li>
+         <li>IAIStringFormatUtils.h</li>
+      </ul>
+      <hr><font size="-2">This report was  generated by APIAdvisorXSL version 1.0 <br>Copyright 2007 Adobe Systems Incorporated.  All rights reserved.</font><hr>
+   </body>
+</html>

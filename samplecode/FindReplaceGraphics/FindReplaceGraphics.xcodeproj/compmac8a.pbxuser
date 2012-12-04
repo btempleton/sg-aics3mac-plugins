@@ -1,0 +1,965 @@
+// !$*UTF8*$!
+{
+	2A7772AD0BE6389300A9D493 /* IllustratorSDK.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1218, 861}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 736}";
+			sepNavWindowFrame = "{{61, 142}, {1277, 989}}";
+		};
+	};
+	2AE97DE00BBC21630041212F /* FindReplaceGraphics.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1059, 8610}}";
+			sepNavSelRange = "{10785, 0}";
+			sepNavVisRange = "{9665, 2367}";
+			sepNavWindowFrame = "{{172, 96}, {1118, 977}}";
+		};
+	};
+	2AE97DE20BBC218A0041212F /* FindReplaceGraphics.r */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1218, 861}}";
+			sepNavSelRange = "{886, 0}";
+			sepNavVisRange = "{0, 1371}";
+			sepNavWindowFrame = "{{530, 114}, {1277, 989}}";
+		};
+	};
+	508817C409F0C9740071BF1A /* Project object */ = {
+		activeArchitecture = i386;
+		activeBuildConfigurationName = Debug;
+		activeExecutable = DC3478FE0FBCA5020098524C /* Illustrator */;
+		activeTarget = 508817D309F0C9AD0071BF1A /* FindReplaceGraphics */;
+		addToTargets = (
+			508817D309F0C9AD0071BF1A /* FindReplaceGraphics */,
+		);
+		breakpoints = (
+			DC69B6980FF01AC00065D79E /* FindReplaceGraphics.cpp:273 */,
+			DC69B6A10FF01B810065D79E /* FindReplaceGraphics.cpp:305 */,
+			DC45EAEF0FF15190005F2C81 /* FindReplaceGraphics.cpp:571 */,
+			DC45EAF10FF15191005F2C81 /* FindReplaceGraphics.cpp:564 */,
+			DC45EB030FF152D6005F2C81 /* adjustColor.cpp:40 */,
+			DC45EB280FF16370005F2C81 /* FindReplaceGraphics.cpp:301 */,
+			DC6BD7E70FF3F931005A7722 /* adjustColor.cpp:33 */,
+			DC06AD4B10AC8F1200B6F9B3 /* adjustColor.cpp:45 */,
+			DC06AD4D10AC8F1500B6F9B3 /* adjustColor.cpp:50 */,
+			DC06AD5F10AC95BC00B6F9B3 /* FindReplaceGraphics.cpp:580 */,
+			DC06AD6110AC95C900B6F9B3 /* FindReplaceGraphics.cpp:566 */,
+			DC06AD6310AC962600B6F9B3 /* FindReplaceGraphics.cpp:575 */,
+			DC06AD7110AC98B700B6F9B3 /* FindReplaceGraphics.cpp:582 */,
+			DCE26DE410D6BEB50017CFE9 /* populateDialog.cpp:148 */,
+			DCE26DE610D6BEB70017CFE9 /* populateDialog.cpp:194 */,
+			DCE26DF810D6BF690017CFE9 /* populateDialog.cpp:152 */,
+			DCE26DFB10D6BF6D0017CFE9 /* populateDialog.cpp:198 */,
+			DCE26DFF10D6BFB60017CFE9 /* populateDialog.cpp:199 */,
+			DCE26E1410D6C5E10017CFE9 /* populateDialog.cpp:151 */,
+			DCFEAAF410D819A700E03EE0 /* ColorFuncs.cpp:258 */,
+			DCFEAB0810D819C500E03EE0 /* ColorFuncs.cpp:255 */,
+			DC5F3C6210DAC372009E7130 /* FindReplaceGraphics.cpp:601 */,
+			DC5F3C6910DAC396009E7130 /* FindReplaceGraphics.cpp:603 */,
+			DC5F3C6B10DAC398009E7130 /* FindReplaceGraphics.cpp:606 */,
+			DC5F3C6D10DAC399009E7130 /* FindReplaceGraphics.cpp:604 */,
+			DC5F3C6F10DAC39A009E7130 /* FindReplaceGraphics.cpp:607 */,
+			DC9DBF1510DFEC5C006DEEF7 /* FindReplaceGraphics.cpp:18 */,
+			DC9DBF3010DFEE6B006DEEF7 /* FindReplaceGraphics.cpp:598 */,
+			DC9DBF3310DFEE75006DEEF7 /* populateDialog.cpp:14 */,
+			DC9DBF4410DFEF45006DEEF7 /* FindReplaceGraphics.cpp:599 */,
+			DC979F06112DA34E0088568F /* ColorFuncs.cpp:297 */,
+			DC78303E13745B8E00AB1ECE /* adjustColor.cpp:18 */,
+			DC78305013745CC300AB1ECE /* FindReplaceGraphics.cpp:246 */,
+		);
+		codeSenseManager = DC3478F40FBCA1200098524C /* Code sense */;
+		executables = (
+			DC3478FE0FBCA5020098524C /* Illustrator */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = 1;
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_ContinueID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					304,
+					20,
+					205,
+					263,
+					76,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					379,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					213,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					451,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 328040367;
+			PBXWorkspaceStateSaveDate = 328040367;
+		};
+		sourceControlManager = DC3478F30FBCA1200098524C /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	508817D309F0C9AD0071BF1A /* FindReplaceGraphics */ = {
+		activeExec = 0;
+	};
+	6E0C51960A8B6CC600C9A14A /* Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1218, 861}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1469}";
+			sepNavWindowFrame = "{{84, 121}, {1277, 989}}";
+		};
+	};
+	DC06ACE510AC88EC00B6F9B3 /* ColorFuncs.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1007, 852}}";
+			sepNavSelRange = "{1190, 0}";
+			sepNavVisRange = "{0, 1361}";
+			sepNavWindowFrame = "{{515, 108}, {1066, 980}}";
+		};
+	};
+	DC06ACE610AC88EC00B6F9B3 /* ColorFuncs.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1060, 5026}}";
+			sepNavSelRange = "{10186, 0}";
+			sepNavVisRange = "{9453, 1828}";
+			sepNavWindowFrame = "{{290, 102}, {1119, 978}}";
+		};
+	};
+	DC06AD4B10AC8F1200B6F9B3 /* adjustColor.cpp:45 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC69B6580FF00FAC0065D79E /* adjustColor.cpp */;
+		functionName = "adjustColor(AIColor *color, void* userData, AIErr *result, AIBoolean *altered)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 45;
+		location = FindReplaceGraphics;
+		modificationTime = 326395035.758549;
+		state = 1;
+	};
+	DC06AD4D10AC8F1500B6F9B3 /* adjustColor.cpp:50 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC69B6580FF00FAC0065D79E /* adjustColor.cpp */;
+		functionName = "adjustColor(AIColor *color, void* userData, AIErr *result, AIBoolean *altered)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 50;
+		location = FindReplaceGraphics;
+		modificationTime = 326395035.772482;
+		state = 1;
+	};
+	DC06AD5F10AC95BC00B6F9B3 /* FindReplaceGraphics.cpp:580 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* FindReplaceGraphics.cpp */;
+		functionName = "setColorByName( string name , AIColor &color)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 580;
+		location = FindReplaceGraphics;
+		modificationTime = 326395027.332723;
+		state = 2;
+	};
+	DC06AD6110AC95C900B6F9B3 /* FindReplaceGraphics.cpp:566 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* FindReplaceGraphics.cpp */;
+		functionName = "setColorByName( string name , AIColor &color)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 566;
+		location = FindReplaceGraphics;
+		modificationTime = 326395027.33283;
+		state = 2;
+	};
+	DC06AD6310AC962600B6F9B3 /* FindReplaceGraphics.cpp:575 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* FindReplaceGraphics.cpp */;
+		functionName = "setColorByName( string name , AIColor &color)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 575;
+		location = FindReplaceGraphics;
+		modificationTime = 326395027.332936;
+		state = 2;
+	};
+	DC06AD7110AC98B700B6F9B3 /* FindReplaceGraphics.cpp:582 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* FindReplaceGraphics.cpp */;
+		functionName = "setColorByName( string name , AIColor &color)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 582;
+		location = FindReplaceGraphics;
+		modificationTime = 326395027.333041;
+		state = 2;
+	};
+	DC3478F30FBCA1200098524C /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	DC3478F40FBCA1200098524C /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	DC3478FE0FBCA5020098524C /* Illustrator */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+			"PBXLSLaunchAction-0" = {
+				PBXLSLaunchAction = 0;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = PBXLSRunLaunchConfig;
+				commandLineArgs = (
+				);
+				displayName = "Executable Runner";
+				environment = {
+				};
+				identifier = com.apple.Xcode.launch.runConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		launchableReference = DC3478FF0FBCA5020098524C /* Adobe Illustrator.app */;
+		libgmallocEnabled = 0;
+		name = Illustrator;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+			$cs = 1;
+			$ds = 1;
+			$eax = 1;
+			$ebp = 1;
+			$ebx = 1;
+			$ecx = 1;
+			$edi = 1;
+			$edx = 1;
+			$eflags = 1;
+			$eip = 1;
+			$es = 1;
+			$esi = 1;
+			$esp = 1;
+			$gs = 1;
+			$mm0 = 1;
+			$mm1 = 1;
+			$mm2 = 1;
+			$mm3 = 1;
+			$mm4 = 1;
+			$mm5 = 1;
+			$mm6 = 1;
+			$mm7 = 1;
+			$mxcsr = 1;
+			$ss = 1;
+			$xmm0 = 1;
+			$xmm1 = 1;
+			$xmm2 = 1;
+			$xmm3 = 1;
+			$xmm4 = 1;
+			$xmm5 = 1;
+			$xmm6 = 1;
+			$xmm7 = 1;
+		};
+	};
+	DC3478FF0FBCA5020098524C /* Adobe Illustrator.app */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = wrapper.application;
+		name = "Adobe Illustrator.app";
+		path = "/Applications/Adobe Illustrator CS3/Adobe Illustrator.app";
+		sourceTree = "<absolute>";
+	};
+	DC3479100FBCA84C0098524C /* pluginHandler.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1218, 2926}}";
+			sepNavSelRange = "{5096, 12}";
+			sepNavVisRange = "{1298, 2070}";
+			sepNavWindowFrame = "{{102, 95}, {1277, 989}}";
+		};
+	};
+	DC45EAEF0FF15190005F2C81 /* FindReplaceGraphics.cpp:571 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* FindReplaceGraphics.cpp */;
+		functionName = "setColorByName( string name , AIColor &color)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 571;
+		location = FindReplaceGraphics;
+		modificationTime = 326395027.3322021;
+		state = 2;
+	};
+	DC45EAF10FF15191005F2C81 /* FindReplaceGraphics.cpp:564 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* FindReplaceGraphics.cpp */;
+		functionName = "setColorByName( string name , AIColor &color)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 564;
+		location = FindReplaceGraphics;
+		modificationTime = 326395027.33232;
+		state = 2;
+	};
+	DC45EB030FF152D6005F2C81 /* adjustColor.cpp:40 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC69B6580FF00FAC0065D79E /* adjustColor.cpp */;
+		functionName = "adjustColor(AIColor *color, void* userData, AIErr *result, AIBoolean *altered)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 40;
+		location = FindReplaceGraphics;
+		modificationTime = 326395035.652004;
+		state = 1;
+	};
+	DC45EB280FF16370005F2C81 /* FindReplaceGraphics.cpp:301 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* FindReplaceGraphics.cpp */;
+		functionName = "changeButtonUp( ADMItemRef item, ADMNotifierRef notifier)";
+		hitCount = 9;
+		ignoreCount = 0;
+		lineNumber = 301;
+		location = FindReplaceGraphics;
+		modificationTime = 326395607.2399549;
+		state = 1;
+	};
+	DC5F3C6210DAC372009E7130 /* FindReplaceGraphics.cpp:601 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* FindReplaceGraphics.cpp */;
+		functionName = "changeChangeInList()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 601;
+		location = FindReplaceGraphics;
+		modificationTime = 326395027.3334611;
+		state = 2;
+	};
+	DC5F3C6910DAC396009E7130 /* FindReplaceGraphics.cpp:603 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* FindReplaceGraphics.cpp */;
+		functionName = "changeChangeInList()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 603;
+		location = FindReplaceGraphics;
+		modificationTime = 326395027.3335661;
+		state = 2;
+	};
+	DC5F3C6B10DAC398009E7130 /* FindReplaceGraphics.cpp:606 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* FindReplaceGraphics.cpp */;
+		functionName = "changeChangeInList()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 606;
+		location = FindReplaceGraphics;
+		modificationTime = 326395027.333672;
+		state = 2;
+	};
+	DC5F3C6D10DAC399009E7130 /* FindReplaceGraphics.cpp:604 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* FindReplaceGraphics.cpp */;
+		functionName = "changeChangeInList()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 604;
+		location = FindReplaceGraphics;
+		modificationTime = 326395027.333778;
+		state = 2;
+	};
+	DC5F3C6F10DAC39A009E7130 /* FindReplaceGraphics.cpp:607 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* FindReplaceGraphics.cpp */;
+		functionName = "changeChangeInList()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 607;
+		location = FindReplaceGraphics;
+		modificationTime = 326395027.333885;
+		state = 2;
+	};
+	DC69B6580FF00FAC0065D79E /* adjustColor.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1010, 868}}";
+			sepNavSelRange = "{1268, 0}";
+			sepNavVisRange = "{23, 2156}";
+			sepNavWindowFrame = "{{439, 136}, {1066, 980}}";
+		};
+	};
+	DC69B6980FF01AC00065D79E /* FindReplaceGraphics.cpp:273 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* FindReplaceGraphics.cpp */;
+		functionName = "changeButtonUp( ADMItemRef item, ADMNotifierRef notifier)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 273;
+		location = FindReplaceGraphics;
+		modificationTime = 326395027.331905;
+		state = 2;
+	};
+	DC69B6A10FF01B810065D79E /* FindReplaceGraphics.cpp:305 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* FindReplaceGraphics.cpp */;
+		functionName = "changeButtonUp( ADMItemRef item, ADMNotifierRef notifier)";
+		hitCount = 8;
+		ignoreCount = 0;
+		lineNumber = 305;
+		location = FindReplaceGraphics;
+		modificationTime = 326395305.443229;
+		state = 1;
+	};
+	DC6BD7E70FF3F931005A7722 /* adjustColor.cpp:33 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC69B6580FF00FAC0065D79E /* adjustColor.cpp */;
+		functionName = "adjustColor(AIColor *color, void* userData, AIErr *result, AIBoolean *altered)";
+		hitCount = 8;
+		ignoreCount = 0;
+		lineNumber = 33;
+		location = FindReplaceGraphics;
+		modificationTime = 326395304.312104;
+		state = 1;
+	};
+	DC78303E13745B8E00AB1ECE /* adjustColor.cpp:18 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC69B6580FF00FAC0065D79E /* adjustColor.cpp */;
+		functionName = "adjustColor(AIColor *color, void* userData, AIErr *result, AIBoolean *altered)";
+		hitCount = 9;
+		ignoreCount = 0;
+		lineNumber = 18;
+		location = FindReplaceGraphics;
+		modificationTime = 326395613.311173;
+		state = 1;
+	};
+	DC78305013745CC300AB1ECE /* FindReplaceGraphics.cpp:246 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* FindReplaceGraphics.cpp */;
+		functionName = "changeButtonUp( ADMItemRef item, ADMNotifierRef notifier)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 246;
+		location = FindReplaceGraphics;
+		modificationTime = 326395027.3344139;
+		state = 2;
+	};
+	DC7E146D10D2D45F001C6168 /* populateDialog.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1059, 849}}";
+			sepNavSelRange = "{501, 0}";
+			sepNavVisRange = "{0, 561}";
+			sepNavWindowFrame = "{{374, 139}, {1118, 977}}";
+		};
+	};
+	DC7E146E10D2D45F001C6168 /* populateDialog.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1059, 3122}}";
+			sepNavSelRange = "{4659, 0}";
+			sepNavVisRange = "{0, 2166}";
+			sepNavWindowFrame = "{{463, 133}, {1118, 977}}";
+		};
+	};
+	DC93C8AB0FC32D03003DE0C7 /* FindReplaceGraphics.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1007, 868}}";
+			sepNavSelRange = "{1558, 0}";
+			sepNavVisRange = "{0, 2137}";
+			sepNavWindowFrame = "{{607, 74}, {1066, 980}}";
+		};
+	};
+	DC979F06112DA34E0088568F /* ColorFuncs.cpp:297 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC06ACE610AC88EC00B6F9B3 /* ColorFuncs.cpp */;
+		functionName = "AdjustOverprint(AIArtHandle currArtObj, AIColor color, AIBoolean ignoreTints, AIBoolean overprint, int replaceIn, AIBoolean *altered)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 297;
+		location = FindReplaceGraphics;
+		modificationTime = 326395027.334365;
+		state = 2;
+	};
+	DC9DBF1510DFEC5C006DEEF7 /* FindReplaceGraphics.cpp:18 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* FindReplaceGraphics.cpp */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 18;
+		location = FindReplaceGraphics;
+		modificationTime = 326395027.333991;
+		state = 2;
+	};
+	DC9DBF3010DFEE6B006DEEF7 /* FindReplaceGraphics.cpp:598 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* FindReplaceGraphics.cpp */;
+		functionName = "changeChangeInList()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 598;
+		location = FindReplaceGraphics;
+		modificationTime = 326395027.334097;
+		state = 2;
+	};
+	DC9DBF3310DFEE75006DEEF7 /* populateDialog.cpp:14 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC7E146E10D2D45F001C6168 /* populateDialog.cpp */;
+		functionName = "populateDialog(ADMDialogRef dlg, int whichAttr)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 14;
+		location = FindReplaceGraphics;
+		modificationTime = 326395027.334203;
+		state = 2;
+	};
+	DC9DBF4410DFEF45006DEEF7 /* FindReplaceGraphics.cpp:599 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* FindReplaceGraphics.cpp */;
+		functionName = "changeChangeInList()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 599;
+		location = FindReplaceGraphics;
+		modificationTime = 326395027.3342589;
+		state = 2;
+	};
+	DCE26DE410D6BEB50017CFE9 /* populateDialog.cpp:148 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC7E146E10D2D45F001C6168 /* populateDialog.cpp */;
+		functionName = "populateDialog(ADMDialogRef dlg, int whichAttr)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 148;
+		location = FindReplaceGraphics;
+		modificationTime = 326395027.333148;
+		state = 2;
+	};
+	DCE26DE610D6BEB70017CFE9 /* populateDialog.cpp:194 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC7E146E10D2D45F001C6168 /* populateDialog.cpp */;
+		functionName = "populateDialog(ADMDialogRef dlg, int whichAttr)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 194;
+		location = FindReplaceGraphics;
+		modificationTime = 326395027.333199;
+		state = 2;
+	};
+	DCE26DF810D6BF690017CFE9 /* populateDialog.cpp:152 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC7E146E10D2D45F001C6168 /* populateDialog.cpp */;
+		functionName = "populateDialog(ADMDialogRef dlg, int whichAttr)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 152;
+		location = FindReplaceGraphics;
+		modificationTime = 326395027.3332459;
+		state = 2;
+	};
+	DCE26DFB10D6BF6D0017CFE9 /* populateDialog.cpp:198 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC7E146E10D2D45F001C6168 /* populateDialog.cpp */;
+		functionName = "populateDialog(ADMDialogRef dlg, int whichAttr)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 198;
+		location = FindReplaceGraphics;
+		modificationTime = 326395027.3332931;
+		state = 2;
+	};
+	DCE26DFF10D6BFB60017CFE9 /* populateDialog.cpp:199 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC7E146E10D2D45F001C6168 /* populateDialog.cpp */;
+		functionName = "populateDialog(ADMDialogRef dlg, int whichAttr)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 199;
+		location = FindReplaceGraphics;
+		modificationTime = 326395027.333339;
+		state = 2;
+	};
+	DCE26E1410D6C5E10017CFE9 /* populateDialog.cpp:151 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC7E146E10D2D45F001C6168 /* populateDialog.cpp */;
+		functionName = "populateDialog(ADMDialogRef dlg, int whichAttr)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 151;
+		location = FindReplaceGraphics;
+		modificationTime = 326395027.333385;
+		state = 2;
+	};
+	DCF1A76D0FBDE84B008E626C /* notifierHandler.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {849, 1092}}";
+			sepNavSelRange = "{2084, 473}";
+			sepNavVisRange = "{0, 2405}";
+			sepNavWindowFrame = "{{585, 127}, {908, 981}}";
+		};
+	};
+	DCF1A7810FBDEA23008E626C /* menuHandler.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {849, 2450}}";
+			sepNavSelRange = "{2811, 7}";
+			sepNavVisRange = "{0, 1772}";
+			sepNavWindowFrame = "{{190, 102}, {908, 981}}";
+		};
+	};
+	DCF1A7C60FBDEF83008E626C /* shellMain.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {925, 3612}}";
+			sepNavSelRange = "{1082, 13}";
+			sepNavVisRange = "{281, 1595}";
+			sepNavWindowFrame = "{{64, 148}, {984, 983}}";
+		};
+	};
+	DCF1A7FB0FBDF044008E626C /* SDKAboutPluginsHelper.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {998, 1680}}";
+			sepNavSelRange = "{744, 19}";
+			sepNavVisRange = "{716, 1450}";
+			sepNavWindowFrame = "{{337, 125}, {987, 754}}";
+		};
+	};
+	DCF1A7FD0FBDF05E008E626C /* reportError.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {927, 3500}}";
+			sepNavSelRange = "{2617, 13}";
+			sepNavVisRange = "{1444, 1746}";
+			sepNavWindowFrame = "{{61, 128}, {986, 1003}}";
+		};
+	};
+	DCF1A7FF0FBDF062008E626C /* About.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {928, 1288}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1435}";
+			sepNavWindowFrame = "{{360, 104}, {987, 754}}";
+		};
+	};
+	DCF1A81F0FBDF1AF008E626C /* ADMNonModalDialogID.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {925, 855}}";
+			sepNavSelRange = "{859, 61}";
+			sepNavVisRange = "{0, 1150}";
+			sepNavWindowFrame = "{{15, 190}, {984, 983}}";
+		};
+	};
+	DCF1A8210FBDF1FC008E626C /* SnippetRunnerParameter.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {938, 4270}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1686}";
+			sepNavWindowFrame = "{{268, 188}, {987, 754}}";
+		};
+	};
+	DCF1A8230FBDF213008E626C /* Common.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {925, 3976}}";
+			sepNavSelRange = "{5018, 0}";
+			sepNavVisRange = "{3860, 1649}";
+			sepNavWindowFrame = "{{639, 67}, {984, 983}}";
+		};
+	};
+	DCF1A8250FBDF229008E626C /* Suites.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {925, 3626}}";
+			sepNavSelRange = "{11881, 0}";
+			sepNavVisRange = "{7428, 4459}";
+			sepNavWindowFrame = "{{540, 80}, {984, 983}}";
+		};
+	};
+	DCFEAAF410D819A700E03EE0 /* ColorFuncs.cpp:258 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC06ACE610AC88EC00B6F9B3 /* ColorFuncs.cpp */;
+		functionName = "AdjustOverprint(AIArtHandle currArtObj, AIColor color, AIBoolean overprint, int replaceIn, AIBoolean *altered)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 258;
+		location = FindReplaceGraphics;
+		modificationTime = 326395027.333432;
+		state = 2;
+	};
+	DCFEAB0810D819C500E03EE0 /* ColorFuncs.cpp:255 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = DC06ACE610AC88EC00B6F9B3 /* ColorFuncs.cpp */;
+		functionName = "AdjustOverprint(AIArtHandle currArtObj, AIColor color, AIBoolean overprint, int replaceIn, AIBoolean *altered)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 255;
+		location = FindReplaceGraphics;
+		modificationTime = 326395027.333447;
+		state = 2;
+	};
+}

@@ -1,0 +1,327 @@
+//========================================================================================
+//  
+//  $File: //ai/ai13/devtech/sdk/public/samplecode/MarkedObjects/Resources/MarkedObjects.rc $
+//
+//  $Revision: #4 $
+//
+//  Copyright 1987-2007 Adobe Systems Incorporated. All rights reserved.
+//  
+//  NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance 
+//  with the terms of the Adobe license agreement accompanying it.  If you have received
+//  this file from a source other than Adobe, then your use, modification, or 
+//  distribution of it requires the prior written permission of Adobe.
+//  
+//========================================================================================
+
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "plugin.h"
+#include "afxres.h"
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#define kMySDKPluginName "MarkedObjects"
+#define PIPL_PLUGIN_NAME kMySDKPluginName
+
+/////////////////////////////////////////////////////////////////////////////
+// VersionInfo
+//
+
+#include "VersionInfo.rc"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PIPL
+//
+
+#define LC(a,b,c,d)		#d, #c, #b, #a
+
+16000  PiPL  DISCARDABLE
+BEGIN
+	0x0001, 					/* Reserved (for Photoshop) */
+	0L, 						/* kCurrentPiPLVersion */
+	4L, 						/* Property Count */
+								
+	LC(A,D,B,E),				/* Vendor Key */
+	LC(k,i,n,d),				/* PIKindProperty */
+	0L,							/* Property ID */
+	4L,							/* Property Length */
+	LC(S,P,E,A),				/* SweetPEA2 plug in */
+								
+	LC(A,D,B,E),				/* Vendor Key */
+	LC(i,v,r,s),				/* Interface Version */
+	0L,							/* Property ID */
+	4L,							/* Property Length */
+	2L, 						/* Version Number */
+
+	LC(A,D,B,E),				/* Vendor Key */
+	LC(w,x,8,6),				/* PIWin32X86CodeProperty */
+	0L,							/* Property ID */
+	12L,						/* Property Length */
+	"PluginMain\0\0",			/* Entrypoint Name */
+								/* (Long Word padded C String) */
+
+	LC(A,D,B,E),				/* Vendor Key */
+	LC(p,i,n,m),				/* Interface Version */
+	0L,							/* Property ID */
+	16L,						/* Property Length */
+	PIPL_PLUGIN_NAME "\0\0\0"	/* Plug-in name (padded to 4 bytes) */
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+kAboutDLOG DIALOG DISCARDABLE  0, 0, 159, 80
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "About This Plug-in"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",kDlgOKButton,109,12,40,14
+    LTEXT           kSDKDefAboutPluginString,
+                    -1,7,12,93,27
+    LTEXT           kSDKDefCopyrightString,
+                    -1,11,44,129,20
+END
+
+kErrorDialogID DIALOG DISCARDABLE  175, 224, 167, 127
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Plug-in Error"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",kDlgOKButton,127,65,50,14
+    LTEXT           "Message",kErrorMessageText,43,12,126,28
+    LTEXT           "Code",kErrorCodeText,13,66,30,8
+    CONTROL         "",4,"Static",SS_BLACKFRAME,10,10,18,20
+END
+
+16000 DIALOG DISCARDABLE  0, 0, 270, 190
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Marked Objects"
+FONT 7, "MS Serif"
+BEGIN
+    CONTROL         "Custom1",9,"ADM Popup List Type",WS_TABSTOP,200,2,35,12
+    LTEXT           "Y",4,94,7,8,9
+    LTEXT           "ID:",6,3,23,13,11
+    LTEXT           "Type",8,147,5,19,11
+    LTEXT           "Location:",1,3,7,33,9
+    LTEXT           "X",2,44,7,8,11
+    EDITTEXT        3,50,3,35,15,ES_AUTOHSCROLL
+    EDITTEXT        5,100,3,35,15,ES_AUTOHSCROLL
+    PUSHBUTTON      "Update",12,28,51,40,13
+    PUSHBUTTON      "Hide All",13,83,51,40,13
+    LTEXT           "Label:",10,3,39,25,11
+    LTEXT           "y",16,95,65,25,11
+    LTEXT           "x",17,147,65,25,11
+    EDITTEXT        7,43,20,172,15,ES_AUTOHSCROLL
+    EDITTEXT        11,43,35,172,15,ES_AUTOHSCROLL
+    LTEXT           "Bounding Box:",15,3,65,75,11
+    CONTROL         "Custom1",14,"ADM List Box Type",WS_TABSTOP,3,77,212,50
+END
+
+IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 186, 95
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,24,50,14
+END
+
+16500 DIALOG DISCARDABLE  0, 0, 168, 178
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Marked Objects Preferences"
+FONT 8, "Times New Roman"
+BEGIN
+    DEFPUSHBUTTON   "OK",1,107,3,50,14
+    PUSHBUTTON      "Cancel",2,107,18,50,14
+    LTEXT           "Font Size:",3,10,13,36,8
+    EDITTEXT        4,47,11,46,14,ES_AUTOHSCROLL
+    LTEXT           "Font Name:",5,10,28,36,8
+    CONTROL         "Custom1",6,"ADM Text Edit Popup Type",WS_TABSTOP,47,26,
+                    46,12
+    LTEXT           "X:",7,10,43,19,8
+    EDITTEXT        8,47,41,46,14,ES_AUTOHSCROLL
+    LTEXT           "Y:",9,10,58,19,8
+    EDITTEXT        10,47,56,46,14,ES_AUTOHSCROLL
+    LTEXT           "Font Size:",11,8,90,34,8
+    EDITTEXT        12,45,87,46,14,ES_AUTOHSCROLL
+    LTEXT           "Font Name:",13,8,104,34,8
+    CONTROL         "Custom1",14,"ADM Text Edit Popup Type",WS_TABSTOP,45,
+                    102,46,12
+    LTEXT           "X:",15,8,119,19,8
+    EDITTEXT        16,45,117,46,14,ES_AUTOHSCROLL
+    LTEXT           "Y:",17,8,134,19,8
+    EDITTEXT        18,45,132,46,14,ES_AUTOHSCROLL
+    LTEXT           "Default Text:",19,8,149,37,8
+    EDITTEXT        20,45,147,46,14,ES_AUTOHSCROLL
+    GROUPBOX        "Subscript",22,4,2,99,75
+    GROUPBOX        "Default Text",24,4,79,99,87
+    LTEXT           "Point Precision:",25,108,43,53,8
+    EDITTEXT        26,108,55,46,14,ES_AUTOHSCROLL
+    CONTROL         "Auto Sort",27,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,110,
+                    89,46,10
+    PUSHBUTTON      "Dump Fonts",28,110,107,41,14
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""plugin.h""\r\n"
+    "#include ""afxres.h""\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+800 MENU DISCARDABLE 
+BEGIN
+    POPUP "Popup List"
+    BEGIN
+        MENUITEM "Point",                       1
+        MENUITEM "Ellipse",                     2
+        MENUITEM "Oval",                        3
+        MENUITEM "Rectangle",                   4
+        MENUITEM "Polygon",                     5
+    END
+END
+
+900 MENU DISCARDABLE 
+BEGIN
+    POPUP "Spin Edit Popup"
+    BEGIN
+        MENUITEM "Save ...",                    1
+        MENUITEM "Renumber IDs",                2
+        MENUITEM "Preferences...",              3
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    16000, DIALOG
+    BEGIN
+        RIGHTMARGIN, 235
+        BOTTOMMARGIN, 128
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    16500, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 161
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 171
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+16001                   CURSOR  DISCARDABLE     "cursor1.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+16051                   ICON    DISCARDABLE     "ToolIcon.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    kFilterStrings          "<First Mac index is 1>"
+    16001                   "FIlter Category goes here"
+    16002                   "Filter name... goes here"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    kErrorStrings           "<Mac strings begin at index 1>"
+    16051                   "-108"
+    16052                   "The filter cannot complete because there isn't enough memory (RAM) available."
+    16053                   "271"
+    16054                   "The filter cannot complete because there isn't enough memory (RAM) available."
+    16055                   "SEGM"
+    16056                   "The filter cannot complete because a layer is locked or invisible."
+    16057                   "NESS"
+    16058                   "The filter cannot complete because a path has too many anchor points."
+    16059                   "!sel"
+    16060                   "The selection is not valid for this filter."
+    16061                   "<Others>"
+    16062                   "The filter cannot complete because of an unknown error."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    16600                   "<Mac strings begin  at index 1>"
+    16601                   "For Wendy and Ross"
+    16602                   "by Tom Ruark, January 9th, 2003"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+

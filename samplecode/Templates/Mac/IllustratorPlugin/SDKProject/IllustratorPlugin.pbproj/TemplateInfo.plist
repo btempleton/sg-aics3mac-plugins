@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>This Xcode template creates an Illustrator Plug-in project.</string>
+	<key>FilesToMacroExpand</key>
+	<array>
+		<string>Source/«PROJECTNAME».cpp</string>
+		<string>Resources/«PROJECTNAME».r</string>
+	</array>
+	<key>FilesToRename</key>
+	<dict>
+		<key>Resources/resource.r</key>
+		<string>Resources/«PROJECTNAME».r</string>
+		<key>Source/main.cpp</key>
+		<string>Source/«PROJECTNAME».cpp</string>
+	</dict>
+</dict>
+</plist>

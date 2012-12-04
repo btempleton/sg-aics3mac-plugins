@@ -1,0 +1,112 @@
+// !$*UTF8*$!
+{
+	2AE97DE00BBC21630041212F /* MakeWindow.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {752, 1902}}";
+			sepNavSelRange = "{3766, 0}";
+			sepNavVisRange = "{1332, 485}";
+			sepNavWindowFrame = "{{61, 404}, {996, 728}}";
+		};
+	};
+	2AE97DE20BBC218A0041212F /* MakeWindow.r */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {937, 600}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 57}";
+			sepNavWindowFrame = "{{15, 445}, {996, 728}}";
+		};
+	};
+	508817C409F0C9740071BF1A /* Project object */ = {
+		activeArchitecture = i386;
+		activeBuildConfigurationName = Debug;
+		activeTarget = 508817D309F0C9AD0071BF1A /* MakeWindow */;
+		addToTargets = (
+			508817D309F0C9AD0071BF1A /* MakeWindow */,
+		);
+		breakpoints = (
+			DC6E91D90F8A9D1D002F3EC8 /* MakeWindow.cpp:77 */,
+		);
+		codeSenseManager = DC1E7C950F864397000CA65B /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					333,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					293,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 260736576;
+			PBXWorkspaceStateSaveDate = 260736576;
+		};
+		sourceControlManager = DC1E7C940F864397000CA65B /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	508817D309F0C9AD0071BF1A /* MakeWindow */ = {
+		activeExec = 0;
+	};
+	DC1E7C940F864397000CA65B /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	DC1E7C950F864397000CA65B /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	DC6E91D90F8A9D1D002F3EC8 /* MakeWindow.cpp:77 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2AE97DE00BBC21630041212F /* MakeWindow.cpp */;
+		functionName = "AddMenu ( SPInterfaceMessage* message )";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 77;
+		modificationTime = 260742429.785267;
+		state = 1;
+	};
+}

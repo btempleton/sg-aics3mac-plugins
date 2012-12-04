@@ -1,0 +1,258 @@
+//========================================================================================
+//  
+//  $File: //ai/ai13/devtech/sdk/public/samplecode/LiveDropShadow/Resources/LiveDropShadow.rc $
+//
+//  $Revision: #2 $
+//
+//  Copyright 1987-2007 Adobe Systems Incorporated. All rights reserved.
+//  
+//  NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance 
+//  with the terms of the Adobe license agreement accompanying it.  If you have received
+//  this file from a source other than Adobe, then your use, modification, or 
+//  distribution of it requires the prior written permission of Adobe.
+//  
+//========================================================================================
+
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "plugin.h"
+#include "afxres.h"
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#define kMySDKPluginName "LiveDropShadow"
+#define PIPL_PLUGIN_NAME kMySDKPluginName
+
+/////////////////////////////////////////////////////////////////////////////
+// VersionInfo
+//
+
+#include "VersionInfo.rc"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PIPL
+//
+
+#define LC(a,b,c,d)		#d, #c, #b, #a
+
+16000  PiPL  DISCARDABLE
+BEGIN							
+	0x0001, 					/* Reserved (for Photoshop) */
+	0L, 						/* kCurrentPiPLVersion */
+	4L, 						/* Property Count */
+								
+	LC(A,D,B,E),				/* Vendor Key */
+	LC(k,i,n,d),				/* PIKindProperty */
+	0L,							/* Property ID */
+	4L,							/* Property Length */
+	LC(S,P,E,A),				/* SweetPEA2 plug in */
+								
+	LC(A,D,B,E),				/* Vendor Key */
+	LC(i,v,r,s),				/* Interface Version */
+	0L,							/* Property ID */
+	4L,							/* Property Length */
+	2L, 						/* Version Number */
+
+	LC(A,D,B,E),				/* Vendor Key */
+	LC(w,x,8,6),				/* PIWin32X86CodeProperty */
+	0L,							/* Property ID */
+	12L,						/* Property Length */
+	"PluginMain\0\0",			/* Entrypoint Name */
+								/* (Long Word padded C String) */
+
+	LC(A,D,B,E),				/* Vendor Key */
+	LC(p,i,n,m),				/* Interface Version */
+	0L,							/* Property ID */
+	16L,						/* Property Length */
+	PIPL_PLUGIN_NAME "\0\0"		/* Plug-in name (padded to 4 bytes) */
+END
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+kAboutDLOG DIALOG DISCARDABLE  0, 0, 159, 80
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "About This Plug-in"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",kDlgOKButton,109,12,40,14
+    LTEXT           kSDKDefAboutPluginString,
+                    -1,7,12,93,27
+    LTEXT           kSDKDefCopyrightString,
+                    -1,11,44,129,20
+END
+
+kErrorDialogID DIALOG DISCARDABLE  175, 224, 167, 127
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Plug-in Error"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",kDlgOKButton,127,65,50,14
+    LTEXT           "Message",kErrorMessageText,43,12,126,28
+    LTEXT           "Code",kErrorCodeText,13,66,30,8
+    CONTROL         "",4,"Static",SS_BLACKFRAME,10,10,18,20
+END
+
+IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 186, 95
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,24,50,14
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""plugin.h""\r\n"
+    "#include ""afxres.h""\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+700 MENU DISCARDABLE 
+BEGIN
+    POPUP "Dialog List"
+    BEGIN
+        MENUITEM "ALT Key is pressed",          1
+        MENUITEM "CTRL key is pressed",         2
+        MENUITEM SEPARATOR
+        MENUITEM "Dialog Options...",           4
+        MENUITEM SEPARATOR
+        MENUITEM "Hide something",              6
+        MENUITEM "Lock something",              7
+        MENUITEM SEPARATOR
+        MENUITEM "Another option",              9
+        MENUITEM SEPARATOR
+        MENUITEM "Merge Something",             11
+    END
+END
+
+800 MENU DISCARDABLE 
+BEGIN
+    POPUP "Popup List"
+    BEGIN
+        MENUITEM "First Item",                  1
+        MENUITEM "Second Item",                 2
+        MENUITEM "Third Item",                  3
+        MENUITEM SEPARATOR
+        MENUITEM "Fourth Item",                 5
+        MENUITEM "Fifth Item",                  6
+    END
+END
+
+900 MENU DISCARDABLE 
+BEGIN
+    POPUP "Spin Edit Popup"
+    BEGIN
+        MENUITEM ".25",                         1
+        MENUITEM ".5",                          2
+        MENUITEM SEPARATOR
+        MENUITEM "1",                           4
+        MENUITEM SEPARATOR
+        MENUITEM "5",                           6
+        MENUITEM "10",                          7
+        MENUITEM "20",                          8
+        MENUITEM "50",                          9
+        MENUITEM "100",                         10
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    kMenuStringsResID       "<First Mac index is 1>"
+    16002                   "Live Drop Shadow"
+    16003                   "Make"
+    16004                   "Release"
+    16005                   "-"
+    16006                   "Adjust"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    kErrorStrings           "<Mac strings begin at index 1>"
+    16051                   "-108"
+    16052                   "The filter cannot complete because there isn't enough memory (RAM) available."
+    16053                   "271"
+    16054                   "The filter cannot complete because there isn't enough memory (RAM) available."
+    16055                   "SEGM"
+    16056                   "The filter cannot complete because a layer is locked or invisible."
+    16057                   "NESS"
+    16058                   "The filter cannot complete because a path has too many anchor points."
+    16059                   "!sel"
+    16060                   "The selection is not valid for this filter."
+    16061                   "<Others>"
+    16062                   "The filter cannot complete because of an unknown error."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+

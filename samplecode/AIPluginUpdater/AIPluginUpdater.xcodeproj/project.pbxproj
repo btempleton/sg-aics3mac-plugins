@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A7772AE0BE6389300A9D493 /* IllustratorSDK.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A7772AD0BE6389300A9D493 /* IllustratorSDK.cpp */; };
+		6EE2BA9D0A41E04500CC7CE2 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE2BA9B0A41E04500CC7CE2 /* Carbon.framework */; };
+		DC86FE7E14F81C97007429DA /* AIPluginUpdater.r in Rez */ = {isa = PBXBuildFile; fileRef = DC86FE7D14F81C97007429DA /* AIPluginUpdater.r */; };
+		DC86FF5514F81F3E007429DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC86FF5314F81F3E007429DA /* Cocoa.framework */; };
+		DC86FF5614F81F3E007429DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC86FF5414F81F3E007429DA /* Foundation.framework */; };
+		DC86FF5B14F81F9B007429DA /* shellMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC86FF5A14F81F9B007429DA /* shellMain.cpp */; };
+		DC86FF5E14F81FAA007429DA /* reportError.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC86FF5C14F81FAA007429DA /* reportError.cpp */; };
+		DC86FF5F14F81FAA007429DA /* stringUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC86FF5D14F81FAA007429DA /* stringUtils.cpp */; };
+		DC86FF6914F82092007429DA /* pluginHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC86FF6614F82092007429DA /* pluginHandler.cpp */; };
+		DC86FF6A14F82092007429DA /* pluginHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = DC86FF6714F82092007429DA /* pluginHandler.h */; };
+		DC86FF6B14F82092007429DA /* Common.h in Headers */ = {isa = PBXBuildFile; fileRef = DC86FF6814F82092007429DA /* Common.h */; };
+		DC86FF7B14F820EF007429DA /* notifierHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = DC86FF7714F820EF007429DA /* notifierHandler.h */; };
+		DC86FF7C14F820EF007429DA /* menuHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC86FF7814F820EF007429DA /* menuHandler.cpp */; };
+		DC86FF7D14F820EF007429DA /* menuHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = DC86FF7914F820EF007429DA /* menuHandler.h */; };
+		DC86FF7E14F820EF007429DA /* notifierHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC86FF7A14F820EF007429DA /* notifierHandler.cpp */; };
+		DC86FF9314F82136007429DA /* Plugin.h in Headers */ = {isa = PBXBuildFile; fileRef = DC86FF9214F82136007429DA /* Plugin.h */; };
+		DC86FFAC14F8221D007429DA /* IThrowException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC86FFAA14F8221D007429DA /* IThrowException.cpp */; };
+		DC86FFAD14F8221D007429DA /* IText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC86FFAB14F8221D007429DA /* IText.cpp */; };
+		DC86FFB014F8222F007429DA /* IAIFilePath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC86FFAE14F8222F007429DA /* IAIFilePath.cpp */; };
+		DC86FFB114F8222F007429DA /* IAIUnicodeString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC86FFAF14F8222F007429DA /* IAIUnicodeString.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A7772AD0BE6389300A9D493 /* IllustratorSDK.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = IllustratorSDK.cpp; path = ../common/source/IllustratorSDK.cpp; sourceTree = SOURCE_ROOT; };
+		6E0C51960A8B6CC600C9A14A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = Info.plist; path = ../common/mac/Info.plist; sourceTree = SOURCE_ROOT; };
+		6EE2BA530A40BB2600CC7CE2 /* AIPluginUpdater.aip */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = AIPluginUpdater.aip; path = FirstProject.aip; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EE2BA9B0A41E04500CC7CE2 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		DC86FE7D14F81C97007429DA /* AIPluginUpdater.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; name = AIPluginUpdater.r; path = Resources/AIPluginUpdater.r; sourceTree = "<group>"; };
+		DC86FF5314F81F3E007429DA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		DC86FF5414F81F3E007429DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		DC86FF5A14F81F9B007429DA /* shellMain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = shellMain.cpp; path = Source/shellMain.cpp; sourceTree = "<group>"; };
+		DC86FF5C14F81FAA007429DA /* reportError.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = reportError.cpp; path = ../common/source/reportError.cpp; sourceTree = SOURCE_ROOT; };
+		DC86FF5D14F81FAA007429DA /* stringUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = stringUtils.cpp; path = ../common/source/stringUtils.cpp; sourceTree = SOURCE_ROOT; };
+		DC86FF6614F82092007429DA /* pluginHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pluginHandler.cpp; path = Source/pluginHandler.cpp; sourceTree = "<group>"; };
+		DC86FF6714F82092007429DA /* pluginHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pluginHandler.h; path = Source/pluginHandler.h; sourceTree = "<group>"; };
+		DC86FF6814F82092007429DA /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Common.h; path = Source/Common.h; sourceTree = "<group>"; };
+		DC86FF7714F820EF007429DA /* notifierHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = notifierHandler.h; path = Source/notifierHandler.h; sourceTree = "<group>"; };
+		DC86FF7814F820EF007429DA /* menuHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = menuHandler.cpp; path = Source/menuHandler.cpp; sourceTree = "<group>"; };
+		DC86FF7914F820EF007429DA /* menuHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = menuHandler.h; path = Source/menuHandler.h; sourceTree = "<group>"; };
+		DC86FF7A14F820EF007429DA /* notifierHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = notifierHandler.cpp; path = Source/notifierHandler.cpp; sourceTree = "<group>"; };
+		DC86FF9214F82136007429DA /* Plugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Plugin.h; path = Resources/Plugin.h; sourceTree = "<group>"; };
+		DC86FFAA14F8221D007429DA /* IThrowException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IThrowException.cpp; path = ../../illustratorapi/ate/IThrowException.cpp; sourceTree = SOURCE_ROOT; };
+		DC86FFAB14F8221D007429DA /* IText.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IText.cpp; path = ../../illustratorapi/ate/IText.cpp; sourceTree = SOURCE_ROOT; };
+		DC86FFAE14F8222F007429DA /* IAIFilePath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IAIFilePath.cpp; path = ../../illustratorapi/illustrator/IAIFilePath.cpp; sourceTree = SOURCE_ROOT; };
+		DC86FFAF14F8222F007429DA /* IAIUnicodeString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IAIUnicodeString.cpp; path = ../../illustratorapi/illustrator/IAIUnicodeString.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		508817D209F0C9AD0071BF1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE2BA9D0A41E04500CC7CE2 /* Carbon.framework in Frameworks */,
+				DC86FF5514F81F3E007429DA /* Cocoa.framework in Frameworks */,
+				DC86FF5614F81F3E007429DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A7772AA0BE6387700A9D493 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				DC86FFAE14F8222F007429DA /* IAIFilePath.cpp */,
+				DC86FFAF14F8222F007429DA /* IAIUnicodeString.cpp */,
+				DC86FFAA14F8221D007429DA /* IThrowException.cpp */,
+				DC86FFAB14F8221D007429DA /* IText.cpp */,
+				DC86FF5C14F81FAA007429DA /* reportError.cpp */,
+				DC86FF5D14F81FAA007429DA /* stringUtils.cpp */,
+				2A7772AD0BE6389300A9D493 /* IllustratorSDK.cpp */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		2AE97C910BBC0FAB0041212F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				DC86FF6614F82092007429DA /* pluginHandler.cpp */,
+				DC86FF6714F82092007429DA /* pluginHandler.h */,
+				DC86FF7714F820EF007429DA /* notifierHandler.h */,
+				DC86FF7814F820EF007429DA /* menuHandler.cpp */,
+				DC86FF7914F820EF007429DA /* menuHandler.h */,
+				DC86FF7A14F820EF007429DA /* notifierHandler.cpp */,
+				DC86FF6814F82092007429DA /* Common.h */,
+				DC86FF5A14F81F9B007429DA /* shellMain.cpp */,
+				2A7772AA0BE6387700A9D493 /* Shared */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		508817C209F0C9740071BF1A = {
+			isa = PBXGroup;
+			children = (
+				2AE97C910BBC0FAB0041212F /* Sources */,
+				5088180609F0CDD00071BF1A /* Libraries */,
+				6EE2BA590A40BDD300CC7CE2 /* Resources */,
+				508817D509F0C9AD0071BF1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		508817D509F0C9AD0071BF1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EE2BA530A40BB2600CC7CE2 /* AIPluginUpdater.aip */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5088180609F0CDD00071BF1A /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				DC86FF5314F81F3E007429DA /* Cocoa.framework */,
+				DC86FF5414F81F3E007429DA /* Foundation.framework */,
+				6EE2BA9B0A41E04500CC7CE2 /* Carbon.framework */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		6EE2BA590A40BDD300CC7CE2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DC86FF9214F82136007429DA /* Plugin.h */,
+				6E0C51960A8B6CC600C9A14A /* Info.plist */,
+				DC86FE7D14F81C97007429DA /* AIPluginUpdater.r */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6EE2BA0A0A40B76300CC7CE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC86FF6A14F82092007429DA /* pluginHandler.h in Headers */,
+				DC86FF6B14F82092007429DA /* Common.h in Headers */,
+				DC86FF7B14F820EF007429DA /* notifierHandler.h in Headers */,
+				DC86FF7D14F820EF007429DA /* menuHandler.h in Headers */,
+				DC86FF9314F82136007429DA /* Plugin.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		508817D309F0C9AD0071BF1A /* AIPluginUpdater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 508817D709F0C9AE0071BF1A /* Build configuration list for PBXNativeTarget "AIPluginUpdater" */;
+			buildPhases = (
+				6EE2BA0A0A40B76300CC7CE2 /* Headers */,
+				508817D109F0C9AD0071BF1A /* Sources */,
+				508817D009F0C9AD0071BF1A /* Resources */,
+				508817D209F0C9AD0071BF1A /* Frameworks */,
+				6EE2BA0C0A40B77400CC7CE2 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AIPluginUpdater;
+			productName = FirstProject;
+			productReference = 6EE2BA530A40BB2600CC7CE2 /* AIPluginUpdater.aip */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		508817C409F0C9740071BF1A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 508817C509F0C9740071BF1A /* Build configuration list for PBXProject "AIPluginUpdater" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 0;
+			mainGroup = 508817C209F0C9740071BF1A;
+			productRefGroup = 508817D509F0C9AD0071BF1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				508817D309F0C9AD0071BF1A /* AIPluginUpdater */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		508817D009F0C9AD0071BF1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		6EE2BA0C0A40B77400CC7CE2 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC86FE7E14F81C97007429DA /* AIPluginUpdater.r in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		508817D109F0C9AD0071BF1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A7772AE0BE6389300A9D493 /* IllustratorSDK.cpp in Sources */,
+				DC86FF5B14F81F9B007429DA /* shellMain.cpp in Sources */,
+				DC86FF5E14F81FAA007429DA /* reportError.cpp in Sources */,
+				DC86FF5F14F81FAA007429DA /* stringUtils.cpp in Sources */,
+				DC86FF6914F82092007429DA /* pluginHandler.cpp in Sources */,
+				DC86FF7C14F820EF007429DA /* menuHandler.cpp in Sources */,
+				DC86FF7E14F820EF007429DA /* notifierHandler.cpp in Sources */,
+				DC86FFAC14F8221D007429DA /* IThrowException.cpp in Sources */,
+				DC86FFAD14F8221D007429DA /* IText.cpp in Sources */,
+				DC86FFB014F8222F007429DA /* IAIFilePath.cpp in Sources */,
+				DC86FFB114F8222F007429DA /* IAIUnicodeString.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		508817C609F0C9740071BF1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AI_CONFIGURATION = debug;
+				AI_LOCALE = en_US;
+				AI_PLATFORM = xcode;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				CONFIGURATION_BUILD_DIR = "./../Output/Mac/$(AI_CONFIGURATION)";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/Default";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DSTROOT = "/tmp/$(PROJECT_NAME).dst";
+				EXPORTED_SYMBOLS_FILE = "";
+				FRAMEWORK_SEARCH_PATHS = "$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)";
+				GCC_DEBUGGING_SYMBOLS = used;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ./../common/includes/IllustratorSDKdebug.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"./../../illustratorapi/**",
+					"/Developer/Headers/FlatCarbon/**",
+					"./**",
+					"./../common/**",
+				);
+				INFOPLIST_FILE = ../common/mac/Info.plist;
+				INFOPLIST_PREFIX_HEADER = ../common/includes/SDKDef.h;
+				INFOPLIST_PREPROCESS = YES;
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				OBJROOT = .;
+				ONLY_LINK_ESSENTIAL_SYMBOLS = YES;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				PRESERVE_DEAD_CODE_INITS_AND_TERMS = NO;
+				PRODUCT_NAME = AIPluginUpdater;
+				PROJECTNAME = AIPluginUpdater;
+				REZ_SEARCH_PATHS = "";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SEPARATE_STRIP = NO;
+				SHARED_PRECOMPS_DIR = "./../Output/Mac/SharedPrecompiledHeaders/$(AI_CONFIGURATION)";
+				SKIP_INSTALL = NO;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = all;
+				SYMROOT = "./../Output/Mac/$(AI_CONFIGURATION)";
+				WRAPPER_EXTENSION = aip;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		508817C709F0C9740071BF1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				AI_CONFIGURATION = release;
+				AI_LOCALE = en_US;
+				AI_PLATFORM = xcode;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				CONFIGURATION_BUILD_DIR = "./../Output/Mac/$(AI_CONFIGURATION)";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/Default";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DSTROOT = "/tmp/$(PROJECT_NAME).dst";
+				EXPORTED_SYMBOLS_FILE = "";
+				FRAMEWORK_SEARCH_PATHS = "$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)";
+				GCC_DEBUGGING_SYMBOLS = used;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ./../common/includes/IllustratorSDKrelease.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"./../../illustratorapi/**",
+					"/Developer/Headers/FlatCarbon/**",
+					"./**",
+					"./../common/**",
+				);
+				INFOPLIST_FILE = ../common/mac/Info.plist;
+				INFOPLIST_PREFIX_HEADER = ../common/includes/SDKDef.h;
+				INFOPLIST_PREPROCESS = YES;
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				OBJROOT = .;
+				ONLY_LINK_ESSENTIAL_SYMBOLS = YES;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				PRESERVE_DEAD_CODE_INITS_AND_TERMS = NO;
+				PRODUCT_NAME = AIPluginUpdater;
+				PROJECTNAME = AIPluginUpdater;
+				REZ_SEARCH_PATHS = "";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SEPARATE_STRIP = NO;
+				SHARED_PRECOMPS_DIR = "./../Output/Mac/SharedPrecompiledHeaders/$(AI_CONFIGURATION)";
+				SKIP_INSTALL = NO;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = all;
+				SYMROOT = "./../Output/Mac/$(AI_CONFIGURATION)";
+				WRAPPER_EXTENSION = aip;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		508817D809F0C9AE0071BF1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		508817D909F0C9AE0071BF1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		508817C509F0C9740071BF1A /* Build configuration list for PBXProject "AIPluginUpdater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				508817C609F0C9740071BF1A /* Debug */,
+				508817C709F0C9740071BF1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		508817D709F0C9AE0071BF1A /* Build configuration list for PBXNativeTarget "AIPluginUpdater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				508817D809F0C9AE0071BF1A /* Debug */,
+				508817D909F0C9AE0071BF1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 508817C409F0C9740071BF1A /* Project object */;
+}

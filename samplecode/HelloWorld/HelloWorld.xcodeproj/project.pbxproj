@@ -1,0 +1,224 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXFileReference section */
+		DC5917C00F8151F8005CB653 /* HelloWorld-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloWorld-Info.plist"; sourceTree = "<group>"; };
+		DC5917C50F81527D005CB653 /* HelloWorld.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorld.cpp; sourceTree = "<group>"; };
+		DC5917C80F8152CF005CB653 /* HelloWorld.r */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.rez; path = HelloWorld.r; sourceTree = "<group>"; };
+		DC5917DE0F815861005CB653 /* HelloWorld.aip */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorld.aip; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC5917DC0F815861005CB653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC5917AD0F8151C0005CB653 = {
+			isa = PBXGroup;
+			children = (
+				DC5917B90F8151D4005CB653 /* Resources */,
+				DC5917B80F8151CA005CB653 /* Source */,
+				DC5917BF0F8151F8005CB653 /* Products */,
+				DC5917C00F8151F8005CB653 /* HelloWorld-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		DC5917B80F8151CA005CB653 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DC5917C50F81527D005CB653 /* HelloWorld.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		DC5917B90F8151D4005CB653 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DC5917C80F8152CF005CB653 /* HelloWorld.r */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DC5917BF0F8151F8005CB653 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC5917DE0F815861005CB653 /* HelloWorld.aip */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC5917DD0F815861005CB653 /* HelloWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC5917E60F8158A8005CB653 /* Build configuration list for PBXNativeTarget "HelloWorld" */;
+			buildPhases = (
+				DC5917DA0F815861005CB653 /* Resources */,
+				DC5917DB0F815861005CB653 /* Sources */,
+				DC5917DC0F815861005CB653 /* Frameworks */,
+				DC5917E50F8158A8005CB653 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloWorld;
+			productName = HelloWorld;
+			productReference = DC5917DE0F815861005CB653 /* HelloWorld.aip */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC5917AF0F8151C0005CB653 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = DC5917B20F8151C0005CB653 /* Build configuration list for PBXProject "HelloWorld" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 0;
+			mainGroup = DC5917AD0F8151C0005CB653;
+			productRefGroup = DC5917BF0F8151F8005CB653 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC5917DD0F815861005CB653 /* HelloWorld */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC5917DA0F815861005CB653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		DC5917E50F8158A8005CB653 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC5917DB0F815861005CB653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DC5917B00F8151C0005CB653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../common/**",
+					"../../illustratorapi/**",
+				);
+				INFOPLIST_FILE = ../common/mac/Info.plist;
+				INFOPLIST_PREFIX_HEADER = ../common/includes/SDKDef.h;
+				INFOPLIST_PREPROCESS = YES;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SYMROOT = " ./../output/mac/$(AI_CONFIGURATION)";
+			};
+			name = Debug;
+		};
+		DC5917B10F8151C0005CB653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+		DC5917DF0F815861005CB653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "HelloWorld-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = HelloWorld;
+				WRAPPER_EXTENSION = aip;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		DC5917E00F815861005CB653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = "HelloWorld-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = HelloWorld;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC5917B20F8151C0005CB653 /* Build configuration list for PBXProject "HelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC5917B00F8151C0005CB653 /* Debug */,
+				DC5917B10F8151C0005CB653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC5917E60F8158A8005CB653 /* Build configuration list for PBXNativeTarget "HelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC5917DF0F815861005CB653 /* Debug */,
+				DC5917E00F815861005CB653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC5917AF0F8151C0005CB653 /* Project object */;
+}
